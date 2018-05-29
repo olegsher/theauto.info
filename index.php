@@ -52,14 +52,14 @@
       <div class="card-deck mb-3 text-center">
         <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal">VW Passat or Similar</h4>
+            <h4 class="my-0 font-weight-normal">Hyundai Tucson or Similar (Aut. 5 Seats)</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$58 <small class="text-muted">/day</small></h1>
+            <h1 class="card-title pricing-card-title">$42 <small class="text-muted">/day</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
-              <li>Car Category: R (FCAR)</li>
+              <li>Car Category: J (SFBR)</li>
               <li>Unlimited mileage with 3-29 days orders</li>
-              <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/180t1.jpg" alt="rent VW Passat in Israel" /> </li>
+              <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/100t.jpg" alt="rent Hyundai Tucson in Israel" /> </li>
                 <li>
                <form action="mail_send.php" method="post">
                     <div class="form-inline">
@@ -69,7 +69,7 @@
                      <div class="col-auto">
                      <input type="tel" class="form-control" id="phone" name="phone" placeholder="phone include country code">
                      </div>               
-                     <input type="hidden" name="car-select" value="Car Category: R (FCAR), VW Passat or Similar">
+                     <input type="hidden" name="car-select" value="Car Category: J (SFBR), Hyundai Tucson or Similar">
                     </div>
                     <input type="submit" name="submit" value="Send">
                 </form>
@@ -80,14 +80,14 @@
         </div>
         <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Hyundai Sonata or Similar</h4>
+            <h4 class="my-0 font-weight-normal">VW Golf or Similar</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$42 <small class="text-muted">/day</small></h1>
+            <h1 class="card-title pricing-card-title">$18 <small class="text-muted">/day</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
-              <li>Car Category: MH (PCAR)</li>
+              <li>Car Category: I (SCAR)</li>
               <li>Unlimited mileage with 3-29 days orders</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/135.png" alt="rent Hyundai Sonata in Israel" /> </li>
+<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/90t1.jpg" alt="rent VW Golf in Israel" /> </li>
 <li>
                <form action="mail_send.php" method="post">
                     <div class="form-inline">
@@ -97,7 +97,7 @@
                      <div class="col-auto">
                      <input type="tel" class="form-control" id="phone" name="phone" placeholder="phone include country code">
                      </div>               
-                     <input type="hidden" name="car-select" value="Car Category: MH (PCAR), Hyundai Sonata or Similar">
+                     <input type="hidden" name="car-select" value="Car Category: I (SCAR), VW Golf or Similar">
                     </div>
                     <input type="submit" name="submit" value="Send">
                 </form>
@@ -108,14 +108,14 @@
         </div>
         <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Mazda 6 or Similar</h4>
+            <h4 class="my-0 font-weight-normal">VW Jetta or Similar</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$31 <small class="text-muted">/day</small></h1>
+            <h1 class="card-title pricing-card-title">$24 <small class="text-muted">/day</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
-              <li>Car Category: M (PDAR)</li>
+              <li>Car Category: H (SDAR)</li>
               <li>Unlimited mileage with 3-29 days orders</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/130t.jpg" alt="rent Mazda 6 in Israel" /> </li>
+<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/80t.jpg" alt="rent VW Jetta in Israel" /> </li>
 <li>
                <form action="mail_send.php" method="post">
                     <div class="form-inline">
@@ -125,7 +125,7 @@
                      <div class="col-auto">
                      <input type="tel" class="form-control" id="phone" name="phone" placeholder="phone include country code">
                      </div>               
-                     <input type="hidden" name="car-select" value="Car Category: M (PDAR), Mazda 6 or Similar">
+                     <input type="hidden" name="car-select" value="Car Category: H (SDAR), VW Jetta or Similar">
                     </div>
                     <input type="submit" name="submit" value="Send">
                 </form>
