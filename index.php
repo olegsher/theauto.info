@@ -15,10 +15,10 @@
 <meta property="og:type" content="website" />
 <meta property="og:locale" content="en" />
 <meta property="og:url" content="http://www.theauto.info" />
-<meta property="og:image" content="http://www.rentalcarsisrael.com/images/thankyoucar.png"/>
+<meta property="og:image" content="http://www.theauto.info/img/car_key.jpeg"/>
 <meta property="og:image:type" content="image/png" />
 <meta property="og:image:width" content="640" />
-<meta property="og:image:height" content="320" />
+<meta property="og:image:height" content="426" />
 <meta property="og:title" content="Minivans and Luxury cars for rent in Israel, economy and compact classes for book online" />
 <meta property="og:description" content="car rental israel,car hire israel,cheap car rental israel,car rental israel cheap,hire car israel,car hire israel compare,luxury car rental israel"/>
 
