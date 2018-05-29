@@ -506,7 +506,7 @@
       
       
       
-      <p style="color: white; text-shadow: 2px 2px 4px #000000; font-family: Times, serif; text-align: left; font-size: 2em; text-transform: uppercase;">Big Cars</p>
+      <p style="color: white; text-shadow: 2px 2px 4px #000000; font-family: Times, serif; text-align: left; font-size: 2em; text-transform: uppercase;">Standard Cars</p>
       <div class="card-deck mb-3 text-center">
         <div class="card mb-4 box-shadow">
           <div class="card-header">
