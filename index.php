@@ -58,7 +58,7 @@
             <ul class="list-unstyled mt-3 mb-4">
               <li>Car Category: B (MBMR)</li>
               <li>Unlimited mileage with 3-29 days orders</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/225.jpg" alt="rent Kia Carnival in Israel" /> </li>
+<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/225.jpg" alt="rent Suzuki Alto in Israel" /> </li>
 <li>
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
@@ -68,7 +68,7 @@
   				  	 <div class="col-auto">
      				 <input type="tel" class="form-control" id="phone" name="phone" placeholder="phone include country code">
     			     </div>    			  
-     				 <input type="hidden" name="car-select" value="Ford Edge or Similar O (LFBR)">
+     				 <input type="hidden" name="car-select" value="Car Category: B (MBMR), Suzuki Alto or Similar">
   					</div>
   					<input type="submit" name="submit" value="Send">
 				</form>
@@ -86,7 +86,7 @@
             <ul class="list-unstyled mt-3 mb-4">
               <li>Car Category: Q (EBAR)</li>
               <li>Unlimited mileage with 3-29 days orders</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/225.jpg" alt="rent Kia Carnival in Israel" /> </li>
+<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/225.jpg" alt="rent Fiat 500 in Israel" /> </li>
 <li>
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
@@ -96,7 +96,7 @@
   				  	 <div class="col-auto">
      				 <input type="tel" class="form-control" id="phone" name="phone" placeholder="phone include country code">
     			     </div>    			  
-     				 <input type="hidden" name="car-select" value="Ford Edge or Similar O (LFBR)">
+     				 <input type="hidden" name="car-select" value="Car Category: Q (EBAR), Fiat 500 or Similar">
   					</div>
   					<input type="submit" name="submit" value="Send">
 				</form>
@@ -114,7 +114,7 @@
             <ul class="list-unstyled mt-3 mb-4">
               <li>Car Category: C (EDAR)</li>
               <li>Unlimited mileage with 3-29 days orders</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/225.jpg" alt="rent Kia Carnival in Israel" /> </li>
+<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/225.jpg" alt="rent Kia Picanto in Israel" /> </li>
 <li>
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
@@ -124,7 +124,7 @@
   				  	 <div class="col-auto">
      				 <input type="tel" class="form-control" id="phone" name="phone" placeholder="phone include country code">
     			     </div>    			  
-     				 <input type="hidden" name="car-select" value="Ford Edge or Similar O (LFBR)">
+     				 <input type="hidden" name="car-select" value="Car Category: C (EDAR), Kia Picanto or Similar">
   					</div>
   					<input type="submit" name="submit" value="Send">
 				</form>
@@ -147,7 +147,7 @@
             <ul class="list-unstyled mt-3 mb-4">
               <li>Car Category: W (LCBR)</li>
               <li>Unlimited mileage with 3-29 days orders</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/225.jpg" alt="rent Kia Carnival in Israel" /> </li>
+<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/225.jpg" alt="rent Audi A6 in Israel" /> </li>
 <li>
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
@@ -157,7 +157,7 @@
   				  	 <div class="col-auto">
      				 <input type="tel" class="form-control" id="phone" name="phone" placeholder="phone include country code">
     			     </div>    			  
-     				 <input type="hidden" name="car-select" value="Ford Edge or Similar O (LFBR)">
+     				 <input type="hidden" name="car-select" value="Car Category: W (LCBR), Audi A6 or Similar">
   					</div>
   					<input type="submit" name="submit" value="Send">
 				</form>
@@ -175,7 +175,7 @@
             <ul class="list-unstyled mt-3 mb-4">
               <li>Car Category: P (LDAR)</li>
               <li>Unlimited mileage with 3-29 days orders</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/225.jpg" alt="rent Kia Carnival in Israel" /> </li>
+<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/225.jpg" alt="rent Nissan Maxima in Israel" /> </li>
 <li>
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
@@ -185,7 +185,7 @@
   				  	 <div class="col-auto">
      				 <input type="tel" class="form-control" id="phone" name="phone" placeholder="phone include country code">
     			     </div>    			  
-     				 <input type="hidden" name="car-select" value="Ford Edge or Similar O (LFBR)">
+     				 <input type="hidden" name="car-select" value="Car Category: P (LDAR), Nissan Maxima or Similar">
   					</div>
   					<input type="submit" name="submit" value="Send">
 				</form>
@@ -203,7 +203,7 @@
             <ul class="list-unstyled mt-3 mb-4">
               <li>Car Category: K (UDAR)</li>
               <li>Unlimited mileage with 3-29 days orders</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/225.jpg" alt="rent Kia Carnival in Israel" /> </li>
+<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/225.jpg" alt="rent BMW 318i in Israel" /> </li>
 <li>
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
@@ -213,7 +213,7 @@
   				  	 <div class="col-auto">
      				 <input type="tel" class="form-control" id="phone" name="phone" placeholder="phone include country code">
     			     </div>    			  
-     				 <input type="hidden" name="car-select" value="Ford Edge or Similar O (LFBR)">
+     				 <input type="hidden" name="car-select" value="Car Category: K (UDAR), BMW 318i or Similar">
   					</div>
   					<input type="submit" name="submit" value="Send">
 				</form>
@@ -248,7 +248,7 @@
   				  	 <div class="col-auto">
      				 <input type="tel" class="form-control" id="phone" name="phone" placeholder="phone include country code">
     			     </div>    			  
-     				 <input type="hidden" name="car-select" value="Ford Edge or Similar O (LFBR)">
+     				 <input type="hidden" name="car-select" value="Car Category: Z (LVAR), VW Transporter or Similar">
   					</div>
   					<input type="submit" name="submit" value="Send">
 				</form>
@@ -267,7 +267,20 @@
               <li>Car Category: V8 (FVAR)</li>
               <li>Unlimited mileage with 3-29 days orders</li>
 			  <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/225.jpg" alt="rent Kia Carnival in Israel" /> </li> 
-<!--               <li>Help center access</li> -->
+<li>
+               <form action="mail_send.php" method="post">
+  					<div class="form-inline">
+   					 <div class="col-auto">
+    				 <input type="text" class="form-control" id="name" name="name" placeholder="name">
+  					 </div>
+  				  	 <div class="col-auto">
+     				 <input type="tel" class="form-control" id="phone" name="phone" placeholder="phone include country code">
+    			     </div>    			  
+     				 <input type="hidden" name="car-select" value="Car Category: V8 (FVAR), Kia Carnival or Similar">
+  					</div>
+  					<input type="submit" name="submit" value="Send">
+				</form>
+</li>
             </ul>
 <!--             <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button> -->
           </div>
@@ -291,7 +304,7 @@
   				  	 <div class="col-auto">
      				 <input type="tel" class="form-control" id="phone" name="phone" placeholder="phone include country code">
     			     </div>    			  
-     				 <input type="hidden" name="car-select" value="Ford Edge or Similar O (LFBR)">
+     				 <input type="hidden" name="car-select" value="Car Category: V (SVAR), Mitsubishi Outlander or Similar O (LFBR)">
   					</div>
   					<input type="submit" name="submit" value="Send">
 				</form>
@@ -316,7 +329,7 @@
             <ul class="list-unstyled mt-3 mb-4">
               <li>Car Category: U (IVAR)</li>
               <li>Unlimited mileage with 3-29 days orders</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/225.jpg" alt="rent Kia Carnival in Israel" /> </li>
+<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/225.jpg" alt="rent Opel Zafira in Israel" /> </li>
 <li>
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
@@ -326,7 +339,7 @@
   				  	 <div class="col-auto">
      				 <input type="tel" class="form-control" id="phone" name="phone" placeholder="phone include country code">
     			     </div>    			  
-     				 <input type="hidden" name="car-select" value="Ford Edge or Similar O (LFBR)">
+     				 <input type="hidden" name="car-select" value="Car Category: U (IVAR), Opel Zafira or Similar">
   					</div>
   					<input type="submit" name="submit" value="Send">
 				</form>
@@ -344,7 +357,7 @@
             <ul class="list-unstyled mt-3 mb-4">
               <li>Car Category: Y (FVMR)</li>
               <li>Unlimited mileage with 3-29 days orders</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/225.jpg" alt="rent Kia Carnival in Israel" /> </li>
+<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/225.jpg" alt="rent Renault Traffic in Israel" /> </li>
 <li>
 <form action="mail_send.php" method="post">
   					<div class="form-inline">
@@ -371,7 +384,7 @@
             <ul class="list-unstyled mt-3 mb-4">
               <li>Car Category: O (LFBR)</li>
               <li>Unlimited mileage with 3-29 days orders</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/225.jpg" alt="rent Kia Carnival in Israel" /> </li>
+<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/225.jpg" alt="rent Ford Edge in Israel" /> </li>
                <li>
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
