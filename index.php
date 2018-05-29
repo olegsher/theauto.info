@@ -405,18 +405,22 @@
         </div>        
       </div>
       
+      
+      
+      
+      
       <p style="color: white; text-shadow: 2px 2px 4px #000000; font-family: Times, serif; text-align: left; font-size: 2em; text-transform: uppercase;">Big Cars</p>
       <div class="card-deck mb-3 text-center">
         <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Suzuki Alto or Similar</h4>
+            <h4 class="my-0 font-weight-normal">VW Passat or Similar</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$10 <small class="text-muted">/day</small></h1>
+            <h1 class="card-title pricing-card-title">$58 <small class="text-muted">/day</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
-              <li>Car Category: B (MBMR)</li>
+              <li>Car Category: R (FCAR)</li>
               <li>Unlimited mileage with 3-29 days orders</li>
-              <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/10t1.jpg" alt="rent Suzuki Alto in Israel" /> </li>
+              <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/180t1.jpg" alt="rent VW Passat in Israel" /> </li>
                 <li>
                <form action="mail_send.php" method="post">
                     <div class="form-inline">
@@ -426,7 +430,7 @@
                      <div class="col-auto">
                      <input type="tel" class="form-control" id="phone" name="phone" placeholder="phone include country code">
                      </div>               
-                     <input type="hidden" name="car-select" value="Car Category: B (MBMR), Suzuki Alto or Similar">
+                     <input type="hidden" name="car-select" value="Car Category: R (FCAR), VW Passat or Similar">
                     </div>
                     <input type="submit" name="submit" value="Send">
                 </form>
