@@ -8,15 +8,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="description" content="Car Rental in Israel">
 <meta name="author" content="">
+<meta name="yandex-verification" content="f11475564b48ca1f" />
 <link rel="icon" href="favicon.ico">
 
 <title>Car Rental in Israel</title>
 
 <!-- Bootstrap core CSS -->
-
-<!--     <link rel="stylesheet" href="../css/bootstrap.min.css" > -->
-<!--     <script src="../js/bootstrap.min.js" ></script> -->
-
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -24,11 +21,6 @@
 <!-- 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 <!-- Custom styles for this template -->
 <link href="pricing.css" rel="stylesheet">
-
-
-
-<!--     <script src="js/jquery-3.3.1.min.js"></script> -->
-
 </head>
 
 <body>
