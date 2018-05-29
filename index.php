@@ -61,7 +61,7 @@
     <div class="container">
     
     
-          <p style="color: white; text-shadow: 2px 2px 4px #000000; font-family: Times, serif; text-align: left; font-size: 2em; text-transform: uppercase;">Leaders</p>
+          <h2 style="color: white; text-shadow: 2px 2px 4px #000000; font-family: Times, serif; text-align: left; font-size: 2em; text-transform: uppercase;">Rental Cars in Israel Leaders</h2>
       <div class="card-deck mb-3 text-center">
         <div class="card mb-4 box-shadow">
           <div class="card-header">
@@ -157,7 +157,7 @@
     
     
     
-     <p style="color: white; text-shadow: 2px 2px 4px #000000; font-family: Times, serif; text-align: left; font-size: 2em; text-transform: uppercase;">Small Cars</p>
+     <h2 style="color: white; text-shadow: 2px 2px 4px #000000; font-family: Times, serif; text-align: left; font-size: 2em; text-transform: uppercase;">Small Cars</h2>
       <div class="card-deck mb-3 text-center">
         <div class="card mb-4 box-shadow">
           <div class="card-header">
@@ -245,7 +245,7 @@
         </div>        
       </div>
       
-   <p style="color: white; text-shadow: 2px 2px 4px #000000; font-family: Times, serif; text-align: left; font-size: 2em; text-transform: uppercase;">Premium Cars</p>   
+   <h2 style="color: white; text-shadow: 2px 2px 4px #000000; font-family: Times, serif; text-align: left; font-size: 2em; text-transform: uppercase;">Premium Cars</h2>   
       
             <div class="card-deck mb-3 text-center">
         <div class="card mb-4 box-shadow">
@@ -335,7 +335,7 @@
       </div>
       
       
-      <p style="color: white; text-shadow: 2px 2px 4px #000000; font-family: Times, serif; text-align: left; font-size: 2em; text-transform: uppercase;">People carriers</p>
+      <h2 style="color: white; text-shadow: 2px 2px 4px #000000; font-family: Times, serif; text-align: left; font-size: 2em; text-transform: uppercase;">People carriers</h2>
         
       
             <div class="card-deck mb-3 text-center">
@@ -519,7 +519,7 @@
       
       
       
-      <p style="color: white; text-shadow: 2px 2px 4px #000000; font-family: Times, serif; text-align: left; font-size: 2em; text-transform: uppercase;">Standard Cars</p>
+      <h2 style="color: white; text-shadow: 2px 2px 4px #000000; font-family: Times, serif; text-align: left; font-size: 2em; text-transform: uppercase;">Standard Cars</h2>
       <div class="card-deck mb-3 text-center">
         <div class="card mb-4 box-shadow">
           <div class="card-header">
