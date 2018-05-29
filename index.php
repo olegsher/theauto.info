@@ -68,7 +68,7 @@
             <h4 class="my-0 font-weight-normal">Hyundai Tucson or Similar (Aut. 5 Seats)</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$42 <small class="text-muted">/day</small></h1>
+            <h5 class="card-title pricing-card-title">$42 <small class="text-muted">/day</small></h5>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Car Category: J (SFBR)</li>
               <li>Unlimited mileage with 3-29 days orders</li>
@@ -96,7 +96,7 @@
             <h4 class="my-0 font-weight-normal">VW Golf or Similar</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$18 <small class="text-muted">/day</small></h1>
+            <h5 class="card-title pricing-card-title">$18 <small class="text-muted">/day</small></h5>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Car Category: I (SCAR)</li>
               <li>Unlimited mileage with 3-29 days orders</li>
@@ -124,7 +124,7 @@
             <h4 class="my-0 font-weight-normal">VW Jetta or Similar</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$24 <small class="text-muted">/day</small></h1>
+            <h5 class="card-title pricing-card-title">$24 <small class="text-muted">/day</small></h5>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Car Category: H (SDAR)</li>
               <li>Unlimited mileage with 3-29 days orders</li>
@@ -164,7 +164,7 @@
             <h4 class="my-0 font-weight-normal">Suzuki Alto or Similar</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$10 <small class="text-muted">/day</small></h1>
+            <h5 class="card-title pricing-card-title">$10 <small class="text-muted">/day</small></h5>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Car Category: B (MBMR)</li>
               <li>Unlimited mileage with 3-29 days orders</li>
@@ -192,7 +192,7 @@
             <h4 class="my-0 font-weight-normal">Fiat 500 or Similar (2 Doors)</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$10 <small class="text-muted">/day</small></h1>
+            <h5 class="card-title pricing-card-title">$10 <small class="text-muted">/day</small></h5>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Car Category: Q (EBAR)</li>
               <li>Unlimited mileage with 3-29 days orders</li>
@@ -220,7 +220,7 @@
             <h4 class="my-0 font-weight-normal">Kia Picanto or Similar</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$11 <small class="text-muted">/day</small></h1>
+            <h5 class="card-title pricing-card-title">$11 <small class="text-muted">/day</small></h5>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Car Category: C (EDAR)</li>
               <li>Unlimited mileage with 3-29 days orders</li>
@@ -253,7 +253,7 @@
             <h4 class="my-0 font-weight-normal">Audi A6 or Similar</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$122 <small class="text-muted">/day</small></h1>
+            <h5 class="card-title pricing-card-title">$122 <small class="text-muted">/day</small></h5>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Car Category: W (LCBR)</li>
               <li>Unlimited mileage with 3-29 days orders</li>
@@ -281,7 +281,7 @@
             <h4 class="my-0 font-weight-normal">Nissan Maxima or Similar</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$79 <small class="text-muted">/day</small></h1>
+            <h5 class="card-title pricing-card-title">$79 <small class="text-muted">/day</small></h5>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Car Category: P (LDAR)</li>
               <li>Unlimited mileage with 3-29 days orders</li>
@@ -309,7 +309,7 @@
             <h4 class="my-0 font-weight-normal">BMW 318i or Similar</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$72 <small class="text-muted">/day</small></h1>
+            <h5 class="card-title pricing-card-title">$72 <small class="text-muted">/day</small></h5>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Car Category: K (UDAR)</li>
               <li>Unlimited mileage with 3-29 days orders</li>
@@ -344,7 +344,7 @@
             <h4 class="my-0 font-weight-normal">VW Transporter or Similar (Aut. 9 Seats)</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$95 <small class="text-muted">/day</small></h1>
+            <h5 class="card-title pricing-card-title">$95 <small class="text-muted">/day</small></h5>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Car Category: Z (LVAR)</li>
               <li>Unlimited mileage with 3-29 days orders</li>
@@ -372,7 +372,7 @@
             <h4 class="my-0 font-weight-normal">Kia Carnival or Similar (Aut. 8 Seats)</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$83 <small class="text-muted">/day</small></h1>
+            <h5 class="card-title pricing-card-title">$83 <small class="text-muted">/day</small></h5>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Car Category: V8 (FVAR)</li>
               <li>Unlimited mileage with 3-29 days orders</li>
@@ -400,7 +400,7 @@
             <h4 class="my-0 font-weight-normal">Mitsubishi Outlander or Similar (Aut. 7 Seats)</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$58 <small class="text-muted">/day</small></h1>
+            <h5 class="card-title pricing-card-title">$58 <small class="text-muted">/day</small></h5>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Car Category: V (SVAR)</li>
               <li>Unlimited mileage with 3-29 days orders</li>
@@ -435,7 +435,7 @@
             <h4 class="my-0 font-weight-normal">Opel Zafira or Similar (Aut. 7 Seats)</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$39 <small class="text-muted">/day</small></h1>
+            <h5 class="card-title pricing-card-title">$39 <small class="text-muted">/day</small></h5>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Car Category: U (IVAR)</li>
               <li>Unlimited mileage with 3-29 days orders</li>
@@ -463,7 +463,7 @@
             <h4 class="my-0 font-weight-normal">Renault Traffic or Similar (Man. 9 Seats)</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$55 <small class="text-muted">/day</small></h1>
+            <h5 class="card-title pricing-card-title">$55 <small class="text-muted">/day</small></h5>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Car Category: Y (FVMR)</li>
               <li>Unlimited mileage with 3-29 days orders</li>
@@ -490,7 +490,7 @@
             <h4 class="my-0 font-weight-normal">Ford Edge or Similar</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$74 <small class="text-muted">/day</small></h1>
+            <h5 class="card-title pricing-card-title">$74 <small class="text-muted">/day</small></h5>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Car Category: O (LFBR)</li>
               <li>Unlimited mileage with 3-29 days orders</li>
@@ -526,7 +526,7 @@
             <h4 class="my-0 font-weight-normal">VW Passat or Similar</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$58 <small class="text-muted">/day</small></h1>
+            <h5 class="card-title pricing-card-title">$58 <small class="text-muted">/day</small></h5>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Car Category: R (FCAR)</li>
               <li>Unlimited mileage with 3-29 days orders</li>
@@ -554,7 +554,7 @@
             <h4 class="my-0 font-weight-normal">Hyundai Sonata or Similar</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$42 <small class="text-muted">/day</small></h1>
+            <h5 class="card-title pricing-card-title">$42 <small class="text-muted">/day</small></h5>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Car Category: MH (PCAR)</li>
               <li>Unlimited mileage with 3-29 days orders</li>
@@ -582,7 +582,7 @@
             <h4 class="my-0 font-weight-normal">Mazda 6 or Similar</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$31 <small class="text-muted">/day</small></h1>
+            <h5 class="card-title pricing-card-title">$31 <small class="text-muted">/day</small></h5>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Car Category: M (PDAR)</li>
               <li>Unlimited mileage with 3-29 days orders</li>
