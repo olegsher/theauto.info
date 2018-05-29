@@ -384,7 +384,7 @@
             <ul class="list-unstyled mt-3 mb-4">
               <li>Car Category: O (LFBR)</li>
               <li>Unlimited mileage with 3-29 days orders</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/150t1.jpg" alt="rent Ford Edge in Israel" /> </li>
+                <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/150t1.jpg" alt="rent Ford Edge in Israel" /> </li>
                <li>
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
@@ -405,7 +405,93 @@
         </div>        
       </div>
       
-      
+      <p style="color: white; text-shadow: 2px 2px 4px #000000; font-family: Times, serif; text-align: left; font-size: 2em; text-transform: uppercase;">Big Cars</p>
+      <div class="card-deck mb-3 text-center">
+        <div class="card mb-4 box-shadow">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">Suzuki Alto or Similar</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$10 <small class="text-muted">/day</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Car Category: B (MBMR)</li>
+              <li>Unlimited mileage with 3-29 days orders</li>
+              <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/10t1.jpg" alt="rent Suzuki Alto in Israel" /> </li>
+                <li>
+               <form action="mail_send.php" method="post">
+                    <div class="form-inline">
+                     <div class="col-auto">
+                     <input type="text" class="form-control" id="name" name="name" placeholder="name">
+                     </div>
+                     <div class="col-auto">
+                     <input type="tel" class="form-control" id="phone" name="phone" placeholder="phone include country code">
+                     </div>               
+                     <input type="hidden" name="car-select" value="Car Category: B (MBMR), Suzuki Alto or Similar">
+                    </div>
+                    <input type="submit" name="submit" value="Send">
+                </form>
+</li> 
+            </ul>
+<!--             <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button> -->
+          </div>
+        </div>
+        <div class="card mb-4 box-shadow">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">Fiat 500 or Similar (2 Doors)</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$10 <small class="text-muted">/day</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Car Category: Q (EBAR)</li>
+              <li>Unlimited mileage with 3-29 days orders</li>
+<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/15t1.jpg" alt="rent Fiat 500 in Israel" /> </li>
+<li>
+               <form action="mail_send.php" method="post">
+                    <div class="form-inline">
+                     <div class="col-auto">
+                     <input type="text" class="form-control" id="name" name="name" placeholder="name">
+                     </div>
+                     <div class="col-auto">
+                     <input type="tel" class="form-control" id="phone" name="phone" placeholder="phone include country code">
+                     </div>               
+                     <input type="hidden" name="car-select" value="Car Category: Q (EBAR), Fiat 500 or Similar">
+                    </div>
+                    <input type="submit" name="submit" value="Send">
+                </form>
+</li> 
+            </ul>
+<!--             <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button> -->
+          </div>
+        </div>
+        <div class="card mb-4 box-shadow">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">Kia Picanto or Similar</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$11 <small class="text-muted">/day</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Car Category: C (EDAR)</li>
+              <li>Unlimited mileage with 3-29 days orders</li>
+<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/30t1.jpg" alt="rent Kia Picanto in Israel" /> </li>
+<li>
+               <form action="mail_send.php" method="post">
+                    <div class="form-inline">
+                     <div class="col-auto">
+                     <input type="text" class="form-control" id="name" name="name" placeholder="name">
+                     </div>
+                     <div class="col-auto">
+                     <input type="tel" class="form-control" id="phone" name="phone" placeholder="phone include country code">
+                     </div>               
+                     <input type="hidden" name="car-select" value="Car Category: C (EDAR), Kia Picanto or Similar">
+                    </div>
+                    <input type="submit" name="submit" value="Send">
+                </form>
+</li> 
+            </ul>
+<!--             <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button> -->
+          </div>          
+        </div>        
+      </div>
 
       <footer class="pt-4 my-md-5 pt-md-5 border-top">
       What do I need to hire a car? <br>
