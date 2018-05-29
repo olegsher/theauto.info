@@ -58,8 +58,8 @@
             <ul class="list-unstyled mt-3 mb-4">
               <li>Car Category: B (MBMR)</li>
               <li>Unlimited mileage with 3-29 days orders</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/225.jpg" alt="rent Suzuki Alto in Israel" /> </li>
-<li>
+              <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/10t1.jpg" alt="rent Suzuki Alto in Israel" /> </li>
+                <li>
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
    					 <div class="col-auto">
@@ -86,7 +86,7 @@
             <ul class="list-unstyled mt-3 mb-4">
               <li>Car Category: Q (EBAR)</li>
               <li>Unlimited mileage with 3-29 days orders</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/225.jpg" alt="rent Fiat 500 in Israel" /> </li>
+<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/15t1.jpg" alt="rent Fiat 500 in Israel" /> </li>
 <li>
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
@@ -114,7 +114,7 @@
             <ul class="list-unstyled mt-3 mb-4">
               <li>Car Category: C (EDAR)</li>
               <li>Unlimited mileage with 3-29 days orders</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/225.jpg" alt="rent Kia Picanto in Israel" /> </li>
+<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/30t1.jpg" alt="rent Kia Picanto in Israel" /> </li>
 <li>
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
