@@ -441,14 +441,14 @@
         </div>
         <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Fiat 500 or Similar (2 Doors)</h4>
+            <h4 class="my-0 font-weight-normal">Hyundai Sonata or Similar</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$10 <small class="text-muted">/day</small></h1>
+            <h1 class="card-title pricing-card-title">$42 <small class="text-muted">/day</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
-              <li>Car Category: Q (EBAR)</li>
+              <li>Car Category: MH (PCAR)</li>
               <li>Unlimited mileage with 3-29 days orders</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/15t1.jpg" alt="rent Fiat 500 in Israel" /> </li>
+<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/135.png" alt="rent Hyundai Sonata in Israel" /> </li>
 <li>
                <form action="mail_send.php" method="post">
                     <div class="form-inline">
@@ -458,7 +458,7 @@
                      <div class="col-auto">
                      <input type="tel" class="form-control" id="phone" name="phone" placeholder="phone include country code">
                      </div>               
-                     <input type="hidden" name="car-select" value="Car Category: Q (EBAR), Fiat 500 or Similar">
+                     <input type="hidden" name="car-select" value="Car Category: MH (PCAR), Hyundai Sonata or Similar">
                     </div>
                     <input type="submit" name="submit" value="Send">
                 </form>
@@ -469,14 +469,14 @@
         </div>
         <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Kia Picanto or Similar</h4>
+            <h4 class="my-0 font-weight-normal">Mazda 6 or Similar</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$11 <small class="text-muted">/day</small></h1>
+            <h1 class="card-title pricing-card-title">$31 <small class="text-muted">/day</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
-              <li>Car Category: C (EDAR)</li>
+              <li>Car Category: M (PDAR)</li>
               <li>Unlimited mileage with 3-29 days orders</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/30t1.jpg" alt="rent Kia Picanto in Israel" /> </li>
+<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/130t.jpg" alt="rent Mazda 6 in Israel" /> </li>
 <li>
                <form action="mail_send.php" method="post">
                     <div class="form-inline">
@@ -486,7 +486,7 @@
                      <div class="col-auto">
                      <input type="tel" class="form-control" id="phone" name="phone" placeholder="phone include country code">
                      </div>               
-                     <input type="hidden" name="car-select" value="Car Category: C (EDAR), Kia Picanto or Similar">
+                     <input type="hidden" name="car-select" value="Car Category: M (PDAR), Mazda 6 or Similar">
                     </div>
                     <input type="submit" name="submit" value="Send">
                 </form>
