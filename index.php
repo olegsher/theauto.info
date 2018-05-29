@@ -329,7 +329,7 @@
             <ul class="list-unstyled mt-3 mb-4">
               <li>Car Category: U (IVAR)</li>
               <li>Unlimited mileage with 3-29 days orders</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/225.jpg" alt="rent Opel Zafira in Israel" /> </li>
+<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/210t.jpg" alt="rent Opel Zafira in Israel" /> </li>
 <li>
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
@@ -357,7 +357,7 @@
             <ul class="list-unstyled mt-3 mb-4">
               <li>Car Category: Y (FVMR)</li>
               <li>Unlimited mileage with 3-29 days orders</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/225.jpg" alt="rent Renault Traffic in Israel" /> </li>
+<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/250.jpg" alt="rent Renault Traffic in Israel" /> </li>
 <li>
 <form action="mail_send.php" method="post">
   					<div class="form-inline">
@@ -384,7 +384,7 @@
             <ul class="list-unstyled mt-3 mb-4">
               <li>Car Category: O (LFBR)</li>
               <li>Unlimited mileage with 3-29 days orders</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/225.jpg" alt="rent Ford Edge in Israel" /> </li>
+<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/150t1.jpg" alt="rent Ford Edge in Israel" /> </li>
                <li>
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
