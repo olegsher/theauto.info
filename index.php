@@ -59,7 +59,20 @@
               <li>Car Category: B (MBMR)</li>
               <li>Unlimited mileage with 3-29 days orders</li>
 <!--               <li>Email support</li> -->
-<!--               <li>Help center access</li> -->
+<li>
+               <form action="mail_send.php" method="post">
+  					<div class="form-inline">
+   					 <div class="col-auto">
+    				 <input type="text" class="form-control" id="name" name="name" placeholder="name">
+  					 </div>
+  				  	 <div class="col-auto">
+     				 <input type="tel" class="form-control" id="phone" name="phone" placeholder="phone include country code">
+    			     </div>    			  
+     				 <input type="hidden" name="car-select" value="Ford Edge or Similar O (LFBR)">
+  					</div>
+  					<input type="submit" name="submit" value="Send">
+				</form>
+</li> 
             </ul>
 <!--             <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button> -->
           </div>
@@ -74,7 +87,20 @@
               <li>Car Category: Q (EBAR)</li>
               <li>Unlimited mileage with 3-29 days orders</li>
 <!--               <li>Priority email support</li> -->
-<!--               <li>Help center access</li> -->
+<li>
+               <form action="mail_send.php" method="post">
+  					<div class="form-inline">
+   					 <div class="col-auto">
+    				 <input type="text" class="form-control" id="name" name="name" placeholder="name">
+  					 </div>
+  				  	 <div class="col-auto">
+     				 <input type="tel" class="form-control" id="phone" name="phone" placeholder="phone include country code">
+    			     </div>    			  
+     				 <input type="hidden" name="car-select" value="Ford Edge or Similar O (LFBR)">
+  					</div>
+  					<input type="submit" name="submit" value="Send">
+				</form>
+</li> 
             </ul>
 <!--             <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button> -->
           </div>
@@ -241,7 +267,20 @@
               <li>Car Category: V8 (FVAR)</li>
               <li>Unlimited mileage with 3-29 days orders</li>
 			  <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/225.jpg" alt="rent Kia Carnival in Israel" /> </li> 
-<!--               <li>Help center access</li> -->
+<li>
+               <form action="mail_send.php" method="post">
+  					<div class="form-inline">
+   					 <div class="col-auto">
+    				 <input type="text" class="form-control" id="name" name="name" placeholder="name">
+  					 </div>
+  				  	 <div class="col-auto">
+     				 <input type="tel" class="form-control" id="phone" name="phone" placeholder="phone include country code">
+    			     </div>    			  
+     				 <input type="hidden" name="car-select" value="Ford Edge or Similar O (LFBR)">
+  					</div>
+  					<input type="submit" name="submit" value="Send">
+				</form>
+</li> 
             </ul>
 <!--             <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button> -->
           </div>
