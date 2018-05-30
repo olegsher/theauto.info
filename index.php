@@ -40,16 +40,16 @@
 <?php include("seo.html"); ?>
   
 
-<!--     <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow"> -->
-<!--       <h5 class="my-0 mr-md-auto font-weight-normal">Company name</h5> -->
-<!--       <nav class="my-2 my-md-0 mr-md-3"> -->
-<!--         <a class="p-2 text-dark" href="#">Features</a> -->
-<!--         <a class="p-2 text-dark" href="#">Enterprise</a> -->
-<!--         <a class="p-2 text-dark" href="#">Support</a> -->
-<!--         <a class="p-2 text-dark" href="#">Pricing</a> -->
-<!--       </nav> -->
-<!--       <a class="btn btn-outline-primary" href="#">Sign up</a> -->
-<!--     </div> -->
+     <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow"> 
+      <h5 class="my-0 mr-md-auto font-weight-normal">Vastama Ltd - your Car Rental agent in Israel</h5> 
+       <nav class="my-2 my-md-0 mr-md-3"> 
+         <a class="p-2 text-dark" href="#leaders">Leaders</a> 
+         <a class="p-2 text-dark" href="#premium">Premium</a> 
+         <a class="p-2 text-dark" href="#people_carriers">People Carriers</a> 
+         <a class="p-2 text-dark" href="#standard">Standard</a> 
+       </nav> 
+       <a class="btn btn-outline-primary" href="ru/">Русский</a> 
+     </div> 
 
     <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
       <h1 class="display-4" style="font-family: Times, serif; color:grey; text-transform: uppercase; color: white; text-shadow: 2px 2px 4px #000000;">Car Rental in Israel<hr /></h1>
@@ -61,7 +61,7 @@
     <div class="container">
     
     
-          <h2 style="color: white; text-shadow: 2px 2px 4px #000000; font-family: Times, serif; text-align: left; font-size: 2em; text-transform: uppercase;">Rental Cars in Israel Leaders</h2>
+          <h2 id="leaders" style="color: white; text-shadow: 2px 2px 4px #000000; font-family: Times, serif; text-align: left; font-size: 2em; text-transform: uppercase;">Rental Cars in Israel - Leaders</h2>
       <div class="card-deck mb-3 text-center">
         <div class="card mb-4 box-shadow">
           <div class="card-header">
@@ -157,7 +157,7 @@
     
     
     
-     <h2 style="color: white; text-shadow: 2px 2px 4px #000000; font-family: Times, serif; text-align: left; font-size: 2em; text-transform: uppercase;">Small Cars</h2>
+     <h2 style="color: white; text-shadow: 2px 2px 4px #000000; font-family: Times, serif; text-align: left; font-size: 2em; text-transform: uppercase;">Rental Cars in Israel - Small Cars</h2>
       <div class="card-deck mb-3 text-center">
         <div class="card mb-4 box-shadow">
           <div class="card-header">
@@ -245,7 +245,7 @@
         </div>        
       </div>
       
-   <h2 style="color: white; text-shadow: 2px 2px 4px #000000; font-family: Times, serif; text-align: left; font-size: 2em; text-transform: uppercase;">Premium Cars</h2>   
+   <h2 id="premium" style="color: white; text-shadow: 2px 2px 4px #000000; font-family: Times, serif; text-align: left; font-size: 2em; text-transform: uppercase;">Rental Cars in Israel - Premium Cars</h2>   
       
             <div class="card-deck mb-3 text-center">
         <div class="card mb-4 box-shadow">
@@ -335,7 +335,7 @@
       </div>
       
       
-      <h2 style="color: white; text-shadow: 2px 2px 4px #000000; font-family: Times, serif; text-align: left; font-size: 2em; text-transform: uppercase;">People carriers</h2>
+      <h2 id="people_carriers" style="color: white; text-shadow: 2px 2px 4px #000000; font-family: Times, serif; text-align: left; font-size: 2em; text-transform: uppercase;">Rental Cars in Israel - People carriers</h2>
         
       
             <div class="card-deck mb-3 text-center">
@@ -519,7 +519,7 @@
       
       
       
-      <h2 style="color: white; text-shadow: 2px 2px 4px #000000; font-family: Times, serif; text-align: left; font-size: 2em; text-transform: uppercase;">Standard Cars</h2>
+      <h2 id="standard" style="color: white; text-shadow: 2px 2px 4px #000000; font-family: Times, serif; text-align: left; font-size: 2em; text-transform: uppercase;">Rental Cars in Israel - Standard Cars</h2>
       <div class="card-deck mb-3 text-center">
         <div class="card mb-4 box-shadow">
           <div class="card-header">
