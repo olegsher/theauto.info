@@ -24,7 +24,7 @@
 <meta property="og:description" content="Аренда прокат автомобиля в Израиле"/>
 
 
-<title>Car Rental in Israel</title>
+<title>Аренда прокат автомобиля в Израиле</title>
 
 <!-- Bootstrap core CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
@@ -74,7 +74,7 @@
               <li>Безлимитный километраж при заказе 3-29 дней</li>
               <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/100t.jpg" alt="rent Hyundai Tucson in Israel" /> </li>
                 <li>
-               <form action="mail_Отправить.php" method="post">
+               <form action="mail_send.php" method="post">
                     <div class="form-inline">
                      <div class="col-auto">
                      <input type="text" class="form-control" id="name" name="name" placeholder="ваше имя">
@@ -102,7 +102,7 @@
               <li>Безлимитный километраж при заказе 3-29 дней</li>
 <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/90t1.jpg" alt="rent VW Golf in Israel" /> </li>
 <li>
-               <form action="mail_Отправить.php" method="post">
+               <form action="mail_send.php" method="post">
                     <div class="form-inline">
                      <div class="col-auto">
                      <input type="text" class="form-control" id="name" name="name" placeholder="ваше имя">
@@ -130,7 +130,7 @@
               <li>Безлимитный километраж при заказе 3-29 дней</li>
 <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/80t.jpg" alt="rent VW Jetta in Israel" /> </li>
 <li>
-               <form action="mail_Отправить.php" method="post">
+               <form action="mail_send.php" method="post">
                     <div class="form-inline">
                      <div class="col-auto">
                      <input type="text" class="form-control" id="name" name="name" placeholder="ваше имя">
@@ -170,7 +170,7 @@
               <li>Безлимитный километраж при заказе 3-29 дней</li>
               <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/10t1.jpg" alt="rent Suzuki Alto in Israel" /> </li>
                 <li>
-               <form action="mail_Отправить.php" method="post">
+               <form action="mail_send.php" method="post">
   					<div class="form-inline">
    					 <div class="col-auto">
     				 <input type="text" class="form-control" id="name" name="name" placeholder="ваше имя">
@@ -198,7 +198,7 @@
               <li>Безлимитный километраж при заказе 3-29 дней</li>
 <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/15t1.jpg" alt="rent Fiat 500 in Israel" /> </li>
 <li>
-               <form action="mail_Отправить.php" method="post">
+               <form action="mail_send.php" method="post">
   					<div class="form-inline">
    					 <div class="col-auto">
     				 <input type="text" class="form-control" id="name" name="name" placeholder="ваше имя">
@@ -226,7 +226,7 @@
               <li>Безлимитный километраж при заказе 3-29 дней</li>
 <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/30t1.jpg" alt="rent Kia Picanto in Israel" /> </li>
 <li>
-               <form action="mail_Отправить.php" method="post">
+               <form action="mail_send.php" method="post">
   					<div class="form-inline">
    					 <div class="col-auto">
     				 <input type="text" class="form-control" id="name" name="name" placeholder="ваше имя">
@@ -259,7 +259,7 @@
               <li>Безлимитный километраж при заказе 3-29 дней</li>
 <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/230t.jpg" alt="rent Audi A6 in Israel" /> </li>
 <li>
-               <form action="mail_Отправить.php" method="post">
+               <form action="mail_send.php" method="post">
   					<div class="form-inline">
    					 <div class="col-auto">
     				 <input type="text" class="form-control" id="name" name="name" placeholder="ваше имя">
@@ -287,7 +287,7 @@
               <li>Безлимитный километраж при заказе 3-29 дней</li>
 <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/160t3.jpg" alt="rent Nissan Maxima in Israel" /> </li>
 <li>
-               <form action="mail_Отправить.php" method="post">
+               <form action="mail_send.php" method="post">
   					<div class="form-inline">
    					 <div class="col-auto">
     				 <input type="text" class="form-control" id="name" name="name" placeholder="ваше имя">
@@ -315,7 +315,7 @@
               <li>Безлимитный километраж при заказе 3-29 дней</li>
 <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/110.jpg" alt="rent BMW 318i in Israel" /> </li>
 <li>
-               <form action="mail_Отправить.php" method="post">
+               <form action="mail_send.php" method="post">
   					<div class="form-inline">
    					 <div class="col-auto">
     				 <input type="text" class="form-control" id="name" name="name" placeholder="ваше имя">
@@ -350,7 +350,7 @@
               <li>Безлимитный километраж при заказе 3-29 дней</li>
 			  <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/260t2.jpg" alt="rent VW Transporter in Israel" /> </li>
 <li>
-               <form action="mail_Отправить.php" method="post">
+               <form action="mail_send.php" method="post">
   					<div class="form-inline">
    					 <div class="col-auto">
     				 <input type="text" class="form-control" id="name" name="name" placeholder="ваше имя">
@@ -378,7 +378,7 @@
               <li>Безлимитный километраж при заказе 3-29 дней</li>
 			  <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/225.jpg" alt="rent Kia Carnival in Israel" /> </li> 
 <li>
-               <form action="mail_Отправить.php" method="post">
+               <form action="mail_send.php" method="post">
   					<div class="form-inline">
    					 <div class="col-auto">
     				 <input type="text" class="form-control" id="name" name="name" placeholder="ваше имя">
@@ -406,7 +406,7 @@
               <li>Безлимитный километраж при заказе 3-29 дней</li>
  			  <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/220t.jpg" alt="rent Mitsubishi Outlander in Israel" /> </li> 
 <li>
-               <form action="mail_Отправить.php" method="post">
+               <form action="mail_send.php" method="post">
   					<div class="form-inline">
    					 <div class="col-auto">
     				 <input type="text" class="form-control" id="name" name="name" placeholder="ваше имя">
@@ -441,7 +441,7 @@
               <li>Безлимитный километраж при заказе 3-29 дней</li>
 <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/210t.jpg" alt="rent Opel Zafira in Israel" /> </li>
 <li>
-               <form action="mail_Отправить.php" method="post">
+               <form action="mail_send.php" method="post">
   					<div class="form-inline">
    					 <div class="col-auto">
     				 <input type="text" class="form-control" id="name" name="name" placeholder="ваше имя">
@@ -469,7 +469,7 @@
               <li>Безлимитный километраж при заказе 3-29 дней</li>
 <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/250.jpg" alt="rent Renault Traffic in Israel" /> </li>
 <li>
-<form action="mail_Отправить.php" method="post">
+<form action="mail_send.php" method="post">
   					<div class="form-inline">
    					 <div class="col-auto">
     				 <input type="text" class="form-control" id="name" name="name" placeholder="ваше имя">
@@ -496,7 +496,7 @@
               <li>Безлимитный километраж при заказе 3-29 дней</li>
                 <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/150t1.jpg" alt="rent Ford Edge in Israel" /> </li>
                <li>
-               <form action="mail_Отправить.php" method="post">
+               <form action="mail_send.php" method="post">
   					<div class="form-inline">
    					 <div class="col-auto">
     				 <input type="text" class="form-control" id="name" name="name" placeholder="ваше имя">
@@ -532,7 +532,7 @@
               <li>Безлимитный километраж при заказе 3-29 дней</li>
               <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/180t1.jpg" alt="rent VW Passat in Israel" /> </li>
                 <li>
-               <form action="mail_Отправить.php" method="post">
+               <form action="mail_send.php" method="post">
                     <div class="form-inline">
                      <div class="col-auto">
                      <input type="text" class="form-control" id="name" name="name" placeholder="ваше имя">
@@ -560,7 +560,7 @@
               <li>Безлимитный километраж при заказе 3-29 дней</li>
 <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/135.png" alt="rent Hyundai Sonata in Israel" /> </li>
 <li>
-               <form action="mail_Отправить.php" method="post">
+               <form action="mail_send.php" method="post">
                     <div class="form-inline">
                      <div class="col-auto">
                      <input type="text" class="form-control" id="name" name="name" placeholder="ваше имя">
@@ -588,7 +588,7 @@
               <li>Безлимитный километраж при заказе 3-29 дней</li>
 <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/130t.jpg" alt="rent Mazda 6 in Israel" /> </li>
 <li>
-               <form action="mail_Отправить.php" method="post">
+               <form action="mail_send.php" method="post">
                     <div class="form-inline">
                      <div class="col-auto">
                      <input type="text" class="form-control" id="name" name="name" placeholder="ваше имя">
