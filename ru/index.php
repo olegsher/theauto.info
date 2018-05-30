@@ -48,7 +48,7 @@
          <a class="p-2 text-dark" href="#people_carriers">Минивены</a> 
          <a class="p-2 text-dark" href="#standard">Стандартные</a> 
        </nav> 
-       <a class="btn btn-outline-primary" href="/">English</a> 
+       <a class="btn btn-outline-primary" href="http://www.theauto.info/">English</a> 
      </div> 
 
     <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
