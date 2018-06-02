@@ -10,7 +10,7 @@
 <meta name="author" content="">
 <meta name="yandex-verification" content="f11475564b48ca1f" />
 <meta name="msvalidate.01" content="DFFC9D141B04223AD2603B9AD5606773" />
-<link rel="icon" href="../favicon.ico">
+<link rel="icon" href="http://www.theauto.info/favicon.ico">
 
 <meta property="fb:app_id" content="1322511981092474" />
 <meta property="og:type" content="website" />
@@ -52,7 +52,7 @@
      </div> 
 
     <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-      <h1 class="display-4" style="font-family: Times, serif; color:grey; text-transform: uppercase; color: white; text-shadow: 2px 2px 4px #000000;">Аренда прокат автомобиля в Израиле<hr /></h1>
+      <h1 class="display-4"  style="font-family: Times, serif; color:grey; text-transform: uppercase; color: white; text-shadow: 1px 1px 2px #000000; font-size: 2em;">Аренда прокат автомобиля в Израиле<hr /></h1>
       <p class="lead">Нет доплаты за кредитную карту | Нет штрафа за отмену заказа* | Безлимитный километраж при заказе 3-29 дней</p>
       <p class="lead">Напишите нам на <a style="font-family: Times, serif; color:red">WhatsApp/Viber +972-58-771-0101</a> и наш менеджер вернется к вам с лучшим предложением</p>
     </div>
@@ -61,11 +61,11 @@
     <div class="container">
     
     
-          <h2 id="leaders" style="color: white; text-shadow: 2px 2px 4px #000000; font-family: Times, serif; text-align: left; font-size: 2em; text-transform: uppercase;">Аренда прокат автомобиля в Израиле - Leaders</h2>
+          <h2 id="leaders" style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Аренда прокат автомобиля в Израиле - Лидеры проката</h2>
       <div class="card-deck mb-3 text-center">
         <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Hyundai Tucson или подобные (Aut. 5 мест)</h4>
+            <h4 class="my-0 font-weight-normal">Hyundai Tucson или подобные (Авт. 5 мест)</h4>
           </div>
           <div class="card-body">
             <h5 class="card-title pricing-card-title">$42 <small class="text-muted">\день</small></h5>
@@ -157,7 +157,7 @@
     
     
     
-     <h2 style="color: white; text-shadow: 2px 2px 4px #000000; font-family: Times, serif; text-align: left; font-size: 2em; text-transform: uppercase;">Аренда прокат автомобиля в Израиле - Small Cars</h2>
+     <h2 style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Аренда прокат автомобиля в Израиле - класс мини</h2>
       <div class="card-deck mb-3 text-center">
         <div class="card mb-4 box-shadow">
           <div class="card-header">
@@ -245,7 +245,7 @@
         </div>        
       </div>
       
-   <h2 id="premium" style="color: white; text-shadow: 2px 2px 4px #000000; font-family: Times, serif; text-align: left; font-size: 2em; text-transform: uppercase;">Аренда прокат автомобиля в Израиле - Premium Cars</h2>   
+   <h2 id="premium" style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Аренда прокат автомобиля в Израиле - Премиум класс</h2>   
       
             <div class="card-deck mb-3 text-center">
         <div class="card mb-4 box-shadow">
@@ -335,7 +335,7 @@
       </div>
       
       
-      <h2 id="people_carriers" style="color: white; text-shadow: 2px 2px 4px #000000; font-family: Times, serif; text-align: left; font-size: 2em; text-transform: uppercase;">Аренда прокат автомобиля в Израиле - People carriers</h2>
+      <h2 id="people_carriers" style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Аренда прокат автомобиля в Израиле - Минивены</h2>
         
       
             <div class="card-deck mb-3 text-center">
@@ -519,7 +519,7 @@
       
       
       
-      <h2 id="standard" style="color: white; text-shadow: 2px 2px 4px #000000; font-family: Times, serif; text-align: left; font-size: 2em; text-transform: uppercase;">Аренда прокат автомобиля в Израиле - Standard Cars</h2>
+      <h2 id="standard" style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Аренда прокат автомобиля в Израиле - Стандартные</h2>
       <div class="card-deck mb-3 text-center">
         <div class="card mb-4 box-shadow">
           <div class="card-header">

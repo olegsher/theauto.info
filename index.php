@@ -10,7 +10,7 @@
 <meta name="author" content="">
 <meta name="yandex-verification" content="f11475564b48ca1f" />
 <meta name="msvalidate.01" content="DFFC9D141B04223AD2603B9AD5606773" />
-<link rel="icon" href="favicon.ico">
+<link rel="icon" href="http://www.theauto.info/favicon.ico">
 
 <meta property="fb:app_id" content="1322511981092474" />
 <meta property="og:type" content="website" />
