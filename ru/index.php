@@ -53,7 +53,7 @@
 
     <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
       <h1 class="display-4"  style="font-family: Times, serif; color:grey; text-transform: uppercase; color: white; text-shadow: 1px 1px 2px #000000; font-size: 2em;">Аренда прокат автомобиля в Израиле<hr /></h1>
-      <p class="lead">Нет доплаты за кредитную карту | Нет штрафа за отмену заказа* | Безлимитный километраж при заказе 3-29 дней</p>
+      <p class="lead">Оплата при возврате машины | Бесплатная консультация и помощь по бронированию автомобиля в Израиле на русском языке | Безлимитный километраж при заказе 3-29 дней</p>
       <p class="lead">Напишите нам на <a style="font-family: Times, serif; color:red">WhatsApp/Viber +972-58-771-0101</a> и наш менеджер вернется к вам с лучшим предложением</p>
     </div>
     
@@ -65,14 +65,14 @@
       <div class="card-deck mb-3 text-center">
         <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Hyundai Tucson или подобные (Авт. 5 мест)</h4>
+            <h4 class="my-0 font-weight-normal">Hyundai Tucson <h5 style="color: grey; font-size: 1em;">или подобные</h5> (Авт. 5 мест)</h4>
           </div>
           <div class="card-body">
             <h5 class="card-title pricing-card-title">$42 <small class="text-muted">\день</small></h5>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Категория проката: J (SFBR)</li>
               <li>Безлимитный километраж при заказе 3-29 дней</li>
-              <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/100t.jpg" alt="rent Hyundai Tucson in Israel" /> </li>
+              <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/100t.jpg" alt="Аренда прокат автомобиля Hyundai Tucson в Израиле. Лучшие цены. Бронирование онлайн" /> </li>
                 <li>
                <form action="mail_send.php" method="post">
                     <div class="form-inline">
@@ -93,14 +93,14 @@
         </div>
         <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal">VW Golf или подобные</h4>
+            <h4 class="my-0 font-weight-normal">VW Golf <h5 style="color: grey; font-size: 1em;">или подобные</h5></h4>
           </div>
           <div class="card-body">
             <h5 class="card-title pricing-card-title">$18 <small class="text-muted">\день</small></h5>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Категория проката: I (SCAR)</li>
               <li>Безлимитный километраж при заказе 3-29 дней</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/90t1.jpg" alt="rent VW Golf in Israel" /> </li>
+<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/90t1.jpg" alt="Аренда прокат автомобиля VW Golf в Израиле. Лучшие цены. Бронирование онлайн" /> </li>
 <li>
                <form action="mail_send.php" method="post">
                     <div class="form-inline">
@@ -121,14 +121,14 @@
         </div>
         <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal">VW Jetta или подобные</h4>
+            <h4 class="my-0 font-weight-normal">VW Jetta <h5 style="color: grey; font-size: 1em;">или подобные</h5></h4>
           </div>
           <div class="card-body">
             <h5 class="card-title pricing-card-title">$24 <small class="text-muted">\день</small></h5>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Категория проката: H (SDAR)</li>
               <li>Безлимитный километраж при заказе 3-29 дней</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/80t.jpg" alt="rent VW Jetta in Israel" /> </li>
+<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/80t.jpg" alt="Аренда прокат автомобиля VW Jetta в Израиле. Лучшие цены. Бронирование онлайн" /> </li>
 <li>
                <form action="mail_send.php" method="post">
                     <div class="form-inline">
@@ -161,14 +161,14 @@
       <div class="card-deck mb-3 text-center">
         <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Suzuki Alto или подобные</h4>
+            <h4 class="my-0 font-weight-normal">Suzuki Alto <h5 style="color: grey; font-size: 1em;">или подобные</h5></h4>
           </div>
           <div class="card-body">
             <h5 class="card-title pricing-card-title">$10 <small class="text-muted">\день</small></h5>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Категория проката: B (MBMR)</li>
               <li>Безлимитный километраж при заказе 3-29 дней</li>
-              <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/10t1.jpg" alt="rent Suzuki Alto in Israel" /> </li>
+              <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/10t1.jpg" alt="Аренда прокат автомобиля Suzuki Alto в Израиле. Лучшие цены. Бронирование онлайн" /> </li>
                 <li>
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
@@ -189,14 +189,14 @@
         </div>
         <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Fiat 500 или подобные (2 Doors)</h4>
+            <h4 class="my-0 font-weight-normal">Fiat 500 <h5 style="color: grey; font-size: 1em;">или подобные</h5> (2 двери)</h4>
           </div>
           <div class="card-body">
             <h5 class="card-title pricing-card-title">$10 <small class="text-muted">\день</small></h5>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Категория проката: Q (EBAR)</li>
               <li>Безлимитный километраж при заказе 3-29 дней</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/15t1.jpg" alt="rent Fiat 500 in Israel" /> </li>
+<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/15t1.jpg" alt="Аренда прокат автомобиля Fiat 500 в Израиле. Лучшие цены. Бронирование онлайн" /> </li>
 <li>
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
@@ -217,14 +217,14 @@
         </div>
         <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Kia Picanto или подобные</h4>
+            <h4 class="my-0 font-weight-normal">Kia Picanto <h5 style="color: grey; font-size: 1em;">или подобные</h5></h4>
           </div>
           <div class="card-body">
             <h5 class="card-title pricing-card-title">$11 <small class="text-muted">\день</small></h5>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Категория проката: C (EDAR)</li>
               <li>Безлимитный километраж при заказе 3-29 дней</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/30t1.jpg" alt="rent Kia Picanto in Israel" /> </li>
+<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/30t1.jpg" alt="Аренда прокат автомобиля Kia Picanto в Израиле. Лучшие цены. Бронирование онлайн" /> </li>
 <li>
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
@@ -250,14 +250,14 @@
             <div class="card-deck mb-3 text-center">
         <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Audi A6 или подобные</h4>
+            <h4 class="my-0 font-weight-normal">Audi A6 <h5 style="color: grey; font-size: 1em;">или подобные</h5></h4>
           </div>
           <div class="card-body">
             <h5 class="card-title pricing-card-title">$122 <small class="text-muted">\день</small></h5>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Категория проката: W (LCBR)</li>
               <li>Безлимитный километраж при заказе 3-29 дней</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/230t.jpg" alt="rent Audi A6 in Israel" /> </li>
+<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/230t.jpg" alt="Аренда прокат автомобиля Audi A6 в Израиле. Лучшие цены. Бронирование онлайн" /> </li>
 <li>
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
@@ -278,14 +278,14 @@
         </div>
         <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Nissan Maxima или подобные</h4>
+            <h4 class="my-0 font-weight-normal">Nissan Maxima <h5 style="color: grey; font-size: 1em;">или подобные</h5></h4>
           </div>
           <div class="card-body">
             <h5 class="card-title pricing-card-title">$79 <small class="text-muted">\день</small></h5>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Категория проката: P (LDAR)</li>
               <li>Безлимитный километраж при заказе 3-29 дней</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/160t3.jpg" alt="rent Nissan Maxima in Israel" /> </li>
+<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/160t3.jpg" alt="Аренда прокат автомобиля Nissan Maxima в Израиле. Лучшие цены. Бронирование онлайн" /> </li>
 <li>
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
@@ -306,14 +306,14 @@
         </div>
         <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal">BMW 318i или подобные</h4>
+            <h4 class="my-0 font-weight-normal">BMW 318i <h5 style="color: grey; font-size: 1em;">или подобные</h5></h4>
           </div>
           <div class="card-body">
             <h5 class="card-title pricing-card-title">$72 <small class="text-muted">\день</small></h5>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Категория проката: K (UDAR)</li>
               <li>Безлимитный километраж при заказе 3-29 дней</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/110.jpg" alt="rent BMW 318i in Israel" /> </li>
+<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/110.jpg" alt="Аренда прокат автомобиля BMW 318i в Израиле. Лучшие цены. Бронирование онлайн" /> </li>
 <li>
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
@@ -341,14 +341,14 @@
             <div class="card-deck mb-3 text-center">
         <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal">VW Transporter или подобные (Aut. 9 мест)</h4>
+            <h4 class="my-0 font-weight-normal">VW Transporter <h5 style="color: grey; font-size: 1em;">или подобные</h5> (Авт. 9 мест)</h4>
           </div>
           <div class="card-body">
             <h5 class="card-title pricing-card-title">$95 <small class="text-muted">\день</small></h5>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Категория проката: Z (LVAR)</li>
               <li>Безлимитный километраж при заказе 3-29 дней</li>
-			  <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/260t2.jpg" alt="rent VW Transporter in Israel" /> </li>
+			  <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/260t2.jpg" alt="Аренда прокат автомобиля VW Transporter в Израиле. Лучшие цены. Бронирование онлайн" /> </li>
 <li>
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
@@ -369,14 +369,14 @@
         </div>
         <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Kia Carnival или подобные (Aut. 8 мест)</h4>
+            <h4 class="my-0 font-weight-normal">Kia Carnival <h5 style="color: grey; font-size: 1em;">или подобные</h5> (Авт. 8 мест)</h4>
           </div>
           <div class="card-body">
             <h5 class="card-title pricing-card-title">$83 <small class="text-muted">\день</small></h5>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Категория проката: V8 (FVAR)</li>
               <li>Безлимитный километраж при заказе 3-29 дней</li>
-			  <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/225.jpg" alt="rent Kia Carnival in Israel" /> </li> 
+			  <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/225.jpg" alt="Аренда прокат автомобиля Kia Carnival в Израиле. Лучшие цены. Бронирование онлайн" /> </li> 
 <li>
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
@@ -397,14 +397,14 @@
         </div>
         <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Mitsubishi Outlander или подобные (Aut. 7 мест)</h4>
+            <h4 class="my-0 font-weight-normal">Mitsubishi Outlander <h5 style="color: grey; font-size: 1em;">или подобные</h5> (Авт. 7 мест)</h4>
           </div>
           <div class="card-body">
             <h5 class="card-title pricing-card-title">$58 <small class="text-muted">\день</small></h5>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Категория проката: V (SVAR)</li>
               <li>Безлимитный километраж при заказе 3-29 дней</li>
- 			  <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/220t.jpg" alt="rent Mitsubishi Outlander in Israel" /> </li> 
+ 			  <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/220t.jpg" alt="Аренда прокат автомобиля Mitsubishi Outlander в Израиле. Лучшие цены. Бронирование онлайн" /> </li> 
 <li>
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
@@ -432,14 +432,14 @@
             <div class="card-deck mb-3 text-center">
         <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Opel Zafira или подобные (Авт. 7 мест)</h4>
+            <h4 class="my-0 font-weight-normal">Opel Zafira <h5 style="color: grey; font-size: 1em;">или подобные</h5> (Авт. 7 мест)</h4>
           </div>
           <div class="card-body">
             <h5 class="card-title pricing-card-title">$39 <small class="text-muted">\день</small></h5>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Категория проката: U (IVAR)</li>
               <li>Безлимитный километраж при заказе 3-29 дней</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/210t.jpg" alt="rent Opel Zafira in Israel" /> </li>
+<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/210t.jpg" alt="Аренда прокат автомобиля Opel Zafira в Израиле. Лучшие цены. Бронирование онлайн" /> </li>
 <li>
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
@@ -460,14 +460,14 @@
         </div>
         <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Renault Traffic или подобные (Руч. 9 мест)</h4>
+            <h4 class="my-0 font-weight-normal">Renault Traffic <h5 style="color: grey; font-size: 1em;">или подобные</h5> (Руч. 9 мест)</h4>
           </div>
           <div class="card-body">
             <h5 class="card-title pricing-card-title">$55 <small class="text-muted">\день</small></h5>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Категория проката: Y (FVMR)</li>
               <li>Безлимитный километраж при заказе 3-29 дней</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/250.jpg" alt="rent Renault Traffic in Israel" /> </li>
+<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/250.jpg" alt="Аренда прокат автомобиля Renault Traffic в Израиле. Лучшие цены. Бронирование онлайн" /> </li>
 <li>
 <form action="mail_send.php" method="post">
   					<div class="form-inline">
@@ -477,7 +477,7 @@
   				  	 <div class="col-auto">
      				 <input type="tel" class="form-control" id="phone" name="phone" placeholder="тел включая код страны города">
     			     </div>    			  
-     				 <input type="hidden" name="car-select" value="Y (FVMR), Renault Traffic или подобные (Руч. 9 мест) ">
+     				 <input type="hidden" name="car-select" value="Y (FVMR), Renault Traffic <h5 style="color: grey; font-size: 1em;">или подобные</h5> (Руч. 9 мест) ">
   					</div>
   					<input type="submit" name="submit" value="Отправить">
 				</form></li> 
@@ -487,14 +487,14 @@
         </div>
         <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Ford Edge или подобные</h4>
+            <h4 class="my-0 font-weight-normal">Ford Edge <h5 style="color: grey; font-size: 1em;">или подобные</h5></h4>
           </div>
           <div class="card-body">
             <h5 class="card-title pricing-card-title">$74 <small class="text-muted">\день</small></h5>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Категория проката: O (LFBR)</li>
               <li>Безлимитный километраж при заказе 3-29 дней</li>
-                <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/150t1.jpg" alt="rent Ford Edge in Israel" /> </li>
+                <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/150t1.jpg" alt="Аренда прокат автомобиля Ford Edge в Израиле. Лучшие цены. Бронирование онлайн" /> </li>
                <li>
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
@@ -523,14 +523,14 @@
       <div class="card-deck mb-3 text-center">
         <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal">VW Passat или подобные</h4>
+            <h4 class="my-0 font-weight-normal">VW Passat <h5 style="color: grey; font-size: 1em;">или подобные</h5></h4>
           </div>
           <div class="card-body">
             <h5 class="card-title pricing-card-title">$58 <small class="text-muted">\день</small></h5>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Категория проката: R (FCAR)</li>
               <li>Безлимитный километраж при заказе 3-29 дней</li>
-              <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/180t1.jpg" alt="rent VW Passat in Israel" /> </li>
+              <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/180t1.jpg" alt="Аренда прокат автомобиля VW Passat в Израиле. Лучшие цены. Бронирование онлайн" /> </li>
                 <li>
                <form action="mail_send.php" method="post">
                     <div class="form-inline">
@@ -551,14 +551,14 @@
         </div>
         <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Hyundai Sonata или подобные</h4>
+            <h4 class="my-0 font-weight-normal">Hyundai Sonata <h5 style="color: grey; font-size: 1em;">или подобные</h5></h4>
           </div>
           <div class="card-body">
             <h5 class="card-title pricing-card-title">$42 <small class="text-muted">\день</small></h5>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Категория проката: MH (PCAR)</li>
               <li>Безлимитный километраж при заказе 3-29 дней</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/135.png" alt="rent Hyundai Sonata in Israel" /> </li>
+<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/135.png" alt="Аренда прокат автомобиля Hyundai Sonata в Израиле. Лучшие цены. Бронирование онлайн" /> </li>
 <li>
                <form action="mail_send.php" method="post">
                     <div class="form-inline">
@@ -579,14 +579,14 @@
         </div>
         <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Mazda 6 или подобные</h4>
+            <h4 class="my-0 font-weight-normal">Mazda 6 <h5 style="color: grey; font-size: 1em;">или подобные</h5></h4>
           </div>
           <div class="card-body">
             <h5 class="card-title pricing-card-title">$31 <small class="text-muted">\день</small></h5>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Категория проката: M (PDAR)</li>
               <li>Безлимитный километраж при заказе 3-29 дней</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/130t.jpg" alt="rent Mazda 6 in Israel" /> </li>
+<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/130t.jpg" alt="Аренда прокат автомобиля Mazda 6 в Израиле. Лучшие цены. Бронирование онлайн" /> </li>
 <li>
                <form action="mail_send.php" method="post">
                     <div class="form-inline">
