@@ -6,7 +6,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="description" content="Отделения проката аренды автомобилей в Израиле">
+<meta name="description" content="Отделения проката аренды автомобилей в Израиле, Аэропорт Бен Гурион Иерусалим Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот">
 <meta name="author" content="">
 <meta name="yandex-verification" content="f11475564b48ca1f" />
 <meta name="msvalidate.01" content="DFFC9D141B04223AD2603B9AD5606773" />
@@ -20,11 +20,11 @@
 <meta property="og:image:type" content="image/png" />
 <meta property="og:image:width" content="640" />
 <meta property="og:image:height" content="426" />
-<meta property="og:title" content="Отделения проката аренды автомобилей в Израиле" />
-<meta property="og:description" content="Отделения проката аренды автомобилей в Израиле"/>
+<meta property="og:title" content="Отделения проката аренды автомобилей в Израиле  Аэропорт Бен Гурион Иерусалим Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот" />
+<meta property="og:description" content="Отделения проката аренды автомобилей в Израиле  Аэропорт Бен Гурион Иерусалим Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот"/>
 
 
-<title>Отделения проката аренды автомобилей в Израиле</title>
+<title>Отделения проката аренды автомобилей в Израиле, Аэропорт Бен Гурион Иерусалим Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот</title>
 
 <!-- Bootstrap core CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
