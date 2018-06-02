@@ -477,7 +477,7 @@
   				  	 <div class="col-auto">
      				 <input type="tel" class="form-control" id="phone" name="phone" placeholder="тел включая код страны города">
     			     </div>    			  
-     				 <input type="hidden" name="car-select" value="Y (FVMR), Renault Traffic <h5 style="color: grey; font-size: 1em;">или подобные</h5> (Руч. 9 мест) ">
+     				 <input type="hidden" name="car-select" value="Y (FVMR), Renault Traffic или подобные (Руч. 9 мест) ">
   					</div>
   					<input type="submit" name="submit" value="Отправить">
 				</form></li> 
@@ -608,11 +608,7 @@
       </div>
 
       <footer class="pt-4 my-md-5 pt-md-5 border-top">
-      What do I need to hire a car? <br>
-		To book your car, all you need is a credit card. 
-		<br>When you pick the car up, you’ll need:
-		<br>Your voucher, the main driver’s credit card, with enough available funds for the car’s deposit. Each driver’s full, valid driving license, which they’ve held for at least 12 months (often 24). Your passport.
-
+      
 <!--         <div class="row"> -->
 <!--           <div class="col-12 col-md"> -->
 <!--             <img class="mb-2" src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width="24" height="24"> -->
