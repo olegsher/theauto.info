@@ -647,9 +647,11 @@
 <!--         </div> -->
 
 <hr/>
-<h4>ОТДЕЛЕНИЯ ПО АРЕНДЕ ПРОКАТУ АВТОМОБИЛЕЙ В ИЗРАИЛЕ:</h4>
 
-<?php include("../../rentalcarsisrael.com/ru/__branches.html"); ?>
+<h2 id="standard" style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Отделения проката аренды автомобилей в Израиле</h2>
+
+
+<?php include("__branches.html"); ?>
 
 
     <hr/>
