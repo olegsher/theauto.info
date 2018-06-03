@@ -6,7 +6,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="description" content="Отделения проката аренды автомобилей в Израиле, Аэропорт Бен Гурион Иерусалим Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот">
+<meta name="description" content="Условия проката аренды автомобилей в Израиле, Аэропорт Бен Гурион Иерусалим Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот">
 <meta name="author" content="">
 <meta name="yandex-verification" content="f11475564b48ca1f" />
 <meta name="msvalidate.01" content="DFFC9D141B04223AD2603B9AD5606773" />
@@ -20,11 +20,11 @@
 <meta property="og:image:type" content="image/png" />
 <meta property="og:image:width" content="640" />
 <meta property="og:image:height" content="426" />
-<meta property="og:title" content="Отделения проката аренды автомобилей в Израиле  Аэропорт Бен Гурион Иерусалим Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот" />
-<meta property="og:description" content="Отделения проката аренды автомобилей в Израиле  Аэропорт Бен Гурион Иерусалим Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот"/>
+<meta property="og:title" content="Условия проката аренды автомобилей в Израиле  Аэропорт Бен Гурион Иерусалим Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот" />
+<meta property="og:description" content="Условия проката аренды автомобилей в Израиле  Аэропорт Бен Гурион Иерусалим Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот"/>
 
 
-<title>Отделения проката аренды автомобилей в Израиле, Аэропорт Бен Гурион Иерусалим Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот</title>
+<title>Условия проката аренды автомобилей в Израиле, Аэропорт Бен Гурион Иерусалим Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот</title>
 
 <!-- Bootstrap core CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
@@ -41,7 +41,7 @@
       <h5 class="my-0 mr-md-auto font-weight-normal">Vastama Ltd - Ваш агент в Израиле</h5> 
        <nav class="my-2 my-md-0 mr-md-3"> 
          <a class="p-2 text-dark" href="/">Главная страница</a> 
-          <a class="p-2 text-dark" href="RentalConditions.php">Условия аренды</a> 
+          <a class="p-2 text-dark" href="Europcar_Albar_Vastama_branches.php">Отделения проката</a> 
 <!--          <a class="p-2 text-dark" href="#premium">Премиум</a>  -->
 <!--          <a class="p-2 text-dark" href="#people_carriers">Минивены</a>  -->
 <!--          <a class="p-2 text-dark" href="#standard">Стандартные</a>  -->
@@ -51,8 +51,8 @@
 
  <div class="container">
  
-<h1 id="standard" style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Отделения проката аренды автомобилей в Израиле</h1>
-<?php include("__branches.html"); ?>
+<h1 id="standard" style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Условия проката аренды автомобилей в Израиле</h1>
+<?php include("__RentalConditions.html"); ?>
 </div>
 </body>
 </html>

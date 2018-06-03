@@ -44,6 +44,7 @@
       <h5 class="my-0 mr-md-auto font-weight-normal">Vastama Ltd - Ваш агент в Израиле</h5> 
        <nav class="my-2 my-md-0 mr-md-3"> 
          <a class="p-2 text-dark" href="Europcar_Albar_Vastama_branches.php">Отделения проката</a> 
+         <a class="p-2 text-dark" href="RentalConditions.php">Условия аренды</a>
          <a class="p-2 text-dark" href="#leaders">Лидеры продаж</a> 
          <a class="p-2 text-dark" href="#premium">Премиум</a> 
          <a class="p-2 text-dark" href="#people_carriers">Минивены</a> 
