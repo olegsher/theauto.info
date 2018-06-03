@@ -74,7 +74,7 @@
             <ul class="list-unstyled mt-3 mb-4">
               <li>Категория проката: J (SFBR)</li>
               <li>Безлимитный километраж при заказе 3-29 дней</li>
-              <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/100t.jpg" alt="Аренда прокат автомобиля Hyundai Tucson в Израиле. Лучшие цены. Бронирование онлайн" /> </li>
+              <li><img class="img-responsive" src="../img/hyundai_tucson.jpg" alt="Аренда прокат автомобиля Hyundai Tucson в Израиле. Лучшие цены. Бронирование онлайн" height="" width="200px"/> </li>
                 <li>
                <form action="mail_send.php" method="post">
                     <div class="form-inline">
