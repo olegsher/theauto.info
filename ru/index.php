@@ -102,7 +102,7 @@
             <ul class="list-unstyled mt-3 mb-4">
               <li>Категория проката: I (SCAR)</li>
               <li>Безлимитный километраж при заказе 3-29 дней</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/90t1.jpg" alt="Аренда прокат автомобиля VW Golf в Израиле. Лучшие цены. Бронирование онлайн" /> </li>
+<li><img class="img-responsive" src="../img/VW-golf.jpg" alt="Аренда прокат автомобиля VW Golf в Израиле. Лучшие цены. Бронирование онлайн" width="200px"/> </li>
 <li>
                <form action="mail_send.php" method="post">
                     <div class="form-inline">
