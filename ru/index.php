@@ -54,7 +54,7 @@
      </div> 
 
     <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-      <h1 class="display-4"  style="font-family: Times, serif; color:grey; text-transform: uppercase; color: white; text-shadow: 1px 1px 2px #000000; font-size: 2em;">Аренда прокат автомобиля в Израиле<hr /></h1>
+      <h1 class="display-4"  style="font-family: Times, serif; color:grey; text-transform: uppercase; color: white; text-shadow: 1px 1px 2px #000000; font-size: 2em;">Аренда прокат автомобиля в Израиле</h1>
       <p class="lead">Оплата при возврате машины | Бесплатная консультация и помощь по бронированию автомобиля в Израиле на русском языке | Безлимитный километраж при заказе 3-29 дней</p>
       <p class="lead">Напишите нам на <a style="font-family: Times, serif; color:red">WhatsApp/Viber +972-58-771-0101</a> и наш менеджер вернется к вам с лучшим предложением</p>
     </div>
@@ -67,14 +67,14 @@
       <div class="card-deck mb-3 text-center">
         <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Hyundai Tucson <h5 style="color: grey; font-size: 1em;">или подобные</h5> (Авт. 5 мест)</h4>
+            <h4 class="my-0 font-weight-normal">Hyundai Tucson <small style="color: grey; font-size: 0.8em;">или подобные</small> (Авт. 5 мест)</h4>
           </div>
           <div class="card-body">
             <h5 class="card-title pricing-card-title">$42 <small class="text-muted">\день</small></h5>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Категория проката: J (SFBR)</li>
               <li>Безлимитный километраж при заказе 3-29 дней</li>
-              <li><img class="img-responsive" src="../img/hyundai_tucson.jpg" alt="Аренда прокат автомобиля Hyundai Tucson в Израиле. Лучшие цены. Бронирование онлайн" height="" width="200px"/> </li>
+              <li><img class="img-responsive" src="../img/hyundai_tucson.jpg" alt="Аренда прокат автомобиля Hyundai Tucson в Израиле. Лучшие цены. Бронирование онлайн" width="200"/> </li>
                 <li>
                <form action="mail_send.php" method="post">
                     <div class="form-inline">
@@ -95,14 +95,14 @@
         </div>
         <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal">VW Golf <h5 style="color: grey; font-size: 1em;">или подобные</h5></h4>
+            <h4 class="my-0 font-weight-normal">VW Golf <small style="color: grey; font-size: 0.8em;">или подобные</small></h4>
           </div>
           <div class="card-body">
             <h5 class="card-title pricing-card-title">$18 <small class="text-muted">\день</small></h5>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Категория проката: I (SCAR)</li>
               <li>Безлимитный километраж при заказе 3-29 дней</li>
-<li><img class="img-responsive" src="../img/VW-golf.jpg" alt="Аренда прокат автомобиля VW Golf в Израиле. Лучшие цены. Бронирование онлайн" width="200px"/> </li>
+<li><img class="img-responsive" src="../img/VW-golf.jpg" alt="Аренда прокат автомобиля VW Golf в Израиле. Лучшие цены. Бронирование онлайн" width="200"/> </li>
 <li>
                <form action="mail_send.php" method="post">
                     <div class="form-inline">
@@ -123,7 +123,7 @@
         </div>
         <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal">VW Jetta <h5 style="color: grey; font-size: 1em;">или подобные</h5></h4>
+            <h4 class="my-0 font-weight-normal">VW Jetta <small style="color: grey; font-size: 0.8em;">или подобные</small></h4>
           </div>
           <div class="card-body">
             <h5 class="card-title pricing-card-title">$24 <small class="text-muted">\день</small></h5>
@@ -163,7 +163,7 @@
       <div class="card-deck mb-3 text-center">
         <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Suzuki Alto <h5 style="color: grey; font-size: 1em;">или подобные</h5></h4>
+            <h4 class="my-0 font-weight-normal">Suzuki Alto <small style="color: grey; font-size: 0.8em;">или подобные</small></h4>
           </div>
           <div class="card-body">
             <h5 class="card-title pricing-card-title">$10 <small class="text-muted">\день</small></h5>
@@ -191,7 +191,7 @@
         </div>
         <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Fiat 500 <h5 style="color: grey; font-size: 1em;">или подобные</h5> (2 двери)</h4>
+            <h4 class="my-0 font-weight-normal">Fiat 500 <small style="color: grey; font-size: 0.8em;">или подобные</small> (2 двери)</h4>
           </div>
           <div class="card-body">
             <h5 class="card-title pricing-card-title">$10 <small class="text-muted">\день</small></h5>
@@ -219,7 +219,7 @@
         </div>
         <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Kia Picanto <h5 style="color: grey; font-size: 1em;">или подобные</h5></h4>
+            <h4 class="my-0 font-weight-normal">Kia Picanto <small style="color: grey; font-size: 0.8em;">или подобные</small></h4>
           </div>
           <div class="card-body">
             <h5 class="card-title pricing-card-title">$11 <small class="text-muted">\день</small></h5>
@@ -252,7 +252,7 @@
             <div class="card-deck mb-3 text-center">
         <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Audi A6 <h5 style="color: grey; font-size: 1em;">или подобные</h5></h4>
+            <h4 class="my-0 font-weight-normal">Audi A6 <small style="color: grey; font-size: 0.8em;">или подобные</small></h4>
           </div>
           <div class="card-body">
             <h5 class="card-title pricing-card-title">$122 <small class="text-muted">\день</small></h5>
@@ -280,7 +280,7 @@
         </div>
         <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Nissan Maxima <h5 style="color: grey; font-size: 1em;">или подобные</h5></h4>
+            <h4 class="my-0 font-weight-normal">Nissan Maxima <small style="color: grey; font-size: 0.8em;">или подобные</small></h4>
           </div>
           <div class="card-body">
             <h5 class="card-title pricing-card-title">$79 <small class="text-muted">\день</small></h5>
@@ -308,7 +308,7 @@
         </div>
         <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal">BMW 318i <h5 style="color: grey; font-size: 1em;">или подобные</h5></h4>
+            <h4 class="my-0 font-weight-normal">BMW 318i <small style="color: grey; font-size: 0.8em;">или подобные</small></h4>
           </div>
           <div class="card-body">
             <h5 class="card-title pricing-card-title">$72 <small class="text-muted">\день</small></h5>
@@ -343,7 +343,7 @@
             <div class="card-deck mb-3 text-center">
         <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal">VW Transporter <h5 style="color: grey; font-size: 1em;">или подобные</h5> (Авт. 9 мест)</h4>
+            <h4 class="my-0 font-weight-normal">VW Transporter <small style="color: grey; font-size: 0.8em;">или подобные</small> (Авт. 9 мест)</h4>
           </div>
           <div class="card-body">
             <h5 class="card-title pricing-card-title">$95 <small class="text-muted">\день</small></h5>
@@ -371,7 +371,7 @@
         </div>
         <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Kia Carnival <h5 style="color: grey; font-size: 1em;">или подобные</h5> (Авт. 8 мест)</h4>
+            <h4 class="my-0 font-weight-normal">Kia Carnival <small style="color: grey; font-size: 0.8em;">или подобные</small> (Авт. 8 мест)</h4>
           </div>
           <div class="card-body">
             <h5 class="card-title pricing-card-title">$83 <small class="text-muted">\день</small></h5>
@@ -399,7 +399,7 @@
         </div>
         <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Mitsubishi Outlander <h5 style="color: grey; font-size: 1em;">или подобные</h5> (Авт. 7 мест)</h4>
+            <h4 class="my-0 font-weight-normal">Mitsubishi Outlander <small style="color: grey; font-size: 0.8em;">или подобные</small> (Авт. 7 мест)</h4>
           </div>
           <div class="card-body">
             <h5 class="card-title pricing-card-title">$58 <small class="text-muted">\день</small></h5>
@@ -434,7 +434,7 @@
             <div class="card-deck mb-3 text-center">
         <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Opel Zafira <h5 style="color: grey; font-size: 1em;">или подобные</h5> (Авт. 7 мест)</h4>
+            <h4 class="my-0 font-weight-normal">Opel Zafira <small style="color: grey; font-size: 0.8em;">или подобные</small> (Авт. 7 мест)</h4>
           </div>
           <div class="card-body">
             <h5 class="card-title pricing-card-title">$39 <small class="text-muted">\день</small></h5>
@@ -462,7 +462,7 @@
         </div>
         <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Renault Traffic <h5 style="color: grey; font-size: 1em;">или подобные</h5> (Руч. 9 мест)</h4>
+            <h4 class="my-0 font-weight-normal">Renault Traffic <small style="color: grey; font-size: 0.8em;">или подобные</small> (Руч. 9 мест)</h4>
           </div>
           <div class="card-body">
             <h5 class="card-title pricing-card-title">$55 <small class="text-muted">\день</small></h5>
@@ -489,7 +489,7 @@
         </div>
         <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Ford Edge <h5 style="color: grey; font-size: 1em;">или подобные</h5></h4>
+            <h4 class="my-0 font-weight-normal">Ford Edge <small style="color: grey; font-size: 0.8em;">или подобные</small></h4>
           </div>
           <div class="card-body">
             <h5 class="card-title pricing-card-title">$74 <small class="text-muted">\день</small></h5>
@@ -525,7 +525,7 @@
       <div class="card-deck mb-3 text-center">
         <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal">VW Passat <h5 style="color: grey; font-size: 1em;">или подобные</h5></h4>
+            <h4 class="my-0 font-weight-normal">VW Passat <small style="color: grey; font-size: 0.8em;">или подобные</small></h4>
           </div>
           <div class="card-body">
             <h5 class="card-title pricing-card-title">$58 <small class="text-muted">\день</small></h5>
@@ -553,7 +553,7 @@
         </div>
         <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Hyundai Sonata <h5 style="color: grey; font-size: 1em;">или подобные</h5></h4>
+            <h4 class="my-0 font-weight-normal">Hyundai Sonata <small style="color: grey; font-size: 0.8em;">или подобные</small></h4>
           </div>
           <div class="card-body">
             <h5 class="card-title pricing-card-title">$42 <small class="text-muted">\день</small></h5>
@@ -582,7 +582,7 @@
         </div>
         <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Mazda 6 <h5 style="color: grey; font-size: 1em;">или подобные</h5></h4>
+            <h4 class="my-0 font-weight-normal">Mazda 6 <small style="color: grey; font-size: 0.8em;">или подобные</small></h4>
           </div>
           <div class="card-body">
             <h5 class="card-title pricing-card-title">$31 <small class="text-muted">\день</small></h5>
