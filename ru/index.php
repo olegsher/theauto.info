@@ -79,10 +79,10 @@
                <form action="mail_send.php" method="post">
                     <div class="form-inline">
                      <div class="col-auto">
-                     <input type="text" class="form-control" id="name" name="name" placeholder="ваше имя">
+                     <input type="text" class="form-control"  name="name" placeholder="ваше имя">
                      </div>
                      <div class="col-auto">
-                     <input type="tel" class="form-control" id="phone" name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
+                     <input type="tel" class="form-control"  name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
                      </div>               
                      <input type="hidden" name="car-select" value="Категория проката: J (SFBR), Hyundai Tucson или подобные">
                     </div>
@@ -107,10 +107,10 @@
                <form action="mail_send.php" method="post">
                     <div class="form-inline">
                      <div class="col-auto">
-                     <input type="text" class="form-control" id="name" name="name" placeholder="ваше имя">
+                     <input type="text" class="form-control"  name="name" placeholder="ваше имя">
                      </div>
                      <div class="col-auto">
-                     <input type="tel" class="form-control" id="phone" name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
+                     <input type="tel" class="form-control"  name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
                      </div>               
                      <input type="hidden" name="car-select" value="Категория проката: I (SCAR), VW Golf или подобные">
                     </div>
@@ -135,10 +135,10 @@
                <form action="mail_send.php" method="post">
                     <div class="form-inline">
                      <div class="col-auto">
-                     <input type="text" class="form-control" id="name" name="name" placeholder="ваше имя">
+                     <input type="text" class="form-control"  name="name" placeholder="ваше имя">
                      </div>
                      <div class="col-auto">
-                     <input type="tel" class="form-control" id="phone" name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
+                     <input type="tel" class="form-control"  name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
                      </div>               
                      <input type="hidden" name="car-select" value="Категория проката: H (SDAR), VW Jetta или подобные">
                     </div>
@@ -175,10 +175,10 @@
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
    					 <div class="col-auto">
-    				 <input type="text" class="form-control" id="name" name="name" placeholder="ваше имя">
+    				 <input type="text" class="form-control"  name="name" placeholder="ваше имя">
   					 </div>
   				  	 <div class="col-auto">
-     				 <input type="tel" class="form-control" id="phone" name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
+     				 <input type="tel" class="form-control"  name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
     			     </div>    			  
      				 <input type="hidden" name="car-select" value="Категория проката: B (MBMR), Suzuki Alto или подобные">
   					</div>
@@ -203,10 +203,10 @@
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
    					 <div class="col-auto">
-    				 <input type="text" class="form-control" id="name" name="name" placeholder="ваше имя">
+    				 <input type="text" class="form-control"  name="name" placeholder="ваше имя">
   					 </div>
   				  	 <div class="col-auto">
-     				 <input type="tel" class="form-control" id="phone" name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
+     				 <input type="tel" class="form-control"  name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
     			     </div>    			  
      				 <input type="hidden" name="car-select" value="Категория проката: Q (EBAR), Fiat 500 или подобные">
   					</div>
@@ -231,10 +231,10 @@
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
    					 <div class="col-auto">
-    				 <input type="text" class="form-control" id="name" name="name" placeholder="ваше имя">
+    				 <input type="text" class="form-control"  name="name" placeholder="ваше имя">
   					 </div>
   				  	 <div class="col-auto">
-     				 <input type="tel" class="form-control" id="phone" name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
+     				 <input type="tel" class="form-control"  name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
     			     </div>    			  
      				 <input type="hidden" name="car-select" value="Категория проката: C (EDAR), Kia Picanto или подобные">
   					</div>
@@ -264,10 +264,10 @@
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
    					 <div class="col-auto">
-    				 <input type="text" class="form-control" id="name" name="name" placeholder="ваше имя">
+    				 <input type="text" class="form-control"  name="name" placeholder="ваше имя">
   					 </div>
   				  	 <div class="col-auto">
-     				 <input type="tel" class="form-control" id="phone" name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
+     				 <input type="tel" class="form-control"  name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
     			     </div>    			  
      				 <input type="hidden" name="car-select" value="Категория проката: W (LCBR), Audi A6 или подобные">
   					</div>
@@ -292,10 +292,10 @@
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
    					 <div class="col-auto">
-    				 <input type="text" class="form-control" id="name" name="name" placeholder="ваше имя">
+    				 <input type="text" class="form-control"  name="name" placeholder="ваше имя">
   					 </div>
   				  	 <div class="col-auto">
-     				 <input type="tel" class="form-control" id="phone" name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
+     				 <input type="tel" class="form-control"  name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
     			     </div>    			  
      				 <input type="hidden" name="car-select" value="Категория проката: P (LDAR), Nissan Maxima или подобные">
   					</div>
@@ -320,10 +320,10 @@
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
    					 <div class="col-auto">
-    				 <input type="text" class="form-control" id="name" name="name" placeholder="ваше имя">
+    				 <input type="text" class="form-control"  name="name" placeholder="ваше имя">
   					 </div>
   				  	 <div class="col-auto">
-     				 <input type="tel" class="form-control" id="phone" name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
+     				 <input type="tel" class="form-control"  name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
     			     </div>    			  
      				 <input type="hidden" name="car-select" value="Категория проката: K (UDAR), BMW 318i или подобные">
   					</div>
@@ -355,10 +355,10 @@
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
    					 <div class="col-auto">
-    				 <input type="text" class="form-control" id="name" name="name" placeholder="ваше имя">
+    				 <input type="text" class="form-control"  name="name" placeholder="ваше имя">
   					 </div>
   				  	 <div class="col-auto">
-     				 <input type="tel" class="form-control" id="phone" name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
+     				 <input type="tel" class="form-control"  name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
     			     </div>    			  
      				 <input type="hidden" name="car-select" value="Категория проката: Z (LVAR), VW Transporter или подобные">
   					</div>
@@ -383,10 +383,10 @@
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
    					 <div class="col-auto">
-    				 <input type="text" class="form-control" id="name" name="name" placeholder="ваше имя">
+    				 <input type="text" class="form-control"  name="name" placeholder="ваше имя">
   					 </div>
   				  	 <div class="col-auto">
-     				 <input type="tel" class="form-control" id="phone" name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
+     				 <input type="tel" class="form-control"  name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
     			     </div>    			  
      				 <input type="hidden" name="car-select" value="Категория проката: V8 (FVAR), Kia Carnival или подобные">
   					</div>
@@ -411,10 +411,10 @@
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
    					 <div class="col-auto">
-    				 <input type="text" class="form-control" id="name" name="name" placeholder="ваше имя">
+    				 <input type="text" class="form-control"  name="name" placeholder="ваше имя">
   					 </div>
   				  	 <div class="col-auto">
-     				 <input type="tel" class="form-control" id="phone" name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
+     				 <input type="tel" class="form-control"  name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
     			     </div>    			  
      				 <input type="hidden" name="car-select" value="Категория проката: V (SVAR), Mitsubishi Outlander или подобные O (LFBR)">
   					</div>
@@ -446,10 +446,10 @@
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
    					 <div class="col-auto">
-    				 <input type="text" class="form-control" id="name" name="name" placeholder="ваше имя">
+    				 <input type="text" class="form-control"  name="name" placeholder="ваше имя">
   					 </div>
   				  	 <div class="col-auto">
-     				 <input type="tel" class="form-control" id="phone" name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
+     				 <input type="tel" class="form-control"  name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
     			     </div>    			  
      				 <input type="hidden" name="car-select" value="Категория проката: U (IVAR), Opel Zafira или подобные">
   					</div>
@@ -474,10 +474,10 @@
 <form action="mail_send.php" method="post">
   					<div class="form-inline">
    					 <div class="col-auto">
-    				 <input type="text" class="form-control" id="name" name="name" placeholder="ваше имя">
+    				 <input type="text" class="form-control"  name="name" placeholder="ваше имя">
   					 </div>
   				  	 <div class="col-auto">
-     				 <input type="tel" class="form-control" id="phone" name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
+     				 <input type="tel" class="form-control"  name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
     			     </div>    			  
      				 <input type="hidden" name="car-select" value="Y (FVMR), Renault Traffic или подобные (Руч. 9 мест) ">
   					</div>
@@ -501,10 +501,10 @@
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
    					 <div class="col-auto">
-    				 <input type="text" class="form-control" id="name" name="name" placeholder="ваше имя">
+    				 <input type="text" class="form-control"  name="name" placeholder="ваше имя">
   					 </div>
   				  	 <div class="col-auto">
-     				 <input type="tel" class="form-control" id="phone" name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
+     				 <input type="tel" class="form-control"  name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
     			     </div>    			  
      				 <input type="hidden" name="car-select" value="Ford Edge или подобные O (LFBR)">
   					</div>
@@ -537,10 +537,10 @@
                <form action="mail_send.php" method="post">
                     <div class="form-inline">
                      <div class="col-auto">
-                     <input type="text" class="form-control" id="name" name="name" placeholder="ваше имя">
+                     <input type="text" class="form-control"  name="name" placeholder="ваше имя">
                      </div>
                      <div class="col-auto">
-                     <input type="tel" class="form-control" id="phone" name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
+                     <input type="tel" class="form-control"  name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
                      </div>               
                      <input type="hidden" name="car-select" value="Категория проката: R (FCAR), VW Passat или подобные">
                     </div>
@@ -565,10 +565,10 @@
                <form action="mail_send.php" method="post">
                     <div class="form-inline">
                      <div class="col-auto">
-                     <input type="text" class="form-control" id="name" name="name" placeholder="ваше имя">
+                     <input type="text" class="form-control"  name="name" placeholder="ваше имя">
                      </div>
                      <div class="col-auto">
-                     <input type="tel" class="form-control" id="phone" name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
+                     <input type="tel" class="form-control"  name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
                      </div>               
                      <input type="hidden" name="car-select" value="Категория проката: MH (PCAR), Hyundai Sonata или подобные">
                     </div>
@@ -594,10 +594,10 @@
                <form action="mail_send.php" method="post">
                     <div class="form-inline">
                      <div class="col-auto">
-                     <input type="text" class="form-control" id="name" name="name" placeholder="ваше имя">
+                     <input type="text" class="form-control"  name="name" placeholder="ваше имя">
                      </div>
                      <div class="col-auto">
-                     <input type="tel" class="form-control" id="phone" name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
+                     <input type="tel" class="form-control"  name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
                      </div>               
                      <input type="hidden" name="car-select" value="Категория проката: M (PDAR), Mazda 6 или подобные">
                     </div>
