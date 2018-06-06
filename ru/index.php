@@ -667,6 +667,9 @@
 
       </footer>
     </div>
+    
+    
+    <?php include("../__counters.html"); ?>
 
 
     <!-- Bootstrap core JavaScript
