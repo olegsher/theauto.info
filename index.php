@@ -85,10 +85,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                <form action="mail_send.php" method="post">
                     <div class="form-inline">
                      <div class="col-auto">
-                     <input type="text" class="form-control" id="name" name="name" placeholder="name">
+                     <input type="text" class="form-control" required  name="name" placeholder="name">
                      </div>
                      <div class="col-auto">
-                     <input type="tel" class="form-control" id="phone" name="phone" placeholder="phone include country code">
+                     <input type="tel" class="form-control" required  name="phone" placeholder="phone include country code">
                      </div>               
                      <input type="hidden" name="car-select" value="Car Category: J (SFBR), Hyundai Tucson or Similar">
                     </div>
@@ -113,10 +113,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                <form action="mail_send.php" method="post">
                     <div class="form-inline">
                      <div class="col-auto">
-                     <input type="text" class="form-control" id="name" name="name" placeholder="name">
+                     <input type="text" class="form-control" required  name="name" placeholder="name">
                      </div>
                      <div class="col-auto">
-                     <input type="tel" class="form-control" id="phone" name="phone" placeholder="phone include country code">
+                     <input type="tel" class="form-control" required  name="phone" placeholder="phone include country code">
                      </div>               
                      <input type="hidden" name="car-select" value="Car Category: I (SCAR), VW Golf or Similar">
                     </div>
@@ -141,10 +141,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                <form action="mail_send.php" method="post">
                     <div class="form-inline">
                      <div class="col-auto">
-                     <input type="text" class="form-control" id="name" name="name" placeholder="name">
+                     <input type="text" class="form-control" required  name="name" placeholder="name">
                      </div>
                      <div class="col-auto">
-                     <input type="tel" class="form-control" id="phone" name="phone" placeholder="phone include country code">
+                     <input type="tel" class="form-control" required  name="phone" placeholder="phone include country code">
                      </div>               
                      <input type="hidden" name="car-select" value="Car Category: H (SDAR), VW Jetta or Similar">
                     </div>
@@ -181,10 +181,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
    					 <div class="col-auto">
-    				 <input type="text" class="form-control" id="name" name="name" placeholder="name">
+    				 <input type="text" class="form-control" required  name="name" placeholder="name">
   					 </div>
   				  	 <div class="col-auto">
-     				 <input type="tel" class="form-control" id="phone" name="phone" placeholder="phone include country code">
+     				 <input type="tel" class="form-control" required  name="phone" placeholder="phone include country code">
     			     </div>    			  
      				 <input type="hidden" name="car-select" value="Car Category: B (MBMR), Suzuki Alto or Similar">
   					</div>
@@ -209,10 +209,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
    					 <div class="col-auto">
-    				 <input type="text" class="form-control" id="name" name="name" placeholder="name">
+    				 <input type="text" class="form-control" required  name="name" placeholder="name">
   					 </div>
   				  	 <div class="col-auto">
-     				 <input type="tel" class="form-control" id="phone" name="phone" placeholder="phone include country code">
+     				 <input type="tel" class="form-control" required  name="phone" placeholder="phone include country code">
     			     </div>    			  
      				 <input type="hidden" name="car-select" value="Car Category: Q (EBAR), Fiat 500 or Similar">
   					</div>
@@ -237,10 +237,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
    					 <div class="col-auto">
-    				 <input type="text" class="form-control" id="name" name="name" placeholder="name">
+    				 <input type="text" class="form-control" required  name="name" placeholder="name">
   					 </div>
   				  	 <div class="col-auto">
-     				 <input type="tel" class="form-control" id="phone" name="phone" placeholder="phone include country code">
+     				 <input type="tel" class="form-control" required  name="phone" placeholder="phone include country code">
     			     </div>    			  
      				 <input type="hidden" name="car-select" value="Car Category: C (EDAR), Kia Picanto or Similar">
   					</div>
@@ -270,10 +270,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
    					 <div class="col-auto">
-    				 <input type="text" class="form-control" id="name" name="name" placeholder="name">
+    				 <input type="text" class="form-control" required  name="name" placeholder="name">
   					 </div>
   				  	 <div class="col-auto">
-     				 <input type="tel" class="form-control" id="phone" name="phone" placeholder="phone include country code">
+     				 <input type="tel" class="form-control" required  name="phone" placeholder="phone include country code">
     			     </div>    			  
      				 <input type="hidden" name="car-select" value="Car Category: W (LCBR), Audi A6 or Similar">
   					</div>
@@ -298,10 +298,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
    					 <div class="col-auto">
-    				 <input type="text" class="form-control" id="name" name="name" placeholder="name">
+    				 <input type="text" class="form-control" required  name="name" placeholder="name">
   					 </div>
   				  	 <div class="col-auto">
-     				 <input type="tel" class="form-control" id="phone" name="phone" placeholder="phone include country code">
+     				 <input type="tel" class="form-control" required  name="phone" placeholder="phone include country code">
     			     </div>    			  
      				 <input type="hidden" name="car-select" value="Car Category: P (LDAR), Nissan Maxima or Similar">
   					</div>
@@ -326,10 +326,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
    					 <div class="col-auto">
-    				 <input type="text" class="form-control" id="name" name="name" placeholder="name">
+    				 <input type="text" class="form-control" required  name="name" placeholder="name">
   					 </div>
   				  	 <div class="col-auto">
-     				 <input type="tel" class="form-control" id="phone" name="phone" placeholder="phone include country code">
+     				 <input type="tel" class="form-control" required  name="phone" placeholder="phone include country code">
     			     </div>    			  
      				 <input type="hidden" name="car-select" value="Car Category: K (UDAR), BMW 318i or Similar">
   					</div>
@@ -361,10 +361,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
    					 <div class="col-auto">
-    				 <input type="text" class="form-control" id="name" name="name" placeholder="name">
+    				 <input type="text" class="form-control" required  name="name" placeholder="name">
   					 </div>
   				  	 <div class="col-auto">
-     				 <input type="tel" class="form-control" id="phone" name="phone" placeholder="phone include country code">
+     				 <input type="tel" class="form-control" required  name="phone" placeholder="phone include country code">
     			     </div>    			  
      				 <input type="hidden" name="car-select" value="Car Category: Z (LVAR), VW Transporter or Similar">
   					</div>
@@ -389,10 +389,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
    					 <div class="col-auto">
-    				 <input type="text" class="form-control" id="name" name="name" placeholder="name">
+    				 <input type="text" class="form-control" required  name="name" placeholder="name">
   					 </div>
   				  	 <div class="col-auto">
-     				 <input type="tel" class="form-control" id="phone" name="phone" placeholder="phone include country code">
+     				 <input type="tel" class="form-control" required  name="phone" placeholder="phone include country code">
     			     </div>    			  
      				 <input type="hidden" name="car-select" value="Car Category: V8 (FVAR), Kia Carnival or Similar">
   					</div>
@@ -417,10 +417,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
    					 <div class="col-auto">
-    				 <input type="text" class="form-control" id="name" name="name" placeholder="name">
+    				 <input type="text" class="form-control" required  name="name" placeholder="name">
   					 </div>
   				  	 <div class="col-auto">
-     				 <input type="tel" class="form-control" id="phone" name="phone" placeholder="phone include country code">
+     				 <input type="tel" class="form-control" required  name="phone" placeholder="phone include country code">
     			     </div>    			  
      				 <input type="hidden" name="car-select" value="Car Category: V (SVAR), Mitsubishi Outlander or Similar O (LFBR)">
   					</div>
@@ -452,10 +452,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
    					 <div class="col-auto">
-    				 <input type="text" class="form-control" id="name" name="name" placeholder="name">
+    				 <input type="text" class="form-control" required  name="name" placeholder="name">
   					 </div>
   				  	 <div class="col-auto">
-     				 <input type="tel" class="form-control" id="phone" name="phone" placeholder="phone include country code">
+     				 <input type="tel" class="form-control" required  name="phone" placeholder="phone include country code">
     			     </div>    			  
      				 <input type="hidden" name="car-select" value="Car Category: U (IVAR), Opel Zafira or Similar">
   					</div>
@@ -480,10 +480,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <form action="mail_send.php" method="post">
   					<div class="form-inline">
    					 <div class="col-auto">
-    				 <input type="text" class="form-control" id="name" name="name" placeholder="name">
+    				 <input type="text" class="form-control" required  name="name" placeholder="name">
   					 </div>
   				  	 <div class="col-auto">
-     				 <input type="tel" class="form-control" id="phone" name="phone" placeholder="phone include country code">
+     				 <input type="tel" class="form-control" required  name="phone" placeholder="phone include country code">
     			     </div>    			  
      				 <input type="hidden" name="car-select" value="Y (FVMR), Renault Traffic or Similar (Man. 9 Seats) ">
   					</div>
@@ -507,10 +507,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
    					 <div class="col-auto">
-    				 <input type="text" class="form-control" id="name" name="name" placeholder="name">
+    				 <input type="text" class="form-control" required  name="name" placeholder="name">
   					 </div>
   				  	 <div class="col-auto">
-     				 <input type="tel" class="form-control" id="phone" name="phone" placeholder="phone include country code">
+     				 <input type="tel" class="form-control" required  name="phone" placeholder="phone include country code">
     			     </div>    			  
      				 <input type="hidden" name="car-select" value="Ford Edge or Similar O (LFBR)">
   					</div>
@@ -543,10 +543,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                <form action="mail_send.php" method="post">
                     <div class="form-inline">
                      <div class="col-auto">
-                     <input type="text" class="form-control" id="name" name="name" placeholder="name">
+                     <input type="text" class="form-control" required  name="name" placeholder="name">
                      </div>
                      <div class="col-auto">
-                     <input type="tel" class="form-control" id="phone" name="phone" placeholder="phone include country code">
+                     <input type="tel" class="form-control" required  name="phone" placeholder="phone include country code">
                      </div>               
                      <input type="hidden" name="car-select" value="Car Category: R (FCAR), VW Passat or Similar">
                     </div>
@@ -571,10 +571,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                <form action="mail_send.php" method="post">
                     <div class="form-inline">
                      <div class="col-auto">
-                     <input type="text" class="form-control" id="name" name="name" placeholder="name">
+                     <input type="text" class="form-control" required  name="name" placeholder="name">
                      </div>
                      <div class="col-auto">
-                     <input type="tel" class="form-control" id="phone" name="phone" placeholder="phone include country code">
+                     <input type="tel" class="form-control" required  name="phone" placeholder="phone include country code">
                      </div>               
                      <input type="hidden" name="car-select" value="Car Category: MH (PCAR), Hyundai Sonata or Similar">
                     </div>
@@ -599,10 +599,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                <form action="mail_send.php" method="post">
                     <div class="form-inline">
                      <div class="col-auto">
-                     <input type="text" class="form-control" id="name" name="name" placeholder="name">
+                     <input type="text" class="form-control" required  name="name" placeholder="name">
                      </div>
                      <div class="col-auto">
-                     <input type="tel" class="form-control" id="phone" name="phone" placeholder="phone include country code">
+                     <input type="tel" class="form-control" required  name="phone" placeholder="phone include country code">
                      </div>               
                      <input type="hidden" name="car-select" value="Car Category: M (PDAR), Mazda 6 or Similar">
                     </div>
