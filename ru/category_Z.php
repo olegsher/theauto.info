@@ -18,7 +18,7 @@
  <div class="container">
     
     
-          <h1 class="display-4"  style="font-family: Times, serif; color:grey; text-transform: uppercase; color: white; text-shadow: 1px 1px 2px #000000; font-size: 2em;">Ford Transit, VW Transporter, Citroen Jumpy, Hyundai i800 H1, 9 мест, автоматическая коробка передач</h1>
+ <h1 class="display-4"  style="font-family: Times, serif; color:grey; text-transform: uppercase; color: white; text-shadow: 1px 1px 2px #000000; font-size: 2em;">Ford Transit, VW Transporter, Citroen Jumpy, Hyundai i800 H1, 9 мест, автоматическая коробка передач</h1>
       * или похожие в данной категории проката<br>
       <div class="card-body">
       <img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/260t2.jpg" alt="Прокат аренда авто VW Transporter в Израиле. Прокат аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски" /> 
