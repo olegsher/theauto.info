@@ -318,7 +318,7 @@
             <div class="card-deck mb-3 text-center">
         <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal">VW Transporter <small style="color: grey; font-size: 0.8em;">или подобные</small> (Авт. 9 мест)</h4>
+            <h4 class="my-0 font-weight-normal"><a href="category_Z.php">VW Transporter <small style="color: grey; font-size: 0.8em;">или подобные</small> (Авт. 9 мест)</a></h4>
           </div>
           <div class="card-body">
             <h5 class="card-title pricing-card-title">$95 <small class="text-muted">\день</small></h5>
