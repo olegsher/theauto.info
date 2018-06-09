@@ -3,7 +3,7 @@
 <!doctype html>
 <html lang="ru">
 <head>
-<title>Аренда минивен Ford Transit, VW Transporter, Citroen Jumpy, автомат 9 мест в Израиле +972-58-7710101</title>
+<title>Аренда минивена автомат 9 мест в Израиле +972-58-7710101</title>
 <meta name="description" content="Прокат аренда минивен Ford Transit, VW Transporter, Citroen Jumpy или похожие в данной категории проката, автомат 9 мест в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим и др. Без предоплаты. Говорим по русски">
 <meta name="author" content="">
 
