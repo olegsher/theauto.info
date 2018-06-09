@@ -24,6 +24,17 @@
       * или похожие в данной категории проката - Z(LVAR)<br>
       <div class="card-body">
       <img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/260t2.jpg" alt="Прокат аренда авто VW Transporter в Израиле. Прокат аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски" /> 
+      
+      
+
+<div class="fa-2x">
+<i class="fa fa-male" aria-hidden="true"></i>9
+<i class="fa fa-suitcase" aria-hidden="true"></i>4
+<i class="fa fa-briefcase" aria-hidden="true"></i>3
+</div>
+      
+      
+      
       <form action="mail_send.php" method="post">
   					<div class="form-inline">
    					 <div class="col-auto"><input type="text" class="form-control"  required name="name" placeholder="ваше имя"></div>
