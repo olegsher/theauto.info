@@ -56,7 +56,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
          <a class="p-2 text-dark" href="#people_carriers">People Carriers</a> 
          <a class="p-2 text-dark" href="#standard">Standard</a> 
        </nav> 
-       <a class="btn btn-outline-primary" href="http://www.theauto.info/ru/" title="Go to Russian section">Русский</a> 
+       <a class="btn btn-outline-primary" href="/ru/" title="Go to Russian section">Русский</a> 
      </div> 
 
     <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
