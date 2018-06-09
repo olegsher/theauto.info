@@ -1,46 +1,14 @@
 <?php
 ?>
-
 <!doctype html>
 <html lang="ru">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Отделения проката аренды автомобилей в Израиле, Аэропорт Бен Гурион Иерусалим Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот</title>
 <meta name="description" content="Отделения проката аренды автомобилей в Израиле, Аэропорт Бен Гурион Иерусалим Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот">
 <meta name="author" content="">
-<meta name="yandex-verification" content="f11475564b48ca1f" />
-<meta name="msvalidate.01" content="DFFC9D141B04223AD2603B9AD5606773" />
-<meta name='wmail-verification' content='a9138f370e313f0907f0d27ff4975904' />
-<link rel="icon" href="http://www.theauto.info/favicon.ico">
 
-<meta property="fb:app_id" content="1322511981092474" />
-<meta property="og:type" content="website" />
-<meta property="og:locale" content="ru" />
-<meta property="og:url" content="http://www.theauto.info/ru/" />
-<meta property="og:image" content="http://www.theauto.info/img/car_key.jpeg"/>
-<meta property="og:image:type" content="image/png" />
-<meta property="og:image:width" content="640" />
-<meta property="og:image:height" content="426" />
-<meta property="og:title" content="Отделения проката аренды автомобилей в Израиле  Аэропорт Бен Гурион Иерусалим Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот" />
-<meta property="og:description" content="Отделения проката аренды автомобилей в Израиле  Аэропорт Бен Гурион Иерусалим Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот"/>
+<?php include("__header.html"); ?>
 
-
-<title>Отделения проката аренды автомобилей в Израиле, Аэропорт Бен Гурион Иерусалим Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот</title>
-
-<!-- Bootstrap core CSS -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<!-- Custom styles for this template -->
-<link href="../pricing.css" rel="stylesheet">
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-5WSN6CF');</script>
-<!-- End Google Tag Manager -->
 </head>
 
 <body>
