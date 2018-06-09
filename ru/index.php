@@ -6,7 +6,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="description" content="Аренда прокат автомобиля в Израиле">
+<meta name="description" content="Прокат аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски">
 <meta name="author" content="">
 <meta name="yandex-verification" content="f11475564b48ca1f" />
 <meta name='wmail-verification' content='a9138f370e313f0907f0d27ff4975904' />
@@ -21,11 +21,11 @@
 <meta property="og:image:type" content="image/png" />
 <meta property="og:image:width" content="640" />
 <meta property="og:image:height" content="426" />
-<meta property="og:title" content="Аренда прокат автомобиля в Израиле" />
-<meta property="og:description" content="Аренда прокат автомобиля в Израиле"/>
+<meta property="og:title" content="Прокат аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски" />
+<meta property="og:description" content="Прокат аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски"/>
 
 
-<title>Аренда прокат автомобиля в Израиле</title>
+<title>Прокат аренда авто в Израиле</title>
 
 <!-- Bootstrap core CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
@@ -62,8 +62,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
      </div> 
 
     <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-      <h1 class="display-4"  style="font-family: Times, serif; color:grey; text-transform: uppercase; color: white; text-shadow: 1px 1px 2px #000000; font-size: 2em;">Аренда прокат автомобиля в Израиле</h1>
-      <p class="lead">Оплата при возврате машины | Бесплатная консультация и помощь по бронированию автомобиля в Израиле на русском языке | Безлимитный километраж при заказе 3-29 дней</p>
+      <h1 class="display-4"  style="font-family: Times, serif; color:grey; text-transform: uppercase; color: white; text-shadow: 1px 1px 2px #000000; font-size: 2em;">Прокат аренда авто в Израиле</h1>
+      <p class="lead">Аренда авто без предоплаты | Бесплатная консультация и помощь по бронированию автомобиля в Израиле на русском языке | Безлимитный километраж при заказе 3-29 дней</p>
       <p class="lead">Напишите нам на <a style="font-family: Times, serif; color:red">WhatsApp/Viber +972-58-771-0101</a> и наш менеджер вернется к вам с лучшим предложением</p>
     </div>
     
@@ -71,7 +71,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div class="container">
     
     
-          <h2 id="leaders" style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Аренда прокат автомобиля в Израиле - Лидеры проката</h2>
+          <h2 id="leaders" style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Прокат аренда авто в Израиле - Лидеры проката</h2>
       <div class="card-deck mb-3 text-center">
         <div class="card mb-4 box-shadow">
           <div class="card-header">
@@ -82,7 +82,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <ul class="list-unstyled mt-3 mb-4">
               <li>Категория проката: J (SFBR)</li>
               <li>Безлимитный километраж при заказе 3-29 дней</li>
-              <li><img class="img-responsive" src="../img/hyundai_tucson.jpg" alt="Аренда прокат автомобиля Hyundai Tucson в Израиле. Лучшие цены. Бронирование онлайн" width="200"/> </li>
+              <li><img class="img-responsive" src="../img/hyundai_tucson.jpg" alt="Прокат аренда авто Hyundai Tucson в Израиле. Прокат аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски" width="200"/> </li>
                 <li>
                <form action="mail_send.php" method="post">
                     <div class="form-inline">
@@ -110,7 +110,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <ul class="list-unstyled mt-3 mb-4">
               <li>Категория проката: I (SCAR)</li>
               <li>Безлимитный километраж при заказе 3-29 дней</li>
-<li><img class="img-responsive" src="../img/VW-golf.jpg" alt="Аренда прокат автомобиля VW Golf в Израиле. Лучшие цены. Бронирование онлайн" width="200"/> </li>
+<li><img class="img-responsive" src="../img/VW-golf.jpg" alt="Прокат аренда авто VW Golf в Израиле. Прокат аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски" width="200"/> </li>
 <li>
                <form action="mail_send.php" method="post">
                     <div class="form-inline">
@@ -138,7 +138,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <ul class="list-unstyled mt-3 mb-4">
               <li>Категория проката: H (SDAR)</li>
               <li>Безлимитный километраж при заказе 3-29 дней</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/80t.jpg" alt="Аренда прокат автомобиля VW Jetta в Израиле. Лучшие цены. Бронирование онлайн" /> </li>
+<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/80t.jpg" alt="Прокат аренда авто VW Jetta в Израиле. Прокат аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски" /> </li>
 <li>
                <form action="mail_send.php" method="post">
                     <div class="form-inline">
@@ -167,7 +167,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     
     
     
-     <h2 style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Аренда прокат автомобиля в Израиле - класс мини</h2>
+     <h2 style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Прокат аренда авто в Израиле - класс мини</h2>
       <div class="card-deck mb-3 text-center">
         <div class="card mb-4 box-shadow">
           <div class="card-header">
@@ -178,7 +178,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <ul class="list-unstyled mt-3 mb-4">
               <li>Категория проката: B (MBMR)</li>
               <li>Безлимитный километраж при заказе 3-29 дней</li>
-              <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/10t1.jpg" alt="Аренда прокат автомобиля Suzuki Alto в Израиле. Лучшие цены. Бронирование онлайн" /> </li>
+              <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/10t1.jpg" alt="Прокат аренда авто Suzuki Alto в Израиле. Прокат аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски" /> </li>
                 <li>
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
@@ -206,7 +206,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <ul class="list-unstyled mt-3 mb-4">
               <li>Категория проката: Q (EBAR)</li>
               <li>Безлимитный километраж при заказе 3-29 дней</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/15t1.jpg" alt="Аренда прокат автомобиля Fiat 500 в Израиле. Лучшие цены. Бронирование онлайн" /> </li>
+<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/15t1.jpg" alt="Прокат аренда авто Fiat 500 в Израиле. Прокат аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски" /> </li>
 <li>
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
@@ -234,7 +234,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <ul class="list-unstyled mt-3 mb-4">
               <li>Категория проката: C (EDAR)</li>
               <li>Безлимитный километраж при заказе 3-29 дней</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/30t1.jpg" alt="Аренда прокат автомобиля Kia Picanto в Израиле. Лучшие цены. Бронирование онлайн" /> </li>
+<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/30t1.jpg" alt="Прокат аренда авто Kia Picanto в Израиле. Прокат аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски" /> </li>
 <li>
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
@@ -255,7 +255,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>        
       </div>
       
-   <h2 id="premium" style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Аренда прокат автомобиля в Израиле - Премиум класс</h2>   
+   <h2 id="premium" style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Прокат аренда авто в Израиле - Премиум класс</h2>   
       
             <div class="card-deck mb-3 text-center">
         <div class="card mb-4 box-shadow">
@@ -267,7 +267,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <ul class="list-unstyled mt-3 mb-4">
               <li>Категория проката: W (LCBR)</li>
               <li>Безлимитный километраж при заказе 3-29 дней</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/230t.jpg" alt="Аренда прокат автомобиля Audi A6 в Израиле. Лучшие цены. Бронирование онлайн" /> </li>
+<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/230t.jpg" alt="Прокат аренда авто Audi A6 в Израиле. Прокат аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски" /> </li>
 <li>
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
@@ -295,7 +295,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <ul class="list-unstyled mt-3 mb-4">
               <li>Категория проката: P (LDAR)</li>
               <li>Безлимитный километраж при заказе 3-29 дней</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/160t3.jpg" alt="Аренда прокат автомобиля Nissan Maxima в Израиле. Лучшие цены. Бронирование онлайн" /> </li>
+<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/160t3.jpg" alt="Прокат аренда авто Nissan Maxima в Израиле. Прокат аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски" /> </li>
 <li>
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
@@ -323,7 +323,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <ul class="list-unstyled mt-3 mb-4">
               <li>Категория проката: K (UDAR)</li>
               <li>Безлимитный километраж при заказе 3-29 дней</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/110.jpg" alt="Аренда прокат автомобиля BMW 318i в Израиле. Лучшие цены. Бронирование онлайн" /> </li>
+<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/110.jpg" alt="Прокат аренда авто BMW 318i в Израиле. Прокат аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски" /> </li>
 <li>
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
@@ -345,7 +345,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       </div>
       
       
-      <h2 id="people_carriers" style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Аренда прокат автомобиля в Израиле - Минивены</h2>
+      <h2 id="people_carriers" style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Прокат аренда авто в Израиле - Минивены</h2>
         
       
             <div class="card-deck mb-3 text-center">
@@ -358,7 +358,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <ul class="list-unstyled mt-3 mb-4">
               <li>Категория проката: Z (LVAR)</li>
               <li>Безлимитный километраж при заказе 3-29 дней</li>
-			  <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/260t2.jpg" alt="Аренда прокат автомобиля VW Transporter в Израиле. Лучшие цены. Бронирование онлайн" /> </li>
+			  <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/260t2.jpg" alt="Прокат аренда авто VW Transporter в Израиле. Прокат аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски" /> </li>
 <li>
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
@@ -386,7 +386,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <ul class="list-unstyled mt-3 mb-4">
               <li>Категория проката: V8 (FVAR)</li>
               <li>Безлимитный километраж при заказе 3-29 дней</li>
-			  <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/225.jpg" alt="Аренда прокат автомобиля Kia Carnival в Израиле. Лучшие цены. Бронирование онлайн" /> </li> 
+			  <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/225.jpg" alt="Прокат аренда авто Kia Carnival в Израиле. Прокат аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски" /> </li> 
 <li>
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
@@ -414,7 +414,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <ul class="list-unstyled mt-3 mb-4">
               <li>Категория проката: V (SVAR)</li>
               <li>Безлимитный километраж при заказе 3-29 дней</li>
- 			  <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/220t.jpg" alt="Аренда прокат автомобиля Mitsubishi Outlander в Израиле. Лучшие цены. Бронирование онлайн" /> </li> 
+ 			  <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/220t.jpg" alt="Прокат аренда авто Mitsubishi Outlander в Израиле. Прокат аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски" /> </li> 
 <li>
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
@@ -449,7 +449,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <ul class="list-unstyled mt-3 mb-4">
               <li>Категория проката: U (IVAR)</li>
               <li>Безлимитный километраж при заказе 3-29 дней</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/210t.jpg" alt="Аренда прокат автомобиля Opel Zafira в Израиле. Лучшие цены. Бронирование онлайн" /> </li>
+<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/210t.jpg" alt="Прокат аренда авто Opel Zafira в Израиле. Прокат аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски" /> </li>
 <li>
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
@@ -477,7 +477,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <ul class="list-unstyled mt-3 mb-4">
               <li>Категория проката: Y (FVMR)</li>
               <li>Безлимитный километраж при заказе 3-29 дней</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/250.jpg" alt="Аренда прокат автомобиля Renault Traffic в Израиле. Лучшие цены. Бронирование онлайн" /> </li>
+<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/250.jpg" alt="Прокат аренда авто Renault Traffic в Израиле. Прокат аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски" /> </li>
 <li>
 <form action="mail_send.php" method="post">
   					<div class="form-inline">
@@ -504,7 +504,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <ul class="list-unstyled mt-3 mb-4">
               <li>Категория проката: O (LFBR)</li>
               <li>Безлимитный километраж при заказе 3-29 дней</li>
-                <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/150t1.jpg" alt="Аренда прокат автомобиля Ford Edge в Израиле. Лучшие цены. Бронирование онлайн" /> </li>
+                <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/150t1.jpg" alt="Прокат аренда авто Ford Edge в Израиле. Прокат аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски" /> </li>
                <li>
                <form action="mail_send.php" method="post">
   					<div class="form-inline">
@@ -529,7 +529,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       
       
       
-      <h2 style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Аренда прокат автомобиля в Израиле - Стандартные</h2>
+      <h2 style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Прокат аренда авто в Израиле - Стандартные</h2>
       <div class="card-deck mb-3 text-center">
         <div class="card mb-4 box-shadow">
           <div class="card-header">
@@ -540,7 +540,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <ul class="list-unstyled mt-3 mb-4">
               <li>Категория проката: R (FCAR)</li>
               <li>Безлимитный километраж при заказе 3-29 дней</li>
-              <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/180t1.jpg" alt="Аренда прокат автомобиля VW Passat в Израиле. Лучшие цены. Бронирование онлайн" /> </li>
+              <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/180t1.jpg" alt="Прокат аренда авто VW Passat в Израиле. Прокат аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски" /> </li>
                 <li>
                <form action="mail_send.php" method="post">
                     <div class="form-inline">
@@ -568,7 +568,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <ul class="list-unstyled mt-3 mb-4">
               <li>Категория проката: MH (PCAR)</li>
               <li>Безлимитный километраж при заказе 3-29 дней</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/135.png" alt="Аренда прокат автомобиля Hyundai Sonata в Израиле. Лучшие цены. Бронирование онлайн" /> </li>
+<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/135.png" alt="Прокат аренда авто Hyundai Sonata в Израиле. Прокат аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски" /> </li>
 <li>
                <form action="mail_send.php" method="post">
                     <div class="form-inline">
@@ -597,7 +597,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <ul class="list-unstyled mt-3 mb-4">
               <li>Категория проката: M (PDAR)</li>
               <li>Безлимитный километраж при заказе 3-29 дней</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/130t.jpg" alt="Аренда прокат автомобиля Mazda 6 в Израиле. Лучшие цены. Бронирование онлайн" /> </li>
+<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/130t.jpg" alt="Прокат аренда авто Mazda 6 в Израиле. Прокат аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски" /> </li>
 <li>
                <form action="mail_send.php" method="post">
                     <div class="form-inline">
