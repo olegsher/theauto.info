@@ -21,11 +21,11 @@
 <meta property="og:image:type" content="image/png" />
 <meta property="og:image:width" content="640" />
 <meta property="og:image:height" content="426" />
-<meta property="og:title" content="аренда авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски" />
-<meta property="og:description" content="аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим и др. Без предоплаты. Говорим по русски"/>
+<meta property="og:title" content="+972-58-7710101 Аренда авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим и др. Без предоплаты. Говорим по русски" />
+<meta property="og:description" content="+972-58-7710101 Аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим и др. Без предоплаты. Говорим по русски"/>
 
 
-<title>Прокат аренда авто в Израиле</title>
+<title>Прокат аренда авто в Израиле +972-58-7710101</title>
 
 <!-- Bootstrap core CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
