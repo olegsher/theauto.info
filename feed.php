@@ -8,7 +8,7 @@ foreach ($rss->getElementsByTagName('item') as $node) {
         'desc' => $node->getElementsByTagName('description')->item(0)->nodeValue,
         'link' => $node->getElementsByTagName('link')->item(0)->nodeValue,
         'date' => $node->getElementsByTagName('pubDate')->item(0)->nodeValue,
-        'div' => $node->getElementsByTagName('div')->item(0)->nodeValue,
+        
     );
     array_push($feed, $item);
 }
@@ -21,6 +21,6 @@ for($x=0;$x<$limit;$x++) {
     echo '<p><strong><a href="'.$link.'" title="'.$title.'">'.$title.'</a></strong><br />';
     echo '<small><em>Posted on '.$date.'</em></small></p>';
     echo '<p>'.$description.'</p>';
-    echo '<p>'.$div.'</p>';
+    
 }
 ?>
