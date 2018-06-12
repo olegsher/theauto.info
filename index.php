@@ -46,6 +46,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <body>
 <?php include("seo.html"); ?>
+<div class="container">
   
 
      <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow"> 
@@ -60,16 +61,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
      </div> 
 
     <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-      <h1 class="display-4" style="font-family: Times, serif; color:grey; text-transform: uppercase; color: white; text-shadow: 2px 2px 4px #000000;">Car Rental in Israel<hr /></h1>
+      <h1 class="display-4"  style="font-family: Times, serif; color:grey; text-transform: uppercase; color: white; text-shadow: 1px 1px 2px #000000; font-size: 2em;">Car Rental in Israel<hr /></h1>
       <p class="lead">No credit card fees | No amendment fees | Unlimited mileage with 3-29 days orders</p>
       <p class="lead">Contact us by <a style="font-family: Times, serif; color:red">WhatsApp/Viber +972-58-771-0101</a> and our representative will back to you with best offer</p>
     </div>
     
     
-    <div class="container">
+   
     
     
-          <h2 id="leaders" style="color: white; text-shadow: 2px 2px 4px #000000; font-family: Times, serif; text-align: left; font-size: 2em; text-transform: uppercase;">Rental Cars in Israel - Leaders</h2>
+          <h2 id="leaders" style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Rental Cars in Israel - Leaders</h2>
       <div class="card-deck mb-3 text-center">
         <div class="card mb-4 box-shadow">
           <div class="card-header">
@@ -165,7 +166,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     
     
     
-     <h2 style="color: white; text-shadow: 2px 2px 4px #000000; font-family: Times, serif; text-align: left; font-size: 2em; text-transform: uppercase;">Rental Cars in Israel - Small Cars</h2>
+     <h2 style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Rental Cars in Israel - Small Cars</h2>
       <div class="card-deck mb-3 text-center">
         <div class="card mb-4 box-shadow">
           <div class="card-header">
@@ -253,7 +254,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>        
       </div>
       
-   <h2 id="premium" style="color: white; text-shadow: 2px 2px 4px #000000; font-family: Times, serif; text-align: left; font-size: 2em; text-transform: uppercase;">Rental Cars in Israel - Premium Cars</h2>   
+   <h2 id="premium" style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Rental Cars in Israel - Premium Cars</h2>   
       
             <div class="card-deck mb-3 text-center">
         <div class="card mb-4 box-shadow">
@@ -343,7 +344,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       </div>
       
       
-      <h2 id="people_carriers" style="color: white; text-shadow: 2px 2px 4px #000000; font-family: Times, serif; text-align: left; font-size: 2em; text-transform: uppercase;">Rental Cars in Israel - People carriers</h2>
+      <h2 id="people_carriers" style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Rental Cars in Israel - People carriers</h2>
         
       
             <div class="card-deck mb-3 text-center">
@@ -527,7 +528,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       
       
       
-      <h2 id="standard" style="color: white; text-shadow: 2px 2px 4px #000000; font-family: Times, serif; text-align: left; font-size: 2em; text-transform: uppercase;">Rental Cars in Israel - Standard Cars</h2>
+      <h2 id="standard" style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Rental Cars in Israel - Standard Cars</h2>
       <div class="card-deck mb-3 text-center">
         <div class="card mb-4 box-shadow">
           <div class="card-header">

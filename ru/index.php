@@ -12,8 +12,9 @@
 </head>
 
 <body>
+ 
 <?php include("../seo.html"); ?>
-  
+ <div class="container">
 
      <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow"> 
       <h5 class="my-0 mr-md-auto font-weight-normal">Vastama Ltd - Ваш агент в Израиле</h5> 
@@ -35,7 +36,7 @@
     </div>
     
     
-    <div class="container">
+    
     
     
           <h2 id="leaders" style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Прокат аренда авто в Израиле - Лидеры проката</h2>
@@ -640,6 +641,12 @@
 
 
       </footer>
+      
+        
+        
+      <h2 style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Новости мира автомобилей</h2>
+      <hr />
+      <?php include("auto_feed_ru.php"); ?>
     </div>
     
     
