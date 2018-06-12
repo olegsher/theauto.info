@@ -13,9 +13,8 @@
 
 <body>
 <?php include("../seo.html"); ?>
+<div class="container">
 <?php include("__menu.html"); ?>
-
- <div class="container">
     
     
  <h1 class="display-4"  style="font-family: Times, serif; color:grey; text-transform: uppercase; color: white; text-shadow: 1px 1px 1px #000000; font-size: 1.7em;">Аренда минивен Ford Transit, VW Transporter, Citroen Jumpy, Hyundai i800 H1 в Израиле</h1>
