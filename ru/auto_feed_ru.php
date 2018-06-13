@@ -21,7 +21,8 @@ for ($x = 0; $x < $limit; $x ++) {
     
     // echo '<p><strong><a href="' . $link . ' " title="' . $title . '" target="_blank">' . $title . '</a></strong><br />';
     // echo '<small><em>Posted on '.$date.'</em></small></p>';
-    echo '<p><strong>' . $title . '</strong> <a href="' . $link . ' " title="' . "Новости мира автомобилей на портале TheAuto.info" . '" target="_blank">' . "полная статья" . '</a> <br /> ';
+    echo '<p><strong>' . $title . '</strong> <a rel="nofollow" href="' . $link . ' " title="' . "Новости мира автомобилей на портале TheAuto.info" . '" target="_blank">' . "полная статья" . '</a> <br /> ';
     echo '' . $description . '';
 }
+
 ?>

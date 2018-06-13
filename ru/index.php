@@ -12,6 +12,7 @@
 </head>
 
 <body>
+
  
 <?php include("../seo.html"); ?>
  <div class="container">
@@ -36,8 +37,7 @@
     </div>
     
     
-    
-    
+       
     
           <h2 id="leaders" style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Прокат аренда авто в Израиле - Лидеры проката</h2>
       <div class="card-deck mb-3 text-center">
@@ -585,44 +585,97 @@
           </div>          
         </div>        
       </div>
-
-      <footer class="pt-4 my-md-5 pt-md-5 border-top">
       
-<!--         <div class="row"> -->
-<!--           <div class="col-12 col-md"> -->
-<!--             <img class="mb-2" src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width="24" height="24"> -->
-<!--             <small class="d-block mb-3 text-muted">&copy; 2017-2018</small> -->
-<!--           </div> -->
-<!--           <div class="col-6 col-md"> -->
-<!--             <h5>Features</h5> -->
-<!--             <ul class="list-unstyled text-small"> -->
-<!--               <li><a class="text-muted" href="#">Cool stuff</a></li> -->
-<!--               <li><a class="text-muted" href="#">Random feature</a></li> -->
-<!--               <li><a class="text-muted" href="#">Team feature</a></li> -->
-<!--               <li><a class="text-muted" href="#">Stuff for developers</a></li> -->
-<!--               <li><a class="text-muted" href="#">Another one</a></li> -->
-<!--               <li><a class="text-muted" href="#">Last time</a></li> -->
-<!--             </ul> -->
-<!--           </div> -->
-<!--           <div class="col-6 col-md"> -->
-<!--             <h5>Resources</h5> -->
-<!--             <ul class="list-unstyled text-small"> -->
-<!--               <li><a class="text-muted" href="#">Resource</a></li> -->
-<!--               <li><a class="text-muted" href="#">Resource name</a></li> -->
-<!--               <li><a class="text-muted" href="#">Another resource</a></li> -->
-<!--               <li><a class="text-muted" href="#">Final resource</a></li> -->
-<!--             </ul> -->
-<!--           </div> -->
-<!--           <div class="col-6 col-md"> -->
-<!--             <h5>About</h5> -->
-<!--             <ul class="list-unstyled text-small"> -->
-<!--               <li><a class="text-muted" href="#">Team</a></li> -->
-<!--               <li><a class="text-muted" href="#">Locations</a></li> -->
-<!--               <li><a class="text-muted" href="#">Privacy</a></li> -->
-<!--               <li><a class="text-muted" href="#">Terms</a></li> -->
-<!--             </ul> -->
-<!--           </div> -->
-<!--         </div> -->
+      
+      
+      
+      
+      
+      <div class="card-deck mb-3 text-center">
+        <div class="card mb-4 box-shadow">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal"> <small style="color: grey; font-size: 0.8em;"></small></h4>
+          </div>
+          <div class="card-body">
+<!--             <h5 class="card-title pricing-card-title">$58 <small class="text-muted">\день</small></h5> -->
+            <ul class="list-unstyled mt-3 mb-4">
+                 <li>
+               
+</li> 
+            </ul>
+<!--             <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button> -->
+          </div>
+        </div>
+        <div class="card mb-4 box-shadow">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">Погода <small style="color: grey; font-size: 0.8em;"></small></h4>
+          </div>
+          <div class="card-body">
+<!--             <h5 class="card-title pricing-card-title">$42 <small class="text-muted">\день</small></h5> -->
+            <ul class="list-unstyled mt-3 mb-4">
+<!--               <li>Категория проката: MH (PCAR)</li> -->
+<!--               <li>Безлимитный километраж при заказе 3-29 дней</li> -->
+<!-- <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/135.png" alt="Прокат аренда авто Hyundai Sonata в Израиле. Прокат аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски" /> </li> -->
+<li>
+               <!-- Gismeteo informer START -->
+<link rel="stylesheet" type="text/css" href="https://nst1.gismeteo.ru/assets/flat-ui/legacy/css/informer.min.css">
+    <div id="gsInformerID-ng7b83iKUww6gF" class="gsInformer" style="width:240px;height:225px">
+        <div class="gsIContent">
+            <div id="cityLink">
+                                    <a href="https://www.gismeteo.ru/weather-tel-aviv-5403/" target="_blank">Погода в Тель-Авиве</a>
+            </div>
+            <div class="gsLinks">
+                <table>
+                    <tr>
+                        <td>
+                            <div class="leftCol">
+                                <a href="https://www.gismeteo.ru/" target="_blank">
+                                    <img alt="Gismeteo" title="Gismeteo" src="https://nst1.gismeteo.ru/assets/flat-ui/img/logo-mini2.png" align="middle" border="0" />
+                                    <span>Gismeteo</span>
+                                </a>
+                            </div>
+                            <div class="rightCol">
+                                <a href="https://www.gismeteo.ru/weather-tel-aviv-5403/2-weeks/" target="_blank">Прогноз на 2 недели</a>
+                            </div>
+                        </td>
+                        </tr>
+                                    </table>
+            </div>
+        </div>
+    </div>
+<script async src="https://www.gismeteo.ru/api/informer/getinformer/?hash=ng7b83iKUww6gF" type="text/javascript"></script>
+<!-- Gismeteo informer END -->
+                
+</li> 
+            </ul>
+<!--             <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button> -->
+          </div>
+        </div>
+        <div class="card mb-4 box-shadow">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">Конвертер<small style="color: grey; font-size: 0.8em;"></small></h4>
+          </div>
+          <div class="card-body">
+<!--             <h5 class="card-title pricing-card-title">$31 <small class="text-muted">\день</small></h5> -->
+            <ul class="list-unstyled mt-3 mb-4">
+<!--               <li>Категория проката: M (PDAR)</li> -->
+<!--               <li>Безлимитный километраж при заказе 3-29 дней</li> -->
+<!-- <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/130t.jpg" alt="Прокат аренда авто Mazda 6 в Израиле. Прокат аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски" /> </li> -->
+<li>
+               <script type="text/javascript" src="http://w.fxexchangerate.com/converter.php?fm=RUB&ft=ILS&lg=ru&am=1&ty=1"></script>
+</li> 
+            </ul>
+<!--             <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button> -->
+          </div>          
+        </div>        
+      </div>
+
+      
+      
+        
+
+
+
 
 <h2 style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Отделения проката аренды автомобилей в Израиле</h2>
 
@@ -639,14 +692,54 @@
     <br>* Минимальный возраст водителя 21 год. Водитель 21-23 года - дополнительная оплата "молодой водитель"
     <br>* Модели автомобилей представлены исключительно для примера и при выдаче компания имеет право предоставить автомобиль того же класса, но другой марки.
 
+<h2 style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Новости мира автомобилей</h2>
+      <hr />
+      <?php include("auto_feed_ru.php"); ?>
+
+
+<footer class="pt-4 my-md-5 pt-md-5 border-top">
+<div class="row">
+          <div class="col-12 col-md">
+            <img class="mb-2" src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width="24" height="24">
+            <small class="d-block mb-3 text-muted">&copy; Vastama Ltd, 2014-2018</small>
+          </div>
+          <div class="col-6 col-md">
+<!--             <h5>Features</h5> -->
+            <ul class="list-unstyled text-small">
+<!--               <li><a class="text-muted" href="#">Cool stuff</a></li> -->
+<!--               <li><a class="text-muted" href="#">Random feature</a></li> -->
+<!--               <li><a class="text-muted" href="#">Team feature</a></li> -->
+<!--               <li><a class="text-muted" href="#">Stuff for developers</a></li> -->
+<!--               <li><a class="text-muted" href="#">Another one</a></li> -->
+<!--               <li><a class="text-muted" href="#">Last time</a></li> -->
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+<!--             <h5>Resources</h5> -->
+            <ul class="list-unstyled text-small">
+<!--               <li><a class="text-muted" href="#">Resource</a></li> -->
+<!--               <li><a class="text-muted" href="#">Resource name</a></li> -->
+<!--               <li><a class="text-muted" href="#">Another resource</a></li> -->
+<!--               <li><a class="text-muted" href="#">Final resource</a></li> -->
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+<!--             <h5>About</h5> -->
+            <ul class="list-unstyled text-small">
+<!--               <li><a class="text-muted" href="#">Team</a></li> -->
+<!--               <li><a class="text-muted" href="#">Locations</a></li> -->
+<!--               <li><a class="text-muted" href="#">Privacy</a></li> -->
+<!--               <li><a class="text-muted" href="#">Terms</a></li> -->
+            </ul>
+          </div>
+        </div>
+
 
       </footer>
       
         
         
-      <h2 style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Новости мира автомобилей</h2>
-      <hr />
-      <?php include("auto_feed_ru.php"); ?>
+      
     </div>
     
     
