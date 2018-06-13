@@ -19,8 +19,9 @@ for ($x = 0; $x < $limit; $x ++) {
     $description = $feed[$x]['desc'];
     $date = date('l F d, Y', strtotime($feed[$x]['date']));
     
-    echo '<p><strong><a href="' . $link . ' " title="' . $title . '" target="_blank">' . $title . '</a></strong><br />';
+    // echo '<p><strong><a href="' . $link . ' " title="' . $title . '" target="_blank">' . $title . '</a></strong><br />';
     // echo '<small><em>Posted on '.$date.'</em></small></p>';
+    echo '<p><strong>' . $title . '</strong> <a href="' . $link . ' " title="' . "Новости мира автомобилей на портале TheAuto.info" . '" target="_blank">' . "полная статья" . '</a> <br /> ';
     echo '' . $description . '';
 }
 ?>
