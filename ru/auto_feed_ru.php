@@ -21,8 +21,10 @@ for ($x = 0; $x < $limit; $x ++) {
     $date = date('l F d, Y', strtotime($feed[$x]['date']));
     
     $myfile = fopen("news/$title.html", "w") or die("Unable to open file!"); 
+    $header = '<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"></head><body>';
+    fwrite($myfile, $header);
     $txt = '<p><strong>' . $title . '</strong> <a rel="nofollow" href="' . $link . ' " 
-        title="' . "Новости мира автомобилей на портале TheAuto.info" . '" target="_blank">' . "полная статья" . '</a> <br />' . $description . '';
+        title="' . "Новости мира автомобилей на портале TheAuto.info" . '" target="_blank">' . "полная статья" . '</a> <br />' . $description . '</body></html>';
     fwrite($myfile, $txt);    
     fclose($myfile);
     include("news/$title.html");
