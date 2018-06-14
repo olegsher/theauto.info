@@ -25,4 +25,9 @@ for ($x = 0; $x < $limit; $x ++) {
     echo '' . $description . '';
 }
 
+$file = 'news/abc.html';
+$current .= "John Smith\n";
+// Write the contents back to the file
+file_put_contents($file, $current);
+
 ?>
