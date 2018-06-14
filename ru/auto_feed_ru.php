@@ -22,8 +22,16 @@ for ($x = 0; $x < $limit; $x ++) {
     
     echo '<p><strong>' . $title . '</strong> <a rel="nofollow" href="' . $link . ' "title="' . "Новости мира автомобилей на портале TheAuto.info" . '" target="_blank">' . "полная статья" . '</a> <br />';
     echo $description;
+    
+    $file_x = "news/$title.html";
+    
+    if (file_exists($file_x)) {
+        // echo "The file $file_x exists";
+    } else {
+        $myfile = fopen($file_x, "w") or die("Unable to open file!");
+    // };
 
-    $myfile = fopen("news/$title.html", "w") or die("Unable to open file!"); 
+    // $myfile = fopen("news/$title.html", "w") or die("Unable to open file!"); 
     $header = '<!doctype html>
 <html lang="ru">
 <head>
@@ -73,7 +81,7 @@ for ($x = 0; $x < $limit; $x ++) {
         title="' . "Новости мира автомобилей на портале TheAuto.info" . '" target="_blank">' . "полная статья" . '</a> <br />' . $description . '</div></body></html>';
     fwrite($myfile, $txt);    
     fclose($myfile);
-    // include("news/$title.html");
+    };
     
 }
 
