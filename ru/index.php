@@ -25,7 +25,7 @@
          <a class="p-2 text-dark" href="#leaders">Лидеры продаж</a> 
          <a class="p-2 text-dark" href="#premium">Премиум</a> 
          <a class="p-2 text-dark" href="#people_carriers">Минивены</a> 
-         <a class="p-2 text-dark" href="#standard">Стандартные</a> 
+         <a class="p-2 text-dark" href="list.php">Новости</a> 
        </nav> 
        <a class="btn btn-outline-primary" href="/">English</a> 
      </div> 

@@ -5,6 +5,8 @@ $a = scandir($dir);
 echo '<!doctype html>
 <html lang="ru">
 <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="yandex-verification" content="f11475564b48ca1f" />
 <meta name=\'wmail-verification\' content=\'a9138f370e313f0907f0d27ff4975904\' />
 <meta name="msvalidate.01" content="DFFC9D141B04223AD2603B9AD5606773" />
