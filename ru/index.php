@@ -617,9 +617,9 @@
 <!--               <li>Безлимитный километраж при заказе 3-29 дней</li> -->
 <!-- <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/135.png" alt="Прокат аренда авто Hyundai Sonata в Израиле. Прокат аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски" /> </li> -->
 <li>
-               <!-- Gismeteo informer START -->
+<!-- Gismeteo informer START -->
 <link rel="stylesheet" type="text/css" href="https://nst1.gismeteo.ru/assets/flat-ui/legacy/css/informer.min.css">
-    <div id="gsInformerID-ng7b83iKUww6gF" class="gsInformer" style="width:240px;height:225px">
+    <div id="gsInformerID-85CG3PLfY1RCH7" class="gsInformer" style="width:240px;height:225px">
         <div class="gsIContent">
             <div id="cityLink">
                                     <a href="https://www.gismeteo.ru/weather-tel-aviv-5403/" target="_blank">Погода в Тель-Авиве</a>
@@ -643,7 +643,7 @@
             </div>
         </div>
     </div>
-<script async src="https://www.gismeteo.ru/api/informer/getinformer/?hash=ng7b83iKUww6gF" type="text/javascript"></script>
+<script async src="https://www.gismeteo.ru/api/informer/getinformer/?hash=85CG3PLfY1RCH7" type="text/javascript"></script>
 <!-- Gismeteo informer END -->
                 
 </li> 
