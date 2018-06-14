@@ -12,22 +12,21 @@ foreach ($rss->getElementsByTagName('item') as $node) {
     );
     array_push($feed, $item);
 }
-$limit = 5;
+$limit = 10;
+
 for ($x = 0; $x < $limit; $x ++) {
     $title = str_replace(' & ', ' &amp; ', $feed[$x]['title']);
     $link = $feed[$x]['link'];
     $description = $feed[$x]['desc'];
     $date = date('l F d, Y', strtotime($feed[$x]['date']));
     
-    // echo '<p><strong><a href="' . $link . ' " title="' . $title . '" target="_blank">' . $title . '</a></strong><br />';
-    // echo '<small><em>Posted on '.$date.'</em></small></p>';
-    echo '<p><strong>' . $title . '</strong> <a rel="nofollow" href="' . $link . ' " title="' . "Новости мира автомобилей на портале TheAuto.info" . '" target="_blank">' . "полная статья" . '</a> <br /> ';
-    echo '' . $description . '';
+    $myfile = fopen("news/$title.html", "w") or die("Unable to open file!"); 
+    $txt = '<p><strong>' . $title . '</strong> <a rel="nofollow" href="' . $link . ' " 
+        title="' . "Новости мира автомобилей на портале TheAuto.info" . '" target="_blank">' . "полная статья" . '</a> <br />' . $description . '';
+    fwrite($myfile, $txt);    
+    fclose($myfile);
+    include("news/$title.html");
+    
 }
-
-$file = 'news/abc.html';
-$current .= "John Smith\n";
-// Write the contents back to the file
-file_put_contents($file, $current);
 
 ?>
