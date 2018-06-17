@@ -51,10 +51,10 @@ foreach($a as $key => $value)
 //     echo '<br>' . $value;
 $path = 'news/' . $value;
     
- //   echo ' <a href="' . $path . ' "title="' . 
- //   "Новости мира автомобилей на портале TheAuto.info" . '" >' . $value . '</a> <br />';
+    echo ' <a href="' . $path . ' "title="' . 
+    "Новости мира автомобилей на портале TheAuto.info" . '" >' . $value . '</a> <br />';
     // rsort($value);
-    print_r(array_reverse($a));
+    // print_r(array_reverse($a));
     
 }
 echo '</div></body></html>';
