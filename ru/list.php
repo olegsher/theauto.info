@@ -56,5 +56,5 @@ $path = 'news/' . $value;
     
 }
 echo '</div></body></html>';
-// print_r($b);
+print_r($b);
 ?>
