@@ -61,7 +61,7 @@
 *************************************************************/
 
     // Set the output file name.
-    define ("OUTPUT_FILE", "sitemap.xml1");
+    define ("OUTPUT_FILE", "sitemap.xml");
     
 
     // Set the start URL. Example: define ("SITE", "https://www.example.com");
@@ -71,7 +71,7 @@
     // Set true or false to define how the script is used.
     // true:  As CLI script.
     // false: As Website script.
-    define ("CLI", true);
+    define ("CLI", false);
 
 
     // Define here the URLs to skip. All URLs that start with the defined URL 
@@ -81,11 +81,13 @@
     $skip_url = array (
                        SITE . "/print",
                        SITE . "/slide",
+                       SITE . "/js",
+                       SITE . "/css",
                       );
     
 
     // General information for search engines how often they should crawl the page.
-    define ("FREQUENCY", "weekly");
+    define ("FREQUENCY", "hourly");
     
 
     // General information for search engines. You have to modify the code to set
