@@ -61,7 +61,7 @@
 *************************************************************/
 
     // Set the output file name.
-    define ("OUTPUT_FILE", "sitemap.xml");
+    define ("OUTPUT_FILE", "ru/news/sitemap.xml");
     
 
     // Set the start URL. Example: define ("SITE", "https://www.example.com");
