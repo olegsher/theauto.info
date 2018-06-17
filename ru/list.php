@@ -53,9 +53,10 @@ $path = 'news/' . $value;
     
     echo ' <a href="' . $path . ' "title="' . 
     "Новости мира автомобилей на портале TheAuto.info" . '" >' . $value . '</a> <br />';
+    print_r($value);
     
 }
 echo '</div></body></html>';
 
-print_r($value);
+
 ?>
