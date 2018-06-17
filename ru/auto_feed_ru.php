@@ -24,7 +24,7 @@ for ($x = 0; $x < $limit; $x ++) {
     echo $date1 . '<br><p><strong>' . $title . '</strong> <a rel="nofollow" href="' . $link . ' "title="' . "Новости мира автомобилей на портале TheAuto.info" . '" target="_blank">' . "полная статья" . '</a> <br />';
     echo $description;
     
-    $file_x = "news/$date1-$title.html";
+    $file_x = "news/$date1 $title.html";
     
     if (file_exists($file_x)) {
         // echo "The file $file_x exists";
