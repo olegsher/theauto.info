@@ -37,6 +37,9 @@ for ($x = 0; $x < $limit; $x ++) {
     $header = '<!doctype html>
 <html lang="ru">
 <head>
+<title>'$title' - Прокат аренда авто в Израиле +972-58-7710101</title>
+<meta name="description" content="Прокат аренда авто в Израиле. Отделения проката в Бен Гурион, Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот и др. Без предоплаты. Говорим по русски">
+
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="yandex-verification" content="f11475564b48ca1f" />
