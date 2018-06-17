@@ -20,11 +20,12 @@ for ($x = 0; $x < $limit; $x ++) {
     $description = $feed[$x]['desc'];
     $date = date('l F d, Y', strtotime($feed[$x]['date']));
     $date1= date('Y-F-d', strtotime($feed[$x]['date']));
-    
-    echo $date1 . '<br><strong>' . $title . '</strong> <a rel="nofollow" href="' . $link . ' "title="' . "Новости мира автомобилей на портале TheAuto.info" . '" target="_blank">' . "полная статья" . '</a> <br />';
-    echo $description . '<br>';
-    
     $file_x = "news/$date1 $title.html";
+    
+    echo $date1 . ' <strong>' . $title . '</strong><br>';
+    echo $description . ' <a rel="nofollow" href="' . $file_x . ' "title="' . "Новости мира автомобилей на портале TheAuto.info" .' " target="_self">' . "читать далее" . '</a> <br />';
+    
+    // $file_x = "news/$date1 $title.html";
     
     if (file_exists($file_x)) {
         // echo "The file $file_x exists";
