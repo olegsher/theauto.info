@@ -23,7 +23,7 @@ for ($x = 0; $x < $limit; $x ++) {
     $file_x = "news/$date1 $title.html";
     
     echo $date1 . ' <strong>' . $title . '</strong><br>';
-    echo $description . ' <a rel="nofollow" href="' . $file_x . ' "title="' . "Новости мира автомобилей на портале TheAuto.info" .' " target="_self">' . "читать далее" . '</a> <br />';
+    echo $description . ' <a href="' . $file_x . ' "title="' . "'$title' . - Новости мира автомобилей на портале TheAuto.info" .' " target="_self">' . "читать далее" . '</a> <br />';
     
     // $file_x = "news/$date1 $title.html";
     
