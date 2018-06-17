@@ -61,11 +61,11 @@
 *************************************************************/
 
     // Set the output file name.
-    define ("OUTPUT_FILE", "sitemap.xml");
+    define ("OUTPUT_FILE", "sitemap.xml1");
     
 
     // Set the start URL. Example: define ("SITE", "https://www.example.com");
-    define ("SITE", "");
+    define ("SITE", "http://www.theauto.info");
 
 
     // Set true or false to define how the script is used.
