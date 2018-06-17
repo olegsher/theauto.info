@@ -71,7 +71,7 @@
     // Set true or false to define how the script is used.
     // true:  As CLI script.
     // false: As Website script.
-    define ("CLI", false);
+    define ("CLI", true);
 
 
     // Define here the URLs to skip. All URLs that start with the defined URL 
@@ -93,7 +93,7 @@
     // General information for search engines. You have to modify the code to set
     // various priority values for different pages. Currently, the default behavior
     // is that all pages have the same priority.
-    define ("PRIORITY", "0.5");
+    define ("PRIORITY", "0.8");
 
 
     // When your web server does not send the Content-Type header, then set
