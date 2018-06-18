@@ -139,6 +139,104 @@ _tmr.push({id: "3032803", type: "pageView", start: (new Date()).getTime()});
 } </script>
 ';
     
+    
+    $leaders = '
+<div class="container">
+    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+      <h3 class="lead">Аренда авто без предоплаты | Бесплатная консультация и помощь по бронированию автомобиля в Израиле на русском языке | Безлимитный километраж при заказе 3-29 дней</h3>
+      <p class="lead">Напишите нам на <a style="font-family: Times, serif; color:red">WhatsApp/Viber +972-58-771-0101</a> и наш менеджер вернется к вам с лучшим предложением</p>
+    </div>
+
+<div class="card-deck mb-3 text-center">
+        <div class="card mb-4 box-shadow">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">Hyundai Tucson <small style="color: grey; font-size: 0.8em;">или подобные</small> (Авт. 5 мест)</h4>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title pricing-card-title">$42 <small class="text-muted">\день</small></h5>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Категория проката: J (SFBR)</li>
+              <li>Безлимитный километраж при заказе 3-29 дней</li>
+              <li><img class="img-responsive" src="../../img/hyundai_tucson.jpg" alt="Прокат аренда авто Hyundai Tucson в Израиле. Прокат аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски" width="200"/> </li>
+                <li>
+               <form action="../mail_send.php" method="post">
+                    <div class="form-inline">
+                     <div class="col-auto">
+                     <input type="text" class="form-control"  required name="name" placeholder="ваше имя">
+                     </div>
+                     <div class="col-auto">
+                     <input type="tel" class="form-control"  required name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
+                     </div>               
+                     <input type="hidden" name="car-select" value="Категория проката: J (SFBR), Hyundai Tucson или подобные">
+                    </div>
+                    <input type="submit" name="submit" value="Отправить">
+                </form>
+</li> 
+            </ul>
+<!--             <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button> -->
+          </div>
+        </div>
+        <div class="card mb-4 box-shadow">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">VW Golf <small style="color: grey; font-size: 0.8em;">или подобные</small></h4>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title pricing-card-title">$18 <small class="text-muted">\день</small></h5>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Категория проката: I (SCAR)</li>
+              <li>Безлимитный километраж при заказе 3-29 дней</li>
+<li><img class="img-responsive" src="../../img/VW-golf.jpg" alt="Прокат аренда авто VW Golf в Израиле. Прокат аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски" width="200"/> </li>
+<li>
+               <form action="../mail_send.php" method="post">
+                    <div class="form-inline">
+                     <div class="col-auto">
+                     <input type="text" class="form-control"  required name="name" placeholder="ваше имя">
+                     </div>
+                     <div class="col-auto">
+                     <input type="tel" class="form-control"  required name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
+                     </div>               
+                     <input type="hidden" name="car-select" value="Категория проката: I (SCAR), VW Golf или подобные">
+                    </div>
+                    <input type="submit" name="submit" value="Отправить">
+                </form>
+</li> 
+            </ul>
+<!--             <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button> -->
+          </div>
+        </div>
+        <div class="card mb-4 box-shadow">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">VW Jetta <small style="color: grey; font-size: 0.8em;">или подобные</small></h4>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title pricing-card-title">$24 <small class="text-muted">\день</small></h5>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Категория проката: H (SDAR)</li>
+              <li>Безлимитный километраж при заказе 3-29 дней</li>
+<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/80t.jpg" alt="Прокат аренда авто VW Jetta в Израиле. Прокат аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски" /> </li>
+<li>
+               <form action="../mail_send.php" method="post">
+                    <div class="form-inline">
+                     <div class="col-auto">
+                     <input type="text" class="form-control"  required name="name" placeholder="ваше имя">
+                     </div>
+                     <div class="col-auto">
+                     <input type="tel" class="form-control"  required name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
+                     </div>               
+                     <input type="hidden" name="car-select" value="Категория проката: H (SDAR), VW Jetta или подобные">
+                    </div>
+                    <input type="submit" name="submit" value="Отправить">
+                </form>
+</li> 
+            </ul>
+<!--             <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button> -->
+          </div>          
+        </div>        
+      </div>
+
+</div>
+';
+    
 
     $body = '    
     <div class="container">
@@ -163,10 +261,13 @@ _tmr.push({id: "3032803", type: "pageView", start: (new Date()).getTime()});
     fwrite($myfile, $body);
     $txt = '<p><strong>' . $title . '</strong> <a rel="nofollow" href="' . $link . ' " 
         title="' . "Новости мира автомобилей на портале TheAuto.info" . '" target="_blank">' . "полная статья" . '</a> <br />' . $description . '</div>';
-    fwrite($myfile, $txt);
+    fwrite($myfile, "<strong>$title</strong><br>");
+    fwrite($myfile, $description);
+    fwrite($myfile, "<br><a rel=\"nofollow\" href=\"$link\" title=\"Новости мира автомобилей на портале TheAuto.info\" target=\"_blank\">полная статья на Yandex</a>");
+    fwrite($myfile, $leaders);
     
     
-    
+    fwrite($myfile,"\n<div class=\"container\">\n<small class=\"d-block mb-3 text-muted\">&copy; Vastama Ltd, 2014-2018</small>\n</div>");
     fwrite($myfile, "\n</body>\n</html>\n");
     fclose($myfile);
     };
