@@ -62,6 +62,83 @@ for ($x = 0; $x < $limit; $x ++) {
 <!-- Custom styles for this template -->
 <link href="../pricing.css" rel="stylesheet">';
     
+    
+    
+    $seo = '
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5WSN6CF"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter49050113 = new Ya.Metrika({
+                    id:49050113,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/49050113" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<!-- Rating@Mail.ru counter -->
+<script type="text/javascript">
+var _tmr = window._tmr || (window._tmr = []);
+_tmr.push({id: "3032803", type: "pageView", start: (new Date()).getTime()});
+(function (d, w, id) {
+  if (d.getElementById(id)) return;
+  var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
+  ts.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//top-fwz1.mail.ru/js/code.js";
+  var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
+  if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+})(document, window, "topmailru-code");
+</script><noscript><div>
+<img src="//top-fwz1.mail.ru/counter?id=3032803;js=na" style="border:0;position:absolute;left:-9999px;" alt="" />
+</div></noscript>
+<!-- //Rating@Mail.ru counter -->
+
+
+
+<script type="application/ld+json"> { 
+"@context" : "http://schema.org",
+"@type" : "TravelAgency", 
+"name":"Vastama Ltd",
+"url":"http://www.theAuto.info",
+"email":"admin@vastama.com",
+"telephone":"972587710101",
+"image": "http://www.theauto.info/img/car_key.jpeg",
+"openingHours": [ 
+"Su-Sa 09:00-18:00"], 
+"aggregateRating":{
+"@type":"AggregateRating",
+"ratingValue":"5",
+"reviewCount":"5"},
+"priceRange":"2",
+"paymentAccepted":"Visa, Master Card, Amex"
+} </script>
+';
+    
 
     $body = '    
     <div class="container">
@@ -79,13 +156,17 @@ for ($x = 0; $x < $limit; $x ++) {
 ';
     fwrite($myfile, "<!doctype html>\n<html lang=\"ru\">\n<head>\n");
     fwrite($myfile, "<title>$title</title>\n");
-    fwrite($myfile, "<meta name=\"description\" content=$title . \" - Прокат аренда авто в Израиле. Отделения проката в Бен Гурион, Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот и др. Без предоплаты. Говорим по русски\">\n ");
+    fwrite($myfile, "<meta name=\"description\" content=\"$title - Прокат аренда авто в Израиле. Отделения проката в Бен Гурион, Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот и др. Без предоплаты. Говорим по русски\">\n ");
     fwrite($myfile, $header);
     fwrite($myfile, "\n</head>\n<body>\n");
+    fwrite($myfile, $seo);
     fwrite($myfile, $body);
     $txt = '<p><strong>' . $title . '</strong> <a rel="nofollow" href="' . $link . ' " 
         title="' . "Новости мира автомобилей на портале TheAuto.info" . '" target="_blank">' . "полная статья" . '</a> <br />' . $description . '</div>';
     fwrite($myfile, $txt);
+    
+    
+    
     fwrite($myfile, "\n</body>\n</html>\n");
     fclose($myfile);
     };
