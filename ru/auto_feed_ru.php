@@ -34,12 +34,7 @@ for ($x = 0; $x < $limit; $x ++) {
     // };
 
     // $myfile = fopen("news/$title.html", "w") or die("Unable to open file!"); 
-    $header = '<!doctype html>
-<html lang="ru">
-<head>
-<title>Прокат аренда авто в Израиле +972-58-7710101</title>
-<meta name="description" content="Прокат аренда авто в Израиле. Отделения проката в Бен Гурион, Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот и др. Без предоплаты. Говорим по русски">
-
+    $header = '
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="yandex-verification" content="f11475564b48ca1f" />
@@ -65,12 +60,13 @@ for ($x = 0; $x < $limit; $x ++) {
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css>
 <!-- Custom styles for this template -->
-<link href="../pricing.css" rel="stylesheet">
-</head>
-<body>
-<div class="container">
-<h1 class="display-4"  style="font-family: Times, serif; color:grey; text-transform: uppercase; color: white; text-shadow: 1px 1px 2px #000000; font-size: 2em;">' . $title . '</h1>
-<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow"> 
+<link href="../pricing.css" rel="stylesheet">';
+    
+
+    $body = '    
+    <div class="container">
+    <h1 class="display-4"  style="font-family: Times, serif; color:grey; text-transform: uppercase; color: white; text-shadow: 1px 1px 2px #000000; font-size: 2em;">' . $title . '</h1>
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow"> 
       <h5 class="my-0 mr-md-auto font-weight-normal">Vastama Ltd - Ваш агент в Израиле</h5> 
        <nav class="my-2 my-md-0 mr-md-3"> 
        	<a class="p-2 text-dark" href="/ru/" title="прокат аренда авто в Израиле, Аэропорт Бен Гурион Иерусалим Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот">Главная</a> 
@@ -81,10 +77,16 @@ for ($x = 0; $x < $limit; $x ++) {
        <a class="btn btn-outline-primary" href="/" title="To english site">English</a> 
      </div>
 ';
+    fwrite($myfile, "<!doctype html>\n<html lang=\"ru\">\n<head>\n");
+    fwrite($myfile, "<title>$title</title>\n");
+    fwrite($myfile, "<meta name=\"description\" content=$title . \" - Прокат аренда авто в Израиле. Отделения проката в Бен Гурион, Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот и др. Без предоплаты. Говорим по русски\">\n ");
     fwrite($myfile, $header);
+    fwrite($myfile, "\n</head>\n<body>\n");
+    fwrite($myfile, $body);
     $txt = '<p><strong>' . $title . '</strong> <a rel="nofollow" href="' . $link . ' " 
-        title="' . "Новости мира автомобилей на портале TheAuto.info" . '" target="_blank">' . "полная статья" . '</a> <br />' . $description . '</div></body></html>';
-    fwrite($myfile, $txt);    
+        title="' . "Новости мира автомобилей на портале TheAuto.info" . '" target="_blank">' . "полная статья" . '</a> <br />' . $description . '</div>';
+    fwrite($myfile, $txt);
+    fwrite($myfile, "\n</body>\n</html>\n");
     fclose($myfile);
     };
     
