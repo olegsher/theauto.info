@@ -240,6 +240,7 @@ _tmr.push({id: "3032803", type: "pageView", start: (new Date()).getTime()});
 
     $body = '    
     <div class="container">
+    <img src="../../img/car_banner.png" alt="banner"> 
     <h1 class="display-4"  style="font-family: Times, serif; color:grey; text-transform: uppercase; color: white; text-shadow: 1px 1px 2px #000000; font-size: 2em;">' . $title . '</h1>
     <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow"> 
       <h5 class="my-0 mr-md-auto font-weight-normal">Vastama Ltd - Ваш агент в Израиле</h5> 
