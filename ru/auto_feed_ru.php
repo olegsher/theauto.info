@@ -20,7 +20,8 @@ for ($x = 0; $x < $limit; $x ++) {
     $description = $feed[$x]['desc'];
     $date = date('l F d, Y', strtotime($feed[$x]['date']));
     $date1= date('Y-F-d', strtotime($feed[$x]['date']));
-    $file_x = "news/$date1 $title.html";
+    $newname = preg_replace('/\s+/', '-', $title);
+    $file_x = "news/$date1-$newname.html";
     
     echo $date1 . ' <strong>' . $title . '</strong><br>';
     echo $description . ' <a href="' . $file_x . ' "title="' . "'$title' . - Новости мира автомобилей на портале TheAuto.info" .' " target="_self">' . "читать далее" . '</a> <br />';
