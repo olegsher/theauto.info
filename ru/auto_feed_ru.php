@@ -269,8 +269,8 @@ _tmr.push({id: "3032803", type: "pageView", start: (new Date()).getTime()});
     fwrite($myfile, $leaders);
     
     
-    fwrite($myfile,"\n<div class=\"container\">\n<small class=\"d-block mb-3 text-muted\">&copy; Vastama Ltd, 2014-2018</small>\n</div>");
-    fwrite($myfile, "\n</body>\n</html>\n");
+    fwrite($myfile,"\n<small class=\"d-block mb-3 text-muted\">&copy; Vastama Ltd, 2014-2018</small>");
+    fwrite($myfile, "\n</div>\n</body>\n</html>\n");
     fclose($myfile);
     };
     
