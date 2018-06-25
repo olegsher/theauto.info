@@ -53,8 +53,11 @@ foreach($a as $key => $value)
 {
 //     echo '<br>' . $value;
 $path = 'news/' . $value;
+$newname = preg_replace('/-/', ' ', $value);
+$newname = preg_replace('/.html/', ' ', $newname);
+
     
-    echo '<a rel="nofollow" href="' . $path . '" title="' . "Новости мира автомобилей на портале TheAuto.info" . '" >' . $value . '</a><br>';
+    echo '<a rel="nofollow" href="' . $path . '" title="' . "Новости мира автомобилей на портале TheAuto.info" . '" >' . $newname . '</a><br>';
     echo "\n";
     // echo '<a rel="nofollow" href="$path" title="Новости мира автомобилей на портале TheAuto.info" > . $value . </a> <br />';
     // rsort($value);
