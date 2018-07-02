@@ -268,6 +268,10 @@ _tmr.push({id: "3032803", type: "pageView", start: (new Date()).getTime()});
     fwrite($myfile, "<br><a rel=\"nofollow\" href=\"$link\" title=\"Новости мира автомобилей на портале TheAuto.info\" target=\"_blank\">полная статья на Yandex</a>");
     fwrite($myfile, $leaders);
     
+    fwrite($myfile, "<br>
+Обязательное страхование (CDW/LDW & TP)<br>
+Данный вид страховки является обязательным и покрывают ущерб причиненный автомобилю за исключением франшизы(т.е личного участия), стоимость данной страховки зависит от категории автомобиля. 
+<a rel=\"follow\" href=\"http://www.rentalcarsisrael.com/ru/insurance.php\" title=\"Страховки аренда прокат автомобиля в Израиле rentalcarsisrael.com\" target=\"_blank\">полная статья на http://www.rentalcarsisrael.com</a>");
     
     fwrite($myfile,"\n<small class=\"d-block mb-3 text-muted\">&copy; Vastama Ltd, 2014-2018</small>");
     fwrite($myfile, "\n</div>\n</body>\n</html>\n");
