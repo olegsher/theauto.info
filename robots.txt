@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: 
+Disallow: /js/
+Disallow: /fonts/
+Disallow: /css/
+Host: www.theauto.info
+Sitemap: http://www.theauto.info/ru/news/sitemap.xml
