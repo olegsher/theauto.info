@@ -1,15 +1,3 @@
-                                                                                              ISRAEL (USD),,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,
-"Date: Dec 25, 2017",,,,,,,,,,,,,,,,,,,,,,,
-Rate Code: 1027 (EB 1023)     ,,,,,,,,,,,,,,,,,,,,,,,
-Currency: USD $,,,,,,,,,,,,,,,,,,,,,,,
-"Valid: Sep 1, 2017 - Dec 19, 2019",,,,,,,,,,,,,,,,,,,,,,,
-"Rates include the BASIC RENTAL ONLY & EXCLUDE Protection Coverage's (Monthly rentals include the Protection Coverage's CDW, TP & 3PLC).",,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,
-Vehicle Group/Type,,,,,Daily (1-2)              Incl. 250 km per day,,Daily (3-6)     Unlimited km,,Weekly      Unlimited km,,Ex. Day (8+)      Unlimited km,,Monthly (30+)       Incl. 150 km per day,,Protection Coverage's,,,Extra KM,  Super CDW,  Super CDW Monthly,  Super TP,  Super TP Monthly,Excess
 Car Group,SIPP Code,Group Seq.,Seats,Vehicle Type ,Low,High,Low,High,Low,High,Low,High,Low,High,CDW,TP,3PLC,,,,,,
 Manual Vehicles,,,,,,,,,,,,,,,,,,,,,,,
 B,MBMR,10,4, Suzuki Alto or similar,10,22,10,22,63,147,9,21,610,790,10,5,12,0.45,10,100,5,60,475
@@ -42,5 +30,4 @@ Z,LVAR,260,9, VW Transporter Aut. or similar,95,125,95,125,602,812,86,116,2120,2
 Season Periods (Defined by Pickup Date),,,,,,,,,,,,,,,,,,,,,,,
 Low Season:Apr 10 - Jul 14 2018; Aug 26 - Dec 19 2018; Jan 6 - Apr 13 2019; Apr 29 - Jul 14 2019; Aug 26 - Dec 19 2019;,,,,,,,,,,,,,,,,,,,,,,,
 High Season:  Jul 15 - Aug 25 2018; Dec 20 2018 - Jan 5 2019; Apr 14 - 28 2019; Jul 15 - Aug 25 2019;,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,
+
