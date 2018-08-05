@@ -24,7 +24,7 @@ $f = fopen("../pricelist/albar.csv", "r");
 while (($line = fgetcsv($f)) !== false) {
         echo "<tr>";
         foreach ($line as $cell) {
-                echo "<td>" . htmlspecialchars($cell) . "</td>";
+                echo "<td>" . htmlspecialchars($cell) . |</td>";
         }
         echo "</tr>\n";
 }
