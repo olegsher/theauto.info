@@ -18,6 +18,18 @@
 
 <h1 id="standard" style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Компания Vastama ltd. Прокат аренда автомобилей в Израиле</h1>
 <?php include("__about.html"); ?>
+
+$f = fopen("../pricelist/albar.csv", "r");
+while (($line = fgetcsv($f)) !== false) {
+        echo "<tr>";
+        foreach ($line as $cell) {
+                echo "<td>" . htmlspecialchars($cell) . "</td>";
+        }
+        echo "</tr>\n";
+}
+fclose($f);
+
+
 </div>
 </body>
 </html>
