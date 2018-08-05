@@ -32,7 +32,7 @@ while (($line = fgetcsv($f)) !== false) {
 fclose($f);
 ?>
 </table>
-</div>>
+</div>
 
 </div>
 </body>

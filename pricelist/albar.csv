@@ -27,7 +27,7 @@ V8,FVAR,225,8, Kia Carnival Aut. or similar,83,113,83,113,525,735,75,105,1870,21
 Y,FVMR,250,9, Renault Traffic Man. or similar,55,85,55,85,343,553,49,79,1600,1900,35,10,40,0.75,15,210,10,90,960
 Z,LVAR,260,9, VW Transporter Aut. or similar,95,125,95,125,602,812,86,116,2120,2420,35,10,40,0.75,15,210,10,90,960
 
-Season Periods (Defined by Pickup Date),,,,,,,,,,,,,,,,,,,,,,,
+Season Periods (Defined by Pickup Date)
 Low Season:Apr 10 - Jul 14 2018; Aug 26 - Dec 19 2018; Jan 6 - Apr 13 2019; Apr 29 - Jul 14 2019; Aug 26 - Dec 19 2019;
 High Season:  Jul 15 - Aug 25 2018; Dec 20 2018 - Jan 5 2019; Apr 14 - 28 2019; Jul 15 - Aug 25 2019;
 
