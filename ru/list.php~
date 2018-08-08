@@ -46,7 +46,7 @@ echo '<!doctype html>
          <a class="p-2 text-dark" href="RentalConditions.php" title="Условия проката аренды автомобилей в Израиле, Аэропорт Бен Гурион Иерусалим Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот">Условия аренды</a>
           
        </nav> 
-       <a class="btn btn-outline-primary" href="http://www.theauto.info/" title="To English site">English</a> 
+       <a class="btn btn-outline-primary" href="http://www.theauto.info/" title="To english site">English</a> 
      </div>
 ';
 foreach($a as $key => $value)
