@@ -224,7 +224,8 @@
           </div>          
         </div>        
       </div>
-      
+      <hr>
+      <img src="https://rent.albar.co.il/CarImages/Rent/CarCategories/230t.jpg" alt="Прокат аренда авто в Израиле - Премиум класс">
    <h2 id="premium" style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Прокат аренда авто в Израиле - Премиум класс</h2>   
       
             <div class="card-deck mb-3 text-center">

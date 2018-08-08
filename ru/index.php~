@@ -224,7 +224,8 @@
           </div>          
         </div>        
       </div>
-      
+      <hr>
+      <img src="../img/europcar_premium.png" alt="Прокат аренда авто в Израиле - Премиум класс">
    <h2 id="premium" style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Прокат аренда авто в Израиле - Премиум класс</h2>   
       
             <div class="card-deck mb-3 text-center">
@@ -313,7 +314,7 @@
           </div>          
         </div>        
       </div>
-      
+      <hr>
       <img src="../img/europcar_Z.jpg" alt="Прокат аренда авто в Израиле - Минивены">
       <h2 id="people_carriers" style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Прокат аренда авто в Израиле - Минивены</h2>
         
