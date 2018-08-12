@@ -695,8 +695,8 @@
     <br>* Минимальный возраст водителя 21 год. Водитель 21-23 года - дополнительная оплата "молодой водитель"
     <br>* Модели автомобилей представлены исключительно для примера и при выдаче компания имеет право предоставить автомобиль того же класса, но другой марки.
 
-<h2 style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Новости мира автомобилей</h2> 
-   <hr />  
+<!--<h2 style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Новости мира автомобилей</h2> 
+    <hr />   -->
 <!--   //      <?php include("auto_feed_ru.php"); ?>  -->
 
 
