@@ -676,7 +676,54 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         text: 'Thumbnail'
       });
     </script>
+    <div class="container">
+    <?php 
+    $row = 1;
+    if (($handle = fopen("albar_25.12.2017.csv", "r")) !== FALSE) {
+        
+        //echo '<table  border="1">';
+        echo '<div class="table-responsive">      
+                <table class="table">';
+        while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
+            $num = count($data);
+            if ($row == 12) {
+                echo '<thead><tr>';
+            }else{
+                echo '<tr>';
+            }
+            
+//             for ($c=0; $c < $num; $c++) {
+            $low_s = array("0", "3", "4", "5","6","7","8","9","10");
+            
+            foreach ($low_s as $c) {
+                //echo $data[$c] . "<br />\n";
+                if(empty($data[$c])) {
+                    $value = "&nbsp;";
+                }else{
+                    $value = $data[$c];
+                }
+                if ($row == 12) {
+                    echo '<th>'.$value.'</th>';
+                }else{
+                    echo '<td>'.$value.'</td>';
+                }
+            }
+            
+            if ($row == 12) {
+                echo '</tr></thead><tbody>';
+            }else{
+                echo '</tr>';
+            }
+            $row++;
+        }
+        
+        echo '</tbody></table></div>';
+        fclose($handle);
+    }
     
+    
+    ?>
+    </div>
     
   </body>
 </html>
