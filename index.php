@@ -35,6 +35,7 @@
 <!-- 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 <!-- Custom styles for this template -->
 <link href="pricing.css" rel="stylesheet">
+ <link href="css/styles-red.css" rel="stylesheet">
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -677,53 +678,78 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       });
     </script>
     <div class="container">
+    
+    <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Cat</th>
+<!--         <th>S</th> -->
+        <th>Car</th>
+        <th>Daily<br>(1-2)</th>
+        <th>Daily<br>(3-6)</th>
+        <th>Weekly</th>
+        <th>Ex.Day<br>(8+)</th>
+        <th>Monthly<br>(30+)</th>
+        <th>CDW</th>
+        <th>TP</th>
+        <th>3PLC</th>
+        <th>Excess</th>
+        <th>Extra<br>KM</th>
+      </tr>
+    </thead>
+    <tbody>
     <?php 
-    $row = 1;
+    $row = 25;
     if (($handle = fopen("albar_25.12.2017.csv", "r")) !== FALSE) {
         
-        //echo '<table  border="1">';
-        echo '<div class="table-responsive">      
-                <table class="table">';
+        
         while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
             $num = count($data);
-            if ($row == 12) {
-                echo '<thead><tr>';
-            }else{
-                echo '<tr>';
-            }
+                       
             
-//             for ($c=0; $c < $num; $c++) {
-            $low_s = array("0", "3", "4", "5","6","7","8","9","10");
+            $low_s = array(0);
             
             foreach ($low_s as $c) {
                 //echo $data[$c] . "<br />\n";
-                if(empty($data[$c])) {
-                    $value = "&nbsp;";
-                }else{
-                    $value = $data[$c];
-                }
-                if ($row == 12) {
-                    echo '<th>'.$value.'</th>';
-                }else{
-                    echo '<td>'.$value.'</td>';
-                }
-            }
-            
-            if ($row == 12) {
-                echo '</tr></thead><tbody>';
-            }else{
-                echo '</tr>';
-            }
-            $row++;
-        }
-        
-        echo '</tbody></table></div>';
+//                 if(empty($data[$c])) {
+//                     $value = "&nbsp;";
+//                 }else{
+//                     $value = $data[$c];
+
+                echo '<tr>
+                <td>'. $data[0]. '<br>'. $data[1]. '</td>
+                <td><strong>'. $data[4].'</strong><br>Seats '. $data[3]. '</td>
+                <td>'. $data[5]. '</td>
+                <td>'. $data[7]. '</td>
+                <td>'. $data[9]. '</td>
+                <td>'. $data[11]. '</td>
+                <td>'. $data[13]. '</td>
+                <td>'. $data[15]. '</td>
+                <td>'. $data[16]. '</td>
+                <td>'. $data[17]. '</td>
+                <td>'. $data[23]. '</td>
+                <td>'. $data[18]. '</td>
+                </tr>';
+           }
+           $row++;
+        }   
         fclose($handle);
     }
-    
-    
     ?>
-    </div>
+        </tbody>
+  </table>
+<br>Low Season: Apr 10 - Jul 14 2018; Aug 26 - Dec 19 2018; Jan 6 - Apr 13 2019; Apr 29 - Jul 14 2019; Aug 26 - Dec 19 2019;
+<br>Daily(1-2) rental -  Include 250 km per day
+<br>Daily (3-6) and weekly - Unlimited km 
+<br>Monthly (30+) -  Include 150 km per day  
+<br>Currency: USD $
+<br>Valid: Till Dec 19, 2019
+<br>Rates include the BASIC RENTAL ONLY & EXCLUDE Protection Coverage's (Monthly rentals include the Protection Coverage's CDW, TP & 3PLC).
+</div>  
+  
+  
+
+  
     
   </body>
 </html>

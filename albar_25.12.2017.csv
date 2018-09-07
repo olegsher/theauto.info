@@ -1,19 +1,4 @@
-"                                                                                              ISRAEL (USD)",,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,
-"Date: Dec 25, 2017",,,,,,,,,,,,,,,,,,,,,,,
-"Rate Code: 1027 (EB 1023)     ",,,,,,,,,,,,,,,,,,,,,,,
-"Currency: USD $",,,,,,,,,,,,,,,,,,,,,,,
-"Valid: Sep 1, 2017 - Dec 19, 2019",,,,,,,,,,,,,,,,,,,,,,,
-"Rates include the BASIC RENTAL ONLY & EXCLUDE Protection Coverage's (Monthly rentals include the Protection Coverage's CDW, TP & 3PLC).",,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,
-"Vehicle Group/Type",,,,,"Daily (1-2)              Incl. 250 km per day",,"Daily (3-6)     Unlimited km",,"Weekly      Unlimited km",,"Ex. Day (8+)      Unlimited km",,"Monthly (30+)       Incl. 150 km per day",,"Protection Coverage's",,,"Extra KM","  Super CDW","  Super CDW Monthly","  Super TP","  Super TP Monthly",Excess
-"Car Group","SIPP Code","Group Seq.",Seats,"Vehicle Type ",Low,High,Low,High,Low,High,Low,High,Low,High,CDW,TP,3PLC,,,,,,
-"Manual Vehicles",,,,,,,,,,,,,,,,,,,,,,,
 B,MBMR,10,4," Suzuki Alto or similar",10,22,10,22,63,147,9,21,610,790,10,5,12,0.45,10,100,5,60,475
-"Automatic Vehicles",,,,,,,,,,,,,,,,,,,,,,,
 Q,EBAR,15,4," Fiat 500 or similar (2 Doors)",10,22,10,22,63,147,9,21,610,790,10,5,12,0.45,10,100,5,60,475
 C,EDAR,30,4," Kia Picanto or similar",11,23,11,23,70,154,10,22,620,800,10,5,12,0.45,10,100,5,60,475
 D,CBAR,20,4," Hyundai i20 or similar",12,24,12,24,77,161,11,23,630,810,10,5,12,0.45,10,100,5,60,475
@@ -28,7 +13,6 @@ K,UDAR,110,5," BMW 318i or similar",72,87,72,87,455,560,65,80,1590,1770,14,5,15,
 R,FCAR,180,5," VW Passat  or similar",58,73,58,73,364,469,52,67,1640,1820,14,5,15,0.75,15,210,10,90,960
 P,LDAR,160,5," Nissan Maxima or similar",79,109,79,109,497,707,71,101,2170,2410,35,10,40,0.75,15,210,10,90,960
 W,LCBR,230,5," Audi A6 or similar",122,152,122,152,770,980,110,140,2690,2930,35,10,40,0.75,15,210,10,90,960
-"Special Vehicles",,,,,,,,,,,,,,,,,,,,,,,
 FX,DBAR,65,5," Renault Megane Coupe (2 Doors) or similar",17,29,17,29,105,189,15,27,760,940,11,5,12,0.5,10,100,5,60,475
 T,CPMR,200,5," VW Caddy Man. or similar",39,69,39,69,245,455,35,65,1050,1290,15,10,20,0.75,10,100,5,60,475
 J,SFBR,100,5," Hyundai Tucson Aut. or similar",42,72,42,72,266,476,38,68,1240,1480,15,10,20,0.75,10,150,7,70,715
@@ -38,7 +22,3 @@ V,SVAR,220,7," Mitsubishi Outlander Aut. or similar",58,88,58,88,364,574,52,82,1
 V8,FVAR,225,8," Kia Carnival Aut. or similar",83,113,83,113,525,735,75,105,1870,2170,35,10,40,0.75,15,210,10,90,960
 Y,FVMR,250,9," Renault Traffic Man. or similar",55,85,55,85,343,553,49,79,1600,1900,35,10,40,0.75,15,210,10,90,960
 Z,LVAR,260,9," VW Transporter Aut. or similar",95,125,95,125,602,812,86,116,2120,2420,35,10,40,0.75,15,210,10,90,960
-,,,,,,,,,,,,,,,,,,,,,,,
-"Season Periods (Defined by Pickup Date)",,,,,,,,,,,,,,,,,,,,,,,
-"Low Season:Apr 10 - Jul 14 2018; Aug 26 - Dec 19 2018; Jan 6 - Apr 13 2019; Apr 29 - Jul 14 2019; Aug 26 - Dec 19 2019;",,,,,,,,,,,,,,,,,,,,,,,
-"High Season:  Jul 15 - Aug 25 2018; Dec 20 2018 - Jan 5 2019; Apr 14 - 28 2019; Jul 15 - Aug 25 2019;",,,,,,,,,,,,,,,,,,,,,,,
