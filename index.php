@@ -87,19 +87,89 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <ul class="carousel-indicators">
     <li data-target="#demo" data-slide-to="0" class="active"></li>
     <li data-target="#demo" data-slide-to="1"></li>
-    <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#demo" data-slide-to="2"></li> 
+    <li data-target="#demo" data-slide-to="3"></li>
   </ul>
   
   <!-- The slideshow -->
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="img-fluid" src="img/slider/slider1.jpg" >
+      <img class="img-fluid" src="img/slider/seat_leon_sw.png" >
+       <div class="carousel-caption d-none d-md-block">
+    <h5 style="	position: absolute;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				z-index: 10;
+				padding-top: 20px;
+				padding-bottom: 20px;
+				color: #fff;
+				text-align: center;
+				background: rgba(0,0,0,0.6);">New Seat Leon SW</h5>
+    <p></p>
+  </div>
     </div>
+    
+    
     <div class="carousel-item">
-      <img class="img-fluid" src="img/slider/slider2.jpg">
+      <img class="img-fluid" src="img/slider/bmw.jpg">
+      <div class="carousel-caption">
+     
+    <h5 style="	position: absolute;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				z-index: 10;
+				padding-top: 20px;
+				padding-bottom: 20px;
+				color: #fff;
+				text-align: center;
+				background: rgba(0,0,0,0.6);">bmw</h5>
+    <p></p>
+  </div>
     </div>
+    
+    
+    
+    
+    
+    
+    
     <div class="carousel-item">
-      <img class="img-fluid" src="img/slider/slider3.jpg" >
+      <img class="img-fluid" src="img/slider/vw_golf.png">
+      <div class="carousel-caption">
+     
+    <h5 style="	position: absolute;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				z-index: 10;
+				padding-top: 20px;
+				padding-bottom: 20px;
+				color: #fff;
+				text-align: center;
+				background: rgba(0,0,0,0.6);">Rent Volkswagen Golf(or similar) - Category I for 7+ days</h5>
+    <p></p>
+  </div>
+    </div>
+    
+    
+    <div class="carousel-item">
+      <img class="img-fluid" src="img/slider/toyota-c-hr.png" >
+      <div class="carousel-caption">
+     
+    <h5 style="	position: absolute;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				z-index: 10;
+				padding-top: 20px;
+				padding-bottom: 20px;
+				color: #fff;
+				text-align: center;
+				background: rgba(0,0,0,0.6);">Toyota</h5>
+    <p></p>
+  </div>
     </div>
   </div>
   
