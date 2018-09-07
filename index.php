@@ -93,13 +93,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <!-- The slideshow -->
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="img/slider/slider1.jpg" alt="Los Angeles" width="1100" height="500">
+      <img class="img-fluid" src="img/slider/slider1.jpg" >
     </div>
     <div class="carousel-item">
-      <img src="img/slider/slider2.jpg" alt="Chicago" width="1100" height="500">
+      <img class="img-fluid" src="img/slider/slider2.jpg">
     </div>
     <div class="carousel-item">
-      <img src="img/slider/slider3.jpg" alt="New York" width="1100" height="500">
+      <img class="img-fluid" src="img/slider/slider3.jpg" >
     </div>
   </div>
   
