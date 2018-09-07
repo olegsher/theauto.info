@@ -26,7 +26,7 @@
 
 
 <title>Car Rental in Israel</title>
-
+<!--  <link href="css/styles-red.css" rel="stylesheet"> -->
 <!-- Bootstrap core CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
@@ -35,7 +35,7 @@
 <!-- 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 <!-- Custom styles for this template -->
 <link href="pricing.css" rel="stylesheet">
- <link href="css/styles-red.css" rel="stylesheet">
+
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -52,12 +52,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
      <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow"> 
       <h5 class="my-0 mr-md-auto font-weight-normal">Vastama Ltd - your Car Rental agent in Israel</h5> 
-       <nav class="my-2 my-md-0 mr-md-3"> 
-         <a class="p-2 text-dark" href="#leaders">Leaders</a> 
-         <a class="p-2 text-dark" href="#premium">Premium</a> 
-         <a class="p-2 text-dark" href="#people_carriers">People Carriers</a> 
-         <a class="p-2 text-dark" href="#standard">Standard</a> 
-       </nav> 
+<!--        <nav class="my-2 my-md-0 mr-md-3">  -->
+<!--          <a class="p-2 text-dark" href="#leaders">Leaders</a>  -->
+<!--          <a class="p-2 text-dark" href="#premium">Premium</a>  -->
+<!--          <a class="p-2 text-dark" href="#people_carriers">People Carriers</a>  -->
+<!--          <a class="p-2 text-dark" href="#standard">Standard</a>  -->
+<!--        </nav>  -->
        <a class="btn btn-outline-primary" href="/ru/" title="Go to Russian section">Русский</a> 
      </div> 
 
@@ -71,596 +71,182 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
    
     
     
-          <h2 id="leaders" style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Rental Cars in Israel - Leaders</h2>
+<h2 id="cars" style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Our car fleet</h2>
       <div class="card-deck mb-3 text-center">
-        <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Hyundai Tucson or Similar (Aut. 5 Seats)</h4>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title pricing-card-title">$42 <small class="text-muted">/day</small></h5>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>Car Category: J (SFBR)</li>
-              <li>Unlimited mileage with 3-29 days orders</li>
-              <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/100t.jpg" alt="rent Hyundai Tucson in Israel" /> </li>
-                <li>
-               <form action="mail_send.php" method="post">
-                    <div class="form-inline">
-                     <div class="col-auto">
-                     <input type="text" class="form-control" required  name="name" placeholder="name">
-                     </div>
-                     <div class="col-auto">
-                     <input type="tel" class="form-control" required  name="phone" placeholder="phone include country code">
-                     </div>               
-                     <input type="hidden" name="car-select" value="Car Category: J (SFBR), Hyundai Tucson or Similar">
-                    </div>
-                    <input type="submit" name="submit" value="Send">
-                </form>
-</li> 
-            </ul>
-<!--             <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button> -->
-          </div>
-        </div>
-        <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">VW Golf or Similar</h4>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title pricing-card-title">$18 <small class="text-muted">/day</small></h5>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>Car Category: I (SCAR)</li>
-              <li>Unlimited mileage with 3-29 days orders</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/90t1.jpg" alt="rent VW Golf in Israel" /> </li>
-<li>
-               <form action="mail_send.php" method="post">
-                    <div class="form-inline">
-                     <div class="col-auto">
-                     <input type="text" class="form-control" required  name="name" placeholder="name">
-                     </div>
-                     <div class="col-auto">
-                     <input type="tel" class="form-control" required  name="phone" placeholder="phone include country code">
-                     </div>               
-                     <input type="hidden" name="car-select" value="Car Category: I (SCAR), VW Golf or Similar">
-                    </div>
-                    <input type="submit" name="submit" value="Send">
-                </form>
-</li> 
-            </ul>
-<!--             <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button> -->
-          </div>
-        </div>
-        <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">VW Jetta or Similar</h4>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title pricing-card-title">$24 <small class="text-muted">/day</small></h5>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>Car Category: H (SDAR)</li>
-              <li>Unlimited mileage with 3-29 days orders</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/80t.jpg" alt="rent VW Jetta in Israel" /> </li>
-<li>
-               <form action="mail_send.php" method="post">
-                    <div class="form-inline">
-                     <div class="col-auto">
-                     <input type="text" class="form-control" required  name="name" placeholder="name">
-                     </div>
-                     <div class="col-auto">
-                     <input type="tel" class="form-control" required  name="phone" placeholder="phone include country code">
-                     </div>               
-                     <input type="hidden" name="car-select" value="Car Category: H (SDAR), VW Jetta or Similar">
-                    </div>
-                    <input type="submit" name="submit" value="Send">
-                </form>
-</li> 
-            </ul>
-<!--             <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button> -->
-          </div>          
-        </div>        
-      </div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-     <h2 style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Rental Cars in Israel - Small Cars</h2>
-      <div class="card-deck mb-3 text-center">
-        <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Suzuki Alto or Similar</h4>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title pricing-card-title">$10 <small class="text-muted">/day</small></h5>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>Car Category: B (MBMR)</li>
-              <li>Unlimited mileage with 3-29 days orders</li>
-              <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/10t1.jpg" alt="rent Suzuki Alto in Israel" /> </li>
-                <li>
-               <form action="mail_send.php" method="post">
-  					<div class="form-inline">
-   					 <div class="col-auto">
-    				 <input type="text" class="form-control" required  name="name" placeholder="name">
-  					 </div>
-  				  	 <div class="col-auto">
-     				 <input type="tel" class="form-control" required  name="phone" placeholder="phone include country code">
-    			     </div>    			  
-     				 <input type="hidden" name="car-select" value="Car Category: B (MBMR), Suzuki Alto or Similar">
-  					</div>
-  					<input type="submit" name="submit" value="Send">
-				</form>
-</li> 
-            </ul>
-<!--             <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button> -->
-          </div>
-        </div>
-        <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Fiat 500 or Similar (2 Doors)</h4>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title pricing-card-title">$10 <small class="text-muted">/day</small></h5>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>Car Category: Q (EBAR)</li>
-              <li>Unlimited mileage with 3-29 days orders</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/15t1.jpg" alt="rent Fiat 500 in Israel" /> </li>
-<li>
-               <form action="mail_send.php" method="post">
-  					<div class="form-inline">
-   					 <div class="col-auto">
-    				 <input type="text" class="form-control" required  name="name" placeholder="name">
-  					 </div>
-  				  	 <div class="col-auto">
-     				 <input type="tel" class="form-control" required  name="phone" placeholder="phone include country code">
-    			     </div>    			  
-     				 <input type="hidden" name="car-select" value="Car Category: Q (EBAR), Fiat 500 or Similar">
-  					</div>
-  					<input type="submit" name="submit" value="Send">
-				</form>
-</li> 
-            </ul>
-<!--             <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button> -->
-          </div>
-        </div>
-        <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Kia Picanto or Similar</h4>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title pricing-card-title">$11 <small class="text-muted">/day</small></h5>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>Car Category: C (EDAR)</li>
-              <li>Unlimited mileage with 3-29 days orders</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/30t1.jpg" alt="rent Kia Picanto in Israel" /> </li>
-<li>
-               <form action="mail_send.php" method="post">
-  					<div class="form-inline">
-   					 <div class="col-auto">
-    				 <input type="text" class="form-control" required  name="name" placeholder="name">
-  					 </div>
-  				  	 <div class="col-auto">
-     				 <input type="tel" class="form-control" required  name="phone" placeholder="phone include country code">
-    			     </div>    			  
-     				 <input type="hidden" name="car-select" value="Car Category: C (EDAR), Kia Picanto or Similar">
-  					</div>
-  					<input type="submit" name="submit" value="Send">
-				</form>
-</li> 
-            </ul>
-<!--             <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button> -->
-          </div>          
-        </div>        
-      </div>
-      
-   <h2 id="premium" style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Rental Cars in Israel - Premium Cars</h2>   
-      
-            <div class="card-deck mb-3 text-center">
-        <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Audi A6 or Similar</h4>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title pricing-card-title">$122 <small class="text-muted">/day</small></h5>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>Car Category: W (LCBR)</li>
-              <li>Unlimited mileage with 3-29 days orders</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/230t.jpg" alt="rent Audi A6 in Israel" /> </li>
-<li>
-               <form action="mail_send.php" method="post">
-  					<div class="form-inline">
-   					 <div class="col-auto">
-    				 <input type="text" class="form-control" required  name="name" placeholder="name">
-  					 </div>
-  				  	 <div class="col-auto">
-     				 <input type="tel" class="form-control" required  name="phone" placeholder="phone include country code">
-    			     </div>    			  
-     				 <input type="hidden" name="car-select" value="Car Category: W (LCBR), Audi A6 or Similar">
-  					</div>
-  					<input type="submit" name="submit" value="Send">
-				</form>
-</li> 
-            </ul>
-<!--             <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button> -->
-          </div>
-        </div>
-        <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Nissan Maxima or Similar</h4>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title pricing-card-title">$79 <small class="text-muted">/day</small></h5>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>Car Category: P (LDAR)</li>
-              <li>Unlimited mileage with 3-29 days orders</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/160t3.jpg" alt="rent Nissan Maxima in Israel" /> </li>
-<li>
-               <form action="mail_send.php" method="post">
-  					<div class="form-inline">
-   					 <div class="col-auto">
-    				 <input type="text" class="form-control" required  name="name" placeholder="name">
-  					 </div>
-  				  	 <div class="col-auto">
-     				 <input type="tel" class="form-control" required  name="phone" placeholder="phone include country code">
-    			     </div>    			  
-     				 <input type="hidden" name="car-select" value="Car Category: P (LDAR), Nissan Maxima or Similar">
-  					</div>
-  					<input type="submit" name="submit" value="Send">
-				</form>
-</li> 
-            </ul>
-<!--             <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button> -->
-          </div>
-        </div>
-        <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">BMW 318i or Similar</h4>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title pricing-card-title">$72 <small class="text-muted">/day</small></h5>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>Car Category: K (UDAR)</li>
-              <li>Unlimited mileage with 3-29 days orders</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/110.jpg" alt="rent BMW 318i in Israel" /> </li>
-<li>
-               <form action="mail_send.php" method="post">
-  					<div class="form-inline">
-   					 <div class="col-auto">
-    				 <input type="text" class="form-control" required  name="name" placeholder="name">
-  					 </div>
-  				  	 <div class="col-auto">
-     				 <input type="tel" class="form-control" required  name="phone" placeholder="phone include country code">
-    			     </div>    			  
-     				 <input type="hidden" name="car-select" value="Car Category: K (UDAR), BMW 318i or Similar">
-  					</div>
-  					<input type="submit" name="submit" value="Send">
-				</form>
-</li> 
-            </ul>
-<!--             <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button> -->
-          </div>          
-        </div>        
-      </div>
-      
-      
-      <h2 id="people_carriers" style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Rental Cars in Israel - People carriers</h2>
         
-      
-            <div class="card-deck mb-3 text-center">
-        <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">VW Transporter or Similar (Aut. 9 Seats)</h4>
-          </div>
+          
+          <?php 
+    if (($handle = fopen("albar_25.12.2017.csv", "r")) !== FALSE) {       
+        
+        while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
+            $num = count($data);                       
+            
+            $low_s = array(0);
+            
+            foreach ($low_s as $c) {
+            echo '<div class="card mb-4 box-shadow"><div class="card-header"><h4 class="my-0 font-weight-normal">'. $data[4].'</h4></div>
           <div class="card-body">
-            <h5 class="card-title pricing-card-title">$95 <small class="text-muted">/day</small></h5>
+            <h5 class="card-title pricing-card-title">Starting '. $data[11].'<small class="text-muted"> USD/day</small></h5>
             <ul class="list-unstyled mt-3 mb-4">
-              <li>Car Category: Z (LVAR)</li>
-              <li>Unlimited mileage with 3-29 days orders</li>
-			  <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/260t2.jpg" alt="rent VW Transporter in Israel" /> </li>
-<li>
+              <li>Car Category: '. $data[0].'  Seats: '. $data[3].'</li>
+              <li>Unlimited mileage with 3-29 days</li>
+              <li>Monthly price starting '. $data[13].'USD</li>
+              <li><img class="img-fluid" src="img/CarCategories/'. $data[0].'.jpg" alt="rent '. $data[4].' in Israel" /> </li>
+              <li>
                <form action="mail_send.php" method="post">
-  					<div class="form-inline">
-   					 <div class="col-auto">
-    				 <input type="text" class="form-control" required  name="name" placeholder="name">
-  					 </div>
-  				  	 <div class="col-auto">
-     				 <input type="tel" class="form-control" required  name="phone" placeholder="phone include country code">
-    			     </div>    			  
-     				 <input type="hidden" name="car-select" value="Car Category: Z (LVAR), VW Transporter or Similar">
-  					</div>
-  					<input type="submit" name="submit" value="Send">
-				</form>
+                    <div class="form-inline">
+                     <div class="col-auto">
+                     <input type="text" class="form-control" required  name="name" placeholder="name">
+                     </div>
+                     <div class="col-auto">
+                     <input type="tel" class="form-control" required  name="phone" placeholder="phone include country code">
+                     </div>               
+                     <input type="hidden" name="car-select" value="Car Category: '. $data[0].', '. $data[4].'">
+                    </div>
+                    <input type="submit" name="submit" value="Send">
+                </form>
 </li> 
             </ul>
 <!--             <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button> -->
-          </div>
-        </div>
-        <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Kia Carnival or Similar (Aut. 8 Seats)</h4>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title pricing-card-title">$83 <small class="text-muted">/day</small></h5>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>Car Category: V8 (FVAR)</li>
-              <li>Unlimited mileage with 3-29 days orders</li>
-			  <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/225.jpg" alt="rent Kia Carnival in Israel" /> </li> 
-<li>
-               <form action="mail_send.php" method="post">
-  					<div class="form-inline">
-   					 <div class="col-auto">
-    				 <input type="text" class="form-control" required  name="name" placeholder="name">
-  					 </div>
-  				  	 <div class="col-auto">
-     				 <input type="tel" class="form-control" required  name="phone" placeholder="phone include country code">
-    			     </div>    			  
-     				 <input type="hidden" name="car-select" value="Car Category: V8 (FVAR), Kia Carnival or Similar">
-  					</div>
-  					<input type="submit" name="submit" value="Send">
-				</form>
-</li>
-            </ul>
-<!--             <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button> -->
-          </div>
-        </div>
-        <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Mitsubishi Outlander or Similar (Aut. 7 Seats)</h4>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title pricing-card-title">$58 <small class="text-muted">/day</small></h5>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>Car Category: V (SVAR)</li>
-              <li>Unlimited mileage with 3-29 days orders</li>
- 			  <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/220t.jpg" alt="rent Mitsubishi Outlander in Israel" /> </li> 
-<li>
-               <form action="mail_send.php" method="post">
-  					<div class="form-inline">
-   					 <div class="col-auto">
-    				 <input type="text" class="form-control" required  name="name" placeholder="name">
-  					 </div>
-  				  	 <div class="col-auto">
-     				 <input type="tel" class="form-control" required  name="phone" placeholder="phone include country code">
-    			     </div>    			  
-     				 <input type="hidden" name="car-select" value="Car Category: V (SVAR), Mitsubishi Outlander or Similar O (LFBR)">
-  					</div>
-  					<input type="submit" name="submit" value="Send">
-				</form>
-</li> 
-            </ul>
-<!--             <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button> -->
-          </div>          
-        </div>        
-      </div>
-      
-      
-      
+         
               
-      
-            <div class="card-deck mb-3 text-center">
-        <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Opel Zafira or Similar (Aut. 7 Seats)</h4>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title pricing-card-title">$39 <small class="text-muted">/day</small></h5>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>Car Category: U (IVAR)</li>
-              <li>Unlimited mileage with 3-29 days orders</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/210t.jpg" alt="rent Opel Zafira in Israel" /> </li>
-<li>
-               <form action="mail_send.php" method="post">
-  					<div class="form-inline">
-   					 <div class="col-auto">
-    				 <input type="text" class="form-control" required  name="name" placeholder="name">
-  					 </div>
-  				  	 <div class="col-auto">
-     				 <input type="tel" class="form-control" required  name="phone" placeholder="phone include country code">
-    			     </div>    			  
-     				 <input type="hidden" name="car-select" value="Car Category: U (IVAR), Opel Zafira or Similar">
-  					</div>
-  					<input type="submit" name="submit" value="Send">
-				</form>
-</li> 
-            </ul>
-<!--             <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button> -->
-          </div>
-        </div>
-        <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Renault Traffic or Similar (Man. 9 Seats)</h4>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title pricing-card-title">$55 <small class="text-muted">/day</small></h5>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>Car Category: Y (FVMR)</li>
-              <li>Unlimited mileage with 3-29 days orders</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/250.jpg" alt="rent Renault Traffic in Israel" /> </li>
-<li>
-<form action="mail_send.php" method="post">
-  					<div class="form-inline">
-   					 <div class="col-auto">
-    				 <input type="text" class="form-control" required  name="name" placeholder="name">
-  					 </div>
-  				  	 <div class="col-auto">
-     				 <input type="tel" class="form-control" required  name="phone" placeholder="phone include country code">
-    			     </div>    			  
-     				 <input type="hidden" name="car-select" value="Y (FVMR), Renault Traffic or Similar (Man. 9 Seats) ">
-  					</div>
-  					<input type="submit" name="submit" value="Send">
-				</form></li> 
-            </ul>
-<!--             <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button> -->
-          </div>
-        </div>
-        <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Ford Edge or Similar</h4>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title pricing-card-title">$74 <small class="text-muted">/day</small></h5>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>Car Category: O (LFBR)</li>
-              <li>Unlimited mileage with 3-29 days orders</li>
-                <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/150t1.jpg" alt="rent Ford Edge in Israel" /> </li>
-               <li>
-               <form action="mail_send.php" method="post">
-  					<div class="form-inline">
-   					 <div class="col-auto">
-    				 <input type="text" class="form-control" required  name="name" placeholder="name">
-  					 </div>
-  				  	 <div class="col-auto">
-     				 <input type="tel" class="form-control" required  name="phone" placeholder="phone include country code">
-    			     </div>    			  
-     				 <input type="hidden" name="car-select" value="Ford Edge or Similar O (LFBR)">
-  					</div>
-  					<input type="submit" name="submit" value="Send">
-				</form>
-</li> 
-            </ul>
-<!--             <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button> -->
-          </div>          
+      </div></div>';      
+            }
+            
+        }
+        fclose($handle);
+    }
+    ?>
         </div>        
-      </div>
-      
-      
-      
-      
-      
-      <h2 id="standard" style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Rental Cars in Israel - Standard Cars</h2>
-      <div class="card-deck mb-3 text-center">
-        <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">VW Passat or Similar</h4>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title pricing-card-title">$58 <small class="text-muted">/day</small></h5>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>Car Category: R (FCAR)</li>
-              <li>Unlimited mileage with 3-29 days orders</li>
-              <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/180t1.jpg" alt="rent VW Passat in Israel" /> </li>
-                <li>
-               <form action="mail_send.php" method="post">
-                    <div class="form-inline">
-                     <div class="col-auto">
-                     <input type="text" class="form-control" required  name="name" placeholder="name">
-                     </div>
-                     <div class="col-auto">
-                     <input type="tel" class="form-control" required  name="phone" placeholder="phone include country code">
-                     </div>               
-                     <input type="hidden" name="car-select" value="Car Category: R (FCAR), VW Passat or Similar">
-                    </div>
-                    <input type="submit" name="submit" value="Send">
-                </form>
-</li> 
-            </ul>
-<!--             <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button> -->
-          </div>
-        </div>
-        <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Hyundai Sonata or Similar</h4>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title pricing-card-title">$42 <small class="text-muted">/day</small></h5>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>Car Category: MH (PCAR)</li>
-              <li>Unlimited mileage with 3-29 days orders</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/135.png" alt="rent Hyundai Sonata in Israel" /> </li>
-<li>
-               <form action="mail_send.php" method="post">
-                    <div class="form-inline">
-                     <div class="col-auto">
-                     <input type="text" class="form-control" required  name="name" placeholder="name">
-                     </div>
-                     <div class="col-auto">
-                     <input type="tel" class="form-control" required  name="phone" placeholder="phone include country code">
-                     </div>               
-                     <input type="hidden" name="car-select" value="Car Category: MH (PCAR), Hyundai Sonata or Similar">
-                    </div>
-                    <input type="submit" name="submit" value="Send">
-                </form>
-</li> 
-            </ul>
-<!--             <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button> -->
-          </div>
-        </div>
-        <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Mazda 6 or Similar</h4>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title pricing-card-title">$31 <small class="text-muted">/day</small></h5>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>Car Category: M (PDAR)</li>
-              <li>Unlimited mileage with 3-29 days orders</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/130t.jpg" alt="rent Mazda 6 in Israel" /> </li>
-<li>
-               <form action="mail_send.php" method="post">
-                    <div class="form-inline">
-                     <div class="col-auto">
-                     <input type="text" class="form-control" required  name="name" placeholder="name">
-                     </div>
-                     <div class="col-auto">
-                     <input type="tel" class="form-control" required  name="phone" placeholder="phone include country code">
-                     </div>               
-                     <input type="hidden" name="car-select" value="Car Category: M (PDAR), Mazda 6 or Similar">
-                    </div>
-                    <input type="submit" name="submit" value="Send">
-                </form>
-</li> 
-            </ul>
-<!--             <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button> -->
-          </div>          
-        </div>        
-      </div>
+     
 
-      <footer class="pt-4 my-md-5 pt-md-5 border-top">
-      What do I need to hire a car? <br>
-		To book your car, all you need is a credit card. 
-		<br>When you pick the car up, you’ll need:
-		<br>Your voucher, the main driver’s credit card, with enough available funds for the car’s deposit. Each driver’s full, valid driving license, which they’ve held for at least 12 months (often 24). Your passport.
 
-<!--         <div class="row"> -->
-<!--           <div class="col-12 col-md"> -->
-<!--             <img class="mb-2" src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width="24" height="24"> -->
-<!--             <small class="d-block mb-3 text-muted">&copy; 2017-2018</small> -->
-<!--           </div> -->
-<!--           <div class="col-6 col-md"> -->
-<!--             <h5>Features</h5> -->
-<!--             <ul class="list-unstyled text-small"> -->
-<!--               <li><a class="text-muted" href="#">Cool stuff</a></li> -->
-<!--               <li><a class="text-muted" href="#">Random feature</a></li> -->
-<!--               <li><a class="text-muted" href="#">Team feature</a></li> -->
-<!--               <li><a class="text-muted" href="#">Stuff for developers</a></li> -->
-<!--               <li><a class="text-muted" href="#">Another one</a></li> -->
-<!--               <li><a class="text-muted" href="#">Last time</a></li> -->
-<!--             </ul> -->
-<!--           </div> -->
-<!--           <div class="col-6 col-md"> -->
-<!--             <h5>Resources</h5> -->
-<!--             <ul class="list-unstyled text-small"> -->
-<!--               <li><a class="text-muted" href="#">Resource</a></li> -->
-<!--               <li><a class="text-muted" href="#">Resource name</a></li> -->
-<!--               <li><a class="text-muted" href="#">Another resource</a></li> -->
-<!--               <li><a class="text-muted" href="#">Final resource</a></li> -->
-<!--             </ul> -->
-<!--           </div> -->
-<!--           <div class="col-6 col-md"> -->
-<!--             <h5>About</h5> -->
-<!--             <ul class="list-unstyled text-small"> -->
-<!--               <li><a class="text-muted" href="#">Team</a></li> -->
-<!--               <li><a class="text-muted" href="#">Locations</a></li> -->
-<!--               <li><a class="text-muted" href="#">Privacy</a></li> -->
-<!--               <li><a class="text-muted" href="#">Terms</a></li> -->
-<!--             </ul> -->
-<!--           </div> -->
-<!--         </div> -->
-      </footer>
-    </div>
 
+    <div class="container">
+    
+    <hr /><strong>Car Rental Israel  - Low Season Price List</strong>($USD): 
+    <br>Apr 10 - Jul 14 2018; Aug 26 - Dec 19 2018; Jan 6 - Apr 13 2019; Apr 29 - Jul 14 2019; Aug 26 - Dec 19 2019;
+    <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Cat</th>
+        <th>Car</th>
+        <th>Daily<br>(1-6)</th>
+        <th>Weekly</th>
+        <th>Ex.Day<br>(8+)</th>
+        <th>Monthly<br>(30+)</th>
+        <th>CDW</th>
+        <th>TP</th>
+        <th>3PLC</th>
+        <th>Excess</th>
+        <th>Extra<br>KM</th>
+      </tr>
+    </thead>
+    <tbody>
+    <?php 
+    if (($handle = fopen("albar_25.12.2017.csv", "r")) !== FALSE) {       
+        
+        while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
+            $num = count($data);                       
+            
+            $low_s = array(0);
+            
+            foreach ($low_s as $c) {
+                //echo $data[$c] . "<br />\n";
+//                 if(empty($data[$c])) {
+//                     $value = "&nbsp;";
+//                 }else{
+//                     $value = $data[$c];
+
+                echo '<tr>
+                <td>'. $data[0]. '<br>'. $data[1]. '</td>
+                <td><strong>'. $data[4].'</strong><br>Seats '. $data[3]. '</td>
+                <td>'. $data[5]. '</td>
+                <td>'. $data[9]. '</td>
+                <td>'. $data[11]. '</td>
+                <td>'. $data[13]. '</td>
+                <td>'. $data[15]. '</td>
+                <td>'. $data[16]. '</td>
+                <td>'. $data[17]. '</td>
+                <td>'. $data[23]. '</td>
+                <td>'. $data[18]. '</td>
+                </tr>';
+           }
+
+        }   
+        fclose($handle);
+    }
+    ?>
+        </tbody>
+  </table>
+
+
+<hr /><strong>Car Rental Israel  - High Season Price List</strong>($USD): 
+<br>Dec 20 2018 - Jan 5 2019; Apr 14 - 28 2019; Jul 15 - Aug 25 2019;
+<table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Cat</th>
+        <th>Car</th>
+        <th>Daily<br>(1-6)</th>
+        <th>Weekly</th>
+        <th>Ex.Day<br>(8+)</th>
+        <th>Monthly<br>(30+)</th>
+        <th>CDW</th>
+        <th>TP</th>
+        <th>3PLC</th>
+        <th>Excess</th>
+        <th>Extra<br>KM</th>
+      </tr>
+    </thead>
+    <tbody>
+    <?php 
+    if (($handle = fopen("albar_25.12.2017.csv", "r")) !== FALSE) {       
+        
+        while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
+            $num = count($data);                       
+            
+            $low_s = array(0);
+            
+            foreach ($low_s as $c) {
+                //echo $data[$c] . "<br />\n";
+//                 if(empty($data[$c])) {
+//                     $value = "&nbsp;";
+//                 }else{
+//                     $value = $data[$c];
+
+                echo '<tr>
+                <td>'. $data[0]. '<br>'. $data[1]. '</td>
+                <td><strong>'. $data[4].'</strong><br>Seats '. $data[3]. '</td>
+                <td>'. $data[6]. '</td>
+                <td>'. $data[10]. '</td>
+                <td>'. $data[12]. '</td>
+                <td>'. $data[14]. '</td>
+                <td>'. $data[15]. '</td>
+                <td>'. $data[16]. '</td>
+                <td>'. $data[17]. '</td>
+                <td>'. $data[23]. '</td>
+                <td>'. $data[18]. '</td>
+                </tr>';
+           }
+
+        }   
+        fclose($handle);
+    }
+    ?>
+        </tbody>
+  </table>
+<br>Low Season:  Aug 26 - Dec 19 2018; Jan 6 - Apr 13 2019; Apr 29 - Jul 14 2019; Aug 26 - Dec 19 2019;
+<br>High Season: Dec 20 2018 - Jan 5 2019; Apr 14 - 28 2019; Jul 15 - Aug 25 2019;
+
+<br>Daily(1-2) rental -  Include 250 km per day
+<br>Daily (3-6) and weekly - Unlimited km 
+<br>Monthly (30+) -  Include 150 km per day  
+<br>Currency: USD $
+<br>Valid: Dec 19, 2019
+<br>Rates include the BASIC RENTAL ONLY & EXCLUDE Protection Coverage's (Monthly rentals include the Protection Coverage's CDW, TP & 3PLC).
+
+</div> 
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -677,79 +263,5 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         text: 'Thumbnail'
       });
     </script>
-    <div class="container">
-    
-    <table class="table table-bordered">
-    <thead>
-      <tr>
-        <th>Cat</th>
-<!--         <th>S</th> -->
-        <th>Car</th>
-        <th>Daily<br>(1-2)</th>
-        <th>Daily<br>(3-6)</th>
-        <th>Weekly</th>
-        <th>Ex.Day<br>(8+)</th>
-        <th>Monthly<br>(30+)</th>
-        <th>CDW</th>
-        <th>TP</th>
-        <th>3PLC</th>
-        <th>Excess</th>
-        <th>Extra<br>KM</th>
-      </tr>
-    </thead>
-    <tbody>
-    <?php 
-    $row = 25;
-    if (($handle = fopen("albar_25.12.2017.csv", "r")) !== FALSE) {
-        
-        
-        while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
-            $num = count($data);
-                       
-            
-            $low_s = array(0);
-            
-            foreach ($low_s as $c) {
-                //echo $data[$c] . "<br />\n";
-//                 if(empty($data[$c])) {
-//                     $value = "&nbsp;";
-//                 }else{
-//                     $value = $data[$c];
-
-                echo '<tr>
-                <td>'. $data[0]. '<br>'. $data[1]. '</td>
-                <td><strong>'. $data[4].'</strong><br>Seats '. $data[3]. '</td>
-                <td>'. $data[5]. '</td>
-                <td>'. $data[7]. '</td>
-                <td>'. $data[9]. '</td>
-                <td>'. $data[11]. '</td>
-                <td>'. $data[13]. '</td>
-                <td>'. $data[15]. '</td>
-                <td>'. $data[16]. '</td>
-                <td>'. $data[17]. '</td>
-                <td>'. $data[23]. '</td>
-                <td>'. $data[18]. '</td>
-                </tr>';
-           }
-           $row++;
-        }   
-        fclose($handle);
-    }
-    ?>
-        </tbody>
-  </table>
-<br>Low Season: Apr 10 - Jul 14 2018; Aug 26 - Dec 19 2018; Jan 6 - Apr 13 2019; Apr 29 - Jul 14 2019; Aug 26 - Dec 19 2019;
-<br>Daily(1-2) rental -  Include 250 km per day
-<br>Daily (3-6) and weekly - Unlimited km 
-<br>Monthly (30+) -  Include 150 km per day  
-<br>Currency: USD $
-<br>Valid: Till Dec 19, 2019
-<br>Rates include the BASIC RENTAL ONLY & EXCLUDE Protection Coverage's (Monthly rentals include the Protection Coverage's CDW, TP & 3PLC).
-</div>  
-  
-  
-
-  
-    
-  </body>
+</body>
 </html>
