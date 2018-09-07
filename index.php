@@ -52,6 +52,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-5WSN6CF');</script>
 <!-- End Google Tag Manager -->
+
+
+<script src='https://www.google.com/recaptcha/api.js'></script>
+<script>
+       function onSubmit(token) {
+         document.getElementById("demo-form").submit();
+       }
+     </script>
+
 </head>
 
 <body>
@@ -130,7 +139,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               <li>Monthly price starting <span class="badge badge-danger">'. $data[13].'</span>USD</li>
               <li><img class="img-fluid" src="img/CarCategories/'. $data[0].'.jpg" alt="rent '. $data[4].' in Israel" /> </li>
               <li>
-               <form action="mail_send.php" method="post">
+                <form method="post" id="demo-form" action="?">
                     <div class="form-inline">
                      <div class="col-auto">
                      <input type="text" class="form-control" required  name="name" placeholder="name">
@@ -140,7 +149,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                      </div>               
                      <input type="hidden" name="car-select" value="Car Category: '. $data[0].', '. $data[4].'">
                     </div>
-                    <input type="submit" name="submit" value="Send">
+                    
+                    <button class="g-recaptcha" data-sitekey="6LfFGG8UAAAAAAFZaF847BdJVUJDDjaiJAmMi0BJ" data-callback="mail_send.php"> Submit </button>
                 </form>
 </li> 
             </ul>
@@ -199,7 +209,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
                 echo '<tr>
                 <td>'. $data[0]. '<br>'. $data[1]. '</td>
-                <td><a href="#'. $data[0]. '"><strong>'. $data[4].'</strong></a><br>Seats '. $data[3]. '</td>
+                <td><a href="#'. $data[0]. '" ><strong>'. $data[4].'</strong></a><br>Seats '. $data[3]. '</td>
                 <td>'. $data[5]. '</td>
                 <td>'. $data[9]. '</td>
                 <td>'. $data[11]. '</td>
