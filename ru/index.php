@@ -39,640 +39,193 @@
     </div>
     
     
+    
+    <h2 id="cars" style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Наш автопарк</h2>
+      <div class="card-deck mb-3 text-center">
+        
+          
+          <?php 
+    if (($handle = fopen("../albar_25.12.2017.csv", "r")) !== FALSE) {       
+        
+        while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
+            $num = count($data);                       
+            
+            $low_s = array(0);
+            
+            foreach ($low_s as $c) {
+            echo '<div class="card mb-4 box-shadow"><div class="card-header"><h4 id="'. $data[0].'"class="my-0 font-weight-normal">'. $data[4].'</h4></div>
+          <div class="card-body">
+            <h5 class="card-title pricing-card-title">Начиная с <span class="badge badge-success">'. $data[11].'</span><small class="text-muted"> USD/день</small></h5>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Категория: '. $data[0].'<br>Сидений: '. $data[3].'</li>
+              <li>Безлимитный километраж при заказе 3-29 дней</li>
+              <li>Цена при месячном заказе от <span class="badge badge-danger">'. $data[13].'</span>USD</li>
+              <li><img class="img-fluid" src="../img/CarCategories/'. $data[0].'.jpg" alt="аренда авто '. $data[4].' в Израиле" /> </li>
+              <li>
+                <hr />Оставьте данные и наш менеджер свяжется с вами
+               <form action="mail_send.php" method="post" id="request-form">
+                    <div class="form-inline">
+                     <div class="col-auto">
+                     
+                     <input type="text" class="form-control" required  name="name" placeholder="Ваше Имя">
+                     </div>
+                     <div class="col-auto">
+                     <input type="tel" class="form-control" required  name="phone" placeholder="включая код страны\города">
+                        <br>Тел/WhatsApp/Viber/Почта
+                     </div>               
+                     <input type="hidden" name="car-select" value="Car Category: '. $data[0].', '. $data[4].'">
+                    </div>
+                    <input type="submit" name="submit" value="Send">
+                </form>
+</li> 
+            </ul>
+<!--             <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button> -->
+         
+              
+      </div></div>';      
+            }
+            
+        }
+        fclose($handle);
+    }
+    ?>
+ </div>        
+    
+
+
+ 
+    <h2 id="price_list" style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Наши цены:</h2>
+    
+    <hr /><strong>Аренда автомобиля в Израиле  - Расценки <span class="badge badge-primary">Низкого</span> Сезона</strong>($USD): 
+    <br>Апрель 10 - Июль 14 2018; Август 26 - Декабрь 19 2018; Январь 6 - Апрель 13 2019; Апрель 29 - Июль 14 2019; Август 26 - Декабрь 19 2019;
+    <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Кат</th>
+        <th>Авто</th>
+        <th>Дневная<br>(1-6)</th>
+        <th>Недельная</th>
+        <th>Д.день<br>(8+)</th>
+        <th>Месячная<br>(30+)</th>
+        <th>CDW</th>
+        <th>TP</th>
+        <th>3PLC</th>
+        <th>Л.Участие</th>
+        <th>Доп.<br>KM</th>
+      </tr>
+    </thead>
+    <tbody>
+    <?php 
+    if (($handle = fopen("../albar_25.12.2017.csv", "r")) !== FALSE) {       
+        
+        while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
+            $num = count($data);                       
+            
+            $low_s = array(0);
+            
+            foreach ($low_s as $c) {
+                //echo $data[$c] . "<br />\n";
+//                 if(empty($data[$c])) {
+//                     $value = "&nbsp;";
+//                 }else{
+//                     $value = $data[$c];
+
+                echo '<tr>
+                <td>'. $data[0]. '<br>'. $data[1]. '</td>
+                <td><a href="#'. $data[0]. '" ><strong>'. $data[4].'</strong></a><br>Сидений '. $data[3]. '</td>
+                <td>'. $data[5]. '</td>
+                <td>'. $data[9]. '</td>
+                <td>'. $data[11]. '</td>
+                <td>'. $data[13]. '</td>
+                <td>'. $data[15]. '</td>
+                <td>'. $data[16]. '</td>
+                <td>'. $data[17]. '</td>
+                <td>'. $data[23]. '</td>
+                <td>'. $data[18]. '</td>
+                </tr>';
+           }
+
+        }   
+        fclose($handle);
+    }
+    ?>
+        </tbody>
+  </table>
+
+
+<hr /><strong>Аренда автомобиля в Израиле  - Расценки <span class="badge badge-danger">Высокого</span> Сезона</strong>($USD): 
+<br>Декабрь 20 2018 - Январь 5 2019; Апрель 14 - 28 2019; Июль 15 - Август 25 2019;
+<table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Кат</th>
+        <th>Авто</th>
+        <th>Дневная<br>(1-6)</th>
+        <th>Недельная</th>
+        <th>Д.день<br>(8+)</th>
+        <th>Месячная<br>(30+)</th>
+        <th>CDW</th>
+        <th>TP</th>
+        <th>3PLC</th>
+        <th>Л.Участие</th>
+        <th>Доп.<br>KM</th>
+      </tr>
+    </thead>
+    <tbody>
+    <?php 
+    if (($handle = fopen("../albar_25.12.2017.csv", "r")) !== FALSE) {       
+        
+        while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
+            $num = count($data);                       
+            
+            $low_s = array(0);
+            
+            foreach ($low_s as $c) {
+                //echo $data[$c] . "<br />\n";
+//                 if(empty($data[$c])) {
+//                     $value = "&nbsp;";
+//                 }else{
+//                     $value = $data[$c];
+
+                echo '<tr>
+                <td>'. $data[0]. '<br>'. $data[1]. '</td>
+                <td><a href="#'. $data[0]. '"><strong>'. $data[4].'</strong></a><br>Сидений '. $data[3]. '</td>
+                <td>'. $data[6]. '</td>
+                <td>'. $data[10]. '</td>
+                <td>'. $data[12]. '</td>
+                <td>'. $data[14]. '</td>
+                <td>'. $data[15]. '</td>
+                <td>'. $data[16]. '</td>
+                <td>'. $data[17]. '</td>
+                <td>'. $data[23]. '</td>
+                <td>'. $data[18]. '</td>
+                </tr>';
+           }
+
+        }   
+        fclose($handle);
+    }
+    ?>
+        </tbody>
+  </table>
+<br>Низкий Сезон: Апрель 10 - Июль 14 2018; Август 26 - Декабрь 19 2018; Январь 6 - Апрель 13 2019; Апрель 29 - Июль 14 2019; Август 26 - Декабрь 19 2019;
+<br>Высокий Сезон: Декабрь 20 2018 - Январь 5 2019; Апрель 14 - 28 2019; Июль 15 - Август 25 2019;
+
+<br>Дневная аренда (1-2 дня)  -  включает 250км в день
+<br>Дневная аренда (3-29) и понедельная - безлимитный километраж 
+<br>Месячная (30+ дней) -  включает 150км в день  
+<br>Все цены указанны на сайте в : USD $
+<br>Цены действительны до: Dec 19, 2019
+<p class="text-left">* Указанные цены соответствуют прейскуранту дилера компаний EuropCar/Albar(май 2018) и значительно отличаются от расценок на сайте\отделении компании
+<br>* Указанные цены <span class="badge badge-danger">НЕ ВКЛЮЧАЮТ</span> обязательные страховки 
+<br>* Указанные цены <span class="badge badge-danger">НЕ ВКЛЮЧАЮТ НДС</span> (от НДС освобождены только туристы имеющие в пасторте визу В2\В3 - обязательно предоставить при получении машины)
+    
+    
+    
+    
        
     
-          <h2 id="leaders" style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Прокат аренда авто в Израиле - Лидеры проката</h2>
-      <div class="card-deck mb-3 text-center">
-        <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Hyundai Tucson <small style="color: grey; font-size: 0.8em;">или подобные</small> (Авт. 5 мест)</h4>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title pricing-card-title">$42 <small class="text-muted">\день</small></h5>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>Категория проката: J (SFBR)</li>
-              <li>Безлимитный километраж при заказе 3-29 дней</li>
-              <li><img class="img-responsive" src="../img/hyundai_tucson.jpg" alt="Прокат аренда авто Hyundai Tucson в Израиле. Прокат аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски" width="200"/> </li>
-                <li>
-               <form action="mail_send.php" method="post">
-                    <div class="form-inline">
-                     <div class="col-auto">
-                     <input type="text" class="form-control"  required name="name" placeholder="ваше имя">
-                     </div>
-                     <div class="col-auto">
-                     <input type="tel" class="form-control"  required name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
-                     </div>               
-                     <input type="hidden" name="car-select" value="Категория проката: J (SFBR), Hyundai Tucson или подобные">
-                    </div>
-                    <input type="submit" name="submit" value="Отправить">
-                </form>
-</li> 
-            </ul>
-<!--             <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button> -->
-          </div>
-        </div>
-        <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">VW Golf <small style="color: grey; font-size: 0.8em;">или подобные</small></h4>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title pricing-card-title">$18 <small class="text-muted">\день</small></h5>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>Категория проката: I (SCAR)</li>
-              <li>Безлимитный километраж при заказе 3-29 дней</li>
-<li><img class="img-responsive" src="../img/VW-golf.jpg" alt="Прокат аренда авто VW Golf в Израиле. Прокат аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски" width="200"/> </li>
-<li>
-               <form action="mail_send.php" method="post">
-                    <div class="form-inline">
-                     <div class="col-auto">
-                     <input type="text" class="form-control"  required name="name" placeholder="ваше имя">
-                     </div>
-                     <div class="col-auto">
-                     <input type="tel" class="form-control"  required name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
-                     </div>               
-                     <input type="hidden" name="car-select" value="Категория проката: I (SCAR), VW Golf или подобные">
-                    </div>
-                    <input type="submit" name="submit" value="Отправить">
-                </form>
-</li> 
-            </ul>
-<!--             <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button> -->
-          </div>
-        </div>
-        <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">VW Jetta <small style="color: grey; font-size: 0.8em;">или подобные</small></h4>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title pricing-card-title">$24 <small class="text-muted">\день</small></h5>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>Категория проката: H (SDAR)</li>
-              <li>Безлимитный километраж при заказе 3-29 дней</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/80t.jpg" alt="Прокат аренда авто VW Jetta в Израиле. Прокат аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски" /> </li>
-<li>
-               <form action="mail_send.php" method="post">
-                    <div class="form-inline">
-                     <div class="col-auto">
-                     <input type="text" class="form-control"  required name="name" placeholder="ваше имя">
-                     </div>
-                     <div class="col-auto">
-                     <input type="tel" class="form-control"  required name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
-                     </div>               
-                     <input type="hidden" name="car-select" value="Категория проката: H (SDAR), VW Jetta или подобные">
-                    </div>
-                    <input type="submit" name="submit" value="Отправить">
-                </form>
-</li> 
-            </ul>
-<!--             <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button> -->
-          </div>          
-        </div>        
-      </div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-     <h2 style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Прокат аренда авто в Израиле - класс мини</h2>
-      <div class="card-deck mb-3 text-center">
-        <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Suzuki Alto <small style="color: grey; font-size: 0.8em;">или подобные</small></h4>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title pricing-card-title">$10 <small class="text-muted">\день</small></h5>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>Категория проката: B (MBMR)</li>
-              <li>Безлимитный километраж при заказе 3-29 дней</li>
-              <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/10t1.jpg" alt="Прокат аренда авто Suzuki Alto в Израиле. Прокат аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски" /> </li>
-                <li>
-               <form action="mail_send.php" method="post">
-  					<div class="form-inline">
-   					 <div class="col-auto">
-    				 <input type="text" class="form-control"  required name="name" placeholder="ваше имя">
-  					 </div>
-  				  	 <div class="col-auto">
-     				 <input type="tel" class="form-control"  required name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
-    			     </div>    			  
-     				 <input type="hidden" name="car-select" value="Категория проката: B (MBMR), Suzuki Alto или подобные">
-  					</div>
-  					<input type="submit" name="submit" value="Отправить">
-				</form>
-</li> 
-            </ul>
-<!--             <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button> -->
-          </div>
-        </div>
-        <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Fiat 500 <small style="color: grey; font-size: 0.8em;">или подобные</small> (2 двери)</h4>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title pricing-card-title">$10 <small class="text-muted">\день</small></h5>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>Категория проката: Q (EBAR)</li>
-              <li>Безлимитный километраж при заказе 3-29 дней</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/15t1.jpg" alt="Прокат аренда авто Fiat 500 в Израиле. Прокат аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски" /> </li>
-<li>
-               <form action="mail_send.php" method="post">
-  					<div class="form-inline">
-   					 <div class="col-auto">
-    				 <input type="text" class="form-control"  required name="name" placeholder="ваше имя">
-  					 </div>
-  				  	 <div class="col-auto">
-     				 <input type="tel" class="form-control"  required name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
-    			     </div>    			  
-     				 <input type="hidden" name="car-select" value="Категория проката: Q (EBAR), Fiat 500 или подобные">
-  					</div>
-  					<input type="submit" name="submit" value="Отправить">
-				</form>
-</li> 
-            </ul>
-<!--             <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button> -->
-          </div>
-        </div>
-        <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Kia Picanto <small style="color: grey; font-size: 0.8em;">или подобные</small></h4>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title pricing-card-title">$11 <small class="text-muted">\день</small></h5>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>Категория проката: C (EDAR)</li>
-              <li>Безлимитный километраж при заказе 3-29 дней</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/30t1.jpg" alt="Прокат аренда авто Kia Picanto в Израиле. Прокат аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски" /> </li>
-<li>
-               <form action="mail_send.php" method="post">
-  					<div class="form-inline">
-   					 <div class="col-auto">
-    				 <input type="text" class="form-control"  required name="name" placeholder="ваше имя">
-  					 </div>
-  				  	 <div class="col-auto">
-     				 <input type="tel" class="form-control"  required name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
-    			     </div>    			  
-     				 <input type="hidden" name="car-select" value="Категория проката: C (EDAR), Kia Picanto или подобные">
-  					</div>
-  					<input type="submit" name="submit" value="Отправить">
-				</form>
-</li> 
-            </ul>
-<!--             <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button> -->
-          </div>          
-        </div>        
-      </div>
-      <hr>
-      <img src="https://rent.albar.co.il/CarImages/Rent/CarCategories/230t.jpg" alt="Прокат аренда авто в Израиле - Премиум класс">
-   <h2 id="premium" style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Прокат аренда авто в Израиле - Премиум класс</h2>   
-      
-            <div class="card-deck mb-3 text-center">
-        <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Audi A6 <small style="color: grey; font-size: 0.8em;">или подобные</small></h4>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title pricing-card-title">$122 <small class="text-muted">\день</small></h5>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>Категория проката: W (LCBR)</li>
-              <li>Безлимитный километраж при заказе 3-29 дней</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/230t.jpg" alt="Прокат аренда авто Audi A6 в Израиле. Прокат аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски" /> </li>
-<li>
-               <form action="mail_send.php" method="post">
-  					<div class="form-inline">
-   					 <div class="col-auto">
-    				 <input type="text" class="form-control"  required name="name" placeholder="ваше имя">
-  					 </div>
-  				  	 <div class="col-auto">
-     				 <input type="tel" class="form-control"  required name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
-    			     </div>    			  
-     				 <input type="hidden" name="car-select" value="Категория проката: W (LCBR), Audi A6 или подобные">
-  					</div>
-  					<input type="submit" name="submit" value="Отправить">
-				</form>
-</li> 
-            </ul>
-<!--             <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button> -->
-          </div>
-        </div>
-        <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Nissan Maxima <small style="color: grey; font-size: 0.8em;">или подобные</small></h4>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title pricing-card-title">$79 <small class="text-muted">\день</small></h5>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>Категория проката: P (LDAR)</li>
-              <li>Безлимитный километраж при заказе 3-29 дней</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/160t3.jpg" alt="Прокат аренда авто Nissan Maxima в Израиле. Прокат аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски" /> </li>
-<li>
-               <form action="mail_send.php" method="post">
-  					<div class="form-inline">
-   					 <div class="col-auto">
-    				 <input type="text" class="form-control"  required name="name" placeholder="ваше имя">
-  					 </div>
-  				  	 <div class="col-auto">
-     				 <input type="tel" class="form-control"  required name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
-    			     </div>    			  
-     				 <input type="hidden" name="car-select" value="Категория проката: P (LDAR), Nissan Maxima или подобные">
-  					</div>
-  					<input type="submit" name="submit" value="Отправить">
-				</form>
-</li> 
-            </ul>
-<!--             <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button> -->
-          </div>
-        </div>
-        <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">BMW 318i <small style="color: grey; font-size: 0.8em;">или подобные</small></h4>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title pricing-card-title">$72 <small class="text-muted">\день</small></h5>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>Категория проката: K (UDAR)</li>
-              <li>Безлимитный километраж при заказе 3-29 дней</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/110.jpg" alt="Прокат аренда авто BMW 318i в Израиле. Прокат аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски" /> </li>
-<li>
-               <form action="mail_send.php" method="post">
-  					<div class="form-inline">
-   					 <div class="col-auto">
-    				 <input type="text" class="form-control"  required name="name" placeholder="ваше имя">
-  					 </div>
-  				  	 <div class="col-auto">
-     				 <input type="tel" class="form-control"  required name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
-    			     </div>    			  
-     				 <input type="hidden" name="car-select" value="Категория проката: K (UDAR), BMW 318i или подобные">
-  					</div>
-  					<input type="submit" name="submit" value="Отправить">
-				</form>
-</li> 
-            </ul>
-<!--             <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button> -->
-          </div>          
-        </div>        
-      </div>
-      <hr>
-      <img src="../img/europcar_Z.jpg" alt="Прокат аренда авто в Израиле - Минивены">
-      <h2 id="people_carriers" style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Прокат аренда авто в Израиле - Минивены</h2>
-        
-      
-            <div class="card-deck mb-3 text-center">
-        <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal"><a href="category_Z.php">VW Transporter <small style="color: grey; font-size: 0.8em;">или подобные</small> (Авт. 9 мест)</a></h4>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title pricing-card-title">$95 <small class="text-muted">\день</small></h5>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>Категория проката: Z (LVAR)</li>
-              <li>Безлимитный километраж при заказе 3-29 дней</li>
-			  <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/260t2.jpg" alt="Прокат аренда авто VW Transporter в Израиле. Прокат аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски" /> </li>
-<li>
-               <form action="mail_send.php" method="post">
-  					<div class="form-inline">
-   					 <div class="col-auto">
-    				 <input type="text" class="form-control"  required name="name" placeholder="ваше имя">
-  					 </div>
-  				  	 <div class="col-auto">
-     				 <input type="tel" class="form-control"  required name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
-    			     </div>    			  
-     				 <input type="hidden" name="car-select" value="Категория проката: Z (LVAR), VW Transporter или подобные">
-  					</div>
-  					<input type="submit" name="submit" value="Отправить">
-				</form>
-</li> 
-            </ul>
-<!--             <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button> -->
-          </div>
-        </div>
-        <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Kia Carnival <small style="color: grey; font-size: 0.8em;">или подобные</small> (Авт. 8 мест)</h4>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title pricing-card-title">$83 <small class="text-muted">\день</small></h5>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>Категория проката: V8 (FVAR)</li>
-              <li>Безлимитный километраж при заказе 3-29 дней</li>
-			  <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/225.jpg" alt="Прокат аренда авто Kia Carnival в Израиле. Прокат аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски" /> </li> 
-<li>
-               <form action="mail_send.php" method="post">
-  					<div class="form-inline">
-   					 <div class="col-auto">
-    				 <input type="text" class="form-control"  required name="name" placeholder="ваше имя">
-  					 </div>
-  				  	 <div class="col-auto">
-     				 <input type="tel" class="form-control"  required name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
-    			     </div>    			  
-     				 <input type="hidden" name="car-select" value="Категория проката: V8 (FVAR), Kia Carnival или подобные">
-  					</div>
-  					<input type="submit" name="submit" value="Отправить">
-				</form>
-</li>
-            </ul>
-<!--             <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button> -->
-          </div>
-        </div>
-        <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Mitsubishi Outlander <small style="color: grey; font-size: 0.8em;">или подобные</small> (Авт. 7 мест)</h4>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title pricing-card-title">$58 <small class="text-muted">\день</small></h5>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>Категория проката: V (SVAR)</li>
-              <li>Безлимитный километраж при заказе 3-29 дней</li>
- 			  <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/220t.jpg" alt="Прокат аренда авто Mitsubishi Outlander в Израиле. Прокат аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски" /> </li> 
-<li>
-               <form action="mail_send.php" method="post">
-  					<div class="form-inline">
-   					 <div class="col-auto">
-    				 <input type="text" class="form-control"  required name="name" placeholder="ваше имя">
-  					 </div>
-  				  	 <div class="col-auto">
-     				 <input type="tel" class="form-control"  required name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
-    			     </div>    			  
-     				 <input type="hidden" name="car-select" value="Категория проката: V (SVAR), Mitsubishi Outlander или подобные O (LFBR)">
-  					</div>
-  					<input type="submit" name="submit" value="Отправить">
-				</form>
-</li> 
-            </ul>
-<!--             <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button> -->
-          </div>          
-        </div>        
-      </div>
-      
-      
-      
-              
-      
-            <div class="card-deck mb-3 text-center">
-        <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Opel Zafira <small style="color: grey; font-size: 0.8em;">или подобные</small> (Авт. 7 мест)</h4>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title pricing-card-title">$39 <small class="text-muted">\день</small></h5>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>Категория проката: U (IVAR)</li>
-              <li>Безлимитный километраж при заказе 3-29 дней</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/210t.jpg" alt="Прокат аренда авто Opel Zafira в Израиле. Прокат аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски" /> </li>
-<li>
-               <form action="mail_send.php" method="post">
-  					<div class="form-inline">
-   					 <div class="col-auto">
-    				 <input type="text" class="form-control"  required name="name" placeholder="ваше имя">
-  					 </div>
-  				  	 <div class="col-auto">
-     				 <input type="tel" class="form-control"  required name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
-    			     </div>    			  
-     				 <input type="hidden" name="car-select" value="Категория проката: U (IVAR), Opel Zafira или подобные">
-  					</div>
-  					<input type="submit" name="submit" value="Отправить">
-				</form>
-</li> 
-            </ul>
-<!--             <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button> -->
-          </div>
-        </div>
-        <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Renault Traffic <small style="color: grey; font-size: 0.8em;">или подобные</small> (Руч. 9 мест)</h4>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title pricing-card-title">$55 <small class="text-muted">\день</small></h5>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>Категория проката: Y (FVMR)</li>
-              <li>Безлимитный километраж при заказе 3-29 дней</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/250.jpg" alt="Прокат аренда авто Renault Traffic в Израиле. Прокат аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски" /> </li>
-<li>
-<form action="mail_send.php" method="post">
-  					<div class="form-inline">
-   					 <div class="col-auto">
-    				 <input type="text" class="form-control"  required name="name" placeholder="ваше имя">
-  					 </div>
-  				  	 <div class="col-auto">
-     				 <input type="tel" class="form-control"  required name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
-    			     </div>    			  
-     				 <input type="hidden" name="car-select" value="Y (FVMR), Renault Traffic или подобные (Руч. 9 мест) ">
-  					</div>
-  					<input type="submit" name="submit" value="Отправить">
-				</form></li> 
-            </ul>
-<!--             <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button> -->
-          </div>
-        </div>
-        <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Ford Edge <small style="color: grey; font-size: 0.8em;">или подобные</small></h4>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title pricing-card-title">$74 <small class="text-muted">\день</small></h5>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>Категория проката: O (LFBR)</li>
-              <li>Безлимитный километраж при заказе 3-29 дней</li>
-                <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/150t1.jpg" alt="Прокат аренда авто Ford Edge в Израиле. Прокат аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски" /> </li>
-               <li>
-               <form action="mail_send.php" method="post">
-  					<div class="form-inline">
-   					 <div class="col-auto">
-    				 <input type="text" class="form-control"  required name="name" placeholder="ваше имя">
-  					 </div>
-  				  	 <div class="col-auto">
-     				 <input type="tel" class="form-control"  required name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
-    			     </div>    			  
-     				 <input type="hidden" name="car-select" value="Ford Edge или подобные O (LFBR)">
-  					</div>
-  					<input type="submit" name="submit" value="Отправить">
-				</form>
-</li> 
-            </ul>
-<!--             <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button> -->
-          </div>          
-        </div>        
-      </div>
-      
-      
-      
-      
-      
-      <h2 style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Прокат аренда авто в Израиле - Стандартные</h2>
-      <div class="card-deck mb-3 text-center">
-        <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">VW Passat <small style="color: grey; font-size: 0.8em;">или подобные</small></h4>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title pricing-card-title">$58 <small class="text-muted">\день</small></h5>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>Категория проката: R (FCAR)</li>
-              <li>Безлимитный километраж при заказе 3-29 дней</li>
-              <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/180t1.jpg" alt="Прокат аренда авто VW Passat в Израиле. Прокат аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски" /> </li>
-                <li>
-               <form action="mail_send.php" method="post">
-                    <div class="form-inline">
-                     <div class="col-auto">
-                     <input type="text" class="form-control"  required name="name" placeholder="ваше имя">
-                     </div>
-                     <div class="col-auto">
-                     <input type="tel" class="form-control"  required name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
-                     </div>               
-                     <input type="hidden" name="car-select" value="Категория проката: R (FCAR), VW Passat или подобные">
-                    </div>
-                    <input type="submit" name="submit" value="Отправить">
-                </form>
-</li> 
-            </ul>
-<!--             <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button> -->
-          </div>
-        </div>
-        <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Hyundai Sonata <small style="color: grey; font-size: 0.8em;">или подобные</small></h4>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title pricing-card-title">$42 <small class="text-muted">\день</small></h5>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>Категория проката: MH (PCAR)</li>
-              <li>Безлимитный километраж при заказе 3-29 дней</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/135.png" alt="Прокат аренда авто Hyundai Sonata в Израиле. Прокат аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски" /> </li>
-<li>
-               <form action="mail_send.php" method="post">
-                    <div class="form-inline">
-                     <div class="col-auto">
-                     <input type="text" class="form-control"  required name="name" placeholder="ваше имя">
-                     </div>
-                     <div class="col-auto">
-                     <input type="tel" class="form-control"  required name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
-                     </div>               
-                     <input type="hidden" name="car-select" value="Категория проката: MH (PCAR), Hyundai Sonata или подобные">
-                    </div>
-                    <input type="submit" name="submit" value="Отправить">
-                </form>
-                
-</li> 
-            </ul>
-<!--             <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button> -->
-          </div>
-        </div>
-        <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Mazda 6 <small style="color: grey; font-size: 0.8em;">или подобные</small></h4>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title pricing-card-title">$31 <small class="text-muted">\день</small></h5>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>Категория проката: M (PDAR)</li>
-              <li>Безлимитный километраж при заказе 3-29 дней</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/130t.jpg" alt="Прокат аренда авто Mazda 6 в Израиле. Прокат аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски" /> </li>
-<li>
-               <form action="mail_send.php" method="post">
-                    <div class="form-inline">
-                     <div class="col-auto">
-                     <input type="text" class="form-control"  required name="name" placeholder="ваше имя">
-                     </div>
-                     <div class="col-auto">
-                     <input type="tel" class="form-control"  required name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
-                     </div>               
-                     <input type="hidden" name="car-select" value="Категория проката: M (PDAR), Mazda 6 или подобные">
-                    </div>
-                    <input type="submit" name="submit" value="Отправить">
-                </form>
-</li> 
-            </ul>
-<!--             <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button> -->
-          </div>          
-        </div>        
-      </div>
-      
-      
-      
-      
-      
-      
-      <div class="card-deck mb-3 text-center">
-        <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal"> <small style="color: grey; font-size: 0.8em;"></small></h4>
-          </div>
-          <div class="card-body">
-<!--             <h5 class="card-title pricing-card-title">$58 <small class="text-muted">\день</small></h5> -->
-            <ul class="list-unstyled mt-3 mb-4">
-                 <li>
-               
-</li> 
-            </ul>
-<!--             <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button> -->
-          </div>
-        </div>
-        <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Погода <small style="color: grey; font-size: 0.8em;"></small></h4>
-          </div>
-          <div class="card-body">
-<!--             <h5 class="card-title pricing-card-title">$42 <small class="text-muted">\день</small></h5> -->
-            <ul class="list-unstyled mt-3 mb-4">
-<!--               <li>Категория проката: MH (PCAR)</li> -->
-<!--               <li>Безлимитный километраж при заказе 3-29 дней</li> -->
-<!-- <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/135.png" alt="Прокат аренда авто Hyundai Sonata в Израиле. Прокат аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски" /> </li> -->
-<li>
-<!-- Gismeteo informer START -->
-<link rel="stylesheet" type="text/css" href="https://nst1.gismeteo.ru/assets/flat-ui/legacy/css/informer.min.css">
-    <div id="gsInformerID-85CG3PLfY1RCH7" class="gsInformer" style="width:240px;height:225px">
-        <div class="gsIContent">
-            <div id="cityLink">
-                                    <a href="https://www.gismeteo.ru/weather-tel-aviv-5403/" target="_blank">Погода в Тель-Авиве</a>
-            </div>
-            <div class="gsLinks">
-                <table>
-                    <tr>
-                        <td>
-                            <div class="leftCol">
-                                <a href="https://www.gismeteo.ru/" target="_blank">
-                                    <img alt="Gismeteo" title="Gismeteo" src="https://nst1.gismeteo.ru/assets/flat-ui/img/logo-mini2.png" align="middle" border="0" />
-                                    <span>Gismeteo</span>
-                                </a>
-                            </div>
-                            <div class="rightCol">
-                                <a href="https://www.gismeteo.ru/weather-tel-aviv-5403/2-weeks/" target="_blank">Прогноз на 2 недели</a>
-                            </div>
-                        </td>
-                        </tr>
-                                    </table>
-            </div>
-        </div>
-    </div>
-<script async src="https://www.gismeteo.ru/api/informer/getinformer/?hash=85CG3PLfY1RCH7" type="text/javascript"></script>
-<!-- Gismeteo informer END -->
-                
-</li> 
-            </ul>
-<!--             <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button> -->
-          </div>
-        </div>
-        <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Конвертер<small style="color: grey; font-size: 0.8em;"></small></h4>
-          </div>
-          <div class="card-body">
-<!--             <h5 class="card-title pricing-card-title">$31 <small class="text-muted">\день</small></h5> -->
-            <ul class="list-unstyled mt-3 mb-4">
-<!--               <li>Категория проката: M (PDAR)</li> -->
-<!--               <li>Безлимитный километраж при заказе 3-29 дней</li> -->
-<!-- <li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/130t.jpg" alt="Прокат аренда авто Mazda 6 в Израиле. Прокат аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски" /> </li> -->
-<li>
-               <script type="text/javascript" src="http://w.fxexchangerate.com/converter.php?fm=RUB&ft=ILS&lg=ru&am=1&ty=1"></script>
-</li> 
-            </ul>
-<!--             <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button> -->
-          </div>          
-        </div>        
-      </div>
-
+          
       
       
         
