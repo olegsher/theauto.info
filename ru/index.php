@@ -53,13 +53,12 @@
             $low_s = array(0);
             
             foreach ($low_s as $c) {
-            echo '<div class="card mb-4 box-shadow"><div class="card-header"><h4 id="'. $data[0].'"class="my-0 font-weight-normal">'. $data[4].'</h4></div>
+            echo '<div class="card mb-4 box-shadow"><div class="card-header"><h4 id="'. $data[0].'"class="my-0 font-weight-normal">'. $data[4].' от <span class="badge badge-success">'. $data[11].'</span><small class="text-muted"> USD/день</small></h4></div>
           <div class="card-body">
-            <h5 class="card-title pricing-card-title">Начиная с <span class="badge badge-success">'. $data[11].'</span><small class="text-muted"> USD/день</small></h5>
             <ul class="list-unstyled mt-3 mb-4">
-              <li>Категория: '. $data[0].'<br>Сидений: '. $data[3].'</li>
-              <li>Безлимитный километраж при заказе 3-29 дней</li>
-              <li>Цена при месячном заказе от <span class="badge badge-danger">'. $data[13].'</span>USD</li>
+              <li class="text-left">Категория: '. $data[0].' | Сидений: '. $data[3].'</li>
+              <li class="text-left">Безлимитный километраж при заказе 3-29 дней</li>
+              <li class="text-left">При заказе 30+ дней от <span class="badge badge-danger">'. $data[13].'</span>USD</li>
               <li><img class="img-fluid" src="../img/CarCategories/'. $data[0].'.jpg" alt="аренда авто '. $data[4].' в Израиле" /> </li>
               <li>
                 <hr />Оставьте данные и наш менеджер свяжется с вами

@@ -195,15 +195,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             $low_s = array(0);
             
             foreach ($low_s as $c) {
-            echo '<div class="card mb-4 box-shadow"><div class="card-header"><h4 id="'. $data[0].'"class="my-0 font-weight-normal">'. $data[4].'</h4></div>
+            echo '<div class="card mb-4 box-shadow"><div class="card-header"><h4 id="'. $data[0].'"class="my-0 font-weight-normal">'. $data[4].'<small class="text-muted"> starting <span class="badge badge-success">'. $data[11].'</span> USD/day</small></h4></div>
           <div class="card-body">
-            <h5 class="card-title pricing-card-title">Starting <span class="badge badge-success">'. $data[11].'</span><small class="text-muted"> USD/day</small></h5>
+
             <ul class="list-unstyled mt-3 mb-4">
-              <li>Car Category: '. $data[0].'<br>Seats: '. $data[3].'</li>
-              <li>Unlimited mileage with 3-29 days</li>
-              <li>Monthly price starting <span class="badge badge-danger">'. $data[13].'</span>USD</li>
+              <li class="text-left">Car Category: '. $data[0].' | Seats: '. $data[3].'</li>
+              <li class="text-left">Unlimited mileage with 3-29 days</li>
+              <li class="text-left">Monthly price starting <span class="badge badge-danger">'. $data[13].'</span>USD</li>
               <li><img class="img-fluid" src="img/CarCategories/'. $data[0].'.jpg" alt="rent '. $data[4].' in Israel" /> </li>
               <li>
+            <hr />
                <form action="mail_send.php" method="post" id="request-form">
                     <div class="form-inline">
                      <div class="col-auto">
