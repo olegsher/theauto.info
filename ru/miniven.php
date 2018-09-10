@@ -28,7 +28,7 @@
 <!--     <span class="navbar-toggler-icon"></span> -->
 <!--   </button> -->
 
-<!--   <div class="collapse navbar-collapse" id="navbarSupportedContent">   -->
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">  
     <ul class="navbar-nav mr-auto">
 	<li class="nav-item">
         <a class="nav-link" href="RentalConditions.php" title="Условия проката аренды автомобилей в Израиле, Аэропорт Бен Гурион Иерусалим Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот">Условия аренды</a>
@@ -45,7 +45,7 @@
       <li class="nav-item">
         <a class="nav-link" href="about.php" title="О компании Vastama">О компании</a>
       </li>
-<!--   </div> -->
+  </div>
 </nav>
 
 
