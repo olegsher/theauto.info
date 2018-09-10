@@ -18,15 +18,15 @@
 
 <div class="container">
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-<a class="nav-link" href="/"><img src="../img/en.png" alt="English site"></a>
-  <a class="navbar-brand" href="/ru/"><img src="../img/Rent-car.ico" alt="Аэропорт Бен Гурион - центральное отделение проката аренды авто в Израиле"> +972-58-7710101</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+<!-- <nav class="navbar navbar-expand-lg navbar-light bg-light"> -->
+<!-- <a class="nav-link" href="/"><img src="../img/en.png" alt="English site"></a> -->
+<!--   <a class="navbar-brand" href="/ru/"><img src="../img/Rent-car.ico" alt="Аэропорт Бен Гурион - центральное отделение проката аренды авто в Израиле"> +972-58-7710101</a> -->
+<!--   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> -->
+<!--     <span class="navbar-toggler-icon"></span> -->
+<!--   </button> -->
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
+<!--   <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
+<!--     <ul class="navbar-nav mr-auto"> -->
     
     
 <!--       <li class="nav-item active"> -->
@@ -34,38 +34,29 @@
 <!--       </li> -->
 
 
-	<li class="nav-item">
-        <a class="nav-link" href="RentalConditions.php" title="Условия проката аренды автомобилей в Израиле, Аэропорт Бен Гурион Иерусалим Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот">Условия аренды</a>
-      </li> 
-      <li class="nav-item">
-        <a class="nav-link" href="Europcar_Albar_Vastama_branches.php" title="Отделения проката аренды автомобилей в Израиле, Аэропорт Бен Гурион Иерусалим Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот">Отделения</a>
-      </li>   
-      <li class="nav-item">
-        <a class="nav-link" href="miniven.php" title="Аренда минивена в Израиле">Минивены</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="lux.php" title="Аренда автомобиля люкс в Израиле">Люкс</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="about.php" title="О компании Vastama">О компании</a>
-      </li>  
+<!-- 	<li class="nav-item"> -->
+<!--         <a class="nav-link" href="RentalConditions.php" title="Условия проката аренды автомобилей в Израиле, Аэропорт Бен Гурион Иерусалим Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот">Условия аренды</a> -->
+<!--       </li>  -->
+<!--       <li class="nav-item"> -->
+<!--         <a class="nav-link" href="Europcar_Albar_Vastama_branches.php" title="Отделения проката аренды автомобилей в Израиле, Аэропорт Бен Гурион Иерусалим Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот">Отделения</a> -->
+<!--       </li>    -->
+<!--       <li class="nav-item"> -->
+<!--         <a class="nav-link" href="miniven.php" title="Аренда минивена в Израиле">Минивены</a> -->
+<!--       </li> -->
+<!--       <li class="nav-item"> -->
+<!--         <a class="nav-link" href="lux.php" title="Аренда автомобиля люкс в Израиле">Люкс</a> -->
+<!--       </li> -->
+<!--       <li class="nav-item"> -->
+<!--         <a class="nav-link" href="about.php" title="О компании Vastama">О компании</a> -->
+<!--       </li>   -->
         
 
       
       
-<!--       <li class="nav-item"> -->
-<!--         <a class="nav-link disabled" href="#">Disabled</a> -->
-<!--       </li> -->
-<!--     </ul> -->
-<!--     <form class="form-inline my-2 my-lg-0"> -->
-<!--       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> -->
-<!--       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
-<!--     </form> -->
-  </div>
-</nav>
 
 
 
+<?php include("__menu.html"); ?>
 
 
 
