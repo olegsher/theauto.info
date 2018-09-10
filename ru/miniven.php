@@ -18,18 +18,18 @@
 
 <div class="container">
 
+
+
+
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
 <a class="nav-link" href="/"><img src="../img/en.png" alt="English site"></a>
-  <a class="navbar-brand" href="/ru/"><img src="../img/Rent-car.ico" alt="Аэропорт Бен Гурион - центральное отделение проката аренды авто в Израиле"> +972-58-7710101</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+<a class="navbar-brand" href="/ru/"><img src="../img/Rent-car.ico" alt="Аэропорт Бен Гурион - центральное отделение проката аренды авто в Израиле"> +972-58-7710101</a>
+<!--   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> -->
+<!--     <span class="navbar-toggler-icon"></span> -->
+<!--   </button> -->
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+<!--   <div class="collapse navbar-collapse" id="navbarSupportedContent">   -->
     <ul class="navbar-nav mr-auto">
-
-
-
 	<li class="nav-item">
         <a class="nav-link" href="RentalConditions.php" title="Условия проката аренды автомобилей в Израиле, Аэропорт Бен Гурион Иерусалим Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот">Условия аренды</a>
       </li> 
@@ -45,8 +45,7 @@
       <li class="nav-item">
         <a class="nav-link" href="about.php" title="О компании Vastama">О компании</a>
       </li>
-
-  </div>
+<!--   </div> -->
 </nav>
 
 
