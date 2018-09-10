@@ -27,11 +27,7 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-    
-    
-<!--       <li class="nav-item active"> -->
-<!--         <a class="nav-link" href="/ru/">Главная <span class="sr-only">(current)</span></a> -->
-<!--       </li> -->
+
 
 
 	<li class="nav-item">
@@ -48,55 +44,24 @@
       </li>
       <li class="nav-item">
         <a class="nav-link" href="about.php" title="О компании Vastama">О компании</a>
-      </li>  
-        
+      </li>
 
-      
-      
-<!--       <li class="nav-item"> -->
-<!--         <a class="nav-link disabled" href="#">Disabled</a> -->
-<!--       </li> -->
-<!--     </ul> -->
-<!--     <form class="form-inline my-2 my-lg-0"> -->
-<!--       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> -->
-<!--       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
-<!--     </form> -->
   </div>
 </nav>
 
 
 
 
-
-
-
-
-
- 
-<!--      <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">  -->
-<!--       <h5 class="my-0 mr-md-auto font-weight-normal"><img src="../img/Rent-car.ico" alt="Аэропорт Бен Гурион - центральное отделение проката аренды авто в Израиле"> Vastama +972 58 7710101</h5>  -->
-<!--        <nav class="my-2 my-md-0 mr-md-3">  -->
-<!--          <a class="p-2 text-dark" href="Europcar_Albar_Vastama_branches.php" title="Отделения проката аренды автомобилей в Израиле, Аэропорт Бен Гурион Иерусалим Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот">Отделения проката</a>  -->
-<!--          <a class="p-2 text-dark" href="RentalConditions.php" title="Условия проката аренды автомобилей в Израиле, Аэропорт Бен Гурион Иерусалим Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот">Условия аренды</a> -->
-         <!--<a class="p-2 text-dark" href="#leaders">Лидеры продаж</a> 
-<!--          <a class="p-2 text-dark" href="#premium">Премиум</a>  -->
-<!--          <a class="p-2 text-dark" href="#people_carriers">Минивены</a>-->  
-<!--         	<a class="p-2 text-dark" href="about.php" title="О компании Vastama">О компании</a> -->
-
-<!--          <a class="p-2 text-dark" href="list.php">Новости</a>  -->
-<!--        </nav>  -->
-<!--        <a class="btn btn-outline-primary" href="/">English</a>  -->
-<!--      </div>  -->
-
     <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-      <h1 class="display-4"  style="font-family: Times, serif; color:grey; text-transform: uppercase; color: white; text-shadow: 1px 1px 2px #000000; font-size: 2em;">Прокат аренда авто в Израиле</h1>
+      <h1 class="display-4"  style="font-family: Times, serif; color:grey; text-transform: uppercase; color: white; text-shadow: 1px 1px 2px #000000; font-size: 2em;">Аренда Прокат Минивена в Израиле</h1>
       <h3 class="lead">Аренда авто без предоплаты | Бесплатная консультация и помощь по бронированию автомобиля в Израиле на русском языке | Безлимитный километраж при заказе 3-29 дней</h3>
       <p class="lead">Напишите нам на <a style="font-family: Times, serif; color:red">WhatsApp/Viber +972-58-771-0101</a> и наш менеджер вернется к вам с лучшим предложением</p>
     </div>
     
     
     
-    <h2 id="cars" style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Наш автопарк</h2>
+
+    <h2 id="cars" style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Эти минивены есть у нас в прокате</h2>
       <div class="card-deck mb-3 text-center">
         
           
@@ -108,7 +73,12 @@
             
             $low_s = array(0);
             
+            
+            
             foreach ($low_s as $c) {
+                if($data[3] <= 5) {
+                    $value = "&nbsp;";
+                }else{
             echo '<div class="card mb-4 box-shadow"><div class="card-header"><h4 id="'. $data[0].'"class="my-0 font-weight-normal">'. $data[4].' от <span class="badge badge-success">'. $data[11].'</span><small class="text-muted"> USD/день</small></h4></div>
           <div class="card-body">
             <ul class="list-unstyled mt-3 mb-4">
@@ -138,7 +108,7 @@
          
               
       </div></div>';      
-            }
+                }}
             
         }
         fclose($handle);
@@ -146,7 +116,16 @@
     ?>
  </div>        
     
+<br>Минимальный возраст водителя для аренды минивэна в Израиле составляет 25 лет + водительский стаж минимум 2 года <a href="RentalConditions.php" title="Условия проката аренды автомобилей в Израиле, Аэропорт Бен Гурион Иерусалим Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот">ознакомиться с условия аренды</a>
+<br>Если вы незнакомы с дорогами Израиля и спецификой вождения в нашей стране то мы рекомендуем вам также приобрести полису по отмене личного участия в случае повреждения машины или угона. 
+Напишите нам на WhatsApp/Viber +972-58-7710101 и наш менеджер вернется к вам и подробно расскажет о типах и условиях страховок и покрытий
+<br>Депозит который будет закрыт на вашей кредитной карте на время аренды минивэна расчитывается по формуле: сумма аренды(как написано в ваучере) + сумма франшизы(личного участия) + 200$.(окончательная сумма депозита подсчитывается в <a href="Europcar_Albar_Vastama_branches.php" title="Отделения проката аренды автомобилей в Израиле, Аэропорт Бен Гурион Иерусалим Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот">отделении</a> при получении минивэна)
+<br><span class="badge badge-danger">Отмена заказа 7-8-9 местных автомобилей</span> за 48 часов до получения. Иначе будет оплата в размере одного дня аренды.
+<hr /><span class="badge badge-primary">Способы оплаты:</span>
 
+<br>Для оформления контракта арендатор должен иметь при себе зарегистрированную на его имя кредитную карту. 
+<br>Мы принимаем кредитные карты: Visa, MasterCard, Amex, Diners
+<hr />
 
  
     <h2 id="price_list" style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Наши цены:</h2>
@@ -174,16 +153,14 @@
     if (($handle = fopen("../albar_25.12.2017.csv", "r")) !== FALSE) {       
         
         while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
-            $num = count($data);                       
+                       
             
             $low_s = array(0);
             
             foreach ($low_s as $c) {
-                //echo $data[$c] . "<br />\n";
-//                 if(empty($data[$c])) {
-//                     $value = "&nbsp;";
-//                 }else{
-//                     $value = $data[$c];
+                if($data[3] <= 5) {
+                    $value = "&nbsp;";
+                }else{
 
                 echo '<tr>
                 <td>'. $data[0]. '<br>'. $data[1]. '</td>
@@ -198,7 +175,7 @@
                 <td>'. $data[23]. '</td>
                 <td>'. $data[18]. '</td>
                 </tr>';
-           }
+                }}
 
         }   
         fclose($handle);
@@ -236,12 +213,10 @@
             $low_s = array(0);
             
             foreach ($low_s as $c) {
-                //echo $data[$c] . "<br />\n";
-//                 if(empty($data[$c])) {
-//                     $value = "&nbsp;";
-//                 }else{
-//                     $value = $data[$c];
-
+               
+                  if($data[3] <= 5) {
+                      $value = "&nbsp;";
+                  }else{
                 echo '<tr>
                 <td>'. $data[0]. '<br>'. $data[1]. '</td>
                 <td><a href="#'. $data[0]. '"><strong>'. $data[4].'</strong></a><br>Сидений '. $data[3]. '</td>
@@ -255,7 +230,7 @@
                 <td>'. $data[23]. '</td>
                 <td>'. $data[18]. '</td>
                 </tr>';
-           }
+                  } }
 
         }   
         fclose($handle);
@@ -274,103 +249,9 @@
 <p class="text-left">* Указанные на сайте <span class="badge badge-success">цены значительно ниже официальных расценок</span> на сайте\отделениях компании и соответствуют прейскуранту дилера компаний EuropCar/Albar(май 2018) 
 <br>* Указанные на сайте цены <span class="badge badge-danger">НЕ ВКЛЮЧАЮТ</span> обязательные страховки 
 <br>* Указанные на сайте цены <span class="badge badge-danger">НЕ ВКЛЮЧАЮТ НДС</span> (от НДС освобождены лица имеющие в пасторте визу В2\В3 - обязательно предоставить при получении машины)
-    
-    
-    
-    
-       
-    
-          
+     
       
-      
-        
-
-
-
-
-<h2 style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Отделения проката аренды автомобилей в Израиле</h2>
-
-
-<?php include("__branches.html"); ?>
-
-
-    <hr/>
-    <p class="text-left">* Указанные цены соответствуют прейскуранту дилера компаний EuropCar/Albar(май 2018) для обычного сезона и значительно отличаются от расценок на сайте\отделении компании
-    <br>* Указанные цены НЕ ВКЛЮЧАЮТ обязательные страховки 
-    <br>* Указанные цены НЕ включают НДС (от НДС освобождены только туристы имеющие в пасторте визу В2\В3 - обязательно предоставить при получении машины) 
-    <br>* Часы работы отделений - Аэропорт Бен Гурион 24\7, остальные отделения 8-18, пятница 8-13
-    <br>* Компания Vastama Ltd официально зарегистрированное (регистрационный номер 515052702) в 2014 году в Израиле. Предприятие является официальным агентом ведущей компании по аренде прокату автомобилей в Израиле Albar 
-    <br>* Минимальный возраст водителя 21 год. Водитель 21-23 года - дополнительная оплата "молодой водитель"
-    <br>* Модели автомобилей представлены исключительно для примера и при выдаче компания имеет право предоставить автомобиль того же класса, но другой марки.
-
-<!--<h2 style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Новости мира автомобилей</h2> 
-    <hr />   -->
-<!--   //      <?php include("auto_feed_ru.php"); ?>  -->
-
-
-<footer class="pt-4 my-md-5 pt-md-5 border-top">
-<div class="row">
-          <div class="col-12 col-md">
-            <img class="mb-2" src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width="24" height="24">
-            <small class="d-block mb-3 text-muted">&copy; Vastama Ltd, 2014-2018</small>
-          </div>
-          <div class="col-6 col-md">
-<!--             <h5>Features</h5> -->
-            <ul class="list-unstyled text-small">
-<!--               <li><a class="text-muted" href="#">Cool stuff</a></li> -->
-<!--               <li><a class="text-muted" href="#">Random feature</a></li> -->
-<!--               <li><a class="text-muted" href="#">Team feature</a></li> -->
-<!--               <li><a class="text-muted" href="#">Stuff for developers</a></li> -->
-<!--               <li><a class="text-muted" href="#">Another one</a></li> -->
-<!--               <li><a class="text-muted" href="#">Last time</a></li> -->
-            </ul>
-          </div>
-          <div class="col-6 col-md">
-<!--             <h5>Resources</h5> -->
-            <ul class="list-unstyled text-small">
-<!--               <li><a class="text-muted" href="#">Resource</a></li> -->
-<!--               <li><a class="text-muted" href="#">Resource name</a></li> -->
-<!--               <li><a class="text-muted" href="#">Another resource</a></li> -->
-<!--               <li><a class="text-muted" href="#">Final resource</a></li> -->
-            </ul>
-          </div>
-          <div class="col-6 col-md">
-<!--             <h5>About</h5> -->
-            <ul class="list-unstyled text-small">
-<!--               <li><a class="text-muted" href="#">Team</a></li> -->
-<!--               <li><a class="text-muted" href="#">Locations</a></li> -->
-<!--               <li><a class="text-muted" href="#">Privacy</a></li> -->
-<!--               <li><a class="text-muted" href="#">Terms</a></li> -->
-            </ul>
-          </div>
-        </div>
-
-
-      </footer>
-      
-        
-        
-      
-    </div>
+    </div>    
     
-    
-    <?php include("../__counters.html"); ?>
 
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<!--     <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script> -->
-<!--     <script src="../../../../assets/js/vendor/popper.min.js"></script> -->
-<!--     <script src="../../../../dist/js/bootstrap.min.js"></script> -->
-<!--     <script src="../../../../assets/js/vendor/holder.min.js"></script> -->
-    <script>
-      Holder.addTheme('thumb', {
-        bg: '#55595c',
-        fg: '#eceeef',
-        text: 'Thumbnail'
-      });
-    </script>
-  </body>
-</html>
+  </body></html>
