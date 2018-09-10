@@ -190,9 +190,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     if (($handle = fopen("albar_25.12.2017.csv", "r")) !== FALSE) {       
         
         while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
-            $num = count($data);                       
+//             $num = count($data);                       
             
-            $low_s = array(0);
+             $low_s = array(0);
             
             foreach ($low_s as $c) {
             echo '<div class="card mb-4 box-shadow"><div class="card-header"><h4 id="'. $data[0].'"class="my-0 font-weight-normal">'. $data[4].'<small class="text-muted"> starting <span class="badge badge-success">'. $data[11].'</span> USD/day</small></h4></div>
