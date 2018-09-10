@@ -3,8 +3,8 @@
 <!doctype html>
 <html lang="ru">
 <head>
-<title>Прокат аренда авто в Израиле +972-58-7710101</title>
-<meta name="description" content="Прокат аренда авто в Израиле. Отделения проката в Бен Гурион, Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот и др. Без предоплаты. Говорим по русски">
+<title>Прокат аренда автомобилей Люкс в Израиле +972-58-7710101</title>
+<meta name="description" content="Прокат аренда автомобилей Люкс в Израиле. BMW 318i, VW Passat, Nissan Maxima, Audi A6, Ford Edge или подобные. Без предоплаты. Говорим по русски">
 
 
 <?php include("__header.html"); ?>
@@ -12,6 +12,7 @@
 </head>
 
 <body>
+
 
  
 <?php include("../seo.html"); ?>
@@ -22,7 +23,7 @@
 
 
     <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-      <h1 class="display-4"  style="font-family: Times, serif; color:grey; text-transform: uppercase; color: white; text-shadow: 1px 1px 2px #000000; font-size: 2em;">Аренда Прокат Минивена в Израиле</h1>
+      <h1 class="display-4"  style="font-family: Times, serif; color:grey; text-transform: uppercase; color: white; text-shadow: 1px 1px 2px #000000; font-size: 2em;">Прокат аренда автомобилей Люкс в Израиле</h1>
       <h3 class="lead">Аренда авто без предоплаты | Бесплатная консультация и помощь по бронированию автомобиля в Израиле на русском языке | Безлимитный километраж при заказе 3-29 дней</h3>
       <p class="lead">Напишите нам на <a style="font-family: Times, serif; color:red">WhatsApp/Viber +972-58-771-0101</a> и наш менеджер вернется к вам с лучшим предложением</p>
     </div>
@@ -30,7 +31,7 @@
     
     
 
-    <h2 id="cars" style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Эти минивены есть у нас в прокате</h2>
+    <h2 id="cars" style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Эти люкс машины есть у нас в прокате</h2>
       <div class="card-deck mb-3 text-center">
         
           
@@ -45,7 +46,7 @@
             
             
             foreach ($low_s as $c) {
-                if($data[3] <= 5) {
+                if($data[0] != "K" && $data[0] != "R" && $data[0] != "P" && $data[0] != "W" && $data[0] != "O") {
                     $value = "&nbsp;";
                 }else{
             echo '<div class="card mb-4 box-shadow"><div class="card-header"><h4 id="'. $data[0].'"class="my-0 font-weight-normal">'. $data[4].' от <span class="badge badge-success">'. $data[11].'</span><small class="text-muted"> USD/день</small></h4></div>
@@ -85,10 +86,10 @@
     ?>
  </div>        
     
-<br>Минимальный возраст водителя для аренды минивэна в Израиле составляет 25 лет + водительский стаж минимум 2 года <a href="RentalConditions.php" title="Условия проката аренды автомобилей в Израиле, Аэропорт Бен Гурион Иерусалим Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот">ознакомиться с условия аренды</a>
+<br>Минимальный возраст водителя для аренды BMW 318i, VW Passat, Nissan Maxima, Audi A6, Ford Edge или подобного люкс автомобиля в Израиле составляет 28 лет + водительский стаж минимум 5 года <a href="RentalConditions.php" title="Условия проката аренды автомобилей в Израиле, Аэропорт Бен Гурион Иерусалим Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот">ознакомиться с условия аренды</a>
 <br>Если вы незнакомы с дорогами Израиля и спецификой вождения в нашей стране то мы рекомендуем вам также приобрести полису по отмене личного участия в случае повреждения машины или угона. 
 Напишите нам на WhatsApp/Viber +972-58-7710101 и наш менеджер вернется к вам и подробно расскажет о типах и условиях страховок и покрытий
-<br>Депозит который будет закрыт на вашей кредитной карте на время аренды минивэна расчитывается по формуле: сумма аренды(как написано в ваучере) + сумма франшизы(личного участия) + 200$.(окончательная сумма депозита подсчитывается в <a href="Europcar_Albar_Vastama_branches.php" title="Отделения проката аренды автомобилей в Израиле, Аэропорт Бен Гурион Иерусалим Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот">отделении</a> при получении минивэна)
+<br>Депозит который будет закрыт на вашей кредитной карте на время аренды BMW 318i, VW Passat, Nissan Maxima, Audi A6, Ford Edge или подобного люкс автомобиля расчитывается по формуле: сумма аренды(как написано в ваучере) + сумма франшизы(личного участия) + 200$.(окончательная сумма депозита подсчитывается в <a href="Europcar_Albar_Vastama_branches.php" title="Отделения проката аренды автомобилей в Израиле, Аэропорт Бен Гурион Иерусалим Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот">отделении</a> при получении автомобиля)
 <br><span class="badge badge-danger">Отмена заказа 7-8-9 местных автомобилей</span> за 48 часов до получения. Иначе будет оплата в размере одного дня аренды.
 <hr /><span class="badge badge-primary">Способы оплаты:</span>
 
@@ -123,11 +124,11 @@
         
         while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
                        
-            
+                       
             $low_s = array(0);
             
             foreach ($low_s as $c) {
-                if($data[3] <= 5) {
+                if($data[0] != "K" && $data[0] != "R" && $data[0] != "P" && $data[0] != "W" && $data[0] != "O") {
                     $value = "&nbsp;";
                 }else{
 
@@ -183,7 +184,7 @@
             
             foreach ($low_s as $c) {
                
-                  if($data[3] <= 5) {
+                if($data[0] != "K" && $data[0] != "R" && $data[0] != "P" && $data[0] != "W" && $data[0] != "O") {
                       $value = "&nbsp;";
                   }else{
                 echo '<tr>
