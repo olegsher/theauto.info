@@ -17,6 +17,7 @@
 <?php include("../seo.html"); ?>
 
 <div class="container">
+<?php include("__carousel.html"); ?>
 <?php include("__menu.html"); ?>
 
 

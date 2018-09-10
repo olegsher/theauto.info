@@ -15,19 +15,8 @@
 <?php include("../seo.html"); ?>
 
  <div class="container">
+<?php include("__carousel.html"); ?>
 <?php include("__menu.html"); ?>
-
-<!--    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">  -->
-<!--       <h5 class="my-0 mr-md-auto font-weight-normal">Vastama Ltd - Ваш агент в Израиле</h5>  -->
-<!--        <nav class="my-2 my-md-0 mr-md-3">  -->
-<!--          <a class="p-2 text-dark" href="/ru/">Главная страница</a>  -->
-<!--           <a class="p-2 text-dark" href="Europcar_Albar_Vastama_branches.php">Отделения проката</a>  -->
-<!--          <a class="p-2 text-dark" href="#premium">Премиум</a>  -->
-<!--          <a class="p-2 text-dark" href="#people_carriers">Минивены</a>  -->
-<!--          <a class="p-2 text-dark" href="#standard">Стандартные</a>  -->
-<!--        </nav>  -->
-<!--        <a class="btn btn-outline-primary" href="http://www.theauto.info/">English</a>  -->
-<!--      </div>  -->
 
 
  
