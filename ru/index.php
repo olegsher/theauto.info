@@ -18,72 +18,54 @@
 
 <div class="container">
 
-<!-- <nav class="navbar navbar-expand-lg navbar-light bg-light"> -->
-<!-- <a class="nav-link" href="/"><img src="../img/en.png" alt="English site"></a> -->
-<!--   <a class="navbar-brand" href="/ru/"><img src="../img/Rent-car.ico" alt="Аэропорт Бен Гурион - центральное отделение проката аренды авто в Израиле"> +972-58-7710101</a> -->
-<!--   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> -->
-<!--     <span class="navbar-toggler-icon"></span> -->
-<!--   </button> -->
+<div id="demo" class="carousel slide" data-ride="carousel">
 
-<!--   <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
-<!--     <ul class="navbar-nav mr-auto"> -->
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+<!--     <li data-target="#demo" data-slide-to="1"></li> -->
+<!--     <li data-target="#demo" data-slide-to="2"></li>  -->
+<!--     <li data-target="#demo" data-slide-to="3"></li> -->
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="img-fluid" src="../img/slider/logo_ru.png" >       
+    </div>
     
     
-<!--       <li class="nav-item active"> -->
-<!--         <a class="nav-link" href="/ru/">Главная <span class="sr-only">(current)</span></a> -->
-<!--       </li> -->
-
-
-<!-- 	<li class="nav-item"> -->
-<!--         <a class="nav-link" href="RentalConditions.php" title="Условия проката аренды автомобилей в Израиле, Аэропорт Бен Гурион Иерусалим Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот">Условия аренды</a> -->
-<!--       </li>  -->
-<!--       <li class="nav-item"> -->
-<!--         <a class="nav-link" href="Europcar_Albar_Vastama_branches.php" title="Отделения проката аренды автомобилей в Израиле, Аэропорт Бен Гурион Иерусалим Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот">Отделения</a> -->
-<!--       </li>    -->
-<!--       <li class="nav-item"> -->
-<!--         <a class="nav-link" href="miniven.php" title="Аренда минивена в Израиле">Минивены</a> -->
-<!--       </li> -->
-<!--       <li class="nav-item"> -->
-<!--         <a class="nav-link" href="lux.php" title="Аренда автомобиля люкс в Израиле">Люкс</a> -->
-<!--       </li> -->
-<!--       <li class="nav-item"> -->
-<!--         <a class="nav-link" href="about.php" title="О компании Vastama">О компании</a> -->
-<!--       </li>   -->
-        
-
+<!--     <div class="carousel-item"> -->
+<!--       <img class="img-fluid" src="img/slider/bmw.jpg"> -->
       
-      
+<!--     </div> -->
+  
+  </div>
+  
+  <!-- Left and right controls -->
+<!--   <a class="carousel-control-prev" href="#demo" data-slide="prev"> -->
+<!--     <span class="carousel-control-prev-icon"></span> -->
+<!--   </a> -->
+<!--   <a class="carousel-control-next" href="#demo" data-slide="next"> -->
+<!--     <span class="carousel-control-next-icon"></span> -->
+<!--   </a> -->
+</div>  
 
 
 
 <?php include("__menu.html"); ?>
 
 
+<div class="jumbotron">
+  <h1>Vastama - агенство по аренде прокату автомобилей в Израиле</h1>      
+  <p>Аренда авто без предоплаты | Бесплатная консультация и помощь по бронированию автомобиля в Израиле на русском языке | Безлимитный километраж при заказе 3-29 дней</p>
+</div>
 
-
-
-
- 
-<!--      <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">  -->
-<!--       <h5 class="my-0 mr-md-auto font-weight-normal"><img src="../img/Rent-car.ico" alt="Аэропорт Бен Гурион - центральное отделение проката аренды авто в Израиле"> Vastama +972 58 7710101</h5>  -->
-<!--        <nav class="my-2 my-md-0 mr-md-3">  -->
-<!--          <a class="p-2 text-dark" href="Europcar_Albar_Vastama_branches.php" title="Отделения проката аренды автомобилей в Израиле, Аэропорт Бен Гурион Иерусалим Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот">Отделения проката</a>  -->
-<!--          <a class="p-2 text-dark" href="RentalConditions.php" title="Условия проката аренды автомобилей в Израиле, Аэропорт Бен Гурион Иерусалим Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот">Условия аренды</a> -->
-         <!--<a class="p-2 text-dark" href="#leaders">Лидеры продаж</a> 
-<!--          <a class="p-2 text-dark" href="#premium">Премиум</a>  -->
-<!--          <a class="p-2 text-dark" href="#people_carriers">Минивены</a>-->  
-<!--         	<a class="p-2 text-dark" href="about.php" title="О компании Vastama">О компании</a> -->
-
-<!--          <a class="p-2 text-dark" href="list.php">Новости</a>  -->
-<!--        </nav>  -->
-<!--        <a class="btn btn-outline-primary" href="/">English</a>  -->
-<!--      </div>  -->
-
-    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-      <h1 class="display-4"  style="font-family: Times, serif; color:grey; text-transform: uppercase; color: white; text-shadow: 1px 1px 2px #000000; font-size: 2em;">Прокат аренда авто в Израиле</h1>
-      <h3 class="lead">Аренда авто без предоплаты | Бесплатная консультация и помощь по бронированию автомобиля в Израиле на русском языке | Безлимитный километраж при заказе 3-29 дней</h3>
-      <p class="lead">Напишите нам на <a style="font-family: Times, serif; color:red">WhatsApp/Viber +972-58-771-0101</a> и наш менеджер вернется к вам с лучшим предложением</p>
-    </div>
+<!--     <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center"> -->
+<!--       <h1 class="display-4"  style="font-family: Times, serif; color:grey; text-transform: uppercase; color: white; text-shadow: 1px 1px 2px #000000; font-size: 2em;">Прокат аренда авто в Израиле</h1>-->
+<!--       <h3 class="lead">Аренда авто без предоплаты | Бесплатная консультация и помощь по бронированию автомобиля в Израиле на русском языке | Безлимитный километраж при заказе 3-29 дней</h3> -->
+ <!--     <p class="lead">Напишите нам на <a style="font-family: Times, serif; color:red">WhatsApp/Viber +972-58-771-0101</a> и наш менеджер вернется к вам с лучшим предложением</p>-->
+ <!--  </div> -->
     
     
     
