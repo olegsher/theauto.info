@@ -36,7 +36,7 @@
     
     
     
-    <h2 id="cars" style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Наш автопарк</h2>
+   
       <div class="card-deck mb-3 text-center">
         
           
@@ -89,10 +89,13 @@
 
 
  
-    <h2 id="price_list" style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Наши цены:</h2>
-    
-    <hr /><strong>Аренда автомобиля в Израиле  - Расценки <span class="badge badge-primary">Низкого</span> Сезона</strong>($USD): 
-    <br>Апрель 10 - Июль 14 2018; Август 26 - Декабрь 19 2018; Январь 6 - Апрель 13 2019; Апрель 29 - Июль 14 2019; Август 26 - Декабрь 19 2019;
+<div class="jumbotron">
+  <h2>Аренда автомобиля в Израиле 
+  <br>Расценки <span class="badge badge-primary">Низкого</span> Сезона</strong>($USD):</h2>      
+  <p>Апрель 10 - Июль 14 2018; Август 26 - Декабрь 19 2018; Январь 6 - Апрель 13 2019; Апрель 29 - Июль 14 2019; Август 26 - Декабрь 19 2019; </p>
+</div>    
+<!--     <hr /><strong>Аренда автомобиля в Израиле  - Расценки <span class="badge badge-primary">Низкого</span> Сезона</strong>($USD):  -->
+<!--     <br>Апрель 10 - Июль 14 2018; Август 26 - Декабрь 19 2018; Январь 6 - Апрель 13 2019; Апрель 29 - Июль 14 2019; Август 26 - Декабрь 19 2019; -->
     <table class="table table-bordered">
     <thead>
       <tr>
@@ -102,10 +105,6 @@
         <th>Недельная</th>
         <th>Д.день<br>(8+)</th>
         <th>Месячная<br>(30+)</th>
-        <th>CDW</th>
-        <th>TP</th>
-        <th>3PLC</th>
-        <th>Л.Участие</th>
         <th>Доп.<br>KM</th>
       </tr>
     </thead>
@@ -132,10 +131,7 @@
                 <td>'. $data[9]. '</td>
                 <td>'. $data[11]. '</td>
                 <td>'. $data[13]. '</td>
-                <td>'. $data[15]. '</td>
-                <td>'. $data[16]. '</td>
-                <td>'. $data[17]. '</td>
-                <td>'. $data[23]. '</td>
+              
                 <td>'. $data[18]. '</td>
                 </tr>';
            }
@@ -146,10 +142,21 @@
     ?>
         </tbody>
   </table>
+  
+  
+  
+  
+  
+  
 
-
-<hr /><strong>Аренда автомобиля в Израиле  - Расценки <span class="badge badge-danger">Высокого</span> Сезона</strong>($USD): 
-<br>Декабрь 20 2018 - Январь 5 2019; Апрель 14 - 28 2019; Июль 15 - Август 25 2019;
+<div class="jumbotron">
+  <h2>Аренда автомобиля в Израиле 
+  <br>Расценки <span class="badge badge-danger">Высокого</span> Сезона</strong>($USD):</h2>      
+  <p>Декабрь 20 2018 - Январь 5 2019; Апрель 14 - 28 2019; Июль 15 - Август 25 2019; </p>
+</div>
+<!-- <hr /><strong>Аренда автомобиля в Израиле  - 
+<br>Расценки <span class="badge badge-danger">Высокого</span> Сезона</strong>($USD):  -->
+<!-- <br>Декабрь 20 2018 - Январь 5 2019; Апрель 14 - 28 2019; Июль 15 - Август 25 2019; -->
 <table class="table table-bordered">
     <thead>
       <tr>
@@ -159,10 +166,7 @@
         <th>Недельная</th>
         <th>Д.день<br>(8+)</th>
         <th>Месячная<br>(30+)</th>
-        <th>CDW</th>
-        <th>TP</th>
-        <th>3PLC</th>
-        <th>Л.Участие</th>
+        
         <th>Доп.<br>KM</th>
       </tr>
     </thead>
@@ -189,10 +193,7 @@
                 <td>'. $data[10]. '</td>
                 <td>'. $data[12]. '</td>
                 <td>'. $data[14]. '</td>
-                <td>'. $data[15]. '</td>
-                <td>'. $data[16]. '</td>
-                <td>'. $data[17]. '</td>
-                <td>'. $data[23]. '</td>
+                
                 <td>'. $data[18]. '</td>
                 </tr>';
            }
@@ -203,6 +204,78 @@
     ?>
         </tbody>
   </table>
+  <div class="jumbotron">
+  <h2>Обязательные страховки и отмена личного участия</h2>      
+  <p>Обязательные страховки (CDW/LDW & TP) покрывают ущерб причиненный автомобилю при аварии или угоне
+  <hr /><span class="badge badge-danger">Франшиза</span>
+Личная ответственность при повреждении или угоне автомобиля. Сумма франшизы зависит от категории автомобиля $475 — $960. Может быть уменьшена до нуля при приобретении дополнительных полисов Super CDW и/или Super TP
+ <hr /><span class="badge badge-danger">Дополнительная страховка (Super CDW)</span>
+
+не обязательная и снижает ответственность арендатора до Нуля в случае ущерба автомобилю (т.е отменяет франшизу).
+Приобрести данный вид страхования возможно только в дополнение к базовому полису(CDW/LDW & TP).
+<br>* Данный вид страхования не покрывает повреждения, нанесенные шинам, колесам, стеклам, крыше, а так же ходовой части автомобиля. Арендатор обязан выплатить полную сумму ущерба, нанесенного этим частям автомобиля. 
+<hr /><span class="badge badge-danger">Дополнительная страховка (Super TP)</span>
+не обязательная и снижает ответственность арендатора до Нуля в случае угона арендованнго автомобиля (т.е отменяет франшизу).
+Приобрести данный вид страхования возможно только в дополнение к базовому полису (CDW/LDW & TP).
+
+
+</p>
+</div>
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Кат</th>
+        <th>Авто</th>
+        
+        <th>CDW</th>
+        <th>TP</th>
+        <th>3PLC</th>
+        <th>Франшиза</th>
+        <th>Super CDW</th>
+        <th>Super TP</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+    <?php 
+    if (($handle = fopen("../albar_25.12.2017.csv", "r")) !== FALSE) {       
+        
+        while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
+            $num = count($data);                       
+            
+            $low_s = array(0);
+            
+            foreach ($low_s as $c) {
+                //echo $data[$c] . "<br />\n";
+//                 if(empty($data[$c])) {
+//                     $value = "&nbsp;";
+//                 }else{
+//                     $value = $data[$c];
+
+                echo '<tr>
+                <td>'. $data[0]. '</td>
+                <td><a href="#'. $data[0]. '" ><strong>'. $data[4].'</strong></a></td>
+
+                <td>'. $data[15]. '</td>
+                <td>'. $data[16]. '</td>
+                <td>'. $data[17]. '</td>
+                <td>'. $data[23]. '</td>
+                <td>'. $data[19]. '</td>
+                <td>'. $data[21]. '</td>
+                </tr>';
+           }
+
+        }   
+        fclose($handle);
+    }
+    ?>
+        </tbody>
+  </table>
+  
+  
+  
+  
+  
 <br>Низкий Сезон: Апрель 10 - Июль 14 2018; Август 26 - Декабрь 19 2018; Январь 6 - Апрель 13 2019; Апрель 29 - Июль 14 2019; Август 26 - Декабрь 19 2019;
 <br>Высокий Сезон: Декабрь 20 2018 - Январь 5 2019; Апрель 14 - 28 2019; Июль 15 - Август 25 2019;
 
