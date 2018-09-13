@@ -74,113 +74,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
        <a class="btn btn-outline-primary" href="/ru/" title="Go to Russian section">Русский</a> 
      </div> 
 
-    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-      <h1 class="display-4"  style="font-family: Times, serif; color:grey; text-transform: uppercase; color: white; text-shadow: 1px 1px 2px #000000; font-size: 2em;">Car Rental in Israel</h1><hr />
-      <p class="lead">No credit card fees | No amendment fees | Unlimited mileage with 3-29 days orders</p>
-      <p class="lead">Contact us by <a style="font-family: Times, serif; color:red">WhatsApp/Viber +972-58-771-0101</a> and our representative will back to you with best offer</p>
-    </div>
+ 
 
-    
- <div id="demo" class="carousel slide" data-ride="carousel">
-
-  <!-- Indicators -->
-  <ul class="carousel-indicators">
-    <li data-target="#demo" data-slide-to="0" class="active"></li>
-    <li data-target="#demo" data-slide-to="1"></li>
-    <li data-target="#demo" data-slide-to="2"></li> 
-    <li data-target="#demo" data-slide-to="3"></li>
-  </ul>
+<div class="jumbotron">
+  <h1>Vastama - car rental agent in Israel</h1>      
+  <p>No credit card fees 
+  <br>No amendment fees
+  <br>Unlimited mileage with 3-29 days orders
+  <hr />Contact us by <a style="font-family: Times, serif; color:red">WhatsApp/Viber +972-58-771-0101</a> and our representative will back to you with best offer 
   
-  <!-- The slideshow -->
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="img-fluid" src="img/slider/seat_leon_sw.png" >
-       <div class="carousel-caption d-none d-md-block">
-    <h5 style="	position: absolute;
-				right: 0;
-				bottom: 0;
-				left: 0;
-				z-index: 10;
-				padding-top: 20px;
-				padding-bottom: 20px;
-				color: #fff;
-				text-align: center;
-				background: rgba(0,0,0,0.6);">New Seat Leon SW</h5>
-    <p></p>
-  </div>
-    </div>
-    
-    
-    <div class="carousel-item">
-      <img class="img-fluid" src="img/slider/bmw.jpg">
-      <div class="carousel-caption">
-     
-    <h5 style="	position: absolute;
-				right: 0;
-				bottom: 0;
-				left: 0;
-				z-index: 10;
-				padding-top: 20px;
-				padding-bottom: 20px;
-				color: #fff;
-				text-align: center;
-				background: rgba(0,0,0,0.6);">bmw</h5>
-    <p></p>
-  </div>
-    </div>
-    
-    
-    
-    
-    
-    
-    
-    <div class="carousel-item">
-      <img class="img-fluid" src="img/slider/vw_golf.png">
-      <div class="carousel-caption">
-     
-    <h5 style="	position: absolute;
-				right: 0;
-				bottom: 0;
-				left: 0;
-				z-index: 10;
-				padding-top: 20px;
-				padding-bottom: 20px;
-				color: #fff;
-				text-align: center;
-				background: rgba(0,0,0,0.6);">Rent Volkswagen Golf(or similar) - Category I for 7+ days</h5>
-    <p></p>
-  </div>
-    </div>
-    
-    
-    <div class="carousel-item">
-      <img class="img-fluid" src="img/slider/toyota-c-hr.png" >
-      <div class="carousel-caption">
-     
-    <h5 style="	position: absolute;
-				right: 0;
-				bottom: 0;
-				left: 0;
-				z-index: 10;
-				padding-top: 20px;
-				padding-bottom: 20px;
-				color: #fff;
-				text-align: center;
-				background: rgba(0,0,0,0.6);">Toyota</h5>
-    <p></p>
-  </div>
-    </div>
-  </div>
-  
-  <!-- Left and right controls -->
-  <a class="carousel-control-prev" href="#demo" data-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </a>
-  <a class="carousel-control-next" href="#demo" data-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </a>
-</div>   
+</div>    
+ 
    
 <h2 id="cars" style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Our car fleet</h2>
       <div class="card-deck mb-3 text-center">
@@ -195,7 +99,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
              $low_s = array(0);
             
             foreach ($low_s as $c) {
-            echo '<div class="card mb-4 box-shadow"><div class="card-header"><h4 id="'. $data[0].'"class="my-0 font-weight-normal">'. $data[4].'<small class="text-muted"> starting <span class="badge badge-success">'. $data[11].'</span> USD/day</small></h4></div>
+            echo '<div class="card mb-4 box-shadow"><div class="card-header"><h4 id="'. $data[0].'"class="my-0 font-weight-normal">'. $data[4].' or similar<small class="text-muted"> starting <span class="badge badge-success">'. $data[11].'</span> USD/day</small></h4></div>
           <div class="card-body">
 
             <ul class="list-unstyled mt-3 mb-4">
@@ -213,7 +117,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                      <div class="col-auto">
                      <input type="tel" class="form-control" required  name="phone" placeholder="phone include country code">
                      </div>               
-                     <input type="hidden" name="car-select" value="Car Category: '. $data[0].', '. $data[4].'">
+                     <input type="hidden" name="car-select" value="Car Category: '. $data[0].', '. $data[4].' or similar">
                     </div>
                     <input type="submit" name="submit" value="Send">
                 </form>
@@ -274,7 +178,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
                 echo '<tr>
                 <td>'. $data[0]. '<br>'. $data[1]. '</td>
-                <td><a href="#'. $data[0]. '" ><strong>'. $data[4].'</strong></a><br>Seats '. $data[3]. '</td>
+                <td><a href="#'. $data[0]. '" ><strong>'. $data[4].' or similar</strong></a><br>Seats '. $data[3]. '</td>
                 <td>'. $data[5]. '</td>
                 <td>'. $data[9]. '</td>
                 <td>'. $data[11]. '</td>
@@ -331,7 +235,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
                 echo '<tr>
                 <td>'. $data[0]. '<br>'. $data[1]. '</td>
-                <td><a href="#'. $data[0]. '"><strong>'. $data[4].'</strong></a><br>Seats '. $data[3]. '</td>
+                <td><a href="#'. $data[0]. '"><strong>'. $data[4].' or similar</strong></a><br>Seats '. $data[3]. '</td>
                 <td>'. $data[6]. '</td>
                 <td>'. $data[10]. '</td>
                 <td>'. $data[12]. '</td>

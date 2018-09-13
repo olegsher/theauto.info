@@ -22,11 +22,17 @@
 
 
 
-    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-      <h1 class="display-4"  style="font-family: Times, serif; color:grey; text-transform: uppercase; color: white; text-shadow: 1px 1px 2px #000000; font-size: 2em;">Аренда Прокат минивэна в Израиле</h1>
-      <h3 class="lead">Аренда авто без предоплаты | Бесплатная консультация и помощь по бронированию автомобиля в Израиле на русском языке | Безлимитный километраж при заказе 3-29 дней</h3>
-      <p class="lead">Напишите нам на <a style="font-family: Times, serif; color:red">WhatsApp/Viber +972-58-771-0101</a> и наш менеджер вернется к вам с лучшим предложением</p>
-    </div>
+    <div class="jumbotron">
+  <h1>Vastama - агенство по аренде прокату автомобилей в Израиле</h1>      
+  <p>
+  <img style="float:left" class="img-responsive" src="../img/checkmark.png" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке" width="20" height="20" /> Бронирование автомобиля в Израиле по лучшей онлайн цене	(до 40% экономии при сравнении с заказом в отделении компании)
+  <br><img style="float:left" class="img-responsive" src="../img/checkmark.png" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке" width="20" height="20" /> Аренда авто без предоплаты (оплата производится при возврате автомобиля и можно наличными)
+  <br><img style="float:left" class="img-responsive" src="../img/checkmark.png" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке" width="20" height="20" /> Бесплатная консультация и помощь по бронированию автомобиля в Израиле на русском языке 
+  <br><img style="float:left" class="img-responsive" src="../img/checkmark.png" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке" width="20" height="20" /> Безлимитный километраж при заказе 3-29 дней
+  <br><img style="float:left" class="img-responsive" src="../img/checkmark.png" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке" width="20" height="20" /> Отделения по аренде прокату автомобилей во всех крупных городах Израиля
+  <br><img style="float:left" class="img-responsive" src="../img/checkmark.png" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке" width="20" height="20" /> Огромные скидки при бронировании автомобиля на 30+ дней
+  <hr /><img style="float:left" class="img-responsive" src="../img/checkmark.png" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке" width="20" height="20" /> Напишите нам на <a style="font-family: Times, serif; color:red">WhatsApp/Viber +972-58-771-0101</a> и наш менеджер вернется к вам с лучшим предложением</p>
+</div>
     
     
     
@@ -49,13 +55,13 @@
                 if($data[3] <= 5) {
                     $value = "&nbsp;";
                 }else{
-            echo '<div class="card mb-4 box-shadow"><div class="card-header"><h4 id="'. $data[0].'"class="my-0 font-weight-normal">'. $data[4].' от <span class="badge badge-success">'. $data[11].'</span><small class="text-muted"> USD/день</small></h4></div>
+            echo '<div class="card mb-4 box-shadow"><div class="card-header"><h4 id="'. $data[0].'"class="my-0 font-weight-normal">'. $data[4].' или подобный от <span class="badge badge-success">'. $data[11].'</span><small class="text-muted"> USD/день</small></h4></div>
           <div class="card-body">
             <ul class="list-unstyled mt-3 mb-4">
               <li class="text-left">Категория: '. $data[0].' | Сидений: '. $data[3].'</li>
               <li class="text-left">Безлимитный километраж при заказе 3-29 дней</li>
               <li class="text-left">При заказе 30+ дней от <span class="badge badge-danger">'. $data[13].'</span>USD</li>
-              <li><img class="img-fluid" src="../img/CarCategories/'. $data[0].'.jpg" alt="аренда авто '. $data[4].' в Израиле" /> </li>
+              <li><img class="img-fluid" src="../img/CarCategories/'. $data[0].'.jpg" alt="аренда авто '. $data[4].' или подобный в Израиле" /> </li>
               <li>
                 <hr />Оставьте данные и наш менеджер свяжется с вами
                <form action="mail_send.php" method="post" id="request-form">
@@ -68,7 +74,7 @@
                      <input type="tel" class="form-control" required  name="phone" placeholder="включая код страны\города">
                         <br>Тел/WhatsApp/Viber/Почта
                      </div>               
-                     <input type="hidden" name="car-select" value="Car Category: '. $data[0].', '. $data[4].'">
+                     <input type="hidden" name="car-select" value="Car Category: '. $data[0].', '. $data[4].' или подобный">
                     </div>
                     <input type="submit" name="submit" value="Send">
                 </form>
@@ -134,7 +140,7 @@
 
                 echo '<tr>
                 <td>'. $data[0]. '<br>'. $data[1]. '</td>
-                <td><a href="#'. $data[0]. '" ><strong>'. $data[4].'</strong></a><br>Сидений '. $data[3]. '</td>
+                <td><a href="#'. $data[0]. '" ><strong>'. $data[4].' или подобный</strong></a><br>Сидений '. $data[3]. '</td>
                 <td>'. $data[5]. '</td>
                 <td>'. $data[9]. '</td>
                 <td>'. $data[11]. '</td>
@@ -189,7 +195,7 @@
                   }else{
                 echo '<tr>
                 <td>'. $data[0]. '<br>'. $data[1]. '</td>
-                <td><a href="#'. $data[0]. '"><strong>'. $data[4].'</strong></a><br>Сидений '. $data[3]. '</td>
+                <td><a href="#'. $data[0]. '"><strong>'. $data[4].' или подобный</strong></a><br>Сидений '. $data[3]. '</td>
                 <td>'. $data[6]. '</td>
                 <td>'. $data[10]. '</td>
                 <td>'. $data[12]. '</td>

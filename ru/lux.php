@@ -23,11 +23,17 @@
 
 
 
-    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-      <h1 class="display-4"  style="font-family: Times, serif; color:grey; text-transform: uppercase; color: white; text-shadow: 1px 1px 2px #000000; font-size: 2em;">Прокат аренда автомобилей Люкс в Израиле</h1>
-      <h3 class="lead">Аренда авто без предоплаты | Бесплатная консультация и помощь по бронированию автомобиля в Израиле на русском языке | Безлимитный километраж при заказе 3-29 дней</h3>
-      <p class="lead">Напишите нам на <a style="font-family: Times, serif; color:red">WhatsApp/Viber +972-58-771-0101</a> и наш менеджер вернется к вам с лучшим предложением</p>
-    </div>
+    <div class="jumbotron">
+  <h1>Vastama - агенство по аренде прокату автомобилей в Израиле</h1>      
+  <p>
+  <img style="float:left" class="img-responsive" src="../img/checkmark.png" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке" width="20" height="20" /> Бронирование автомобиля в Израиле по лучшей онлайн цене	(до 40% экономии при сравнении с заказом в отделении компании)
+  <br><img style="float:left" class="img-responsive" src="../img/checkmark.png" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке" width="20" height="20" /> Аренда авто без предоплаты (оплата производится при возврате автомобиля и можно наличными)
+  <br><img style="float:left" class="img-responsive" src="../img/checkmark.png" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке" width="20" height="20" /> Бесплатная консультация и помощь по бронированию автомобиля в Израиле на русском языке 
+  <br><img style="float:left" class="img-responsive" src="../img/checkmark.png" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке" width="20" height="20" /> Безлимитный километраж при заказе 3-29 дней
+  <br><img style="float:left" class="img-responsive" src="../img/checkmark.png" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке" width="20" height="20" /> Отделения по аренде прокату автомобилей во всех крупных городах Израиля
+  <br><img style="float:left" class="img-responsive" src="../img/checkmark.png" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке" width="20" height="20" /> Огромные скидки при бронировании автомобиля на 30+ дней
+  <hr /><img style="float:left" class="img-responsive" src="../img/checkmark.png" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке" width="20" height="20" /> Напишите нам на <a style="font-family: Times, serif; color:red">WhatsApp/Viber +972-58-771-0101</a> и наш менеджер вернется к вам с лучшим предложением</p>
+</div>
     
     
     
@@ -50,7 +56,7 @@
                 if($data[0] != "K" && $data[0] != "R" && $data[0] != "P" && $data[0] != "W" && $data[0] != "O") {
                     $value = "&nbsp;";
                 }else{
-            echo '<div class="card mb-4 box-shadow"><div class="card-header"><h4 id="'. $data[0].'"class="my-0 font-weight-normal">'. $data[4].' от <span class="badge badge-success">'. $data[11].'</span><small class="text-muted"> USD/день</small></h4></div>
+            echo '<div class="card mb-4 box-shadow"><div class="card-header"><h4 id="'. $data[0].'"class="my-0 font-weight-normal">'. $data[4].' или подобный от <span class="badge badge-success">'. $data[11].'</span><small class="text-muted"> USD/день</small></h4></div>
           <div class="card-body">
             <ul class="list-unstyled mt-3 mb-4">
               <li class="text-left">Категория: '. $data[0].' | Сидений: '. $data[3].'</li>
@@ -69,7 +75,7 @@
                      <input type="tel" class="form-control" required  name="phone" placeholder="включая код страны\города">
                         <br>Тел/WhatsApp/Viber/Почта
                      </div>               
-                     <input type="hidden" name="car-select" value="Car Category: '. $data[0].', '. $data[4].'">
+                     <input type="hidden" name="car-select" value="Car Category: '. $data[0].', '. $data[4].' или подобный">
                     </div>
                     <input type="submit" name="submit" value="Send">
                 </form>
@@ -91,7 +97,7 @@
 <br>Если вы незнакомы с дорогами Израиля и спецификой вождения в нашей стране то мы рекомендуем вам также приобрести полису по отмене личного участия в случае повреждения машины или угона. 
 Напишите нам на WhatsApp/Viber +972-58-7710101 и наш менеджер вернется к вам и подробно расскажет о типах и условиях страховок и покрытий
 <br>Депозит который будет закрыт на вашей кредитной карте на время аренды BMW 318i, VW Passat, Nissan Maxima, Audi A6, Ford Edge или подобного люкс автомобиля расчитывается по формуле: сумма аренды(как написано в ваучере) + сумма франшизы(личного участия) + 200$.(окончательная сумма депозита подсчитывается в <a href="Europcar_Albar_Vastama_branches.php" title="Отделения проката аренды автомобилей в Израиле, Аэропорт Бен Гурион Иерусалим Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот">отделении</a> при получении автомобиля)
-<br><span class="badge badge-danger">Отмена заказа 7-8-9 местных автомобилей</span> за 48 часов до получения. Иначе будет оплата в размере одного дня аренды.
+<br><span class="badge badge-danger">Отмена заказа Lux автомобилей</span> за 48 часов до получения. Иначе будет оплата в размере одного дня аренды.
 <hr /><span class="badge badge-primary">Способы оплаты:</span>
 
 <br>Для оформления контракта арендатор должен иметь при себе зарегистрированную на его имя кредитную карту. 
@@ -135,7 +141,7 @@
 
                 echo '<tr>
                 <td>'. $data[0]. '<br>'. $data[1]. '</td>
-                <td><a href="#'. $data[0]. '" ><strong>'. $data[4].'</strong></a><br>Сидений '. $data[3]. '</td>
+                <td><a href="#'. $data[0]. '" ><strong>'. $data[4].' или подобный</strong></a><br>Сидений '. $data[3]. '</td>
                 <td>'. $data[5]. '</td>
                 <td>'. $data[9]. '</td>
                 <td>'. $data[11]. '</td>
@@ -190,7 +196,7 @@
                   }else{
                 echo '<tr>
                 <td>'. $data[0]. '<br>'. $data[1]. '</td>
-                <td><a href="#'. $data[0]. '"><strong>'. $data[4].'</strong></a><br>Сидений '. $data[3]. '</td>
+                <td><a href="#'. $data[0]. '"><strong>'. $data[4].' или подобный</strong></a><br>Сидений '. $data[3]. '</td>
                 <td>'. $data[6]. '</td>
                 <td>'. $data[10]. '</td>
                 <td>'. $data[12]. '</td>
