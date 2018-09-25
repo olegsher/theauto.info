@@ -83,7 +83,7 @@
           "value": "1",
           "unitCode": "DAY"
         }
-                    }
+                    },
       "priceSpecification": {
         "@type": "UnitPriceSpecification",
         "price": "'. $data[9]. '",
@@ -93,7 +93,7 @@
           "value": "1",
           "unitCode": "WEEK"
         }
-                    }
+                    },
        "priceSpecification": {
         "@type": "UnitPriceSpecification",
         "price": "'. $data[13]. '",
