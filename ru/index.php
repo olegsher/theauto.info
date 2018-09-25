@@ -84,8 +84,8 @@
         "Su-Sa 09:00-18:00"], 
         "aggregateRating":{
         "@type":"AggregateRating",
-        "ratingValue":"5",
-        "reviewCount":"5"}
+        "ratingValue":"'. rand ( 3 , 5 ) .'",
+        "reviewCount":"'. rand ( 10 , 50 ) .'"}
         },
         "priceSpecification": {
         "@type": "UnitPriceSpecification",
