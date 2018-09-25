@@ -91,7 +91,7 @@
         "@type": "UnitPriceSpecification",
         "price": "'. $data[5]. '",
         "priceCurrency": "USD",
-        "valueAddedTaxIncluded": "0",
+        "valueAddedTaxIncluded": "false",
         "validFrom": "'. date('F Y') .'",
         "validThrough": "Dec 19, 2019",
         "referenceQuantity": {
