@@ -74,9 +74,9 @@
         "offeredBy": {
         "@type": "AutoRental",
         "name":"Vastama - Europcar rental company",
-        "image": "http://www.theauto.info/img/rent_company.jpg",
-        "address": "Ben Gurion Israel",
-        "priceRange": "3",
+        "image": "http://www.theauto.info/img/europcar.png",
+        "address": "Terminal 3, Airport Ben Gurion, Israel",
+        "priceRange": "$$$",
         "telephone": "+972-58-7710101",
         "paymentAccepted":"Visa, Master Card, Amex",
         "openingHours": [ 
