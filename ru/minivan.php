@@ -37,10 +37,7 @@
  
   <script type="application/ld+json"> { 
  "@context": "http://schema.org",
-  "@type": "ItemList",
-  "url": "http://www.theauto.info/ru/minivan.php",
-  "numberOfItems": "5",  
-  "itemListElement": [
+  
     <?php 
     if (($handle = fopen("../albar_25.12.2017.csv", "r")) !== FALSE) {       
         
