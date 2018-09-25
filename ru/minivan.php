@@ -89,7 +89,6 @@
         "ratingValue":"5",
         "reviewCount":"5"}
         },
-        },
         "priceSpecification": {
         "@type": "UnitPriceSpecification",
         "price": "'. $data[5]. '",
