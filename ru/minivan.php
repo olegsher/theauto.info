@@ -80,7 +80,15 @@
         "image": "http://www.theauto.info/img/rent_company.jpg",
         "address": "Ben Gurion Israel",
         "priceRange": "3",
-        "telephone": "+972-58-7710101"
+        "telephone": "+972-58-7710101",
+        "paymentAccepted":"Visa, Master Card, Amex",
+        "openingHours": [ 
+        "Su-Sa 09:00-18:00"], 
+        "aggregateRating":{
+        "@type":"AggregateRating",
+        "ratingValue":"5",
+        "reviewCount":"5"}
+        },
         },
         "priceSpecification": {
         "@type": "UnitPriceSpecification",
