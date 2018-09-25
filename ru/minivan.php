@@ -33,6 +33,89 @@
   <br><img style="float:left" class="img-responsive" src="../img/checkmark.png" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке" width="20" height="20" /> Огромные скидки при бронировании автомобиля на 30+ дней
   <hr /><img style="float:left" class="img-responsive" src="../img/checkmark.png" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке" width="20" height="20" /> Напишите нам на <a style="font-family: Times, serif; color:red">WhatsApp/Viber +972-58-771-0101</a> и наш менеджер вернется к вам с лучшим предложением</p>
 </div>
+ 
+ 
+  <script type="application/ld+json"> { 
+ "@context": "http://schema.org",
+  "@type": "ItemList",
+  "url": "http://www.theauto.info/ru/minivan.php",
+  "numberOfItems": "5",  
+  "itemListElement": [
+    <?php 
+    if (($handle = fopen("../albar_25.12.2017.csv", "r")) !== FALSE) {       
+        
+        while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
+            $num = count($data);                       
+            
+            $low_s = array(0);
+            
+            foreach ($low_s as $c) {
+               
+                  if($data[3] <= 5) {
+                      $value = "&nbsp;";
+                  }else{
+                      
+                      
+                echo '{ 
+   "@type":"Car",
+   "image": "http://www.theauto.info/img/CarCategories/'. $data[0].'.jpg",
+   "url": "http://www.theauto.info/ru/minivan.php#'. $data[0].'",
+   "name": "'. $data[4].' или подобный"
+   "acrissCode":"'. $data[1].'",
+   "seatingCapacity": "'. $data[3]. '",
+   "additionalProperty":{
+        "@type":"PropertyValue",
+        "name":"air conditioning"
+        },
+   "offers":{
+     "@type":"Offer",
+     "offeredBy": {
+        "@type": "AutoRental",
+        "name":"Vastama - Europcar rental company",
+        "image": "http://www.theauto.info/img/rent_company.jpg"
+      },    
+      "priceSpecification": {
+        "@type": "UnitPriceSpecification",
+        "price": "'. $data[5]. '",
+        "priceCurrency": "USD",
+        "referenceQuantity": {
+          "@type": "QuantitativeValue",
+          "value": "1",
+          "unitCode": "DAY"
+        }
+                    }
+      "priceSpecification": {
+        "@type": "UnitPriceSpecification",
+        "price": "'. $data[9]. '",
+        "priceCurrency": "USD",
+        "referenceQuantity": {
+          "@type": "QuantitativeValue",
+          "value": "1",
+          "unitCode": "WEEK"
+        }
+                    }
+       "priceSpecification": {
+        "@type": "UnitPriceSpecification",
+        "price": "'. $data[13]. '",
+        "priceCurrency": "USD",
+        "referenceQuantity": {
+          "@type": "QuantitativeValue",
+          "value": "1",
+          "unitCode": "MONTH"
+        }
+                    }, ';
+                 
+
+                  }
+ 
+            }
+        }
+                 
+         
+        fclose($handle);
+    }
+    ?>
+ ]} </script>
     
     
     
@@ -226,6 +309,7 @@
 <br>* Указанные на сайте цены <span class="badge badge-danger">НЕ ВКЛЮЧАЮТ</span> обязательные страховки 
 <br>* Указанные на сайте цены <span class="badge badge-danger">НЕ ВКЛЮЧАЮТ НДС</span> (от НДС освобождены лица имеющие в пасторте визу В2\В3 - обязательно предоставить при получении машины)
      
+
       
     </div>    
 
