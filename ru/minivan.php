@@ -84,26 +84,8 @@
           "unitCode": "DAY"
         }
                     },
-      "priceSpecification": {
-        "@type": "UnitPriceSpecification",
-        "price": "'. $data[9]. '",
-        "priceCurrency": "USD",
-        "referenceQuantity": {
-          "@type": "QuantitativeValue",
-          "value": "1",
-          "unitCode": "WEEK"
-        }
-                    },
-       "priceSpecification": {
-        "@type": "UnitPriceSpecification",
-        "price": "'. $data[13]. '",
-        "priceCurrency": "USD",
-        "referenceQuantity": {
-          "@type": "QuantitativeValue",
-          "value": "1",
-          "unitCode": "MONTH"
-        }
-                    } }, ';
+      
+        }, ';
                  
 
                   }
