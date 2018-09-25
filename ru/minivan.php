@@ -90,7 +90,8 @@
         "@type": "QuantitativeValue",
         "value": "1",
         "unitCode": "DAY"
-        }</script>
+        }
+}</script>
         
         
         
