@@ -60,7 +60,7 @@
    "@type":"Car",
    "image": "http://www.theauto.info/img/CarCategories/'. $data[0].'.jpg",
    "url": "http://www.theauto.info/ru/minivan.php#'. $data[0].'",
-   "name": "'. $data[4].' или подобный"
+   "name": "'. $data[4].' или подобный",
    "acrissCode":"'. $data[1].'",
    "seatingCapacity": "'. $data[3]. '",
    "additionalProperty":{
