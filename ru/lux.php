@@ -56,7 +56,51 @@
                 if($data[0] != "K" && $data[0] != "R" && $data[0] != "P" && $data[0] != "W" && $data[0] != "O") {
                     $value = "&nbsp;";
                 }else{
-            echo '<div class="card mb-4 box-shadow"><div class="card-header"><h4 id="'. $data[0].'"class="my-0 font-weight-normal">'. $data[4].' или подобный от <span class="badge badge-success">'. $data[11].'</span><small class="text-muted"> USD/день</small></h4></div>
+            echo '
+<script type="application/ld+json"> { 
+        "@context": "http://schema.org",    
+        "@type":"Car",
+        "image": "http://www.theauto.info/img/CarCategories/'. $data[0].'.jpg",
+        "url": "http://www.theauto.info/ru/minivan.php#'. $data[0].'",
+        "name": "'. $data[4].' или подобный",
+        "acrissCode":"'. $data[1].'",
+        "seatingCapacity": "'. $data[3]. '",
+        "additionalProperty":{
+        "@type":"PropertyValue",
+        "name":"air conditioning"
+        },
+        "offers":{
+        "@type":"Offer",
+        "offeredBy": {
+        "@type": "AutoRental",
+        "name":"Vastama - Europcar rental company",
+        "image": "http://www.theauto.info/img/rent_company.jpg",
+        "address": "Ben Gurion Israel",
+        "priceRange": "3",
+        "telephone": "+972-58-7710101",
+        "paymentAccepted":"Visa, Master Card, Amex",
+        "openingHours": [ 
+        "Su-Sa 09:00-18:00"], 
+        "aggregateRating":{
+        "@type":"AggregateRating",
+        "ratingValue":"5",
+        "reviewCount":"5"}
+        },
+        "priceSpecification": {
+        "@type": "UnitPriceSpecification",
+        "price": "'. $data[5]. '",
+        "priceCurrency": "USD",
+        "referenceQuantity": {
+        "@type": "QuantitativeValue",
+        "value": "1",
+        "unitCode": "DAY"
+        }
+}}}}</script>
+
+
+
+
+<div class="card mb-4 box-shadow"><div class="card-header"><h4 id="'. $data[0].'"class="my-0 font-weight-normal">'. $data[4].' или подобный от <span class="badge badge-success">'. $data[11].'</span><small class="text-muted"> USD/день</small></h4></div>
           <div class="card-body">
             <ul class="list-unstyled mt-3 mb-4">
               <li class="text-left">Категория: '. $data[0].' | Сидений: '. $data[3].'</li>
