@@ -78,13 +78,15 @@
         "@type": "UnitPriceSpecification",
         "price": "'. $data[5]. '",
         "priceCurrency": "USD",
-        "referenceQuantity": {
-          "@type": "QuantitativeValue",
-          "value": "1",
-          "unitCode": "DAY"
-        }                   
+            "referenceQuantity": {
+              "@type": "QuantitativeValue",
+              "value": "1",
+              "unitCode": "DAY"
+            } 
+        }                  
       
-        }, ';
+        } 
+}, ';
                  
 
                   }
