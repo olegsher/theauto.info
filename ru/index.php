@@ -161,14 +161,15 @@ body {
               <hr />
               <li class="text-left">При заказе 30+ дней от <span class="badge badge-danger">'. $data[13].'</span>USD в месяц(в цену включены обязательные страховки и 150км\день)</li>
               <li><img class="img-fluid" src="../img/CarCategories/'. $data[0].'.jpg" alt="аренда авто '. $data[4].' или подобный в Израиле" /> </li>
-              <li><img style="float:left" class="img-responsive" src="../img/star_32x32.png" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке" width="20" height="20" /> 
-  <img style="float:left" class="img-responsive" src="../img/star_32x32.png" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке" width="20" height="20" /> 
-  <img style="float:left" class="img-responsive" src="../img/star_32x32.png" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке" width="20" height="20" />  
-  <img style="float:left" class="img-responsive" src="../img/star_32x32.png" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке" width="20" height="20" /> 
-  <img style="float:left" class="img-responsive" src="../img/star_32x32.png" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке" width="20" height="20" /> 
- </li>           
-<li>
-                <hr />Оставьте данные и наш менеджер свяжется с вами
+              <li><br>
+                  <img style="float:left" class="img-responsive" src="../img/star_32x32.png" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке" width="20" height="20" /> 
+                  <img style="float:left" class="img-responsive" src="../img/star_32x32.png" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке" width="20" height="20" /> 
+                  <img style="float:left" class="img-responsive" src="../img/star_32x32.png" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке" width="20" height="20" />  
+                  <img style="float:left" class="img-responsive" src="../img/star_32x32.png" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке" width="20" height="20" /> 
+                  <img style="float:left" class="img-responsive" src="../img/star_32x32.png" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке" width="20" height="20" /> 
+             </li>           
+             <li>
+                <br><hr />Оставьте данные и наш менеджер свяжется с вами
                <form action="mail_send.php" method="post" id="request-form">
                     <div class="form-inline">
                      <div class="col-auto">
