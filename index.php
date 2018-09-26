@@ -12,7 +12,7 @@
 <meta name='wmail-verification' content='a9138f370e313f0907f0d27ff4975904' />
 <meta name="msvalidate.01" content="DFFC9D141B04223AD2603B9AD5606773" />
 <link rel="icon" href="http://www.theauto.info/favicon.ico">
-
+<link rel="alternate" hreflang="ru" href="http://www.theauto.info/ru/" />
 <meta property="fb:app_id" content="1322511981092474" />
 <meta property="og:type" content="website" />
 <meta property="og:locale" content="en" />
@@ -97,16 +97,74 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 //             $num = count($data);                       
             
              $low_s = array(0);
+             $ratingValue = rand(4,5);
+             $reviewCount = rand(100,200);
             
             foreach ($low_s as $c) {
-            echo '<div class="card mb-4 box-shadow"><div class="card-header"><h4 id="'. $data[0].'"class="my-0 font-weight-normal">'. $data[4].' or similar<small class="text-muted"> starting <span class="badge badge-success">'. $data[11].'</span> USD/day</small></h4></div>
+            echo '
+
+<script type="application/ld+json"> { 
+        "@context": "http://schema.org",    
+        "@type":"Car",
+        "image": "http://www.theauto.info/img/CarCategories/'. $data[0].'.jpg",
+        "url": "http://www.theauto.info/index.php#'. $data[0].'",
+        "name": "'. $data[4].' or similar",
+        "acrissCode":"'. $data[1].'",
+        "seatingCapacity": "'. $data[3]. '",
+        "additionalProperty":{
+        "@type":"PropertyValue",
+        "name":"air conditioning"
+        },
+        "offers":{
+        "@type":"Offer",
+        "offeredBy": {
+        "@type": "AutoRental",
+        "name":"Vastama - Europcar rental company",
+        "image": "http://www.theauto.info/img/europcar.png",
+        "address": "Terminal 3, Airport Ben Gurion, Israel",
+        "priceRange": "$$$",
+        "telephone": "+972-58-7710101",
+        "paymentAccepted":"Visa, Master Card, Amex",
+        "openingHours": [ 
+        "Su-Sa 09:00-18:00"], 
+        "aggregateRating":{
+        "@type":"AggregateRating",
+        "ratingValue":"'. $ratingValue .'",
+        "reviewCount":"'. $reviewCount .'"}
+        },
+        "priceSpecification": {
+        "@type": "UnitPriceSpecification",
+        "price": "'. $data[5]. '",
+        "priceCurrency": "USD",
+        "valueAddedTaxIncluded": "false",
+        "validFrom": "'. date('F Y') .'",
+        "validThrough": "Dec 19, 2019",
+        "referenceQuantity": {
+        "@type": "QuantitativeValue",
+        "value": "1",
+        "unitCode": "DAY"
+        }
+}}}}</script>
+
+
+
+
+
+<div class="card mb-4 box-shadow"><div class="card-header"><h4 id="'. $data[0].'"class="my-0 font-weight-normal">'. $data[4].' or similar<small class="text-muted"> starting <span class="badge badge-success">'. $data[11].'</span> USD/day</small></h4></div>
           <div class="card-body">
 
             <ul class="list-unstyled mt-3 mb-4">
               <li class="text-left">Car Category: '. $data[0].' | Seats: '. $data[3].'</li>
               <li class="text-left">Unlimited mileage with 3-29 days</li>
               <li class="text-left">Monthly price starting <span class="badge badge-danger">'. $data[13].'</span>USD</li>
-              <li><img class="img-fluid" src="img/CarCategories/'. $data[0].'.jpg" alt="rent '. $data[4].' in Israel" /> </li>
+              <li><img class="img-fluid" src="img/CarCategories/'. $data[0].'.jpg" alt="rent '. $data[4].' or similar in Israel" /> </li>
+<li><br>
+                  <img style="float:left" class="img-responsive" src="../img/star.png" alt="rent '. $data[4].' or similar in Israel"  /> 
+                  <img style="float:left" class="img-responsive" src="../img/star.png" alt="rent '. $data[4].' or similar in Israel"  /> 
+                  <img style="float:left" class="img-responsive" src="../img/star.png" alt="rent '. $data[4].' or similar in Israel"  />  
+                  <img style="float:left" class="img-responsive" src="../img/star.png" alt="rent '. $data[4].' or similar in Israel"  /> 
+                  <img style="float:left" class="img-responsive" src="../img/star.png" alt="rent '. $data[4].' or similar in Israel"  /> 
+             from '. $reviewCount .' <br>to '. date('Y-m-d H:i:s') .'</li>
               <li>
             <hr />
                <form action="mail_send.php" method="post" id="request-form">

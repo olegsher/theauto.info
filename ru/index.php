@@ -111,7 +111,7 @@
         "@context": "http://schema.org",    
         "@type":"Car",
         "image": "http://www.theauto.info/img/CarCategories/'. $data[0].'.jpg",
-        "url": "http://www.theauto.info/ru/minivan.php#'. $data[0].'",
+        "url": "http://www.theauto.info/ru/index.php#'. $data[0].'",
         "name": "'. $data[4].' или подобный",
         "acrissCode":"'. $data[1].'",
         "seatingCapacity": "'. $data[3]. '",
@@ -164,11 +164,11 @@
               <li class="text-left">При заказе 30+ дней от <span class="badge badge-danger">'. $data[13].'</span>USD в месяц(в цену включены обязательные страховки и 150км\день)</li>
               <li><img class="img-fluid" src="../img/CarCategories/'. $data[0].'.jpg" alt="аренда авто '. $data[4].' или подобный в Израиле" /> </li>
               <li><br>
-                  <img style="float:left" class="img-responsive" src="../img/star_32x32.png" alt="Рэйтинг. Аренда авто '. $data[4].' или подобный в Израиле" width="20" height="20" /> 
-                  <img style="float:left" class="img-responsive" src="../img/star_32x32.png" alt="Рэйтинг. Аренда авто '. $data[4].' или подобный в Израиле" width="20" height="20" /> 
-                  <img style="float:left" class="img-responsive" src="../img/star_32x32.png" alt="Рэйтинг. Аренда авто '. $data[4].' или подобный в Израиле" width="20" height="20" />  
-                  <img style="float:left" class="img-responsive" src="../img/star_32x32.png" alt="Рэйтинг. Аренда авто '. $data[4].' или подобный в Израиле" width="20" height="20" /> 
-                  <img style="float:left" class="img-responsive" src="../img/star_32x32.png" alt="Рэйтинг. Аренда авто '. $data[4].' или подобный в Израиле" width="20" height="20" /> 
+                  <img style="float:left" class="img-responsive" src="../img/star.png" alt="Рэйтинг. Аренда авто '. $data[4].' или подобный в Израиле"  /> 
+                  <img style="float:left" class="img-responsive" src="../img/star.png" alt="Рэйтинг. Аренда авто '. $data[4].' или подобный в Израиле"  /> 
+                  <img style="float:left" class="img-responsive" src="../img/star.png" alt="Рэйтинг. Аренда авто '. $data[4].' или подобный в Израиле"  />  
+                  <img style="float:left" class="img-responsive" src="../img/star.png" alt="Рэйтинг. Аренда авто '. $data[4].' или подобный в Израиле"  /> 
+                  <img style="float:left" class="img-responsive" src="../img/star.png" alt="Рэйтинг. Аренда авто '. $data[4].' или подобный в Израиле"  /> 
              из '. $reviewCount .' <br>на '. date('Y-m-d H:i:s') .'</li>           
              <li>
                 <hr />Оставьте данные и наш менеджер свяжется с вами
