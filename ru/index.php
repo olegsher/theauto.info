@@ -117,11 +117,11 @@
               <li><button type="button" class="btn btn-warning btn-sm" aria-label="Left Align">
 					  <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
 					</button>
-					<button type="button" class="btn btn-warning btn-sm" aria-label="Left Align">
+					<button type="button" class="btn btn-warning" aria-label="Left Align">
 					  <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
 					</button>
 					<button type="button" class="btn btn-warning btn-sm" aria-label="Left Align">
-					  <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+					  <span class="glyphicon glyphicon-star" aria-hidden="false"></span>
 					</button>
 					<button type="button" class="btn btn-default btn-warning btn-sm" aria-label="Left Align">
 					  <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
