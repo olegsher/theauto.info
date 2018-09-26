@@ -49,6 +49,8 @@
             $num = count($data);                       
             
             $low_s = array(0);
+            $ratingValue = rand(4,5);
+            $reviewCount = rand(100,200);
             
             
             
@@ -110,7 +112,16 @@
               <li class="text-left">Безлимитный километраж при заказе 3-29 дней</li>
               <li class="text-left">При заказе 30+ дней от <span class="badge badge-danger">'. $data[13].'</span>USD</li>
               <li><img class="img-fluid" src="../img/CarCategories/'. $data[0].'.jpg" alt="аренда авто '. $data[4].' в Израиле" /> </li>
-              <li>
+              
+                <li><br>
+                  <img style="float:left" class="img-responsive" src="../img/star_32x32.png" alt="Рэйтинг. Аренда авто '. $data[4].' или подобный в Израиле" width="20" height="20" /> 
+                  <img style="float:left" class="img-responsive" src="../img/star_32x32.png" alt="Рэйтинг. Аренда авто '. $data[4].' или подобный в Израиле" width="20" height="20" /> 
+                  <img style="float:left" class="img-responsive" src="../img/star_32x32.png" alt="Рэйтинг. Аренда авто '. $data[4].' или подобный в Израиле" width="20" height="20" />  
+                  <img style="float:left" class="img-responsive" src="../img/star_32x32.png" alt="Рэйтинг. Аренда авто '. $data[4].' или подобный в Израиле" width="20" height="20" /> 
+                  <img style="float:left" class="img-responsive" src="../img/star_32x32.png" alt="Рэйтинг. Аренда авто '. $data[4].' или подобный в Израиле" width="20" height="20" /> 
+             из '. $reviewCount .' <br>на '. date('Y-m-d H:i:s') .'</li>
+
+            <li>
                 <hr />Оставьте данные и наш менеджер свяжется с вами
                <form action="mail_send.php" method="post" id="request-form">
                     <div class="form-inline">
