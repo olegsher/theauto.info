@@ -9,9 +9,9 @@
 
 <?php include("__header.html"); ?>
 <style>
-body {
-  padding-top: 70px;
-}
+/* body { */
+/*   padding-top: 70px; */
+/* } */
 .btn-grey{
     background-color:#D8D8D8;
 	color:#FFF;
@@ -101,6 +101,8 @@ body {
             $num = count($data);                       
             
             $low_s = array(0);
+            $ratingValue = rand(4,5);
+            $reviewCount = rand(100,200);
             
             foreach ($low_s as $c) {
             echo '
@@ -131,8 +133,8 @@ body {
         "Su-Sa 09:00-18:00"], 
         "aggregateRating":{
         "@type":"AggregateRating",
-        "ratingValue":"'. rand ( 3 , 5 ) .'",
-        "reviewCount":"'. rand ( 10 , 50 ) .'"}
+        "ratingValue":"'. $ratingValue .'",
+        "reviewCount":"'. $reviewCount .'"}
         },
         "priceSpecification": {
         "@type": "UnitPriceSpecification",
@@ -167,9 +169,9 @@ body {
                   <img style="float:left" class="img-responsive" src="../img/star_32x32.png" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке" width="20" height="20" />  
                   <img style="float:left" class="img-responsive" src="../img/star_32x32.png" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке" width="20" height="20" /> 
                   <img style="float:left" class="img-responsive" src="../img/star_32x32.png" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке" width="20" height="20" /> 
-             </li>           
+             из '. $reviewCount .' голосов</li>           
              <li>
-                <br><hr />Оставьте данные и наш менеджер свяжется с вами
+                <hr />Оставьте данные и наш менеджер свяжется с вами
                <form action="mail_send.php" method="post" id="request-form">
                     <div class="form-inline">
                      <div class="col-auto">
