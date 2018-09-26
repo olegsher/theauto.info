@@ -9,9 +9,6 @@
 
 <?php include("__header.html"); ?>
 <style>
-/* body { */
-/*   padding-top: 70px; */
-/* } */
 .btn-grey{
     background-color:#D8D8D8;
 	color:#FFF;
