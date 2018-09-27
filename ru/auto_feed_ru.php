@@ -21,7 +21,7 @@ for ($x = 0; $x < $limit; $x ++) {
     $date = date('l F d, Y', strtotime($feed[$x]['date']));
     $date1= date('Y-F-d', strtotime($feed[$x]['date']));
     $newname = preg_replace('/\s+/', '-', $title);
-    $file_x = "news/$date1-$newname.html";
+    $file_x = "news/$date1-$newname.php";
     
     echo $date1 . ' <strong>' . $title . '</strong><br>';
     echo $description . ' <a href="' . $file_x . ' "title="' . "'$title' . - Новости мира автомобилей на портале TheAuto.info" .' " target="_self">' . "читать далее" . '</a> <br />';
@@ -258,7 +258,7 @@ _tmr.push({id: "3032803", type: "pageView", start: (new Date()).getTime()});
     
     
     
-    fwrite($myfile, "<!doctype html>\n<html lang=\"ru\">\n<head>\n");
+    fwrite($myfile, "<?php ?><!doctype html>\n<html lang=\"ru\">\n<head>\n");
     fwrite($myfile, "<title>$title</title>\n");
     fwrite($myfile, "<meta name=\"description\" content=\"$title - Прокат аренда авто в Израиле. Отделения проката в Бен Гурион, Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот и др. Без предоплаты. Говорим по русски\">\n ");
     fwrite($myfile, "<?php include('__header.html'); ?>");
