@@ -162,7 +162,7 @@ for ($x = 0; $x < $limit; $x ++) {
     fwrite($myfile, "<title>$title</title>\n");
     fwrite($myfile, "<meta name=\"description\" content=\"$title - Прокат аренда авто в Израиле. Отделения проката в Бен Гурион, Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот и др. Без предоплаты. Говорим по русски\">\n ");
     fwrite($myfile, "<?php \n include('../__header.html'); \n ?>");
-    fwrite($myfile, "\n</head>\n<body>\n<div class="container">\n");
+    fwrite($myfile, "\n</head>\n<body>\n<div class=\"container\">\n");
     fwrite($myfile, "<?php \n include('../../seo.html'); \n ?>");
     fwrite($myfile, "<?php \n include('../__menu.html'); \n ?>");
     
