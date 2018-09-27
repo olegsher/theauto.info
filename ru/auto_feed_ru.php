@@ -19,7 +19,7 @@ for ($x = 0; $x < $limit; $x ++) {
     $link = $feed[$x]['link'];
     $description = $feed[$x]['desc'];
     $date = date('l F d, Y', strtotime($feed[$x]['date']));
-    $date1= date('Y-F-d', strtotime($feed[$x]['date']));
+    $date1= date('Y-m-d', strtotime($feed[$x]['date']));
     $newname = preg_replace('/\s+/', '-', $title);
     $file_x = "news/$date1-$newname.php";
     
