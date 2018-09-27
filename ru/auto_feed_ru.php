@@ -258,12 +258,14 @@ _tmr.push({id: "3032803", type: "pageView", start: (new Date()).getTime()});
     
     
     
-    fwrite($myfile, "<?php ?><!doctype html>\n<html lang=\"ru\">\n<head>\n");
+    fwrite($myfile, "<?php \n ?>\n <!doctype html>\n<html lang=\"ru\">\n<head>\n");
     fwrite($myfile, "<title>$title</title>\n");
     fwrite($myfile, "<meta name=\"description\" content=\"$title - Прокат аренда авто в Израиле. Отделения проката в Бен Гурион, Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот и др. Без предоплаты. Говорим по русски\">\n ");
-    fwrite($myfile, "<?php include('__header.html'); ?>");
+    fwrite($myfile, "<?php \n
+                    include('__header.html'); 
+                    ?>");
     fwrite($myfile, "\n</head>\n<body>\n");
-    fwrite($myfile, "include('../seo.html'); ");
+    fwrite($myfile, "<?php \n include('../seo.html'); \n ?>");
     fwrite($myfile, $body);
     $txt = '<p><strong>' . $title . '</strong> <a rel="nofollow" href="' . $link . ' " 
         title="' . "Новости мира автомобилей на портале TheAuto.info" . '" target="_blank">' . "полная статья" . '</a> <br />' . $description . '</div>';
