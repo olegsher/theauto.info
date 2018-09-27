@@ -254,18 +254,26 @@ _tmr.push({id: "3032803", type: "pageView", start: (new Date()).getTime()});
        <a class="btn btn-outline-primary" href="http://www.theauto.info/" title="To english site">English</a> 
      </div>
 ';
+    
+    
+    
+    
     fwrite($myfile, "<!doctype html>\n<html lang=\"ru\">\n<head>\n");
     fwrite($myfile, "<title>$title</title>\n");
     fwrite($myfile, "<meta name=\"description\" content=\"$title - Прокат аренда авто в Израиле. Отделения проката в Бен Гурион, Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот и др. Без предоплаты. Говорим по русски\">\n ");
-    fwrite($myfile, $header);
+    fwrite($myfile, "<?php include('__header.html'); ?>");
     fwrite($myfile, "\n</head>\n<body>\n");
-    fwrite($myfile, $seo);
+    fwrite($myfile, "<?php include('../seo.html'); ?>");
     fwrite($myfile, $body);
     $txt = '<p><strong>' . $title . '</strong> <a rel="nofollow" href="' . $link . ' " 
         title="' . "Новости мира автомобилей на портале TheAuto.info" . '" target="_blank">' . "полная статья" . '</a> <br />' . $description . '</div>';
     fwrite($myfile, "<strong>$title</strong><br>");
     fwrite($myfile, $description);
     fwrite($myfile, "<br><a rel=\"nofollow\" href=\"$link\" title=\"Новости мира автомобилей на портале TheAuto.info\" target=\"_blank\">полная статья на Yandex</a>");
+    
+    
+    
+    
     fwrite($myfile, $leaders);
     
     fwrite($myfile, "<br>
