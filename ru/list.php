@@ -12,18 +12,9 @@ echo '
 </head>
 <body>
 <div class="container">
-<h1 class="display-4"  style="font-family: Times, serif; color:grey; text-transform: uppercase; color: white; text-shadow: 1px 1px 2px #000000; font-size: 2em;">Новости мира автомобилей</h1>
-<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow"> 
-      <h5 class="my-0 mr-md-auto font-weight-normal">Vastama +972 58 7710101</h5> 
-       <nav class="my-2 my-md-0 mr-md-3"> 
-       	<a class="p-2 text-dark" href="index.php" title="прокат аренда авто в Израиле, Аэропорт Бен Гурион Иерусалим Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот">Главная</a> 
-         <a class="p-2 text-dark" href="Europcar_Albar_Vastama_branches.php" title="Отделения проката аренды автомобилей в Израиле, Аэропорт Бен Гурион Иерусалим Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот">Отделения проката</a> 
-         <a class="p-2 text-dark" href="RentalConditions.php" title="Условия проката аренды автомобилей в Израиле, Аэропорт Бен Гурион Иерусалим Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот">Условия аренды</a>
-          
-       </nav> 
-       <a class="btn btn-outline-primary" href="http://www.theauto.info/" title="To English site">English</a> 
-     </div>
-';
+<h1 class="display-4"  style="font-family: Times, serif; color:grey; text-transform: uppercase; color: white; text-shadow: 1px 1px 2px #000000; font-size: 2em;">Новости мира автомобилей</h1>';
+include("__menu.html");
+
 foreach($a as $key => $value)
 {
 //     echo '<br>' . $value;
