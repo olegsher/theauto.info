@@ -37,15 +37,6 @@ for ($x = 0; $x < $limit; $x ++) {
     // $myfile = fopen("news/$title.html", "w") or die("Unable to open file!"); 
        
     
-    
-    
-    
-  
-    
-
-        
-    
-    
     fwrite($myfile, "<?php \n ?>\n <!doctype html>\n<html lang=\"ru\">\n<head>\n");
     fwrite($myfile, "<title>$title</title>\n");
     fwrite($myfile, "<meta name=\"description\" content=\"$title - Прокат аренда авто в Израиле. Отделения проката в Бен Гурион, Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот и др. Без предоплаты. Говорим по русски\">\n ");
@@ -59,24 +50,7 @@ for ($x = 0; $x < $limit; $x ++) {
     fwrite($myfile, "<strong>$title</strong><br>");
     fwrite($myfile, $description);
     fwrite($myfile, "<br><a rel=\"nofollow\" href=\"$link\" title=\"Новости мира автомобилей на портале TheAuto.info\" target=\"_blank\">полная статья на Yandex</a>");
-    
-    
-    
-    
-   
-    fwrite($myfile, "<br>
-Обязательное страхование (CDW/LDW & TP)<br>
-Данный вид страховки является обязательным и покрывают ущерб причиненный автомобилю за исключением франшизы(т.е личного участия), стоимость данной страховки зависит от категории автомобиля. 
-<a rel=\"follow\" href=\"http://www.rentalcarsisrael.com/ru/insurance.php\" title=\"Страховки аренда прокат автомобиля в Израиле rentalcarsisrael.com\" target=\"_blank\">полная статья на http://www.rentalcarsisrael.com</a>");
-    
-    fwrite($myfile, "<br>
-Дополнительная страховка (Super CDW)<br>
-не обязательная и снижает ответственность арендатора до Нуля в случае ущерба автомобилю (т.е отменяет франшизу). 
-Приобрести данный вид страхования возможно только в дополнение к базовому полису(CDW/LDW & TP). 
-<a rel=\"follow\" href=\"http://www.rentalcarsisrael.com/ru/insurance.php\" title=\"Страховки аренда прокат автомобиля в Израиле rentalcarsisrael.com\" target=\"_blank\">полная статья на http://www.rentalcarsisrael.com</a>");
-    
-    
-    
+        
     
     fwrite($myfile,"\n<small class=\"d-block mb-3 text-muted\">&copy; Vastama Ltd, 2014-2018</small>");
     fwrite($myfile, "\n</div>\n</body>\n</html>\n");
