@@ -1,8 +1,26 @@
 <?php
 $dir    = './news';
+
+
+function scan_dir($dir) {
+    $ignored = array('.', '..', '.xml');
+    
+    $files = array();
+    foreach (scandir($dir) as $file) {
+        if (in_array($file, $ignored)) continue;
+        $files[$file] = filemtime($dir . '/' . $file);
+    }
+    
+    arsort($files);
+    $files = array_keys($files);
+    
+    return ($files) ? $files : false;
+}
+
+
 // Sort in ascending order - this is default
-$a = scandir($dir, 1);
-arsort($a);
+$a = scan_dir($dir);
+
 echo '<!doctype html>
 <html lang="ru">
 <head>
@@ -16,7 +34,7 @@ echo '
 <h1 class="display-4"  style="font-family: Times, serif; color:grey; text-transform: uppercase; color: white; text-shadow: 1px 1px 2px #000000; font-size: 2em;">Новости мира автомобилей</h1>';
 include("__menu.html");
 
-foreach(arsort($a) as $key => $value)
+foreach($a as $key => $value)
 {
 //     echo '<br>' . $value;
 $path = 'news/' . $value;
