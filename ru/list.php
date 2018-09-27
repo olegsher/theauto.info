@@ -1,7 +1,7 @@
 <?php
 $dir    = './news';
 // Sort in ascending order - this is default
-$a = scandir($dir);
+$a = scandir($dir, 1);
 echo '<!doctype html>
 <html lang="ru">
 <head>
