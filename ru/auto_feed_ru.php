@@ -35,110 +35,10 @@ for ($x = 0; $x < $limit; $x ++) {
     // };
 
     // $myfile = fopen("news/$title.html", "w") or die("Unable to open file!"); 
-    $header = '
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="yandex-verification" content="f11475564b48ca1f" />
-<meta name=\'wmail-verification\' content=\'a9138f370e313f0907f0d27ff4975904\' />
-<meta name="msvalidate.01" content="DFFC9D141B04223AD2603B9AD5606773" />
-
-<link rel="icon" href="http://www.theauto.info/favicon.ico">
-
-<meta property="fb:app_id" content="1322511981092474" />
-<meta property="og:type" content="website" />
-<meta property="og:locale" content="ru" />
-<meta property="og:url" content="http://www.theauto.info/ru/" />
-<meta property="og:image" content="http://www.theauto.info/img/car_key.jpeg"/>
-<meta property="og:image:type" content="image/png" />
-<meta property="og:image:width" content="640" />
-<meta property="og:image:height" content="426" />
-<meta property="og:title" content="+972-58-7710101 Аренда авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим и др. Без предоплаты. Говорим по русски" />
-<meta property="og:description" content="+972-58-7710101 Аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим и др. Без предоплаты. Говорим по русски"/>
-<!-- Bootstrap core CSS -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css>
-<!-- Custom styles for this template -->
-<link href="../pricing.css" rel="stylesheet">';
+       
     
     
     
-    $seo = '
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5WSN6CF"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-
-
-
-<!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-    (function (d, w, c) {
-        (w[c] = w[c] || []).push(function() {
-            try {
-                w.yaCounter49050113 = new Ya.Metrika({
-                    id:49050113,
-                    clickmap:true,
-                    trackLinks:true,
-                    accurateTrackBounce:true,
-                    webvisor:true
-                });
-            } catch(e) { }
-        });
-
-        var n = d.getElementsByTagName("script")[0],
-            s = d.createElement("script"),
-            f = function () { n.parentNode.insertBefore(s, n); };
-        s.type = "text/javascript";
-        s.async = true;
-        s.src = "https://mc.yandex.ru/metrika/watch.js";
-
-        if (w.opera == "[object Opera]") {
-            d.addEventListener("DOMContentLoaded", f, false);
-        } else { f(); }
-    })(document, window, "yandex_metrika_callbacks");
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/49050113" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
-
-<!-- Rating@Mail.ru counter -->
-<script type="text/javascript">
-var _tmr = window._tmr || (window._tmr = []);
-_tmr.push({id: "3032803", type: "pageView", start: (new Date()).getTime()});
-(function (d, w, id) {
-  if (d.getElementById(id)) return;
-  var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
-  ts.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//top-fwz1.mail.ru/js/code.js";
-  var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
-  if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
-})(document, window, "topmailru-code");
-</script><noscript><div>
-<img src="//top-fwz1.mail.ru/counter?id=3032803;js=na" style="border:0;position:absolute;left:-9999px;" alt="" />
-</div></noscript>
-<!-- //Rating@Mail.ru counter -->
-
-
-
-<script type="application/ld+json"> { 
-"@context" : "http://schema.org",
-"@type" : "TravelAgency", 
-"name":"Vastama Ltd",
-"url":"http://www.theAuto.info",
-"email":"admin@vastama.com",
-"telephone":"972587710101",
-"image": "http://www.theauto.info/img/car_key.jpeg",
-"openingHours": [ 
-"Su-Sa 09:00-18:00"], 
-"aggregateRating":{
-"@type":"AggregateRating",
-"ratingValue":"5",
-"reviewCount":"5"},
-"priceRange":"2",
-"paymentAccepted":"Visa, Master Card, Amex"
-} </script>
-';
     
     
     $leaders = '
@@ -261,12 +161,11 @@ _tmr.push({id: "3032803", type: "pageView", start: (new Date()).getTime()});
     fwrite($myfile, "<?php \n ?>\n <!doctype html>\n<html lang=\"ru\">\n<head>\n");
     fwrite($myfile, "<title>$title</title>\n");
     fwrite($myfile, "<meta name=\"description\" content=\"$title - Прокат аренда авто в Израиле. Отделения проката в Бен Гурион, Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот и др. Без предоплаты. Говорим по русски\">\n ");
-    fwrite($myfile, "<?php \n
-                    include('../__header.html'); 
-                    ?>");
+    fwrite($myfile, "<?php \n include('../__header.html'); \n ?>");
     fwrite($myfile, "\n</head>\n<body>\n");
     fwrite($myfile, "<?php \n include('../../seo.html'); \n ?>");
-    fwrite($myfile, $body);
+    fwrite($myfile, "<?php \n include('../__menu.html'); \n ?>");
+    
     $txt = '<p><strong>' . $title . '</strong> <a rel="nofollow" href="' . $link . ' " 
         title="' . "Новости мира автомобилей на портале TheAuto.info" . '" target="_blank">' . "полная статья" . '</a> <br />' . $description . '</div>';
     fwrite($myfile, "<strong>$title</strong><br>");
