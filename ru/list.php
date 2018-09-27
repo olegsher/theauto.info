@@ -2,6 +2,7 @@
 $dir    = './news';
 // Sort in ascending order - this is default
 $a = scandir($dir, 1);
+arsort($a);
 echo '<!doctype html>
 <html lang="ru">
 <head>
@@ -15,7 +16,7 @@ echo '
 <h1 class="display-4"  style="font-family: Times, serif; color:grey; text-transform: uppercase; color: white; text-shadow: 1px 1px 2px #000000; font-size: 2em;">Новости мира автомобилей</h1>';
 include("__menu.html");
 
-foreach($a as $key => $value)
+foreach(arsort($a) as $key => $value)
 {
 //     echo '<br>' . $value;
 $path = 'news/' . $value;
