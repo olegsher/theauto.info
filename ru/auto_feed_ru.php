@@ -40,103 +40,7 @@ for ($x = 0; $x < $limit; $x ++) {
     
     
     
-    
-    $leaders = '
-<div class="container">
-    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-      <h3 class="lead">Аренда авто без предоплаты | Бесплатная консультация и помощь по бронированию автомобиля в Израиле на русском языке | Безлимитный километраж при заказе 3-29 дней</h3>
-      <p class="lead">Напишите нам на <a style="font-family: Times, serif; color:red">WhatsApp/Viber +972-58-771-0101</a> и наш менеджер вернется к вам с лучшим предложением</p>
-    </div>
-
-<div class="card-deck mb-3 text-center">
-        <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Hyundai Tucson <small style="color: grey; font-size: 0.8em;">или подобные</small> (Авт. 5 мест)</h4>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title pricing-card-title">$42 <small class="text-muted">\день</small></h5>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>Категория проката: J (SFBR)</li>
-              <li>Безлимитный километраж при заказе 3-29 дней</li>
-              <li><img class="img-responsive" src="../../img/hyundai_tucson.jpg" alt="Прокат аренда авто Hyundai Tucson в Израиле. Прокат аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски" width="200"/> </li>
-                <li>
-               <form action="../mail_send.php" method="post">
-                    <div class="form-inline">
-                     <div class="col-auto">
-                     <input type="text" class="form-control"  required name="name" placeholder="ваше имя">
-                     </div>
-                     <div class="col-auto">
-                     <input type="tel" class="form-control"  required name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
-                     </div>               
-                     <input type="hidden" name="car-select" value="Категория проката: J (SFBR), Hyundai Tucson или подобные">
-                    </div>
-                    <input type="submit" name="submit" value="Отправить">
-                </form>
-</li> 
-            </ul>
-<!--             <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button> -->
-          </div>
-        </div>
-        <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">VW Golf <small style="color: grey; font-size: 0.8em;">или подобные</small></h4>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title pricing-card-title">$18 <small class="text-muted">\день</small></h5>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>Категория проката: I (SCAR)</li>
-              <li>Безлимитный километраж при заказе 3-29 дней</li>
-<li><img class="img-responsive" src="../../img/VW-golf.jpg" alt="Прокат аренда авто VW Golf в Израиле. Прокат аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски" width="200"/> </li>
-<li>
-               <form action="../mail_send.php" method="post">
-                    <div class="form-inline">
-                     <div class="col-auto">
-                     <input type="text" class="form-control"  required name="name" placeholder="ваше имя">
-                     </div>
-                     <div class="col-auto">
-                     <input type="tel" class="form-control"  required name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
-                     </div>               
-                     <input type="hidden" name="car-select" value="Категория проката: I (SCAR), VW Golf или подобные">
-                    </div>
-                    <input type="submit" name="submit" value="Отправить">
-                </form>
-</li> 
-            </ul>
-<!--             <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button> -->
-          </div>
-        </div>
-        <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">VW Jetta <small style="color: grey; font-size: 0.8em;">или подобные</small></h4>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title pricing-card-title">$24 <small class="text-muted">\день</small></h5>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>Категория проката: H (SDAR)</li>
-              <li>Безлимитный километраж при заказе 3-29 дней</li>
-<li><img class="img-responsive" src="https://rent.albar.co.il/CarImages/Rent/CarCategories/80t.jpg" alt="Прокат аренда авто VW Jetta в Израиле. Прокат аренда авто в Израиле. Лучшие цены на аренду авто в Израиле. Отделения проката в Бен Гурион, Тель Авив, Эйлат, Иерусалим, Нетания и др. Без предоплаты. Говорим по русски" /> </li>
-<li>
-               <form action="../mail_send.php" method="post">
-                    <div class="form-inline">
-                     <div class="col-auto">
-                     <input type="text" class="form-control"  required name="name" placeholder="ваше имя">
-                     </div>
-                     <div class="col-auto">
-                     <input type="tel" class="form-control"  required name="phone" placeholder="телефон\whatsapp\viber включая код страны города">
-                     </div>               
-                     <input type="hidden" name="car-select" value="Категория проката: H (SDAR), VW Jetta или подобные">
-                    </div>
-                    <input type="submit" name="submit" value="Отправить">
-                </form>
-</li> 
-            </ul>
-<!--             <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button> -->
-          </div>          
-        </div>        
-      </div>
-
-</div>
-';
+  
     
 
         
@@ -159,7 +63,125 @@ for ($x = 0; $x < $limit; $x ++) {
     
     
     
-    fwrite($myfile, $leaders);
+//     fwrite($myfile, "<?php echo '
+        
+//         <div class=\"card-deck mb-3 text-center\"> ';       
+        
+        
+//         if (($handle = fopen("../albar_25.12.2017.csv", "r")) !== FALSE) {
+            
+//             while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
+//                 $num = count($data);
+                
+//                 $low_s = array(0);
+//                 $ratingValue = rand(4,5);
+//                 $reviewCount = rand(100,200);
+//                 $sale = rand(21,30);
+                
+//                 foreach ($low_s as $c) {
+//                     echo '
+                        
+//         <script type="application/ld+json"> {
+//         "@context": "http://schema.org",
+//         "@type":"Car",
+//         "image": "http://www.theauto.info/img/CarCategories/'. $data[0].'.jpg",
+//         "url": "http://www.theauto.info/ru/index.php#'. $data[0].'",
+//         "name": "'. $data[4].' или подобный",
+//         "acrissCode":"'. $data[1].'",
+//         "seatingCapacity": "'. $data[3]. '",
+//         "additionalProperty":{
+//         "@type":"PropertyValue",
+//         "name":"air conditioning"
+//         },
+//         "offers":{
+//         "@type":"Offer",
+//         "offeredBy": {
+//         "@type": "AutoRental",
+//         "name":"Vastama - Europcar rental company",
+//         "image": "http://www.theauto.info/img/europcar.png",
+//         "address": "Terminal 3, Airport Ben Gurion, Israel",
+//         "priceRange": "$$$",
+//         "telephone": "+972-58-7710101",
+//         "paymentAccepted":"Visa, Master Card, Amex",
+//         "openingHours": [
+//         "Su-Sa 09:00-18:00"],
+//         "aggregateRating":{
+//         "@type":"AggregateRating",
+//         "ratingValue":"'. $ratingValue .'",
+//         "reviewCount":"'. $reviewCount .'"}
+//         },
+//         "priceSpecification": {
+//         "@type": "UnitPriceSpecification",
+//         "price": "'. $data[5]. '",
+//         "priceCurrency": "USD",
+//         "valueAddedTaxIncluded": "false",
+//         "validFrom": "'. date('F Y') .'",
+//         "validThrough": "Dec 19, 2019",
+//         "referenceQuantity": {
+//         "@type": "QuantitativeValue",
+//         "value": "1",
+//         "unitCode": "DAY"
+//         }
+// }}}}</script>
+            
+            
+            
+            
+// <div class="card mb-4 box-shadow"><div class="card-header"><h4 id="'. $data[0].'"class="my-0 font-weight-normal">'. $data[4].' или подобный от <span class="badge badge-success">'. $data[11].'</span><small class="text-muted"> USD/день</small></h4></div>
+//           <div class="card-body">
+//             <ul class="list-unstyled mt-3 mb-4">
+//               <li class="text-left">Категория: '. $data[0].' | Сидений: '. $data[3].'</li>
+//               <li class="text-left">Увеличенный километраж при заказе 1-2 дней(250км в день уже включены в цену)</li>
+//             <hr />
+//               <li class="text-left">Безлимитный километраж при заказе 3-29 дней</li>
+//               <hr />
+//               <li class="text-left"><img style="float:left" class="img-responsive" src="../img/'. $sale .'.png" alt="" width="64"  /> При заказе 30+ дней от <span class="badge badge-danger">'. $data[13].'</span>USD в месяц(в цену включены обязательные страховки и 150км\день)</li>
+//               <li><img class="img-fluid" src="../img/CarCategories/'. $data[0].'.jpg" alt="аренда авто '. $data[4].' или подобный в Израиле" /> </li>
+//               <li><br>
+//                     <img style="float:left" class="img-responsive" src="../img/'. $ratingValue .'.png" alt="Рэйтинг. Аренда авто '. $data[4].' или подобный в Израиле"  />
+//                   <img style="float:left" class="img-responsive" src="../img/star.png" alt="Рэйтинг. Аренда авто '. $data[4].' или подобный в Израиле"  />
+//              из '. $reviewCount .' на '. date('Y-m-d H:i:s') .'</li>
+//             <li>
+//                     </li>
+//              <li>
+//                 <hr />Оставьте данные и наш менеджер свяжется с вами
+//                <form action="mail_send.php" method="post" id="request-form">
+//                     <div class="form-inline">
+//                      <div class="col-auto">
+                 
+//                      <input type="text" class="form-control" required  name="name" placeholder="Ваше Имя">
+//                      </div>
+//                      <div class="col-auto">
+//                      <input type="tel" class="form-control" required  name="phone" placeholder="включая код страны\города">
+//                         <br>Тел/WhatsApp/Viber/Почта
+//                      </div>
+//                      <input type="hidden" name="car-select" value="Car Category: '. $data[0].', '. $data[4].' или подобный">
+//                     </div>
+//                     <input type="submit" name="submit" value="Send">
+//                 </form>
+// </li>
+//             </ul>
+// <!--             <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button> -->
+                         
+                         
+//       </div></div>';
+//                 }
+                
+//             }
+//             fclose($handle);
+//         }
+//         ?>
+    
+//  </div>        
+// * Аренда (1-2 дня)  -  включает 250км в день и НЕ ВКЛЮЧАЕТ обязательные страховки и НДС
+// <br>* Аренда (3-29 дней) и понедельная - безлимитный километраж и НЕ ВКЛЮЧАЕТ обязательные страховки и НДС
+// <br>* Сумма помесячной аренды(30+ дней) -  включает обязательные страховки и 150км в день  
+// <br>* Все цены указанны на сайте в : USD $  <hr />"
+        
+        
+        
+        
+//         );
     
     fwrite($myfile, "<br>
 Обязательное страхование (CDW/LDW & TP)<br>
