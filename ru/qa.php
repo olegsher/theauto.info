@@ -14,7 +14,7 @@
 
 <body>
 <?php include("../seo.html"); ?>
-<div class="container">
+
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -74,15 +74,6 @@
 <?php include("__qa.html"); ?>
 </div>
 
-<script>
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}
-</script>
+
 </body>
 </html>
