@@ -6,8 +6,9 @@
 <title>Вопросы и ответы по аренде автомобиля в Израиле</title>
 <meta name="description" content="Вопросы и ответы по аренде автомобиля в Израиле">
 <meta name="author" content="Vastama ltd" >
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <?php include("__header.html"); ?>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 .navbar {
     overflow: hidden;
