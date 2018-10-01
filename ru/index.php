@@ -60,6 +60,7 @@ echo '<title>Прокат аренда авто в Израиле +972-58-771010
 
  
 <?php include("../seo.html"); ?>
+<?php include("__rich.html"); ?>
 
 <div class="container">
 
