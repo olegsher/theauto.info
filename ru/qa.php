@@ -23,13 +23,24 @@
                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" id="dropdown2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Автомобили</a>
-                <ul class="dropdown-menu" aria-labelledby="dropdown2">
+                <a class="nav-link dropdown-toggle" id="cars" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Автомобили</a>
+                <ul class="dropdown-menu" aria-labelledby="cars">
                     <li class="dropdown-item"> <a href="http://www.theauto.info/ru/lux.php">Люкс</a></li>
-                    <li class="dropdown-item"> <a href="http://www.theauto.info/ru/minivan.php">Минивэны</a></li>
-                    <li class="nav-item"> <a class="nav-link" href="http://www.theauto.info/ru/">Pricing</a> </li>                   
+                    <li class="dropdown-item"> <a href="http://www.theauto.info/ru/minivan.php">Минивэны</a></li>                                       
                 </ul>
             </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="prices" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Расценки</a>
+                <ul class="dropdown-menu" aria-labelledby="prices">
+                    <li class="dropdown-item"> <a href="http://www.theauto.info/ru/lux.php">Низкий Сезон</a></li>
+                    <li class="dropdown-item"> <a href="http://www.theauto.info/ru/minivan.php">Высокий Сезон</a></li>                                       
+                </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="http://www.theauto.info/ru/RentalConditions.php">Условия</a></li>
+            <li class="nav-item"><a class="nav-link" href="http://www.theauto.info/ru/Europcar_Albar_Vastama_branches.php">Отделения</a></li>
+            <li class="nav-item"><a class="nav-link" href="http://www.theauto.info/ru/about.php">О компании</a></li>
+            <li class="nav-item"><a class="nav-link" href="http://www.theauto.info/ru/list.php">Новости</a></li>
+            <li class="nav-item"><a class="nav-link" href="#"></a></li>
         </ul>        
     </div>
 </div>
