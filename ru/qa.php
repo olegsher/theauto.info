@@ -13,9 +13,36 @@
 
 
 
-<nav class="navbar fixed-top navbar-light bg-primary">
+
+<nav class="navbar fixed-top navbar-expand-lg bg-primary">
   <div class="container">
-    <a class="navbar-brand" href="#">Fixed top</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-bar navbar-kebab"></span>
+    <span class="navbar-toggler-bar navbar-kebab"></span>
+    <span class="navbar-toggler-bar navbar-kebab"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <a class="navbar-brand" href="#">Hidden brand</a>
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
+      <form class="form-inline ml-auto">
+          <div class="form-group has-white">
+            <input type="text" class="form-control" placeholder="Search">
+          </div>
+          <button type="submit" class="btn btn-white btn-just-icon btn-round">
+              <i class="material-icons">search</i>
+          </button>
+      </form>
+    </div>
   </div>
 </nav>
 
