@@ -7,23 +7,20 @@
 <meta name="description" content="Прокат аренда автомобилей Люкс в Израиле. BMW 318i, VW Passat, Nissan Maxima, Audi A6, Ford Edge или подобные. Без предоплаты. Говорим по русски">
 
 <?php include("../_header_include.html"); ?>
-// <?php include("__header.html"); ?>
-
+<link href="../pricing.css" rel="stylesheet">
 </head>
 
 <body>
-
-
  
 <?php include("../seo.html"); ?>
-
-<div class="container">
-<?php include("__carousel.html"); ?>
 <?php include("_menu.html"); ?>
+<div class="container"> 
+  <?php include("__carousel.html"); ?> 
 
 
 
-    <div class="jumbotron">
+
+<div class="jumbotron">
   <h1>Vastama - агенство по аренде прокату автомобилей в Израиле</h1>      
   <p>
   <img style="float:left" class="img-responsive" src="../img/checkmark.png" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке" width="20" height="20" /> Бронирование автомобиля в Израиле по лучшей онлайн цене	(до 40% экономии при сравнении с заказом в отделении компании)
@@ -36,7 +33,7 @@
 </div>
     
     
-    
+    <div class="container"> 
 
     <h2 id="cars" style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Эти люкс машины есть у нас в прокате</h2>
       <div class="card-deck mb-3 text-center">
