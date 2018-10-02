@@ -33,19 +33,11 @@
         <li class="nav-item">
           <a class="nav-link disabled" href="#">Disabled</a>
         </li>
-      </ul>
-      <form class="form-inline ml-auto">
-          <div class="form-group has-white">
-            <input type="text" class="form-control" placeholder="Search">
-          </div>
-          <button type="submit" class="btn btn-white btn-just-icon btn-round">
-              <i class="material-icons">search</i>
-          </button>
-      </form>
+      </ul>      
     </div>
   </div>
 </nav>
-
+<hr />
 <div class="main main-raised">
   <div class="container">
     <div class="section text-left">
