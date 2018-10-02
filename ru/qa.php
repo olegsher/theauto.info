@@ -7,6 +7,13 @@
 <title>Вопросы и ответы по аренде автомобиля в Израиле</title>
 <meta name="description" content="Вопросы и ответы по аренде автомобиля в Израиле">
 <meta name="author" content="Vastama ltd" >
+<style>
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;..");
+}
+</style>
+
+
 </head>
 
 <body>
