@@ -14,7 +14,7 @@
 
 
 
-<nav class="navbar fixed-top navbar-expand-lg bg-primary">
+<nav class="navbar fixed-top navbar-expand-lg">
   <div class="container">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-bar navbar-kebab"></span>
