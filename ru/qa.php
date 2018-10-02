@@ -13,9 +13,9 @@
 
 
 
-<na<nav class="navbar sticky-top navbar-light bg-primary">
+<nav class="navbar fixed-top navbar-light bg-primary">
   <div class="container">
-    <a class="navbar-brand" href="#">Sticky top</a>
+    <a class="navbar-brand" href="#">Fixed top</a>
   </div>
 </nav>
 
