@@ -13,12 +13,10 @@
 
 
 
-
-
 <nav class="navbar navbar-color-on-scroll navbar-transparent fixed-top navbar-expand-lg"  color-on-scroll="100">
   <div class="container">
       <div class="navbar-translate">
-        <a class="navbar-brand" href="https://demos.creative-tim.com/material-kit/index.html">
+        <a class="navbar-brand" href="http://www.theauto.info/ru">
           Material Kit </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,7 +41,7 @@
 
 <div class="main main-raised">
   <div class="container">
-    <div class="section text-center">
+    <div class="section text-left">
       <h2 class="title">Your main section here</h2>
       <?php include("__qa.html"); ?>
     </div>
@@ -55,8 +53,8 @@
     <nav class="float-left">
       <ul>
         <li>
-          <a href="https://www.creative-tim.com/">
-              Creative Tim
+          <a href="http://www.theauto.info/ru">
+              Vastama ltd
           </a>
         </li>
       </ul>
