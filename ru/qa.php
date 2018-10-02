@@ -12,13 +12,6 @@
 <body>
 
 
-
-
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<!------ Include the above in your HEAD tag ---------->
-
 <div class="navbar navbar-expand-md navbar-dark bg-dark mb-4" role="navigation">
     <a class="navbar-brand" href="#">Bootstrap 4 NavBar</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -85,20 +78,10 @@
                     </li>
                 </ul>
             </li>
-        </ul>
-        <form class="form-inline mt-2 mt-md-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
+        </ul>        
     </div>
 </div>
 
-<main role="main" class="container">
-    <div class="jumbotron text-center">
-        <h1>Bootstrap 4 NavBar</h1>
-        <p class="lead text-info">NavBar with too many childs.</p>
-    </div>
-</main>
 <hr />
 <div class="main main-raised">
   <div class="container">
