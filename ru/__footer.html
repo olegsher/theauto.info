@@ -1,0 +1,20 @@
+<footer class="footer footer-default" >
+  <div class="container">
+    <nav class="float-left">
+      <ul>
+        <li>
+          <a href="http://www.theauto.info/ru">
+              Vastama ltd
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="copyright float-right">
+        &copy; <?php
+					$copyYear = 2014; // Set your website start date
+					$curYear = date('Y'); // Keeps the second year updated
+					echo $copyYear . (($copyYear != $curYear) ? '-' . $curYear : '');
+				?> Copyright Vastama ltd аренда автомобиля в Израиле.
+    </div>
+  </div>
+</footer>

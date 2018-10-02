@@ -6,8 +6,8 @@
 <title>Прокат аренда автомобилей Люкс в Израиле +972-58-7710101</title>
 <meta name="description" content="Прокат аренда автомобилей Люкс в Израиле. BMW 318i, VW Passat, Nissan Maxima, Audi A6, Ford Edge или подобные. Без предоплаты. Говорим по русски">
 
-
-<?php include("__header.html"); ?>
+<?php include("../_header_include.html"); ?>
+// <?php include("__header.html"); ?>
 
 </head>
 
@@ -19,7 +19,7 @@
 
 <div class="container">
 <?php include("__carousel.html"); ?>
-<?php include("__menu.html"); ?>
+<?php include("_menu.html"); ?>
 
 
 
@@ -284,7 +284,7 @@
      
       
     </div>    
-
-
+<?php include("__footer.html"); ?>
+<?php include("../_footer_include.html"); ?>
   </body>
   </html>
