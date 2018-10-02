@@ -14,7 +14,7 @@
 
 
 
-<div class="container">
+
 <nav class="navbar navbar-color-on-scroll navbar-transparent fixed-top navbar-expand-lg"  color-on-scroll="100">
   <div class="container">
       <div class="navbar-translate">
@@ -41,9 +41,39 @@
   </div>
 </nav>
 
-
-<?php include("__qa.html"); ?>
+<div class="main main-raised">
+  <div class="container">
+    <div class="section text-center">
+      <h2 class="title">Your main section here</h2>
+      <?php include("__qa.html"); ?>
+    </div>
+  </div>
 </div>
+
+<footer class="footer footer-default" >
+  <div class="container">
+    <nav class="float-left">
+      <ul>
+        <li>
+          <a href="https://www.creative-tim.com/">
+              Creative Tim
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="copyright float-right">
+        &copy;
+        <script>
+            document.write(new Date().getFullYear())
+        </script>, made with <i class="material-icons">favorite</i> by
+        <a href="https://www.creative-tim.com/" target="blank">Creative Tim</a> for a better web.
+    </div>
+  </div>
+</footer>
+
+
+
+
 
 <?php include("../_bottom_include.html"); ?>
 </body>
