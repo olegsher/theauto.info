@@ -13,6 +13,7 @@
 
 
 <div class="navbar navbar-top navbar-expand-md mb-4" role="navigation">
+<div class="container">
     <a class="navbar-brand" href="#">Vastama - Аренда авто в Израиле</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -42,6 +43,7 @@
             <li class="nav-item"><a class="nav-link" href="http://www.theauto.info/ru/list.php">Новости</a></li>
             <li class="nav-item"><a class="nav-link" href="#"></a></li>
         </ul>        
+    </div>
     </div>
 </div>
 
