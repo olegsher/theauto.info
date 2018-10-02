@@ -25,8 +25,9 @@
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" id="dropdown2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Автомобили</a>
                 <ul class="dropdown-menu" aria-labelledby="dropdown2">
-                    <li class="dropdown-item" <a href="http://www.theauto.info/ru/lux.php">Люкс</a></li>
-                    <li class="dropdown-item" <a href="http://www.theauto.info/ru/minivan.php">Минивэны</a></li>                   
+                    <li class="dropdown-item"> <a href="http://www.theauto.info/ru/lux.php">Люкс</a></li>
+                    <li class="dropdown-item"> <a href="http://www.theauto.info/ru/minivan.php">Минивэны</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="http://www.theauto.info/ru/">Pricing</a> </li>                   
                 </ul>
             </li>
         </ul>        
