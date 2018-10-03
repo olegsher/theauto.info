@@ -17,7 +17,8 @@
   <div class="container">
     <div class="section text-left">
       <h2 class="title">Вопросы и ответы по аренде автомобиля в Израиле</h2>
-                <?php 
+      <div class="card-deck mb-3 text-center">
+<?php 
     if (($handle = fopen("../albar_25.12.2017.csv", "r")) !== FALSE) {       
         
         while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
@@ -121,6 +122,7 @@
         fclose($handle);
     }
     ?>
+    </div>
     </div>
   </div>
 </div>
