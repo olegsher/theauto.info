@@ -12,6 +12,7 @@
 </head>
 
 <body>
+<?php include("../seo.html"); ?>
 <?php include("_menu.html"); ?>
 
 <hr />
