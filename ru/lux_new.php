@@ -17,6 +17,7 @@
 <hr />
 <div class="main main-raised">
   <div class="container">
+  <?php include("__carousel.html"); ?>
     <div class="section text-left">
       <h2 class="title">Прокат аренда автомобилей Люкс в Израиле</h2> 
   <br><img style="float:left" class="img-responsive" src="../img/checkmark.png" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке" width="20" height="20" /> Бронирование автомобиля в Израиле по лучшей онлайн цене	(до 40% экономии при сравнении с заказом в отделении компании)
