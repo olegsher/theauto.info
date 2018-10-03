@@ -5,6 +5,7 @@
 <title>Аренда автомобиля по всему миру</title>
 <meta name="description" content="Аренда автомобиля по всему миру">
 <meta name="author" content="Vastama ltd" >
+<?php include("../../__google_ta.html"); ?>
 </head>
 
 <body>
