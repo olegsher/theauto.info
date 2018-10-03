@@ -18,7 +18,7 @@
 <div class="main main-raised">
   <div class="container">
     <div class="section text-left">
-      <h1 class="title">Прокат аренда автомобилей Люкс в Израиле</h1>
+      <h2 class="title">Прокат аренда автомобилей Люкс в Израиле</h2>
       
 
         
