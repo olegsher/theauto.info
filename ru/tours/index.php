@@ -21,7 +21,7 @@ echo '
     <div class="section text-left">
       <h2 class="title">'. $title .'</h2>
 
-<div class="card-group">
+<div class="card-columns">
   <div class="card">
     <img class="card-img-top" src="https://atlantistravel.co.il/images/excursion/thumb_icon279_5b4351a93acea.jpg" alt="Card image cap">
     <div class="card-body">
