@@ -16,7 +16,7 @@
 <div class="main main-raised">
   <div class="container">
     <div class="section text-left">
-      <h2 class="title">Your main section here</h2>
+      <h2 class="title">Вопросы и ответы по аренде автомобиля в Израиле</h2>
       <?php include("__qa.html"); ?>
     </div>
   </div>
