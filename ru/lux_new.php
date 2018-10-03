@@ -110,7 +110,7 @@
              из '. $reviewCount .' на '. date('Y-m-d H:i:s') .'</li>
 
             <li class="text-left">
-                Оставьте данные и наш менеджер свяжется с вами
+                <hr />Оставьте данные и наш менеджер свяжется с вами
                <form action="mail_send.php" method="post" id="request-form">
                     <div class="form-inline">
                      <div class="col-auto">
