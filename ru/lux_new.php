@@ -43,7 +43,7 @@
   <div class="container">
     <div class="section text-left">
       <h2 class="title">Вопросы и ответы по аренде автомобиля в Израиле</h2>
-      <div class="card-deck text-center">
+      <div class="card-columns">
 <?php 
     if (($handle = fopen("../albar_25.12.2017.csv", "r")) !== FALSE) {       
         
