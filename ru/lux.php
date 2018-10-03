@@ -15,12 +15,12 @@
 <?php include("../seo.html"); ?>
 <?php include("_menu.html"); ?>
 <!-- <div class="container">  -->
-  <?php include("__carousel.html"); ?> 
+ 
 
 <div class="main main-raised">
   <div class="container">
     <div class="section text-left">
-
+ <?php include("__carousel.html"); ?> 
 
 <div class="jumbotron">
   <h1>Vastama - агенство по аренде прокату автомобилей в Израиле</h1>      
