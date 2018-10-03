@@ -44,6 +44,7 @@
             $low_s = array(0);
             $ratingValue = rand(4,5);
             $reviewCount = rand(100,200);
+            $sale = rand(21,30);
             
             
             
@@ -104,6 +105,7 @@
               <li class="text-left">Категория: '. $data[0].' | Сидений: '. $data[3].'</li>
               <li class="text-left">Безлимитный километраж при заказе 3-29 дней</li>
               <li class="text-left">При заказе 30+ дней от <span class="badge badge-danger">'. $data[13].'</span>USD</li>
+              <li class="text-left"><img style="float:left" class="img-responsive" src="../img/'. $sale .'.png" alt="" width="64"  /> При заказе 30+ дней от <span class="badge badge-danger">'. $data[13].'</span>USD в месяц(в цену включены обязательные страховки и 150км\день)</li>
               <li><img class="img-fluid" src="../img/CarCategories/'. $data[0].'.jpg" alt="аренда авто '. $data[4].' в Израиле" /> </li>
               
                 <li><br>
