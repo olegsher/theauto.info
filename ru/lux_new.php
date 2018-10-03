@@ -101,7 +101,7 @@
               <li class="text-left">Категория: '. $data[0].' | Сидений: '. $data[3].'</li>
               <li class="text-left"><img style="float:left" class="img-responsive" src="../img/checkmark.png" alt="" width="20" height="20" />Увеличенный километраж при заказе 1-2 дней(250км в день уже включены в цену)</li>                
               <li class="text-left"><img style="float:left" class="img-responsive" src="../img/checkmark.png" alt="" width="20" height="20" />Безлимитный километраж при заказе 3-29 дней</li>              
-              <li class="text-left"><img style="float:left" class="img-responsive" src="../img/'. $sale .'.png" alt="" width="64"  /> При заказе 30+ дней от <span class="badge badge-danger">'. $data[13].'</span>USD в месяц(в цену включены обязательные страховки и 150км\день)</li>
+              <li class="text-left"><img style="float:left" class="img-responsive" src="../img/checkmark.png" alt="" width="20" height="20" /><img style="float:left" class="img-responsive" src="../img/'. $sale .'.png" alt="" width="64"  /> При заказе 30+ дней от <span class="badge badge-danger">'. $data[13].'</span>USD в месяц(в цену включены обязательные страховки и 150км\день)</li>
               <li><img class="img-fluid" src="../img/CarCategories/'. $data[0].'.jpg" alt="аренда авто '. $data[4].' в Израиле" /> </li>
               
                 <li><br>
@@ -109,8 +109,8 @@
                   <img style="float:left" class="img-responsive" src="../img/star.png" alt="Рэйтинг. Аренда авто '. $data[4].' или подобный в Израиле"  />  
              из '. $reviewCount .' на '. date('Y-m-d H:i:s') .'</li>
 
-            <li>
-                <hr />Оставьте данные и наш менеджер свяжется с вами
+            <li class="text-left">
+                Оставьте данные и наш менеджер свяжется с вами
                <form action="mail_send.php" method="post" id="request-form">
                     <div class="form-inline">
                      <div class="col-auto">
@@ -118,12 +118,11 @@
                      <input type="text" class="form-control" required  name="name" placeholder="Ваше Имя">
                      </div>
                      <div class="col-auto">
-                     <input type="tel" class="form-control" required  name="phone" placeholder="включая код страны\города">
-                        <br>Тел/WhatsApp/Viber/Почта
+                     <input type="tel" class="form-control" required  name="phone" placeholder="Тел/WhatsApp/Viber/Почта включая код страны\города">                       
                      </div>               
                      <input type="hidden" name="car-select" value="Car Category: '. $data[0].', '. $data[4].' или подобный">
                     </div>
-                    <input type="submit" name="submit" value="Send">
+                    <input type="submit" name="submit" value="Отправить">
                 </form>
 </li> 
             </ul>
