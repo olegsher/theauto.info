@@ -118,7 +118,7 @@
                      <input type="text" class="form-control" required  name="name" placeholder="Ваше Имя">
                      </div>
                      <div class="col-auto">
-                     <input type="tel" class="form-control" required  name="phone" placeholder="Тел/WhatsApp/Viber/Почта включая код страны\города">                       
+                     <input type="tel" class="form-control" required  name="phone" placeholder="Тел/WhatsApp/Viber включая код страны\города">                       
                      </div>               
                      <input type="hidden" name="car-select" value="Car Category: '. $data[0].', '. $data[4].' или подобный">
                     </div>
