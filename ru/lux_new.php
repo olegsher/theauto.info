@@ -7,6 +7,32 @@
 <title>Вопросы и ответы по аренде автомобиля в Израиле</title>
 <meta name="description" content="Вопросы и ответы по аренде автомобиля в Израиле">
 <meta name="author" content="Vastama ltd" >
+<style>
+@media (min-width: 576px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-columns {
+        column-count: 3;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-columns {
+        column-count: 4;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-columns {
+        column-count: 5;
+    }
+}
+</style>
+
 </head>
 
 <body>
