@@ -14,10 +14,12 @@
  
 <?php include("../seo.html"); ?>
 <?php include("_menu.html"); ?>
-<div class="container"> 
+<!-- <div class="container">  -->
   <?php include("__carousel.html"); ?> 
 
-
+<div class="main main-raised">
+  <div class="container">
+    <div class="section text-left">
 
 
 <div class="jumbotron">
