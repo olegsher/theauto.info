@@ -18,8 +18,8 @@
        <input type="button" class="btn btn-primary btn-lg" value="EN" onclick="location.href = 'http://www.theauto.info/en';">
        <input type="button" class="btn btn-primary btn-lg" value="RU" onclick="location.href = 'http://www.theauto.info/ru';">
        <hr />
-       <a href="http://www.theauto.info/en" class="btn btn-primary btn-lg disabled" role="button" aria-disabled="true">EN</a>
-       <a href="http://www.theauto.info/ru" class="btn btn-primary btn-lg disabled" role="button" aria-disabled="true">RU</a>
+       <a href="http://www.theauto.info/en" class="btn btn-primary btn-lg " role="button" aria-disabled="false">EN</a>
+       <a href="http://www.theauto.info/ru" class="btn btn-primary btn-lg " role="button" aria-disabled="true">RU</a>
        
       
     </div>
