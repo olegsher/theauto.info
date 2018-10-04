@@ -41,10 +41,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <body>
 <?php include("../seo.html"); ?>
+<?php include("_menu.html"); ?>
 
+<hr />
 <div class="main main-raised">
 <div class="container">
-<?php include("_menu.html"); ?>
+
  
 <div class="jumbotron">
   <h1>Vastama - car rental agent in Israel</h1>      
