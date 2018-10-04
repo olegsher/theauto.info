@@ -41,6 +41,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <body>
 <?php include("../seo.html"); ?>
+<div class="main main-raised">
 <div class="container">
   
 
@@ -67,7 +68,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </div>    
  
    
-<h2 id="cars" style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Our car fleet</h2>
+<h2 id="cars" style="text-align: left; font-size: 1.5em; text-transform: uppercase;">Our car fleet</h2>
       <div class="card-columns text-center">
         
           
@@ -131,7 +132,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
-<div class="card mb-4 box-shadow"><div class="card-header"><h4 id="'. $data[0].'"class="my-0 font-weight-normal">'. $data[4].' or similar<small class="text-muted"> starting <span class="badge badge-success">'. $data[11].'</span> USD/day</small></h4></div>
+<div class="card mb-4 box-shadow"><div class="card-header"><h4 id="'. $data[0].'"class="my-0 font-weight-normal">'. $data[4].' or similar<small class="text-muted"><br> starting <span class="badge badge-success">'. $data[11].'</span> USD/day</small></h4></div>
           <div class="card-body">
 
             <ul class="list-unstyled mt-3 mb-4">
@@ -179,7 +180,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
    
-    <h2 id="price_list" style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Price List:</h2>
+    <h2 id="price_list" style="text-align: left; font-size: 1.5em; text-transform: uppercase;">Price List:</h2>
     
     <hr /><strong>Car Rental Israel  - Low Season Price List</strong>($USD): 
     <br>Apr 10 - Jul 14 2018; Aug 26 - Dec 19 2018; Jan 6 - Apr 13 2019; Apr 29 - Jul 14 2019; Aug 26 - Dec 19 2019;
@@ -370,7 +371,7 @@ company as blowout’s, tire/trim damage, underbody damage and vandalism caused 
 
 
 </div> 
-
+</div>
     
     
 <?php include("../__footer.html"); ?>
