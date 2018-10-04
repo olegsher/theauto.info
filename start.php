@@ -1,5 +1,5 @@
 <?php
-$title = "Start page";
+    $title = "Start page";
 ?>
 <!doctype html>
 <html lang="en">
@@ -15,6 +15,9 @@ $title = "Start page";
   <div class="container">
     <div class="section text-left">
       <?php echo '<h2 class="title">'. $title .'</h2>'; ?>
+       <input type="button" class="btn btn-info" value="EN" onclick="location.href = 'http://www.theauto.info/en';"><br>
+       <input type="button" class="btn btn-info" value="RU" onclick="location.href = 'http://www.theauto.info/ru';">
+       
       
     </div>
   </div>
