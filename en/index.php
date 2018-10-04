@@ -68,7 +68,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
  
    
 <h2 id="cars" style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Our car fleet</h2>
-      <div class="card-deck mb-3 text-center">
+      <div class="card-columns text-center">
         
           
           <?php 
