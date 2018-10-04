@@ -13,7 +13,7 @@
 <body>
 <div class="main main-raised">
   <div class="container">
-    <div class="d-flex justify-content-center align-items-center" style="height:100px;">
+    <div class="d-flex justify-content-center align-items-center" >
       <h2 class="title">        
        <a href="http://www.theauto.info/en" class="btn btn-info btn-round btn-lg " role="button" aria-disabled="false">English</a>       		
        <a href="http://www.theauto.info/ru" class="btn btn-info btn-round btn-lg " role="button" aria-disabled="false">Русский</a>  
