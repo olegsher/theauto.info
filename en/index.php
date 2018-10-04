@@ -1,5 +1,5 @@
 <?php
-$title = "Start page";
+$title = "Car Rental in Israel";
 ?>
 <!doctype html>
 <html lang="en">
@@ -45,21 +45,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <hr />
 <div class="main main-raised">
-<div class="container">
-
- 
-<div class="jumbotron">
-  <h1>Vastama - car rental agent in Israel</h1>      
-  <p>No credit card fees 
-  <br>No amendment fees
-  <br>Unlimited mileage with 3-29 days orders
-  <hr />Contact us by <a style="font-family: Times, serif; color:red">WhatsApp/Viber +972-58-771-0101</a> and our representative will back to you with best offer 
-  
-</div> 
+<div class="container"> 
    
-<?php include("../__carousel.html"); ?>
-    <div class="section text-left">
-      <h2 class="title">Прокат аренда автомобилей Люкс в Израиле</h2> 
+
+<div class="section text-left">
+  <h2 class="title">Прокат аренда автомобилей Люкс в Израиле</h2> 
   <br><img style="float:left" class="img-responsive" src="http://www.theauto.info/img/checkmark.png" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке" width="20" height="20" /> Бронирование автомобиля в Израиле по лучшей онлайн цене	(до 40% экономии при сравнении с заказом в отделении компании)
   <br><img style="float:left" class="img-responsive" src="http://www.theauto.info/img/checkmark.png" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке" width="20" height="20" /> Аренда авто без предоплаты (оплата производится при возврате автомобиля и можно наличными)
   <br><img style="float:left" class="img-responsive" src="http://www.theauto.info/img/checkmark.png" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке" width="20" height="20" /> Бесплатная консультация и помощь по бронированию автомобиля в Израиле на русском языке 
