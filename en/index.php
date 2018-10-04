@@ -41,24 +41,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <body>
 <?php include("../seo.html"); ?>
-<?php include("_menu.html"); ?>
+
 <div class="main main-raised">
 <div class="container">
-  
-
-     <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow"> 
-      <h5 class="my-0 mr-md-auto font-weight-normal">Vastama Ltd - your Car Rental agent in Israel</h5> 
-       <nav class="my-2 my-md-0 mr-md-3"> 
-         <a class="p-2 text-dark" href="#price_list">Price List</a> 
-         <a class="p-2 text-dark" href="#rent_cond">Rental Conditions</a> 
-<!--          <a class="p-2 text-dark" href="#people_carriers">People Carriers</a>  -->
-<!--          <a class="p-2 text-dark" href="#standard">Standard</a>  -->
-       </nav> 
-       <a class="btn btn-outline-primary" href="/ru/" title="Go to Russian section">Русский</a> 
-     </div> 
-
+<?php include("_menu.html"); ?>
  
-
 <div class="jumbotron">
   <h1>Vastama - car rental agent in Israel</h1>      
   <p>No credit card fees 
