@@ -14,13 +14,11 @@
 <div class="main main-raised">
   <div class="container">
     <div class="section text-left">
-      <?php echo '<h2 class="title">'. $title .'</h2>'; ?>
-       <input type="button" class="btn btn-primary btn-lg" value="EN" onclick="location.href = 'http://www.theauto.info/en';">
-       <input type="button" class="btn btn-primary btn-lg" value="RU" onclick="location.href = 'http://www.theauto.info/ru';">
-       <hr />
-       <a href="http://www.theauto.info/en" class="btn btn-info btn-round btn-lg " role="button" aria-disabled="false">EN</a>       		
-       <a href="http://www.theauto.info/ru" class="btn btn-info btn-round btn-lg " role="button" aria-disabled="false">RU</a>
+      <h2 class="title"> 
        
+       <a href="http://www.theauto.info/en" class="btn btn-info btn-round btn-lg " role="button" aria-disabled="false">English</a>       		
+       <a href="http://www.theauto.info/ru" class="btn btn-info btn-round btn-lg " role="button" aria-disabled="false">Русский</a>
+       </h2>
       
     </div>
   </div>
