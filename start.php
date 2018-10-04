@@ -14,15 +14,19 @@
 <div class="main main-raised">
   <div class="container">
     <div class="section text-left">
-      <h2 class="title"> 
-       
+      <h2 class="title">        
        <a href="http://www.theauto.info/en" class="btn btn-info btn-round btn-lg " role="button" aria-disabled="false">English</a>       		
-       <a href="http://www.theauto.info/ru" class="btn btn-info btn-round btn-lg " role="button" aria-disabled="false">Русский</a>
-       </h2>
-      
+       <a href="http://www.theauto.info/ru" class="btn btn-info btn-round btn-lg " role="button" aria-disabled="false">Русский</a>  
+       </h2> 
     </div>
   </div>
 </div>
+
+<div class="h-100 row align-items-center">
+  			<div class="col" style="background:red">
+    			TEXT
+  			</div>
+		</div>
 
 <?php include("__footer.html"); ?>
 <?php include("_bottom_include.html"); ?>
