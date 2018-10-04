@@ -138,13 +138,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               <li class="text-left">Car Category: '. $data[0].' | Seats: '. $data[3].'</li>
               <li class="text-left">Unlimited mileage with 3-29 days</li>
               <li class="text-left">Monthly price starting <span class="badge badge-danger">'. $data[13].'</span>USD</li>
-              <li><img class="img-fluid" src="img/CarCategories/'. $data[0].'.jpg" alt="rent '. $data[4].' or similar in Israel" /> </li>
+              <li><img class="img-fluid" src="http://www.theauto.info/img/CarCategories/'. $data[0].'.jpg" alt="rent '. $data[4].' or similar in Israel" /> </li>
 <li><br>
-                  <img style="float:left" class="img-responsive" src="../img/star.png" alt="rent '. $data[4].' or similar in Israel"  /> 
-                  <img style="float:left" class="img-responsive" src="../img/star.png" alt="rent '. $data[4].' or similar in Israel"  /> 
-                  <img style="float:left" class="img-responsive" src="../img/star.png" alt="rent '. $data[4].' or similar in Israel"  />  
-                  <img style="float:left" class="img-responsive" src="../img/star.png" alt="rent '. $data[4].' or similar in Israel"  /> 
-                  <img style="float:left" class="img-responsive" src="../img/star.png" alt="rent '. $data[4].' or similar in Israel"  /> 
+                  <img style="float:left" class="img-responsive" src="http://www.theauto.info/img/star.png" alt="rent '. $data[4].' or similar in Israel"  /> 
+                  <img style="float:left" class="img-responsive" src="http://www.theauto.info/img/star.png" alt="rent '. $data[4].' or similar in Israel"  /> 
+                  <img style="float:left" class="img-responsive" src="http://www.theauto.info/img/star.png" alt="rent '. $data[4].' or similar in Israel"  />  
+                  <img style="float:left" class="img-responsive" src="http://www.theauto.info/img/star.png" alt="rent '. $data[4].' or similar in Israel"  /> 
+                  <img style="float:left" class="img-responsive" src="http://www.theauto.info/img/star.png" alt="rent '. $data[4].' or similar in Israel"  /> 
              from '. $reviewCount .' <br>to '. date('Y-m-d H:i:s') .'</li>
               <li>
             <hr />
