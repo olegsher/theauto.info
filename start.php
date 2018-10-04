@@ -11,7 +11,7 @@
 </head>
 
 <body>
-<!-- <div class="main main-raised"> -->
+<div class="main main-raised">
 <!--   <div class="container"> -->
     <div class="d-flex justify-content-center align-items-center" style="height:100px;">
       <h2 class="title">        
@@ -20,7 +20,7 @@
        </h2> 
     </div>
 <!--   </div> -->
-<!-- </div> -->
+</div> 
 
 
 <?php include("__footer.html"); ?>
