@@ -15,8 +15,11 @@
   <div class="container">
     <div class="section text-left">
       <?php echo '<h2 class="title">'. $title .'</h2>'; ?>
-       <input type="button" class="btn btn-info" value="EN" onclick="location.href = 'http://www.theauto.info/en';"><br>
-       <input type="button" class="btn btn-info" value="RU" onclick="location.href = 'http://www.theauto.info/ru';">
+       <input type="button" class="btn btn-primary btn-lg" value="EN" onclick="location.href = 'http://www.theauto.info/en';">
+       <input type="button" class="btn btn-primary btn-lg" value="RU" onclick="location.href = 'http://www.theauto.info/ru';">
+       <hr />
+       <a href="http://www.theauto.info/en" class="btn btn-primary btn-lg disabled" role="button" aria-disabled="true">EN</a>
+       <a href="http://www.theauto.info/ru" class="btn btn-primary btn-lg disabled" role="button" aria-disabled="true">RU</a>
        
       
     </div>
