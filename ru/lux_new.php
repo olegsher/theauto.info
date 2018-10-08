@@ -124,13 +124,13 @@
 
 <div class="form-check form-check-inline">
   <label class="form-check-label">
-    <input class="form-check-input" type="checkbox" id="whatsapp" value="whatsapp"> WhatsApp &nbsp;&nbsp;
+    <input class="form-check-input" type="checkbox" id="whatsapp" value="whatsapp"> <img src="http://www.theauto.info//img/whatsapp.png" alt="WhatsApp +972-58-7710101 "> &nbsp;&nbsp;
     <span class="form-check-sign">
         <span class="check"></span>
     </span>
   </label>
   <label class="form-check-label">
-    <input class="form-check-input" type="checkbox" id="viber" value="viber"> Viber 
+    <input class="form-check-input" type="checkbox" id="viber" value="viber"> <img src="http://www.theauto.info/img/viber.png" alt="Viber +972-58-7710101"> 
     <span class="form-check-sign">
         <span class="check"></span>
     </span>
