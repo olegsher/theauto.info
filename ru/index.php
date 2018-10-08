@@ -153,7 +153,7 @@ echo '<title>Прокат аренда авто в Израиле +972-58-771010
 
 
 
-<div class="card mb-4 box-shadow"><div class="card-header"><h4 id="'. $data[0].'"class="my-0 font-weight-normal">'. $data[4].' или подобный от <span class="badge badge-success">'. $data[11].'</span><small class="text-muted"> USD/день</small></h4></div>
+<div class="card mb-4 box-shadow"><div class="card-header"><h4 id="'. $data[0].'"class="my-0 font-weight-normal">'. $data[4].' <br>или подобный от <span class="badge badge-success">'. $data[11].'</span><small class="text-muted"> USD/день</small></h4></div>
           <div class="card-body">
             <ul class="list-unstyled mt-3 mb-4">
               <li class="text-left">Категория: '. $data[0].' | Сидений: '. $data[3].'</li>
