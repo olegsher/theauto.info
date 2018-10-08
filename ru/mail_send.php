@@ -2,6 +2,8 @@
 if(isset($_POST['submit'])){
     $to = "rentcargroup@privateisrael.com"; // this is your Email address 
     $reqemail = "rentcargroup@privateisrael.com";
+    $from = $_POST['email']; // this is the sender's Email address
+    
 
     $first_name = $_POST['name'];
     $phone = $_POST['phone'];  
@@ -24,7 +26,7 @@ $message .= "<tr style='background: #eee;'><td><strong>Name:</strong> </td><td>"
 $message .= "<tr><td><strong>Phone:</strong> </td><td>" . strip_tags($_POST['phone']) . "</td></tr>";
 $message .= "<tr style='background: #eee;'><td><strong>Car Category:</strong> </td><td>" . strip_tags($_POST['car-select']) . "</td></tr>";
 $message .= "</table>";
-$message .= "Уважаемый\ая  ". strip_tags($_POST['name']) ." вы получили это сообщение потому что заполнили заявку на аренду автомобиля в Израиле на сайте http://www.theAuto.info 
+$message .= "<hr/> Уважаемый\ая  ". strip_tags($_POST['name']) ." вы получили это сообщение потому что заполнили заявку на аренду автомобиля в Израиле на сайте http://www.theAuto.info 
 <br>Наш сотрудник вернется к Вам в рабочие часы (8-15 по Израильскому времени). 
 <br>В случае если Вы хотите чтобы мы связались с Вами в кратчайший срок то напишите сообщение на WhatsApp\Viber +972-58-7710101";
 $message .= "</body></html>";
