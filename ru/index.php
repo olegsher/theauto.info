@@ -180,13 +180,13 @@ echo '<title>Прокат аренда авто в Израиле +972-58-771010
                      <input type="tel" class="form-control" required  name="phone" placeholder="Тел +(код страны-города)ххх-хххх">
                     <div class="form-check form-check-inline">
                       <label class="form-check-label">
-                        <input class="form-check-input" type="checkbox" id="whatsapp" value="whatsapp"> WhatsApp &nbsp;&nbsp;
+                        <input class="form-check-input" type="checkbox" name="whatsapp" id="whatsapp" value="whatsapp"> WhatsApp &nbsp;&nbsp;
                         <span class="form-check-sign">
                             <span class="check"></span>
                         </span>
                       </label>
                       <label class="form-check-label">
-                        <input class="form-check-input" type="checkbox" id="viber" value="viber"> Viber 
+                        <input class="form-check-input" type="checkbox" name="viber" id="viber" value="viber"> Viber 
                         <span class="form-check-sign">
                             <span class="check"></span>
                         </span>
