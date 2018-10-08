@@ -7,8 +7,6 @@
 <title>Прокат аренда автомобилей Люкс в Израиле</title>
 <meta name="description" content="Прокат аренда автомобилей Люкс в Израиле">
 <meta name="author" content="Vastama ltd" >
-
-
 </head>
 
 <body>
