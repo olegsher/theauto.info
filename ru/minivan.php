@@ -6,44 +6,31 @@
 <title>Прокат аренда минивэна в Израиле +972-58-7710101</title>
 <meta name="description" content="Прокат аренда минивэна в Израиле. Отделения проката в Бен Гурион, Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот и др. Без предоплаты. Говорим по русски">
 
-
-<?php include("__header.html"); ?>
-
+<?php include("../_header_include.html"); ?>
 </head>
 
 <body>
-
- 
 <?php include("../seo.html"); ?>
+<?php include("_menu.html"); ?>
 
-<div class="container">
-<?php include("__carousel.html"); ?>
-<?php include("__menu.html"); ?>
-
-
-
-    <div class="jumbotron">
-  <h1>Vastama - агенство по аренде прокату автомобилей в Израиле</h1>      
-  <p>
-  <img style="float:left" class="img-responsive" src="../img/checkmark.png" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке" width="20" height="20" /> Бронирование автомобиля в Израиле по лучшей онлайн цене	(до 40% экономии при сравнении с заказом в отделении компании)
+<hr />
+<div class="main main-raised">
+  <div class="container">
+  <?php include("__carousel.html"); ?>
+    <div class="section text-left">
+      <h2 class="title">Прокат аренда автомобилей Минивэн в Израиле</h2> 
+  <br><img style="float:left" class="img-responsive" src="../img/checkmark.png" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке" width="20" height="20" /> Бронирование автомобиля в Израиле по лучшей онлайн цене	(до 40% экономии при сравнении с заказом в отделении компании)
   <br><img style="float:left" class="img-responsive" src="../img/checkmark.png" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке" width="20" height="20" /> Аренда авто без предоплаты (оплата производится при возврате автомобиля и можно наличными)
   <br><img style="float:left" class="img-responsive" src="../img/checkmark.png" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке" width="20" height="20" /> Бесплатная консультация и помощь по бронированию автомобиля в Израиле на русском языке 
   <br><img style="float:left" class="img-responsive" src="../img/checkmark.png" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке" width="20" height="20" /> Безлимитный километраж при заказе 3-29 дней
   <br><img style="float:left" class="img-responsive" src="../img/checkmark.png" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке" width="20" height="20" /> Отделения по аренде прокату автомобилей во всех крупных городах Израиля
   <br><img style="float:left" class="img-responsive" src="../img/checkmark.png" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке" width="20" height="20" /> Огромные скидки при бронировании автомобиля на 30+ дней
-  <hr /><img style="float:left" class="img-responsive" src="../img/checkmark.png" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке" width="20" height="20" /> Напишите нам на <a style="font-family: Times, serif; color:red">WhatsApp/Viber +972-58-771-0101</a> и наш менеджер вернется к вам с лучшим предложением</p>
-</div>
- 
- 
-  
-  
-
-    
-    
-    
-
-    <h2 id="cars" style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Эти минивэны есть у нас в прокате</h2>
-      <div class="card-deck mb-3 text-center">
+  <br><img style="float:left" class="img-responsive" src="../img/checkmark.png" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке" width="20" height="20" /> Напишите нам на <a style="font-family: Times, serif; color:red">WhatsApp/Viber +972-58-771-0101</a> и наш менеджер вернется к вам с лучшим предложением
+	<hr />
+      
+      
+      
+      <div class="card-columns text-center">
         
           
           <?php 
@@ -118,21 +105,38 @@
                   <img style="float:left" class="img-responsive" src="../img/star.png" alt="Рэйтинг. Аренда авто '. $data[4].' или подобный в Израиле"  />  
              из '. $reviewCount .' на '. date('Y-m-d H:i:s') .'</li>           
              
-              <li>
-                <hr />Оставьте данные и наш менеджер свяжется с вами
+              <li class="text-left">
+                <hr />Форма обратной связи:
                <form action="mail_send.php" method="post" id="request-form">
                     <div class="form-inline">
-                     <div class="col-auto">
-                     
+                     <div class="col-auto">                     
                      <input type="text" class="form-control" required  name="name" placeholder="Ваше Имя">
                      </div>
                      <div class="col-auto">
-                     <input type="tel" class="form-control" required  name="phone" placeholder="включая код страны\города">
-                        <br>Тел/WhatsApp/Viber/Почта
+                     <input type="tel" class="form-control" required  name="phone" placeholder="Тел +(код страны-города)ххх-хххх">
+                    <div class="form-check form-check-inline">
+                      <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" id="whatsapp" value="whatsapp"> WhatsApp &nbsp;&nbsp;
+                        <span class="form-check-sign">
+                            <span class="check"></span>
+                        </span>
+                      </label>
+                      <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" id="viber" value="viber"> Viber 
+                        <span class="form-check-sign">
+                            <span class="check"></span>
+                        </span>
+                      </label>
+                    </div>
+                    </div>
+                     <div class="col-auto">
+                     <input type="email" class="form-control" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required id="email" placeholder="Ваша почта">                        
                      </div>               
                      <input type="hidden" name="car-select" value="Car Category: '. $data[0].', '. $data[4].' или подобный">
                     </div>
-                    <input type="submit" name="submit" value="Send">
+                    <div class="col-auto">
+                    <input type="submit" name="submit" value="Отправить">
+                    </div>
                 </form>
 </li> 
             </ul>
@@ -286,6 +290,7 @@
       
     </div>    
 
-
+<?php include("__footer.html"); ?>
+<?php include("../_bottom_include.html"); ?>
   </body>
   </html>
