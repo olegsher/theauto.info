@@ -124,15 +124,15 @@
 
 <div class="form-check form-check-inline">
   <label class="form-check-label">
-    <input class="form-check-input" type="checkbox" id="whatsapp" value="whatsapp"> WhatsApp 
+    <input class="form-check-input" type="checkbox" id="whatsapp" value="whatsapp"> WhatsApp &nbsp;&nbsp;
     <span class="form-check-sign">
-        <span class="check">WhatsApp</span>
+        <span class="check"></span>
     </span>
   </label>
   <label class="form-check-label">
     <input class="form-check-input" type="checkbox" id="viber" value="viber"> Viber 
     <span class="form-check-sign">
-        <span class="check">Viber</span>
+        <span class="check"></span>
     </span>
   </label>
 </div>
