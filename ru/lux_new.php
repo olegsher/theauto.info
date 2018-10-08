@@ -122,10 +122,10 @@
                      <input type="tel" class="form-control" required  name="phone" placeholder="Тел +(код страны-города)ххх-хххх"> 
                     
 
-<div class="form-check">
-    <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> WhatsApp<span class="form-check-sign"><span class="check"></span></label>
-    <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> Viber<span class="form-check-sign"><span class="check"></span></label>
-</div>
+// <div class="form-check">
+    <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> WhatsApp<span class="form-check-sign"><span class="check">  </span></label>
+    <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> Viber<span class="form-check-sign"><span class="check">  </span></label>
+// </div>
 </div>
                      <div class="col-auto">
                      <input type="email" class="form-control" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required id="email" placeholder="Ваша почта">                        
