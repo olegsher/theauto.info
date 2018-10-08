@@ -170,7 +170,7 @@ echo '<title>Прокат аренда авто в Израиле +972-58-771010
             <li>
                     </li>          
              <li>
-                <hr />Оставьте данные и наш менеджер свяжется с вами
+                <hr />Форма обратной связи:
                <form action="mail_send.php" method="post" id="request-form">
                     <div class="form-inline">
                      <div class="col-auto">                     
