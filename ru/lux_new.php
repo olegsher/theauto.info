@@ -119,12 +119,12 @@
                      <input type="text" class="form-control" required  name="name" placeholder="Ваше Имя">
                      </div>
                      <div class="col-auto">
-                     <input type="tel" class="form-control" required  name="phone" placeholder="Тел/WhatsApp/Viber включая код страны\города"> 
+                     <input type="tel" class="form-control" required  name="phone" placeholder="Тел +(код страны-города)ххх-хххх"> 
                     
 
 <div class="form-check">
-    <label class="form-check-label"><input class="form-check-input" type="checkbox" value="">WhatsApp<span class="form-check-sign"><span class="check"></span></label>
-    <label class="form-check-label"><input class="form-check-input" type="checkbox" value="">Viber<span class="form-check-sign"><span class="check"></span></label>
+    <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> WhatsApp<span class="form-check-sign"><span class="check"></span></label>
+    <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> Viber<span class="form-check-sign"><span class="check"></span></label>
 </div>
 </div>
                      <div class="col-auto">
