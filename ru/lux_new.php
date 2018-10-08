@@ -121,6 +121,8 @@
                      </div>
                      <div class="col-auto">
                      <input type="tel" class="form-control" required  name="phone" placeholder="Тел/WhatsApp/Viber включая код страны\города"> 
+                    </div>
+                     <div class="col-auto">
                      <input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required id="email" placeholder="Ваша почта">                        
                      </div>               
                      <input type="hidden" name="car-select" value="Car Category: '. $data[0].', '. $data[4].' или подобный">
