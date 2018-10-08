@@ -15,7 +15,7 @@ if(isset($_POST['submit'])){
     $headers .= "Content-Type: text/html; charset=utf-8\r\n";
     
     
-    $subject = $_POST['name'] . " " . $_POST['phone'] . " " . $_POST['car-select'] . " " . "theAuto.info";    
+    $subject = $_POST['name'] . " " . $_POST['phone'] . " " . $_POST['email'] . " " . $_POST['car-select'] . " " . "theAuto.info";    
             $message = '<html lang="ru"><body>';
             $message .= '<hr />';
             $message .= 'Аренда прокат автомобиля в Израиле http://www.theAuto.info +972-58-7710101';
