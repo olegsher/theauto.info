@@ -177,7 +177,21 @@ echo '<title>Прокат аренда авто в Израиле +972-58-771010
                      <input type="text" class="form-control" required  name="name" placeholder="Ваше Имя">
                      </div>
                      <div class="col-auto">
-                     <input type="tel" class="form-control" required  name="phone" placeholder="Тел/WhatsApp/Viber включая код страны\города"> 
+                     <input type="tel" class="form-control" required  name="phone" placeholder="Тел +(код страны-города)ххх-хххх">
+                    <div class="form-check form-check-inline">
+                      <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" id="whatsapp" value="whatsapp"> WhatsApp &nbsp;&nbsp;
+                        <span class="form-check-sign">
+                            <span class="check"></span>
+                        </span>
+                      </label>
+                      <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" id="viber" value="viber"> Viber 
+                        <span class="form-check-sign">
+                            <span class="check"></span>
+                        </span>
+                      </label>
+                    </div>
                     </div>
                      <div class="col-auto">
                      <input type="email" class="form-control" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required id="email" placeholder="Ваша почта">                        
