@@ -34,7 +34,8 @@
 <h1 id="standard" style="text-align: left; font-size: 1.5em; text-transform: uppercase;">Условия проката аренды автомобилей в Израиле</h1>
 <?php include("__RentalConditions.html"); ?>
 </div>
-
+  </div>  
+</div>
 
 
 <?php include("__footer.html"); ?>
