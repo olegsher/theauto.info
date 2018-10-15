@@ -14,11 +14,13 @@ echo '<title>Прокат аренда автомобилей в Израиле 
 <body>
 <?php include("../seo.html"); ?>
 <?php include("_menu.html"); ?>
+ <hr />
 
-<hr />
 <div class="main main-raised">
   <div class="container">
+  
   <?php include("__carousel.html"); ?>
+ 
     <div class="section text-left">
       <h2 class="title">Прокат аренда автомобилей в Израиле - расценки</h2> 
   <br><img style="float:left" class="img-responsive" src="../img/checkmark.png" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке" width="20" height="20" /> Бронирование автомобиля в Израиле по лучшей онлайн цене	(до 40% экономии при сравнении с заказом в отделении компании)
@@ -29,7 +31,7 @@ echo '<title>Прокат аренда автомобилей в Израиле 
   <br><img style="float:left" class="img-responsive" src="../img/checkmark.png" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке" width="20" height="20" /> Огромные скидки при бронировании автомобиля на 30+ дней
   <br><img style="float:left" class="img-responsive" src="../img/checkmark.png" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке" width="20" height="20" /> Напишите нам на <a style="font-family: Times, serif; color:red">WhatsApp/Viber +972-58-771-0101</a> и наш менеджер вернется к вам с лучшим предложением
 	<hr />
-
+</div>
 	
 <!-- 	<div class="jumbotron"> -->
   <h2 id="Low_c">Аренда автомобиля в Израиле - pасценки <span style="color:blue">низкого</span> cезона($USD):</h2>      
@@ -91,13 +93,9 @@ echo '<title>Прокат аренда автомобилей в Израиле 
   
   
 
-<!-- <div class="jumbotron"> -->
   <h2 id="High_c">Аренда автомобиля в Израиле - расценки <span style="color:red">высокого</span> сезона($USD):</h2>      
   <p>Декабрь 20 2018 - Январь 5 2019; Апрель 14 - 28 2019; Июль 15 - Август 25 2019; </p>
-<!-- </div> -->
-<!-- <hr /><strong>Аренда автомобиля в Израиле  - 
-<br>Расценки <span class="badge badge-danger">Высокого</span> Сезона</strong>($USD):  -->
-<!-- <br>Декабрь 20 2018 - Январь 5 2019; Апрель 14 - 28 2019; Июль 15 - Август 25 2019; -->
+
 <table class="table table-bordered">
     <thead>
       <tr>
@@ -206,6 +204,12 @@ echo '<title>Прокат аренда автомобилей в Израиле 
     ?>
         </tbody>
   </table>
+ </div>  
+</div>
+
+</div>  
+</div>
+
 
 
 
