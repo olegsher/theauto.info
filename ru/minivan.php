@@ -287,8 +287,8 @@
 <br>* Указанные на сайте цены <span class="badge badge-danger">НЕ ВКЛЮЧАЮТ НДС</span> (от НДС освобождены лица имеющие в пасторте визу В2\В3 - обязательно предоставить при получении машины)
      
 
-      
-    </div>    
+  </div>  
+</div>  
 
 <?php include("__footer.html"); ?>
 <?php include("../_bottom_include.html"); ?>
