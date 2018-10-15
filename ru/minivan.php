@@ -26,6 +26,7 @@
   <br><img style="float:left" class="img-responsive" src="../img/checkmark.png" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке" width="20" height="20" /> Отделения по аренде прокату автомобилей во всех крупных городах Израиля
   <br><img style="float:left" class="img-responsive" src="../img/checkmark.png" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке" width="20" height="20" /> Огромные скидки при бронировании автомобиля на 30+ дней
   <br><img style="float:left" class="img-responsive" src="../img/checkmark.png" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке" width="20" height="20" /> Напишите нам на <a style="font-family: Times, serif; color:red">WhatsApp/Viber +972-58-771-0101</a> и наш менеджер вернется к вам с лучшим предложением
+	</div>
 	<hr />
       
       
@@ -164,131 +165,10 @@
 <hr />
 
  
-    <h2 id="price_list" style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Наши цены:</h2>
-    
-    <hr /><strong>Аренда автомобиля в Израиле  - Расценки <span class="badge badge-primary">Низкого</span> Сезона</strong>($USD): 
-    <br>Апрель 10 - Июль 14 2018; Август 26 - Декабрь 19 2018; Январь 6 - Апрель 13 2019; Апрель 29 - Июль 14 2019; Август 26 - Декабрь 19 2019;
-    <table class="table table-bordered">
-    <thead>
-      <tr>
-        <th>Кат</th>
-        <th>Авто</th>
-        <th>Дневная<br>(1-6)</th>
-        <th>Недельная</th>
-        <th>Д.день<br>(8+)</th>
-        <th>Месячная<br>(30+)</th>
-        <th>CDW</th>
-        <th>TP</th>
-        <th>3PLC</th>
-        <th>Л.Участие</th>
-        <th>Доп.<br>KM</th>
-      </tr>
-    </thead>
-    <tbody>
-    <?php 
-    if (($handle = fopen("../albar_25.12.2017.csv", "r")) !== FALSE) {       
-        
-        while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
-                       
-            
-            $low_s = array(0);
-            
-            foreach ($low_s as $c) {
-                if($data[3] <= 5) {
-                    $value = "&nbsp;";
-                }else{
-
-                echo '<tr>
-                <td>'. $data[0]. '<br>'. $data[1]. '</td>
-                <td><a href="#'. $data[0]. '" ><strong>'. $data[4].' или подобный</strong></a><br>Сидений '. $data[3]. '</td>
-                <td>'. $data[5]. '</td>
-                <td>'. $data[9]. '</td>
-                <td>'. $data[11]. '</td>
-                <td>'. $data[13]. '</td>
-                <td>'. $data[15]. '</td>
-                <td>'. $data[16]. '</td>
-                <td>'. $data[17]. '</td>
-                <td>'. $data[23]. '</td>
-                <td>'. $data[18]. '</td>
-                </tr>';
-                }}
-
-        }   
-        fclose($handle);
-    }
-    ?>
-        </tbody>
-  </table>
-
-
-<hr /><strong>Аренда автомобиля в Израиле  - Расценки <span class="badge badge-danger">Высокого</span> Сезона</strong>($USD): 
-<br>Декабрь 20 2018 - Январь 5 2019; Апрель 14 - 28 2019; Июль 15 - Август 25 2019;
-<table class="table table-bordered">
-    <thead>
-      <tr>
-        <th>Кат</th>
-        <th>Авто</th>
-        <th>Дневная<br>(1-6)</th>
-        <th>Недельная</th>
-        <th>Д.день<br>(8+)</th>
-        <th>Месячная<br>(30+)</th>
-        <th>CDW</th>
-        <th>TP</th>
-        <th>3PLC</th>
-        <th>Л.Участие</th>
-        <th>Доп.<br>KM</th>
-      </tr>
-    </thead>
-    <tbody>
-    <?php 
-    if (($handle = fopen("../albar_25.12.2017.csv", "r")) !== FALSE) {       
-        
-        while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
-            $num = count($data);                       
-            
-            $low_s = array(0);
-            
-            foreach ($low_s as $c) {
-               
-                  if($data[3] <= 5) {
-                      $value = "&nbsp;";
-                  }else{
-                echo '<tr>
-                <td>'. $data[0]. '<br>'. $data[1]. '</td>
-                <td><a href="#'. $data[0]. '"><strong>'. $data[4].' или подобный</strong></a><br>Сидений '. $data[3]. '</td>
-                <td>'. $data[6]. '</td>
-                <td>'. $data[10]. '</td>
-                <td>'. $data[12]. '</td>
-                <td>'. $data[14]. '</td>
-                <td>'. $data[15]. '</td>
-                <td>'. $data[16]. '</td>
-                <td>'. $data[17]. '</td>
-                <td>'. $data[23]. '</td>
-                <td>'. $data[18]. '</td>
-                </tr>';
-                  } }
-
-        }   
-        fclose($handle);
-    }
-    ?>
-        </tbody>
-  </table>
-<br>Низкий Сезон: Апрель 10 - Июль 14 2018; Август 26 - Декабрь 19 2018; Январь 6 - Апрель 13 2019; Апрель 29 - Июль 14 2019; Август 26 - Декабрь 19 2019;
-<br>Высокий Сезон: Декабрь 20 2018 - Январь 5 2019; Апрель 14 - 28 2019; Июль 15 - Август 25 2019;
-
-<br>Дневная аренда (1-2 дня)  -  включает 250км в день
-<br>Дневная аренда (3-29) и понедельная - безлимитный километраж 
-<br>Месячная (30+ дней) -  включает 150км в день  
-<br>Все цены указанны на сайте в : USD $
-<br>Цены действительны до: Dec 19, 2019
-<p class="text-left">* Указанные на сайте <span class="badge badge-success">цены значительно ниже официальных расценок</span> на сайте\отделениях компании и соответствуют прейскуранту дилера компаний EuropCar/Albar(май 2018) 
-<br>* Указанные на сайте цены <span class="badge badge-danger">НЕ ВКЛЮЧАЮТ</span> обязательные страховки 
-<br>* Указанные на сайте цены <span class="badge badge-danger">НЕ ВКЛЮЧАЮТ НДС</span> (от НДС освобождены лица имеющие в пасторте визу В2\В3 - обязательно предоставить при получении машины)
-     
-
+ 
   </div>  
-</div>  
+</div>
+ 
 
 <?php include("__footer.html"); ?>
 <?php include("../_bottom_include.html"); ?>
