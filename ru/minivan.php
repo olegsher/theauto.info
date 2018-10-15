@@ -3,10 +3,10 @@
 <!doctype html>
 <html lang="ru">
 <head>
+<?php include("../_header_include.html"); ?>
 <title>Прокат аренда минивэна в Израиле +972-58-7710101</title>
 <meta name="description" content="Прокат аренда минивэна в Израиле. Отделения проката в Бен Гурион, Тель Авив Ашдод Хайфа Эйлат Герцлия Нетания Ришон ЛеЦион Реховот и др. Без предоплаты. Говорим по русски">
-
-<?php include("../_header_include.html"); ?>
+<meta name="author" content="Vastama ltd" >
 </head>
 
 <body>
