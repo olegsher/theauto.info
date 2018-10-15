@@ -109,7 +109,7 @@
               <li class="text-left">
                 <hr />Форма обратной связи:
                <form action="mail_send.php" method="post" id="request-form">
-                    <div class="form-inline">
+                    <div class="form-group">
                      <div class="col-auto">                     
                      <input type="text" class="form-control" required  name="name" placeholder="Ваше Имя">
                      </div>
