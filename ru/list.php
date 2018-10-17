@@ -36,7 +36,7 @@ echo '<hr />
 <div class="main main-raised">
   <div class="container">
     <div class="section text-left">
-      <h1 class="title">Новости мира автомобилей</h1>'; 
+      <h1>Новости мира автомобилей</h1>'; 
 
 
 
