@@ -106,7 +106,7 @@ echo '<title>Прокат аренда авто в Израиле +972-58-771010
             <hr />
               <li class="text-left">Безлимитный километраж при заказе 3-29 дней</li>
               <hr />
-              <li class="text-left"><img style="float:left" class="img-responsive" src="../img/'. $sale .'.png" alt="" width="64"  /> При заказе 30+ дней от <span class="badge badge-danger">'. $data[13].'</span>USD в месяц(в цену включены обязательные страховки и 150км\день)</li>
+              <li class="text-left"><img style="float:left" class="img-responsive" src="../img/'. $sale .'.png" alt="Лучшая цена" /> При заказе 30+ дней от <span class="badge badge-danger">'. $data[13].'</span>USD в месяц(в цену включены обязательные страховки и 150км\день)</li>
               <li><img class="img-fluid" src="../img/CarCategories/'. $data[0].'.jpg" alt="аренда авто '. $data[4].' или подобный в Израиле" /> </li>
               <li><br>
                     <img style="float:left" class="img-responsive" src="../img/'. $ratingValue .'.png" alt="Рэйтинг. Аренда авто '. $data[4].' или подобный в Израиле"  />
