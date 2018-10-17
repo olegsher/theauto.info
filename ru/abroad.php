@@ -5,7 +5,7 @@
 <head>
 <?php include("../_header_include.html"); ?>
 <title>Прокат аренда автомобиля по всему миру +972-58-7710101</title>
-<meta name="description" content="Прокат аренда автомобиля по всему миру. Говорим по русски">
+<meta name="description" content="Прокат аренда автомобиля по всему миру. Говорим по русски. Аренда Европа, США, Азия. +972-58-7710101">
 <meta name="author" content="Vastama ltd" >
 </head>
 
@@ -18,7 +18,7 @@
   <div class="container">
   <?php include("__carousel.html"); ?>
     <div class="section text-left">
-      <h2 class="title">Прокат аренда автомобиля по всему миру</h2> 
+      <h1>Прокат аренда автомобиля по всему миру</h1> 
   <br><img style="float:left" class="img-responsive" src="../img/checkmark.png" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке" width="20" height="20" /> Бронирование автомобиля по всему миру по лучшей онлайн цене	(до 40% экономии при сравнении с заказом в отделении компании)
   <br><img style="float:left" class="img-responsive" src="../img/checkmark.png" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке" width="20" height="20" /> Бесплатная консультация и помощь по бронированию автомобиля на русском языке 
   <br><img style="float:left" class="img-responsive" src="../img/checkmark.png" alt="Консультация и помощь по бронированию автомобиля в Израиле на русском языке" width="20" height="20" /> Напишите нам на <a style="font-family: Times, serif; color:red">WhatsApp/Viber +972-58-771-0101</a> или заполните форму ниже и наш менеджер вернется к вам с лучшим предложением
