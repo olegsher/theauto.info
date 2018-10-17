@@ -42,6 +42,8 @@
             $ratingValue = rand(4,5);
             $reviewCount = rand(100,200);
             $sale = rand(21,30);
+            if( $sale != 21 )
+                $sale = 22;
             
             
             

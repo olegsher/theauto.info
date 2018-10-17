@@ -48,6 +48,8 @@ echo '<title>Прокат аренда авто в Израиле +972-58-771010
             $ratingValue = rand(4,5);
             $reviewCount = rand(100,200);
             $sale = rand(21,30);
+            if( $sale != 21 )
+                $sale = 22;
             
             foreach ($low_s as $c) {
             echo '
