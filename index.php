@@ -1,16 +1,16 @@
 <?php
+$title = "Car Rental in Israel";
+$company = "Vastama Ltd, Reg number 515052702, Phone +972-58-771-0101";
 ?>
-
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="description" content="Car Rental in Israel">
-<meta name="author" content="">
-<meta name="yandex-verification" content="f11475564b48ca1f" />
-<meta name='wmail-verification' content='a9138f370e313f0907f0d27ff4975904' />
-<meta name="msvalidate.01" content="DFFC9D141B04223AD2603B9AD5606773" />
+<?php include("_header_include.html"); ?>
+
+<?php echo '<title>'. $title .'</title> 
+<meta name="description" content="' . $title . '">
+<meta name="author" content="'. $company .'">' ;?>
+
 <link rel="icon" href="http://www.theauto.info/favicon.ico">
 <link rel="alternate" hreflang="ru" href="http://www.theauto.info/ru/" />
 <meta property="fb:app_id" content="1322511981092474" />
@@ -25,26 +25,6 @@
 <meta property="og:description" content="car rental israel,car hire israel,cheap car rental israel,car rental israel cheap,hire car israel,car hire israel compare,luxury car rental israel"/>
 
 
-<title>Car Rental in Israel</title>
-<!--  <link href="css/styles-red.css" rel="stylesheet"> -->
-<!-- Bootstrap core CSS -->
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<!-- Popper JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-
-<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous"> -->
-<!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script> -->
-<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script> -->
-<!-- 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-<!-- Custom styles for this template -->
-<link href="pricing.css" rel="stylesheet">
-
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -54,41 +34,64 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 
 
-
-
 </head>
 
 <body>
 <?php include("seo.html"); ?>
-<div class="container">
+<hr />
+<div class="main main-raised">
+  <div class="container">
+  <?php include("__carousel.html"); ?>
+    <div class="section text-left">
   
 
-     <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow"> 
-      <h5 class="my-0 mr-md-auto font-weight-normal">Vastama Ltd - your Car Rental agent in Israel</h5> 
-       <nav class="my-2 my-md-0 mr-md-3"> 
-         <a class="p-2 text-dark" href="#price_list">Price List</a> 
-         <a class="p-2 text-dark" href="#rent_cond">Rental Conditions</a> 
+<div class="navbar navbar-expand-md mb-4" role="navigation">
+<div class="container">	
+    <a class="navbar-brand" href="/">Car Rental in Israel</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a class="nav-link" href="#price_list">Price List</a></li>
+            <li class="nav-item"><a class="nav-link" href="#rent_cond">Rental Conditions</a></li>
+<!--             <li class="nav-item"><a class="nav-link" href="#people_carriers">People Carriers</a></li> -->
+<!--             <li class="nav-item"><a class="nav-link" href="#standard">Standard</a></li> -->
+<!--             <li class="nav-item"><a class="nav-link" href="Europcar_Albar_Vastama_branches.php">Отделения</a></li> -->
+<!--             <li class="nav-item"><a class="nav-link" href="pricelist.php">Расценки</a></li> -->
+<!--             <li class="nav-item"><a class="nav-link" href="about.php">О компании</a></li> -->
+<!--             <li class="nav-item"><a class="nav-link" href="list.php">Новости</a></li> -->
+<!--             <li class="nav-item"><a class="nav-link" href="#"></a></li> -->
+        </ul>        
+    </div>   
+    </div>
+</div>
+
+
+
+<!--      <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">  -->
+<!--       <h5 class="my-0 mr-md-auto font-weight-normal">Vastama Ltd - your Car Rental agent in Israel</h5>  -->
+<!--        <nav class="my-2 my-md-0 mr-md-3">  -->
+<!--          <a class="p-2 text-dark" href="#price_list">Price List</a>  -->
+<!--          <a class="p-2 text-dark" href="#rent_cond">Rental Conditions</a>  -->
 <!--          <a class="p-2 text-dark" href="#people_carriers">People Carriers</a>  -->
 <!--          <a class="p-2 text-dark" href="#standard">Standard</a>  -->
-       </nav> 
-       <a class="btn btn-outline-primary" href="/ru/" title="Go to Russian section">Русский</a> 
-     </div> 
+<!--        </nav>  -->
+<!--        <a class="btn btn-outline-primary" href="/ru/" title="Go to Russian section">Русский</a>  -->
+<!--      </div>  -->
 
  
 
-<div class="jumbotron">
+
   <h1>Vastama - car rental agent in Israel</h1>      
   <p>No credit card fees 
   <br>No amendment fees
   <br>Unlimited mileage with 3-29 days orders
   <hr />Contact us by <a style="font-family: Times, serif; color:red">WhatsApp/Viber +972-58-771-0101</a> and our representative will back to you with best offer 
-  
-</div>    
- 
-   
-<h2 id="cars" style="color: white; text-shadow: 1px 1px 2px #000000; font-family: Times, serif; text-align: left; font-size: 1.5em; text-transform: uppercase;">Our car fleet</h2>
-      <div class="card-deck mb-3 text-center">
-        
+	</div>
+	<hr />
+       <div class="card-columns text-center">
+          
           
           <?php 
     if (($handle = fopen("albar_25.12.2017.csv", "r")) !== FALSE) {       
@@ -150,7 +153,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
-<div class="card mb-4 box-shadow"><div class="card-header"><h4 id="'. $data[0].'"class="my-0 font-weight-normal">'. $data[4].' or similar<small class="text-muted"> starting <span class="badge badge-success">'. $data[11].'</span> USD/day</small></h4></div>
+<div class="card mb-4 box-shadow"><div class="card-header"><h4 id="'. $data[0].'"class="my-0 font-weight-normal">'. $data[4].' or similar<small class="text-muted"> <br>starting <span class="badge badge-success">'. $data[11].'</span> <small class="text-muted"> USD/day</small></small></h4></div>
           <div class="card-body">
 
             <ul class="list-unstyled mt-3 mb-4">
@@ -158,28 +161,46 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               <li class="text-left">Unlimited mileage with 3-29 days</li>
               <li class="text-left">Monthly price starting <span class="badge badge-danger">'. $data[13].'</span>USD</li>
               <li><img class="img-fluid" src="img/CarCategories/'. $data[0].'.jpg" alt="rent '. $data[4].' or similar in Israel" /> </li>
+
 <li><br>
-                  <img style="float:left" class="img-responsive" src="../img/star.png" alt="rent '. $data[4].' or similar in Israel"  /> 
-                  <img style="float:left" class="img-responsive" src="../img/star.png" alt="rent '. $data[4].' or similar in Israel"  /> 
-                  <img style="float:left" class="img-responsive" src="../img/star.png" alt="rent '. $data[4].' or similar in Israel"  />  
-                  <img style="float:left" class="img-responsive" src="../img/star.png" alt="rent '. $data[4].' or similar in Israel"  /> 
-                  <img style="float:left" class="img-responsive" src="../img/star.png" alt="rent '. $data[4].' or similar in Israel"  /> 
-             from '. $reviewCount .' <br>to '. date('Y-m-d H:i:s') .'</li>
-              <li>
-            <hr />
-               <form action="mail_send.php" method="post" id="request-form">
-                    <div class="form-inline">
-                     <div class="col-auto">
-                     <input type="text" class="form-control" required  name="name" placeholder="name">
+                    <img style="float:left" class="img-responsive" src="img/'. $ratingValue .'.png" alt="Рэйтинг. Аренда авто '. $data[4].' or similar in Israel"  />
+                  <img style="float:left" class="img-responsive" src="img/star.png" alt="Рэйтинг. Аренда авто '. $data[4].' or similar in Israel"  />  
+             from '. $reviewCount .' votes to '. date('Y-m-d H:i:s') .'</li> 
+            <li>                    </li>
+                          <li class="text-left">
+                <hr />Fill the form:
+               <form action="mail_send_en.php" method="post" id="request-form">
+                    <div class="form-group">
+                     <div class="col-auto">                     
+                     <input type="text" class="form-control" required  name="name" placeholder="Name">
                      </div>
                      <div class="col-auto">
-                     <input type="tel" class="form-control" required  name="phone" placeholder="phone include country code">
-                     </div>               
-                     <input type="hidden" name="car-select" value="Car Category: '. $data[0].', '. $data[4].' or similar">
+                     <input type="tel" class="form-control" required  name="phone" placeholder="Phone +(country code)ххх-хххх">
+                    <div class="form-check form-check-inline">
+                      <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" name="whatsapp" id="whatsapp" value="whatsapp"> WhatsApp &nbsp;&nbsp;
+                        <span class="form-check-sign">
+                            <span class="check"></span>
+                        </span>
+                      </label>
+                      <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" name="viber" id="viber" value="viber"> Viber 
+                        <span class="form-check-sign">
+                            <span class="check"></span>
+                        </span>
+                      </label>
                     </div>
+                    </div>
+                     <div class="col-auto">
+                     <input type="email" class="form-control" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required id="email" placeholder="email">                        
+                     </div>               
+                     <input type="hidden" name="car-select" value="Car Category: '. $data[0].', '. $data[4].' or similar in Israel">
+                    </div>
+                    <div class="col-auto">
                     <input type="submit" name="submit" value="Send">
+                    </div>
                 </form>
-</li> 
+</li>  
             </ul>
 <!--             <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button> -->
          
@@ -191,8 +212,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         fclose($handle);
     }
     ?>
+    
+     </div> 
     Car models are for guidance only and similar car models may be supplied. 
-        </div>        
+              
      
 
 
