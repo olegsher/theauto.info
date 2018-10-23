@@ -16,6 +16,7 @@
 <hr />
 <div class="main main-raised">
   <div class="container">
+ 
   <?php include("__carousel.html"); ?>
     <div class="section text-left">
       <h1>Прокат аренда минивэнов в Израиле</h1> 
