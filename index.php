@@ -83,11 +83,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
  
 
 
-  <h1>Vastama - car rental agent in Israel</h1>      
-  <p>No credit card fees 
-  <br>No amendment fees
-  <br>Unlimited mileage with 3-29 days orders
-  <hr />Contact us by <a style="font-family: Times, serif; color:red">WhatsApp/Viber +972-58-771-0101</a> and our representative will back to you with best offer 
+  <h1>Vastama - car rental agent in Israel</h1>
+  <br><img style="float:left" class="img-responsive" src="img/checkmark.png" alt="No credit card fees" width="20" height="20" /> No credit card fees
+  <br><img style="float:left" class="img-responsive" src="img/checkmark.png" alt="No amendment fees" width="20" height="20" /> No amendment fees
+  <br><img style="float:left" class="img-responsive" src="img/checkmark.png" alt="Unlimited mileage with 3-29 days orders" width="20" height="20" /> Unlimited mileage with 3-29 days orders 
+  
+        
+<!--   <p>No credit card fees  -->
+<!--   <br>No amendment fees -->
+<!--   <br>Unlimited mileage with 3-29 days orders -->
+Contact us by <a style="font-family: Times, serif; color:red">WhatsApp/Viber +972-58-771-0101</a> and our representative will back to you with best offer 
 	</div>
 	<hr />
        <div class="card-columns text-center">
