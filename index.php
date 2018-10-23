@@ -64,7 +64,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!--             <li class="nav-item"><a class="nav-link" href="list.php">Новости</a></li> -->
 <!--             <li class="nav-item"><a class="nav-link" href="#"></a></li> -->
         </ul>        
-    </div>   
+    </div> 
+     <a class="btn btn-outline-primary" href="/ru/" title="Go to Russian section">Русский</a>  
     </div>
 </div>
 
