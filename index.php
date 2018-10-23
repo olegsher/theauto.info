@@ -55,6 +55,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <ul class="navbar-nav mr-auto">
             <li class="nav-item"><a class="nav-link" href="#price_list">Price List</a></li>
             <li class="nav-item"><a class="nav-link" href="#rent_cond">Rental Conditions</a></li>
+             <li class="nav-item"><a class="nav-link" href="/ru/">RUSSIAN</a></li>
 <!--             <li class="nav-item"><a class="nav-link" href="#people_carriers">People Carriers</a></li> -->
 <!--             <li class="nav-item"><a class="nav-link" href="#standard">Standard</a></li> -->
 <!--             <li class="nav-item"><a class="nav-link" href="Europcar_Albar_Vastama_branches.php">Отделения</a></li> -->
