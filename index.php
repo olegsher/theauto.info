@@ -92,7 +92,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!--   <p>No credit card fees  -->
 <!--   <br>No amendment fees -->
 <!--   <br>Unlimited mileage with 3-29 days orders -->
-Contact us by <a style="font-family: Times, serif; color:red">WhatsApp/Viber +972-58-771-0101</a> and our representative will back to you with best offer 
+<br><img style="float:left" class="img-responsive" src="img/checkmark.png" alt="Contact us" width="20" height="20" />Contact us by <a style="font-family: Times, serif; color:red">WhatsApp/Viber +972-58-771-0101</a> and our representative will back to you with best offer 
 	</div>
 	<hr />
        <div class="card-columns text-center">
