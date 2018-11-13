@@ -139,9 +139,7 @@
                      </div>               
                      <input type="hidden" name="car-select" value="Car Category: '. $data[0].', '. $data[4].' или подобный">
                     </div>
-                    <div class="col-auto"> 
-                    <input type="number"  required name="captcha"  value ="' . date(Y) .'" placeholder="введите год">
-                     </div>
+                    
                      
                     <div class="col-auto">
                     <input type="submit" name="submit" value="Отправить">
