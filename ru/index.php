@@ -145,9 +145,9 @@ echo '<title>Прокат аренда авто в Израиле +972-58-771010
                      </div>               
                      <input type="hidden" name="car-select" value="Car Category: '. $data[0].', '. $data[4].' или подобный">
                     </div>
-                    /* <div class="col-auto">
+                    <!-- <div class="col-auto">
                        <div class="g-recaptcha" data-sitekey="6LfFGG8UAAAAAAFZaF847BdJVUJDDjaiJAmMi0BJ"></div>
-                    </div> */
+                    </div> -->
                     <div class="col-auto">
                     <input type="submit" name="submit" value="Отправить">
                     </div>
