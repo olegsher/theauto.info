@@ -60,7 +60,7 @@ branches_albar = json.dumps('branches_Albar.json')
 @app.route('/')
 def index():
     name = "Oleg"
-    return render_template('__menu.html')
+    return render_template('__index.html')
 
 
 @app.route('/about')
