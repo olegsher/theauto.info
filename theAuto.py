@@ -60,13 +60,13 @@ branches_albar = json.dumps('branches_Albar.json')
 @app.route('/ru/')
 def index():
     name = "Oleg"
-    return render_template('index_ru.html', name=name, title=title, car = a)
+    return render_template('__menu.html', name=name, title=title, car = a)
 
 
-@app.route('/ru/about-rent-car-israel')
+@app.route('/about')
 def about():
     # title = "About page"
-    return render_template('car_form.html', name="my about page", title=title, car=a)
+    return render_template('__about.html', name="my about page", title=title, car=a)
 
 @app.route('/ru/request_car', methods=["POST"])
 def request_car():
@@ -88,15 +88,15 @@ def request_car():
 
 
 @app.route('/ru/minivan-rent-car-israel')
-def minivan(): return render_template('base.html', len=len(Albar_Categories), Albar_Categories=Albar_Categories)
+def minivan(): return render_template('layout_ru.html', len=len(Albar_Categories), Albar_Categories=Albar_Categories)
 
 
 @app.route('/ru/lux-rent-car-israel')
-def lux(): return render_template('base.html', Albar_json=Albar_json)
+def lux(): return render_template('layout_ru.html', Albar_json=Albar_json)
 
 
-@app.route('/ru/branches-rent-car-israel')
-def branches(): return render_template('base.html')
+@app.route('Europcar_Albar_Vastama_branches')
+def branches(): return render_template('__branches.html')
 
 
 @app.route('/ru/insurance-rent-car-israel')
@@ -104,10 +104,10 @@ def insurance():
     return render_template('base.html', insurance_text_ru_CDW=insurance_text_ru_CDW)
 
 
-@app.route('/ru/terms-rent-car-israel')
+@app.route('/RentalConditions')
 def terms():
-    return render_template('terms.html', title=title, insurance_text_ru_CDW=insurance_text_ru_CDW)
+    return render_template('__RentalConditions.html', title=title, insurance_text_ru_CDW=insurance_text_ru_CDW)
 
 
 @app.route('/ru/faq-rent-car-israel')
-def faq(): return render_template('base.html')
+def faq(): return render_template('__qa.html')
