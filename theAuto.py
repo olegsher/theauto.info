@@ -57,57 +57,27 @@ branches_albar = json.dumps('branches_Albar.json')
 
 # Russian site
 
-@app.route('/ru/')
+@app.route('/')
 def index():
     name = "Oleg"
-    return render_template('__menu.html', name=name, title=title, car = a)
+    return render_template('__menu.html')
 
 
 @app.route('/about')
 def about():
     # title = "About page"
-    return render_template('__about.html', name="my about page", title=title, car=a)
-
-@app.route('/ru/request_car', methods=["POST"])
-def request_car():
-    title = "Спасибо за обращение к нам"
-    car = request.form.get("car")
-    date_rent = request.form.get("date_rent")
-    date_return = request.form.get("date_return")
-    MAIL_RECIPIENT = request.form.get("email")
-    subject = '{} rent from {} till {}'.format(car, date_rent, date_return)
-    body = '{} rent from {} till {}'.format(car, MAIL_RECIPIENT, date_rent, date_return)
-    msg = Message(subject=subject,
-                  sender=app.config.get("MAIL_USERNAME"),
-                  recipients=[MAIL_RECIPIENT],
-                  body=car)
-    mail.send(msg)
-    return render_template('success-send-email-ru.html', title=title, car=car)
+    return render_template('__about.html')
 
 
 
 
-@app.route('/ru/minivan-rent-car-israel')
-def minivan(): return render_template('layout_ru.html', len=len(Albar_Categories), Albar_Categories=Albar_Categories)
 
-
-@app.route('/ru/lux-rent-car-israel')
-def lux(): return render_template('layout_ru.html', Albar_json=Albar_json)
-
-
-@app.route('Europcar_Albar_Vastama_branches')
-def branches(): return render_template('__branches.html')
-
-
-@app.route('/ru/insurance-rent-car-israel')
-def insurance():
-    return render_template('base.html', insurance_text_ru_CDW=insurance_text_ru_CDW)
 
 
 @app.route('/RentalConditions')
 def terms():
-    return render_template('__RentalConditions.html', title=title, insurance_text_ru_CDW=insurance_text_ru_CDW)
+    return render_template('__RentalConditions.html')
 
 
-@app.route('/ru/faq-rent-car-israel')
+@app.route('/faq-rent-car-israel')
 def faq(): return render_template('__qa.html')
